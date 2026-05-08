@@ -1,0 +1,201 @@
+rank,activity,is_swimming,segment_type,segment,segment_order,participation_rate_pct,estimated_participants
+1,Walking (Recreational),No,Total,Total,1,50.2,11363621
+1,Walking (Recreational),No,Gender,Males,2,42.5,4713659
+1,Walking (Recreational),No,Gender,Females,3,57.8,6603678
+1,Walking (Recreational),No,Age group,15-17,4,30.3,306276
+1,Walking (Recreational),No,Age group,18-24,5,34.2,847416
+1,Walking (Recreational),No,Age group,25-34,6,41.9,1703592
+1,Walking (Recreational),No,Age group,35-44,7,47.5,1846165
+1,Walking (Recreational),No,Age group,45-54,8,58.7,1960969
+1,Walking (Recreational),No,Age group,55-64,9,66.0,2041184
+1,Walking (Recreational),No,Age group,65+,10,55.8,2658020
+2,Fitness/Gym,No,Total,Total,1,34.1,7719043
+2,Fitness/Gym,No,Gender,Males,2,33.1,3671867
+2,Fitness/Gym,No,Gender,Females,3,35.1,4010870
+2,Fitness/Gym,No,Age group,15-17,4,37.3,376652
+2,Fitness/Gym,No,Age group,18-24,5,43.4,1076583
+2,Fitness/Gym,No,Age group,25-34,6,42.1,1711890
+2,Fitness/Gym,No,Age group,35-44,7,36.4,1413027
+2,Fitness/Gym,No,Age group,45-54,8,32.9,1100531
+2,Fitness/Gym,No,Age group,55-64,9,29.5,912669
+2,Fitness/Gym,No,Age group,65+,10,23.7,1127691
+3,Bush walking,No,Total,Total,1,17.5,3953952
+3,Bush walking,No,Gender,Males,2,16.3,1808265
+3,Bush walking,No,Gender,Females,3,18.6,2126762
+3,Bush walking,No,Age group,15-17,4,14.6,147391
+3,Bush walking,No,Age group,18-24,5,17.3,429534
+3,Bush walking,No,Age group,25-34,6,20.3,826183
+3,Bush walking,No,Age group,35-44,7,21.4,832776
+3,Bush walking,No,Age group,45-54,8,19.7,658178
+3,Bush walking,No,Age group,55-64,9,19.5,604298
+3,Bush walking,No,Age group,65+,10,9.6,455592
+4,Running/jogging,No,Total,Total,1,16.5,3740484
+4,Running/jogging,No,Gender,Males,2,19.0,2104784
+4,Running/jogging,No,Gender,Females,3,14.2,1618697
+4,Running/jogging,No,Age group,15-17,4,26.6,268187
+4,Running/jogging,No,Age group,18-24,5,26.7,660527
+4,Running/jogging,No,Age group,25-34,6,27.7,1125805
+4,Running/jogging,No,Age group,35-44,7,20.9,809696
+4,Running/jogging,No,Age group,45-54,8,15.8,527176
+4,Running/jogging,No,Age group,55-64,9,8.5,261588
+4,Running/jogging,No,Age group,65+,10,1.8,87506
+5,Swimming,Yes,Total,Total,1,15.4,3483472
+5,Swimming,Yes,Gender,Males,2,14.5,1609841
+5,Swimming,Yes,Gender,Females,3,16.3,1859588
+5,Swimming,Yes,Age group,15-17,4,17.6,177777
+5,Swimming,Yes,Age group,18-24,5,16.3,404911
+5,Swimming,Yes,Age group,25-34,6,16.6,674922
+5,Swimming,Yes,Age group,35-44,7,18.3,711006
+5,Swimming,Yes,Age group,45-54,8,16.7,556978
+5,Swimming,Yes,Age group,55-64,9,16.0,494315
+5,Swimming,Yes,Age group,65+,10,9.7,463563
+6,Cycling,No,Total,Total,1,8.3,1877339
+6,Cycling,No,Gender,Males,2,10.4,1157189
+6,Cycling,No,Gender,Females,3,6.3,714844
+6,Cycling,No,Age group,15-17,4,6.7,67186
+6,Cycling,No,Age group,18-24,5,5.6,138523
+6,Cycling,No,Age group,25-34,6,7.1,289821
+6,Cycling,No,Age group,35-44,7,9.3,359518
+6,Cycling,No,Age group,45-54,8,11.6,387336
+6,Cycling,No,Age group,55-64,9,12.0,369466
+6,Cycling,No,Age group,65+,10,5.6,265489
+7,Pilates,No,Total,Total,1,7.2,1625325
+7,Pilates,No,Gender,Males,2,1.2,133940
+7,Pilates,No,Gender,Females,3,13.0,1485621
+7,Pilates,No,Age group,15-17,4,3.7,37832
+7,Pilates,No,Age group,18-24,5,8.8,217009
+7,Pilates,No,Age group,25-34,6,11.0,448430
+7,Pilates,No,Age group,35-44,7,8.7,338305
+7,Pilates,No,Age group,45-54,8,7.1,238313
+7,Pilates,No,Age group,55-64,9,6.3,193472
+7,Pilates,No,Age group,65+,10,3.2,151963
+8,Football/soccer,No,Total,Total,1,5.6,1273027
+8,Football/soccer,No,Gender,Males,2,8.9,984043
+8,Football/soccer,No,Gender,Females,3,2.5,285765
+8,Football/soccer,No,Age group,15-17,4,17.0,171713
+8,Football/soccer,No,Age group,18-24,5,12.3,305475
+8,Football/soccer,No,Age group,25-34,6,9.4,380740
+8,Football/soccer,No,Age group,35-44,7,6.9,269541
+8,Football/soccer,No,Age group,45-54,8,3.3,109556
+8,Football/soccer,No,Age group,55-64,9,1.0,29506
+8,Football/soccer,No,Age group,65+,10,0.1,6496
+9,Yoga,No,Total,Total,1,5.1,1148005
+9,Yoga,No,Gender,Males,2,1.6,176385
+9,Yoga,No,Gender,Females,3,8.5,968047
+9,Yoga,No,Age group,15-17,4,2.6,26215
+9,Yoga,No,Age group,18-24,5,3.6,89360
+9,Yoga,No,Age group,25-34,6,6.4,261525
+9,Yoga,No,Age group,35-44,7,6.3,243997
+9,Yoga,No,Age group,45-54,8,6.1,204092
+9,Yoga,No,Age group,55-64,9,5.6,172134
+9,Yoga,No,Age group,65+,10,3.2,150682
+10,Tennis,No,Total,Total,1,4.9,1118407
+10,Tennis,No,Gender,Males,2,5.8,648073
+10,Tennis,No,Gender,Females,3,4.1,469133
+10,Tennis,No,Age group,15-17,4,9.5,95372
+10,Tennis,No,Age group,18-24,5,7.5,185484
+10,Tennis,No,Age group,25-34,6,6.5,263537
+10,Tennis,No,Age group,35-44,7,5.3,205044
+10,Tennis,No,Age group,45-54,8,5.3,176120
+10,Tennis,No,Age group,55-64,9,3.3,101658
+10,Tennis,No,Age group,65+,10,1.9,91192
+11,Golf,No,Total,Total,1,4.6,1032838
+11,Golf,No,Gender,Males,2,7.6,838039
+11,Golf,No,Gender,Females,3,1.7,192723
+11,Golf,No,Age group,15-17,4,2.4,23973
+11,Golf,No,Age group,18-24,5,2.8,68389
+11,Golf,No,Age group,25-34,6,3.5,144009
+11,Golf,No,Age group,35-44,7,3.4,132130
+11,Golf,No,Age group,45-54,8,4.8,161539
+11,Golf,No,Age group,55-64,9,6.9,212956
+11,Golf,No,Age group,65+,10,6.1,289842
+12,Basketball,No,Total,Total,1,4.5,1024360
+12,Basketball,No,Gender,Males,2,6.8,758262
+12,Basketball,No,Gender,Females,3,2.3,263310
+12,Basketball,No,Age group,15-17,4,17.3,174376
+12,Basketball,No,Age group,18-24,5,11.7,289627
+12,Basketball,No,Age group,25-34,6,6.2,250822
+12,Basketball,No,Age group,35-44,7,4.8,187823
+12,Basketball,No,Age group,45-54,8,2.6,87488
+12,Basketball,No,Age group,55-64,9,0.8,24246
+12,Basketball,No,Age group,65+,10,0.2,9978
+13,Cricket,No,Total,Total,1,2.5,563967
+13,Cricket,No,Gender,Males,2,4.2,471299
+13,Cricket,No,Gender,Females,3,0.8,90998
+13,Cricket,No,Age group,15-17,4,8.4,85087
+13,Cricket,No,Age group,18-24,5,4.8,119687
+13,Cricket,No,Age group,25-34,6,3.5,144192
+13,Cricket,No,Age group,35-44,7,2.7,103839
+13,Cricket,No,Age group,45-54,8,2.0,65828
+13,Cricket,No,Age group,55-64,9,1.0,30629
+13,Cricket,No,Age group,65+,10,0.3,14705
+14,Australian football,No,Total,Total,1,2.4,547129
+14,Australian football,No,Gender,Males,2,3.8,422275
+14,Australian football,No,Gender,Females,3,1.1,123909
+14,Australian football,No,Age group,15-17,4,6.0,60908
+14,Australian football,No,Age group,18-24,5,6.0,148853
+14,Australian football,No,Age group,25-34,6,4.8,193357
+14,Australian football,No,Age group,35-44,7,2.1,80489
+14,Australian football,No,Age group,45-54,8,1.4,46154
+14,Australian football,No,Age group,55-64,9,0.4,13812
+14,Australian football,No,Age group,65+,10,0.1,3555
+15,Netball,No,Total,Total,1,2.1,476973
+15,Netball,No,Gender,Males,2,0.7,76027
+15,Netball,No,Gender,Females,3,3.5,399674
+15,Netball,No,Age group,15-17,4,8.1,82164
+15,Netball,No,Age group,18-24,5,5.5,136915
+15,Netball,No,Age group,25-34,6,3.1,124610
+15,Netball,No,Age group,35-44,7,2.1,82694
+15,Netball,No,Age group,45-54,8,1.2,38632
+15,Netball,No,Age group,55-64,9,0.3,9497
+15,Netball,No,Age group,65+,10,0.1,2460
+16,Badminton,No,Total,Total,1,1.9,426925
+16,Badminton,No,Gender,Males,2,2.2,247052
+16,Badminton,No,Gender,Females,3,1.6,178209
+16,Badminton,No,Age group,15-17,4,9.1,91536
+16,Badminton,No,Age group,18-24,5,4.2,103744
+16,Badminton,No,Age group,25-34,6,3.0,120798
+16,Badminton,No,Age group,35-44,7,1.7,67048
+16,Badminton,No,Age group,45-54,8,0.8,27230
+16,Badminton,No,Age group,55-64,9,0.3,9494
+16,Badminton,No,Age group,65+,10,0.1,7075
+17,Table tennis,No,Total,Total,1,1.8,405253
+17,Table tennis,No,Gender,Males,2,2.5,281138
+17,Table tennis,No,Gender,Females,3,1.1,123530
+17,Table tennis,No,Age group,15-17,4,6.5,66032
+17,Table tennis,No,Age group,18-24,5,3.3,81668
+17,Table tennis,No,Age group,25-34,6,2.3,93509
+17,Table tennis,No,Age group,35-44,7,1.6,62640
+17,Table tennis,No,Age group,45-54,8,1.4,48138
+17,Table tennis,No,Age group,55-64,9,0.9,29065
+17,Table tennis,No,Age group,65+,10,0.5,24202
+18,Dancing (recreational),No,Total,Total,1,1.6,368719
+18,Dancing (recreational),No,Gender,Males,2,0.5,54454
+18,Dancing (recreational),No,Gender,Females,3,2.7,310682
+18,Dancing (recreational),No,Age group,15-17,4,2.6,26498
+18,Dancing (recreational),No,Age group,18-24,5,2.4,59924
+18,Dancing (recreational),No,Age group,25-34,6,1.9,77100
+18,Dancing (recreational),No,Age group,35-44,7,1.7,66112
+18,Dancing (recreational),No,Age group,45-54,8,1.2,41081
+18,Dancing (recreational),No,Age group,55-64,9,1.1,35122
+18,Dancing (recreational),No,Age group,65+,10,1.3,62883
+19,Surfing,No,Total,Total,1,1.4,313396
+19,Surfing,No,Gender,Males,2,1.7,191956
+19,Surfing,No,Gender,Females,3,1.1,121070
+19,Surfing,No,Age group,15-17,4,2.2,22379
+19,Surfing,No,Age group,18-24,5,1.3,31438
+19,Surfing,No,Age group,25-34,6,1.6,63727
+19,Surfing,No,Age group,35-44,7,1.8,70593
+19,Surfing,No,Age group,45-54,8,1.8,59099
+19,Surfing,No,Age group,55-64,9,1.4,41819
+19,Surfing,No,Age group,65+,10,0.5,24340
+20,"Athletics, track and field",No,Total,Total,1,1.3,298311
+20,"Athletics, track and field",No,Gender,Males,2,1.7,192948
+20,"Athletics, track and field",No,Gender,Females,3,0.9,105364
+20,"Athletics, track and field",No,Age group,15-17,4,5.8,58056
+20,"Athletics, track and field",No,Age group,18-24,5,2.9,72476
+20,"Athletics, track and field",No,Age group,25-34,6,2.1,86809
+20,"Athletics, track and field",No,Age group,35-44,7,1.1,41792
+20,"Athletics, track and field",No,Age group,45-54,8,0.6,19972
+20,"Athletics, track and field",No,Age group,55-64,9,0.3,9758
+20,"Athletics, track and field",No,Age group,65+,10,0.2,9448
