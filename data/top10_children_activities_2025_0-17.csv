@@ -1,0 +1,81 @@
+rank,cohort,activity,segment_type,segment,segment_order,participation_rate_pct,estimated_participants
+1,Children and teens 0-17,Swimming,Total,Total,1,23.3,1124376
+1,Children and teens 0-17,Swimming,Gender,Males,2,22.4,554584
+1,Children and teens 0-17,Swimming,Gender,Females,3,24.3,567863
+1,Children and teens 0-17,Swimming,Age group,0-4,4,22.5,341597
+1,Children and teens 0-17,Swimming,Age group,8-May,5,32.1,413022
+1,Children and teens 0-17,Swimming,Age group,11-Sep,6,24.6,247751
+1,Children and teens 0-17,Swimming,Age group,14-Dec,7,12,122006
+1,Children and teens 0-17,Swimming,Age group,15-17,8,17.6,177777
+2,Children and teens 0-17,Football/soccer,Total,Total,1,14.3,690297
+2,Children and teens 0-17,Football/soccer,Gender,Males,2,21.3,525033
+2,Children and teens 0-17,Football/soccer,Gender,Females,3,7.1,164847
+2,Children and teens 0-17,Football/soccer,Age group,0-4,4,5.8,88815
+2,Children and teens 0-17,Football/soccer,Age group,8-May,5,17.4,223769
+2,Children and teens 0-17,Football/soccer,Age group,11-Sep,6,21,210866
+2,Children and teens 0-17,Football/soccer,Age group,14-Dec,7,16.5,166847
+2,Children and teens 0-17,Football/soccer,Age group,15-17,8,17,171713
+3,Children and teens 0-17,Basketball,Total,Total,1,7.1,341727
+3,Children and teens 0-17,Basketball,Gender,Males,2,9.3,230235
+3,Children and teens 0-17,Basketball,Gender,Females,3,4.7,110547
+3,Children and teens 0-17,Basketball,Age group,0-4,4,0.7,10075
+3,Children and teens 0-17,Basketball,Age group,8-May,5,8.2,105636
+3,Children and teens 0-17,Basketball,Age group,11-Sep,6,10.4,104818
+3,Children and teens 0-17,Basketball,Age group,14-Dec,7,12,121198
+3,Children and teens 0-17,Basketball,Age group,15-17,8,17.3,174376
+4,Children and teens 0-17,Gymnastics,Total,Total,1,7,336432
+4,Children and teens 0-17,Gymnastics,Gender,Males,2,3.1,75738
+4,Children and teens 0-17,Gymnastics,Gender,Females,3,11.1,259423
+4,Children and teens 0-17,Gymnastics,Age group,0-4,4,5.9,89681
+4,Children and teens 0-17,Gymnastics,Age group,8-May,5,10.6,136466
+4,Children and teens 0-17,Gymnastics,Age group,11-Sep,6,7.9,79574
+4,Children and teens 0-17,Gymnastics,Age group,14-Dec,7,3,30711
+4,Children and teens 0-17,Gymnastics,Age group,15-17,8,2.5,25228
+5,Children and teens 0-17,Australian football,Total,Total,1,5.9,283683
+5,Children and teens 0-17,Australian football,Gender,Males,2,8.7,214451
+5,Children and teens 0-17,Australian football,Gender,Females,3,2.9,68634
+5,Children and teens 0-17,Australian football,Age group,0-4,4,1.3,19038
+5,Children and teens 0-17,Australian football,Age group,8-May,5,8.5,109698
+5,Children and teens 0-17,Australian football,Age group,11-Sep,6,7.5,74984
+5,Children and teens 0-17,Australian football,Age group,14-Dec,7,7.9,79965
+5,Children and teens 0-17,Australian football,Age group,15-17,8,6,60908
+6,Children and teens 0-17,Dancing (recreational),Total,Total,1,5.7,273409
+6,Children and teens 0-17,Dancing (recreational),Gender,Males,2,1.1,26063
+6,Children and teens 0-17,Dancing (recreational),Gender,Females,3,10.6,247346
+6,Children and teens 0-17,Dancing (recreational),Age group,0-4,4,4.1,62566
+6,Children and teens 0-17,Dancing (recreational),Age group,8-May,5,8.7,111361
+6,Children and teens 0-17,Dancing (recreational),Age group,11-Sep,6,5.5,55615
+6,Children and teens 0-17,Dancing (recreational),Age group,14-Dec,7,4.3,43867
+6,Children and teens 0-17,Dancing (recreational),Age group,15-17,8,2.6,26498
+7,Children and teens 0-17,Netball,Total,Total,1,5,239315
+7,Children and teens 0-17,Netball,Gender,Males,2,0.6,15991
+7,Children and teens 0-17,Netball,Gender,Females,3,9.5,222677
+7,Children and teens 0-17,Netball,Age group,0-4,4,0.3,4777
+7,Children and teens 0-17,Netball,Age group,8-May,5,3.6,46519
+7,Children and teens 0-17,Netball,Age group,11-Sep,6,8.3,83894
+7,Children and teens 0-17,Netball,Age group,14-Dec,7,10.3,104125
+7,Children and teens 0-17,Netball,Age group,15-17,8,8.1,82164
+8,Children and teens 0-17,Tennis,Total,Total,1,3.9,187490
+8,Children and teens 0-17,Tennis,Gender,Males,2,4.3,105956
+8,Children and teens 0-17,Tennis,Gender,Females,3,3.5,81533
+8,Children and teens 0-17,Tennis,Age group,0-4,4,0.7,11067
+8,Children and teens 0-17,Tennis,Age group,8-May,5,4.5,57518
+8,Children and teens 0-17,Tennis,Age group,11-Sep,6,6.3,63469
+8,Children and teens 0-17,Tennis,Age group,14-Dec,7,5.5,55436
+8,Children and teens 0-17,Tennis,Age group,15-17,8,9.5,95372
+9,Children and teens 0-17,Cricket,Total,Total,1,3.4,163181
+9,Children and teens 0-17,Cricket,Gender,Males,2,5.3,130910
+9,Children and teens 0-17,Cricket,Gender,Females,3,1.4,32270
+9,Children and teens 0-17,Cricket,Age group,0-4,4,0.6,8790
+9,Children and teens 0-17,Cricket,Age group,8-May,5,3.5,44434
+9,Children and teens 0-17,Cricket,Age group,11-Sep,6,5.4,54231
+9,Children and teens 0-17,Cricket,Age group,14-Dec,7,5.5,55726
+9,Children and teens 0-17,Cricket,Age group,15-17,8,8.4,85087
+10,Children and teens 0-17,"Athletics, track and field",Total,Total,1,3.2,156813
+10,Children and teens 0-17,"Athletics, track and field",Gender,Males,2,2.8,68521
+10,Children and teens 0-17,"Athletics, track and field",Gender,Females,3,3.8,87691
+10,Children and teens 0-17,"Athletics, track and field",Age group,0-4,4,1.2,17498
+10,Children and teens 0-17,"Athletics, track and field",Age group,8-May,5,3.6,46628
+10,Children and teens 0-17,"Athletics, track and field",Age group,11-Sep,6,4.4,44346
+10,Children and teens 0-17,"Athletics, track and field",Age group,14-Dec,7,4.8,48341
+10,Children and teens 0-17,"Athletics, track and field",Age group,15-17,8,5.8,58056
