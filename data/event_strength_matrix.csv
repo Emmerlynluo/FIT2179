@@ -1,121 +1,121 @@
 country,country_name,country_total,event_key,event_label,gender,distance_m,top200_count,best_rank
-USA,United States of America,454,F50,Women's 50m Freestyle,F,50,17,33
-USA,United States of America,454,F100,Women's 100m Freestyle,F,100,17,5
-USA,United States of America,454,F200,Women's 200m Freestyle,F,200,51,14
-USA,United States of America,454,F400,Women's 400m Freestyle,F,400,98,8
-USA,United States of America,454,F800,Women's 800m Freestyle,F,800,102,1
-USA,United States of America,454,M50,Men's 50m Freestyle,M,50,45,4
-USA,United States of America,454,M100,Men's 100m Freestyle,M,100,48,5
-USA,United States of America,454,M200,Men's 200m Freestyle,M,200,42,3
-USA,United States of America,454,M400,Men's 400m Freestyle,M,400,12,62
-USA,United States of America,454,M800,Men's 800m Freestyle,M,800,22,11
-AUS,Australia,437,F50,Women's 50m Freestyle,F,50,53,13
-AUS,Australia,437,F100,Women's 100m Freestyle,F,100,96,2
-AUS,Australia,437,F200,Women's 200m Freestyle,F,200,53,1
-AUS,Australia,437,F400,Women's 400m Freestyle,F,400,39,3
-AUS,Australia,437,F800,Women's 800m Freestyle,F,800,34,6
-AUS,Australia,437,M50,Men's 50m Freestyle,M,50,26,1
-AUS,Australia,437,M100,Men's 100m Freestyle,M,100,35,19
-AUS,Australia,437,M200,Men's 200m Freestyle,M,200,11,18
-AUS,Australia,437,M400,Men's 400m Freestyle,M,400,61,3
-AUS,Australia,437,M800,Men's 800m Freestyle,M,800,29,5
-CHN,People's Republic of China,126,F50,Women's 50m Freestyle,F,50,6,57
-CHN,People's Republic of China,126,F100,Women's 100m Freestyle,F,100,4,53
-CHN,People's Republic of China,126,F200,Women's 200m Freestyle,F,200,13,37
-CHN,People's Republic of China,126,F400,Women's 400m Freestyle,F,400,13,17
-CHN,People's Republic of China,126,F800,Women's 800m Freestyle,F,800,11,52
-CHN,People's Republic of China,126,M50,Men's 50m Freestyle,M,50,0,
-CHN,People's Republic of China,126,M100,Men's 100m Freestyle,M,100,16,1
-CHN,People's Republic of China,126,M200,Men's 200m Freestyle,M,200,18,27
-CHN,People's Republic of China,126,M400,Men's 400m Freestyle,M,400,35,4
-CHN,People's Republic of China,126,M800,Men's 800m Freestyle,M,800,10,1
-SWE,Sweden,124,F50,Women's 50m Freestyle,F,50,74,1
-SWE,Sweden,124,F100,Women's 100m Freestyle,F,100,31,1
-SWE,Sweden,124,F200,Women's 200m Freestyle,F,200,12,30
-SWE,Sweden,124,F400,Women's 400m Freestyle,F,400,0,
-SWE,Sweden,124,F800,Women's 800m Freestyle,F,800,0,
-SWE,Sweden,124,M50,Men's 50m Freestyle,M,50,2,114
-SWE,Sweden,124,M100,Men's 100m Freestyle,M,100,4,71
-SWE,Sweden,124,M200,Men's 200m Freestyle,M,200,0,
-SWE,Sweden,124,M400,Men's 400m Freestyle,M,400,0,
-SWE,Sweden,124,M800,Men's 800m Freestyle,M,800,1,143
-GBR,Great Britain,101,F50,Women's 50m Freestyle,F,50,5,53
-GBR,Great Britain,101,F100,Women's 100m Freestyle,F,100,2,141
-GBR,Great Britain,101,F200,Women's 200m Freestyle,F,200,3,41
-GBR,Great Britain,101,F400,Women's 400m Freestyle,F,400,6,85
-GBR,Great Britain,101,F800,Women's 800m Freestyle,F,800,14,63
-GBR,Great Britain,101,M50,Men's 50m Freestyle,M,50,25,9
-GBR,Great Britain,101,M100,Men's 100m Freestyle,M,100,7,88
-GBR,Great Britain,101,M200,Men's 200m Freestyle,M,200,34,21
-GBR,Great Britain,101,M400,Men's 400m Freestyle,M,400,4,127
-GBR,Great Britain,101,M800,Men's 800m Freestyle,M,800,1,130
-ITA,Italy,101,F50,Women's 50m Freestyle,F,50,0,
-ITA,Italy,101,F100,Women's 100m Freestyle,F,100,0,
-ITA,Italy,101,F200,Women's 200m Freestyle,F,200,13,4
-ITA,Italy,101,F400,Women's 400m Freestyle,F,400,6,42
-ITA,Italy,101,F800,Women's 800m Freestyle,F,800,13,42
-ITA,Italy,101,M50,Men's 50m Freestyle,M,50,4,62
-ITA,Italy,101,M100,Men's 100m Freestyle,M,100,8,89
-ITA,Italy,101,M200,Men's 200m Freestyle,M,200,3,141
-ITA,Italy,101,M400,Men's 400m Freestyle,M,400,12,87
-ITA,Italy,101,M800,Men's 800m Freestyle,M,800,42,17
-GER,Germany,91,F50,Women's 50m Freestyle,F,50,2,8
-GER,Germany,91,F100,Women's 100m Freestyle,F,100,3,7
-GER,Germany,91,F200,Women's 200m Freestyle,F,200,0,
-GER,Germany,91,F400,Women's 400m Freestyle,F,400,2,169
-GER,Germany,91,F800,Women's 800m Freestyle,F,800,7,109
-GER,Germany,91,M50,Men's 50m Freestyle,M,50,0,
-GER,Germany,91,M100,Men's 100m Freestyle,M,100,0,
-GER,Germany,91,M200,Men's 200m Freestyle,M,200,15,1
-GER,Germany,91,M400,Men's 400m Freestyle,M,400,27,1
-GER,Germany,91,M800,Men's 800m Freestyle,M,800,35,6
-FRA,France,65,F50,Women's 50m Freestyle,F,50,0,
-FRA,France,65,F100,Women's 100m Freestyle,F,100,2,138
-FRA,France,65,F200,Women's 200m Freestyle,F,200,4,73
-FRA,France,65,F400,Women's 400m Freestyle,F,400,3,105
-FRA,France,65,F800,Women's 800m Freestyle,F,800,1,184
-FRA,France,65,M50,Men's 50m Freestyle,M,50,25,3
-FRA,France,65,M100,Men's 100m Freestyle,M,100,20,12
-FRA,France,65,M200,Men's 200m Freestyle,M,200,6,6
-FRA,France,65,M400,Men's 400m Freestyle,M,400,1,140
-FRA,France,65,M800,Men's 800m Freestyle,M,800,3,62
-CAN,Canada,58,F50,Women's 50m Freestyle,F,50,0,
-CAN,Canada,58,F100,Women's 100m Freestyle,F,100,4,79
-CAN,Canada,58,F200,Women's 200m Freestyle,F,200,16,15
-CAN,Canada,58,F400,Women's 400m Freestyle,F,400,20,1
-CAN,Canada,58,F800,Women's 800m Freestyle,F,800,5,3
-CAN,Canada,58,M50,Men's 50m Freestyle,M,50,1,133
-CAN,Canada,58,M100,Men's 100m Freestyle,M,100,4,51
-CAN,Canada,58,M200,Men's 200m Freestyle,M,200,0,
-CAN,Canada,58,M400,Men's 400m Freestyle,M,400,1,110
-CAN,Canada,58,M800,Men's 800m Freestyle,M,800,7,55
-BRA,Brazil,49,F50,Women's 50m Freestyle,F,50,0,
-BRA,Brazil,49,F100,Women's 100m Freestyle,F,100,0,
-BRA,Brazil,49,F200,Women's 200m Freestyle,F,200,0,
-BRA,Brazil,49,F400,Women's 400m Freestyle,F,400,0,
-BRA,Brazil,49,F800,Women's 800m Freestyle,F,800,0,
-BRA,Brazil,49,M50,Men's 50m Freestyle,M,50,30,2
-BRA,Brazil,49,M100,Men's 100m Freestyle,M,100,9,9
-BRA,Brazil,49,M200,Men's 200m Freestyle,M,200,2,49
-BRA,Brazil,49,M400,Men's 400m Freestyle,M,400,6,61
-BRA,Brazil,49,M800,Men's 800m Freestyle,M,800,2,175
-HKG,"Hong Kong, China",44,F50,Women's 50m Freestyle,F,50,0,
-HKG,"Hong Kong, China",44,F100,Women's 100m Freestyle,F,100,21,3
-HKG,"Hong Kong, China",44,F200,Women's 200m Freestyle,F,200,23,26
-HKG,"Hong Kong, China",44,F400,Women's 400m Freestyle,F,400,0,
-HKG,"Hong Kong, China",44,F800,Women's 800m Freestyle,F,800,0,
-HKG,"Hong Kong, China",44,M50,Men's 50m Freestyle,M,50,0,
-HKG,"Hong Kong, China",44,M100,Men's 100m Freestyle,M,100,0,
-HKG,"Hong Kong, China",44,M200,Men's 200m Freestyle,M,200,0,
-HKG,"Hong Kong, China",44,M400,Men's 400m Freestyle,M,400,0,
-HKG,"Hong Kong, China",44,M800,Men's 800m Freestyle,M,800,0,
-ROU,Romania,44,F50,Women's 50m Freestyle,F,50,0,
-ROU,Romania,44,F100,Women's 100m Freestyle,F,100,0,
-ROU,Romania,44,F200,Women's 200m Freestyle,F,200,0,
-ROU,Romania,44,F400,Women's 400m Freestyle,F,400,0,
-ROU,Romania,44,F800,Women's 800m Freestyle,F,800,1,115
-ROU,Romania,44,M50,Men's 50m Freestyle,M,50,0,
-ROU,Romania,44,M100,Men's 100m Freestyle,M,100,25,2
-ROU,Romania,44,M200,Men's 200m Freestyle,M,200,18,4
-ROU,Romania,44,M400,Men's 400m Freestyle,M,400,0,
-ROU,Romania,44,M800,Men's 800m Freestyle,M,800,0,
+USA,United States of America,454,F50,Women's 50m,F,50,17,33
+USA,United States of America,454,F100,Women's 100m,F,100,17,5
+USA,United States of America,454,F200,Women's 200m,F,200,51,14
+USA,United States of America,454,F400,Women's 400m,F,400,98,8
+USA,United States of America,454,F800,Women's 800m,F,800,102,1
+USA,United States of America,454,M50,Men's 50m,M,50,45,4
+USA,United States of America,454,M100,Men's 100m,M,100,48,5
+USA,United States of America,454,M200,Men's 200m,M,200,42,3
+USA,United States of America,454,M400,Men's 400m,M,400,12,62
+USA,United States of America,454,M800,Men's 800m,M,800,22,11
+AUS,Australia,437,F50,Women's 50m,F,50,53,13
+AUS,Australia,437,F100,Women's 100m,F,100,96,2
+AUS,Australia,437,F200,Women's 200m,F,200,53,1
+AUS,Australia,437,F400,Women's 400m,F,400,39,3
+AUS,Australia,437,F800,Women's 800m,F,800,34,6
+AUS,Australia,437,M50,Men's 50m,M,50,26,1
+AUS,Australia,437,M100,Men's 100m,M,100,35,19
+AUS,Australia,437,M200,Men's 200m,M,200,11,18
+AUS,Australia,437,M400,Men's 400m,M,400,61,3
+AUS,Australia,437,M800,Men's 800m,M,800,29,5
+CHN,People's Republic of China,126,F50,Women's 50m,F,50,6,57
+CHN,People's Republic of China,126,F100,Women's 100m,F,100,4,53
+CHN,People's Republic of China,126,F200,Women's 200m,F,200,13,37
+CHN,People's Republic of China,126,F400,Women's 400m,F,400,13,17
+CHN,People's Republic of China,126,F800,Women's 800m,F,800,11,52
+CHN,People's Republic of China,126,M50,Men's 50m,M,50,0,
+CHN,People's Republic of China,126,M100,Men's 100m,M,100,16,1
+CHN,People's Republic of China,126,M200,Men's 200m,M,200,18,27
+CHN,People's Republic of China,126,M400,Men's 400m,M,400,35,4
+CHN,People's Republic of China,126,M800,Men's 800m,M,800,10,1
+SWE,Sweden,124,F50,Women's 50m,F,50,74,1
+SWE,Sweden,124,F100,Women's 100m,F,100,31,1
+SWE,Sweden,124,F200,Women's 200m,F,200,12,30
+SWE,Sweden,124,F400,Women's 400m,F,400,0,
+SWE,Sweden,124,F800,Women's 800m,F,800,0,
+SWE,Sweden,124,M50,Men's 50m,M,50,2,114
+SWE,Sweden,124,M100,Men's 100m,M,100,4,71
+SWE,Sweden,124,M200,Men's 200m,M,200,0,
+SWE,Sweden,124,M400,Men's 400m,M,400,0,
+SWE,Sweden,124,M800,Men's 800m,M,800,1,143
+GBR,Great Britain,101,F50,Women's 50m,F,50,5,53
+GBR,Great Britain,101,F100,Women's 100m,F,100,2,141
+GBR,Great Britain,101,F200,Women's 200m,F,200,3,41
+GBR,Great Britain,101,F400,Women's 400m,F,400,6,85
+GBR,Great Britain,101,F800,Women's 800m,F,800,14,63
+GBR,Great Britain,101,M50,Men's 50m,M,50,25,9
+GBR,Great Britain,101,M100,Men's 100m,M,100,7,88
+GBR,Great Britain,101,M200,Men's 200m,M,200,34,21
+GBR,Great Britain,101,M400,Men's 400m,M,400,4,127
+GBR,Great Britain,101,M800,Men's 800m,M,800,1,130
+ITA,Italy,101,F50,Women's 50m,F,50,0,
+ITA,Italy,101,F100,Women's 100m,F,100,0,
+ITA,Italy,101,F200,Women's 200m,F,200,13,4
+ITA,Italy,101,F400,Women's 400m,F,400,6,42
+ITA,Italy,101,F800,Women's 800m,F,800,13,42
+ITA,Italy,101,M50,Men's 50m,M,50,4,62
+ITA,Italy,101,M100,Men's 100m,M,100,8,89
+ITA,Italy,101,M200,Men's 200m,M,200,3,141
+ITA,Italy,101,M400,Men's 400m,M,400,12,87
+ITA,Italy,101,M800,Men's 800m,M,800,42,17
+GER,Germany,91,F50,Women's 50m,F,50,2,8
+GER,Germany,91,F100,Women's 100m,F,100,3,7
+GER,Germany,91,F200,Women's 200m,F,200,0,
+GER,Germany,91,F400,Women's 400m,F,400,2,169
+GER,Germany,91,F800,Women's 800m,F,800,7,109
+GER,Germany,91,M50,Men's 50m,M,50,0,
+GER,Germany,91,M100,Men's 100m,M,100,0,
+GER,Germany,91,M200,Men's 200m,M,200,15,1
+GER,Germany,91,M400,Men's 400m,M,400,27,1
+GER,Germany,91,M800,Men's 800m,M,800,35,6
+FRA,France,65,F50,Women's 50m,F,50,0,
+FRA,France,65,F100,Women's 100m,F,100,2,138
+FRA,France,65,F200,Women's 200m,F,200,4,73
+FRA,France,65,F400,Women's 400m,F,400,3,105
+FRA,France,65,F800,Women's 800m,F,800,1,184
+FRA,France,65,M50,Men's 50m,M,50,25,3
+FRA,France,65,M100,Men's 100m,M,100,20,12
+FRA,France,65,M200,Men's 200m,M,200,6,6
+FRA,France,65,M400,Men's 400m,M,400,1,140
+FRA,France,65,M800,Men's 800m,M,800,3,62
+CAN,Canada,58,F50,Women's 50m,F,50,0,
+CAN,Canada,58,F100,Women's 100m,F,100,4,79
+CAN,Canada,58,F200,Women's 200m,F,200,16,15
+CAN,Canada,58,F400,Women's 400m,F,400,20,1
+CAN,Canada,58,F800,Women's 800m,F,800,5,3
+CAN,Canada,58,M50,Men's 50m,M,50,1,133
+CAN,Canada,58,M100,Men's 100m,M,100,4,51
+CAN,Canada,58,M200,Men's 200m,M,200,0,
+CAN,Canada,58,M400,Men's 400m,M,400,1,110
+CAN,Canada,58,M800,Men's 800m,M,800,7,55
+BRA,Brazil,49,F50,Women's 50m,F,50,0,
+BRA,Brazil,49,F100,Women's 100m,F,100,0,
+BRA,Brazil,49,F200,Women's 200m,F,200,0,
+BRA,Brazil,49,F400,Women's 400m,F,400,0,
+BRA,Brazil,49,F800,Women's 800m,F,800,0,
+BRA,Brazil,49,M50,Men's 50m,M,50,30,2
+BRA,Brazil,49,M100,Men's 100m,M,100,9,9
+BRA,Brazil,49,M200,Men's 200m,M,200,2,49
+BRA,Brazil,49,M400,Men's 400m,M,400,6,61
+BRA,Brazil,49,M800,Men's 800m,M,800,2,175
+HKG,"Hong Kong, China",44,F50,Women's 50m,F,50,0,
+HKG,"Hong Kong, China",44,F100,Women's 100m,F,100,21,3
+HKG,"Hong Kong, China",44,F200,Women's 200m,F,200,23,26
+HKG,"Hong Kong, China",44,F400,Women's 400m,F,400,0,
+HKG,"Hong Kong, China",44,F800,Women's 800m,F,800,0,
+HKG,"Hong Kong, China",44,M50,Men's 50m,M,50,0,
+HKG,"Hong Kong, China",44,M100,Men's 100m,M,100,0,
+HKG,"Hong Kong, China",44,M200,Men's 200m,M,200,0,
+HKG,"Hong Kong, China",44,M400,Men's 400m,M,400,0,
+HKG,"Hong Kong, China",44,M800,Men's 800m,M,800,0,
+ROU,Romania,44,F50,Women's 50m,F,50,0,
+ROU,Romania,44,F100,Women's 100m,F,100,0,
+ROU,Romania,44,F200,Women's 200m,F,200,0,
+ROU,Romania,44,F400,Women's 400m,F,400,0,
+ROU,Romania,44,F800,Women's 800m,F,800,1,115
+ROU,Romania,44,M50,Men's 50m,M,50,0,
+ROU,Romania,44,M100,Men's 100m,M,100,25,2
+ROU,Romania,44,M200,Men's 200m,M,200,18,4
+ROU,Romania,44,M400,Men's 400m,M,400,0,
+ROU,Romania,44,M800,Men's 800m,M,800,0,
