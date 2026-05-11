@@ -1,21 +1,21 @@
 event_key,event_label,gender,distance_m,country,top200_count,best_rank,best_athlete,count_gap_aus_minus_usa
-F50,Women's 50m Freestyle,F,50,AUS,53,13,Cate Campbell,36
-F50,Women's 50m Freestyle,F,50,USA,17,33,Gretchen Walsh,36
-F100,Women's 100m Freestyle,F,100,AUS,96,2,Emma Mckeon,79
-F100,Women's 100m Freestyle,F,100,USA,17,5,Simone Manuel,79
-F200,Women's 200m Freestyle,F,200,AUS,53,1,Ariarne Titmus,2
-F200,Women's 200m Freestyle,F,200,USA,51,14,Allison Schmitt,2
-F400,Women's 400m Freestyle,F,400,AUS,39,3,Ariarne Titmus,-59
-F400,Women's 400m Freestyle,F,400,USA,98,8,Katie Ledecky,-59
-F800,Women's 800m Freestyle,F,800,AUS,34,6,Lani Pallister,-68
-F800,Women's 800m Freestyle,F,800,USA,102,1,Katie Ledecky,-68
-M50,Men's 50m Freestyle,M,50,AUS,26,1,Cameron Mcevoy,-19
-M50,Men's 50m Freestyle,M,50,USA,45,4,Caeleb Dressel,-19
-M100,Men's 100m Freestyle,M,100,AUS,35,19,Cameron Mcevoy,-13
-M100,Men's 100m Freestyle,M,100,USA,48,5,Jack Alexy,-13
-M200,Men's 200m Freestyle,M,200,AUS,11,18,Ian Thorpe,-31
-M200,Men's 200m Freestyle,M,200,USA,42,3,Michael Phelps,-31
-M400,Men's 400m Freestyle,M,400,AUS,61,3,Ian Thorpe,49
-M400,Men's 400m Freestyle,M,400,USA,12,62,Larsen Jensen,49
-M800,Men's 800m Freestyle,M,800,AUS,29,5,Samuel Short,7
-M800,Men's 800m Freestyle,M,800,USA,22,11,Bobby Finke,7
+F50,Women's 50m,F,50,AUS,53,13,Cate Campbell,36
+F50,Women's 50m,F,50,USA,17,33,Gretchen Walsh,36
+F100,Women's 100m,F,100,AUS,96,2,Emma Mckeon,79
+F100,Women's 100m,F,100,USA,17,5,Simone Manuel,79
+F200,Women's 200m,F,200,AUS,53,1,Ariarne Titmus,2
+F200,Women's 200m,F,200,USA,51,14,Allison Schmitt,2
+F400,Women's 400m,F,400,AUS,39,3,Ariarne Titmus,-59
+F400,Women's 400m,F,400,USA,98,8,Katie Ledecky,-59
+F800,Women's 800m,F,800,AUS,34,6,Lani Pallister,-68
+F800,Women's 800m,F,800,USA,102,1,Katie Ledecky,-68
+M50,Men's 50m,M,50,AUS,26,1,Cameron Mcevoy,-19
+M50,Men's 50m,M,50,USA,45,4,Caeleb Dressel,-19
+M100,Men's 100m,M,100,AUS,35,19,Cameron Mcevoy,-13
+M100,Men's 100m,M,100,USA,48,5,Jack Alexy,-13
+M200,Men's 200m,M,200,AUS,11,18,Ian Thorpe,-31
+M200,Men's 200m,M,200,USA,42,3,Michael Phelps,-31
+M400,Men's 400m,M,400,AUS,61,3,Ian Thorpe,49
+M400,Men's 400m,M,400,USA,12,62,Larsen Jensen,49
+M800,Men's 800m,M,800,AUS,29,5,Samuel Short,7
+M800,Men's 800m,M,800,USA,22,11,Bobby Finke,7
