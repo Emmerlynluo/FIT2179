@@ -1,0 +1,31 @@
+Year,HostCity,HostCountry,Region,Latitude,Longitude,Gold,Silver,Bronze,Total,Edition,HomeGames,MainTooltip,PerformanceLevel
+1896,Athens,Greece,Europe,37.9838,23.7275,0,0,0,0,1896 Athens,No,"1896 Athens: 0 total medals (0G, 0S, 0B)",No medals
+1900,Paris,France,Europe,48.8566,2.3522,2,0,0,2,1900 Paris,No,"1900 Paris: 2 total medals (2G, 0S, 0B)",1-5
+1904,St. Louis,United States,North America,38.627,-90.1994,0,0,0,0,1904 St. Louis,No,"1904 St. Louis: 0 total medals (0G, 0S, 0B)",No medals
+1908,London,United Kingdom,Europe,51.5072,-0.1276,0,1,1,2,1908 London,No,"1908 London: 2 total medals (0G, 1S, 1B)",1-5
+1912,Stockholm,Sweden,Europe,59.3293,18.0686,2,2,2,6,1912 Stockholm,No,"1912 Stockholm: 6 total medals (2G, 2S, 2B)",6-10
+1920,Antwerp,Belgium,Europe,51.2194,4.4025,0,1,1,2,1920 Antwerp,No,"1920 Antwerp: 2 total medals (0G, 1S, 1B)",1-5
+1924,Paris,France,Europe,48.8566,2.3522,1,1,2,4,1924 Paris,No,"1924 Paris: 4 total medals (1G, 1S, 2B)",1-5
+1928,Amsterdam,Netherlands,Europe,52.3676,4.9041,0,2,0,2,1928 Amsterdam,No,"1928 Amsterdam: 2 total medals (0G, 2S, 0B)",1-5
+1932,Los Angeles,United States,North America,34.0522,-118.2437,1,1,0,2,1932 Los Angeles,No,"1932 Los Angeles: 2 total medals (1G, 1S, 0B)",1-5
+1936,Berlin,Germany,Europe,52.52,13.405,0,0,0,0,1936 Berlin,No,"1936 Berlin: 0 total medals (0G, 0S, 0B)",No medals
+1948,London,United Kingdom,Europe,51.5072,-0.1276,0,2,2,4,1948 London,No,"1948 London: 4 total medals (0G, 2S, 2B)",1-5
+1952,Helsinki,Finland,Europe,60.1699,24.9384,1,0,0,1,1952 Helsinki,No,"1952 Helsinki: 1 total medals (1G, 0S, 0B)",1-5
+1956,Melbourne,Australia,Oceania,-37.8136,144.9631,8,4,2,14,1956 Melbourne,Yes,"1956 Melbourne: 14 total medals (8G, 4S, 2B)",11-15
+1960,Rome,Italy,Europe,41.9028,12.4964,5,5,3,13,1960 Rome,No,"1960 Rome: 13 total medals (5G, 5S, 3B)",11-15
+1964,Tokyo,Japan,Asia,35.6762,139.6503,4,1,4,9,1964 Tokyo,No,"1964 Tokyo: 9 total medals (4G, 1S, 4B)",6-10
+1968,Mexico City,Mexico,North America,19.4326,-99.1332,3,2,3,8,1968 Mexico City,No,"1968 Mexico City: 8 total medals (3G, 2S, 3B)",6-10
+1972,Munich,West Germany,Europe,48.1351,11.582,6,2,2,10,1972 Munich,No,"1972 Munich: 10 total medals (6G, 2S, 2B)",6-10
+1976,Montreal,Canada,North America,45.5017,-73.5673,0,0,1,1,1976 Montreal,No,"1976 Montreal: 1 total medals (0G, 0S, 1B)",1-5
+1980,Moscow,Soviet Union,Europe,55.7558,37.6173,2,0,5,7,1980 Moscow,No,"1980 Moscow: 7 total medals (2G, 0S, 5B)",6-10
+1984,Los Angeles,United States,North America,34.0522,-118.2437,1,5,6,12,1984 Los Angeles,No,"1984 Los Angeles: 12 total medals (1G, 5S, 6B)",11-15
+1988,Seoul,South Korea,Asia,37.5665,126.978,1,1,1,3,1988 Seoul,No,"1988 Seoul: 3 total medals (1G, 1S, 1B)",1-5
+1992,Barcelona,Spain,Europe,41.3874,2.1686,1,3,5,9,1992 Barcelona,No,"1992 Barcelona: 9 total medals (1G, 3S, 5B)",6-10
+1996,Atlanta,United States,North America,33.749,-84.388,2,4,6,12,1996 Atlanta,No,"1996 Atlanta: 12 total medals (2G, 4S, 6B)",11-15
+2000,Sydney,Australia,Oceania,-33.8688,151.2093,5,9,4,18,2000 Sydney,Yes,"2000 Sydney: 18 total medals (5G, 9S, 4B)",16+
+2004,Athens,Greece,Europe,37.9838,23.7275,7,5,3,15,2004 Athens,No,"2004 Athens: 15 total medals (7G, 5S, 3B)",11-15
+2008,Beijing,China,Asia,39.9042,116.4074,6,6,8,20,2008 Beijing,No,"2008 Beijing: 20 total medals (6G, 6S, 8B)",16+
+2012,London,United Kingdom,Europe,51.5072,-0.1276,1,6,3,10,2012 London,No,"2012 London: 10 total medals (1G, 6S, 3B)",6-10
+2016,Rio de Janeiro,Brazil,South America,-22.9068,-43.1729,3,4,3,10,2016 Rio de Janeiro,No,"2016 Rio de Janeiro: 10 total medals (3G, 4S, 3B)",6-10
+2020,Tokyo,Japan,Asia,35.6762,139.6503,9,3,9,21,2020 Tokyo,No,"2020 Tokyo: 21 total medals (9G, 3S, 9B)",16+
+2024,Paris,France,Europe,48.8566,2.3522,7,9,3,19,2024 Paris,No,"2024 Paris: 19 total medals (7G, 9S, 3B)",16+
