@@ -1,0 +1,1762 @@
+event_key,event_label,gender,distance_m,rank_num,athlete,team_code,is_australian,meet_city,host_country_code,host_lat,host_lon,year,swim_time
+F50,Women's 50m Freestyle,F,50,1,Sarah Sjoestroem,SWE,No,Fukuoka,JPN,36.2048,138.2529,2023,23.61
+F50,Women's 50m Freestyle,F,50,2,Sarah Sjoestroem,SWE,No,Fukuoka,JPN,36.2048,138.2529,2023,23.62
+F50,Women's 50m Freestyle,F,50,3,Sarah Sjoestroem,SWE,No,Paris,FRA,46.2276,2.2137,2024,23.66
+F50,Women's 50m Freestyle,F,50,4,Sarah Sjoestroem,SWE,No,Budapest,HUN,47.1625,19.5033,2017,23.67
+F50,Women's 50m Freestyle,F,50,5,Sarah Sjoestroem,SWE,No,Doha,QAT,25.3548,51.1839,2024,23.69
+F50,Women's 50m Freestyle,F,50,6,Sarah Sjoestroem,SWE,No,Budapest,HUN,47.1625,19.5033,2017,23.69
+F50,Women's 50m Freestyle,F,50,7,Sarah Sjoestroem,SWE,No,Paris,FRA,46.2276,2.2137,2024,23.71
+F50,Women's 50m Freestyle,F,50,8,Britta Steffen,GER,No,Rome,ITA,41.8719,12.5674,2009,23.73
+F50,Women's 50m Freestyle,F,50,9,Sarah Sjoestroem,SWE,No,Glasgow,GBR,55.3781,-3.436,2018,23.74
+F50,Women's 50m Freestyle,F,50,10,Sarah Sjoestroem,SWE,No,Rome,ITA,41.8719,12.5674,2024,23.75
+F50,Women's 50m Freestyle,F,50,11,Pernille Blume,DEN,No,Glasgow,GBR,55.3781,-3.436,2018,23.75
+F50,Women's 50m Freestyle,F,50,12,Sarah Sjoestroem,SWE,No,Malmo,SWE,60.1282,18.6435,2019,23.78
+F50,Women's 50m Freestyle,F,50,13,Cate Campbell,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2018,23.78
+F50,Women's 50m Freestyle,F,50,14,Cate Campbell,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2018,23.79
+F50,Women's 50m Freestyle,F,50,15,Emma Mckeon,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,23.81
+F50,Women's 50m Freestyle,F,50,16,Cate Campbell,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2018,23.81
+F50,Women's 50m Freestyle,F,50,18,Sarah Sjoestroem,SWE,No,Kazan,RUS,61.524,105.3188,2018,23.83
+F50,Women's 50m Freestyle,F,50,19,Sarah Sjoestroem,SWE,No,Stockholm,SWE,60.1282,18.6435,2017,23.83
+F50,Women's 50m Freestyle,F,50,21,Cate Campbell,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2016,23.84
+F50,Women's 50m Freestyle,F,50,22,Sarah Sjoestroem,SWE,No,Paris,FRA,46.2276,2.2137,2024,23.85
+F50,Women's 50m Freestyle,F,50,23,Pernille Blume,DEN,No,Glasgow,GBR,55.3781,-3.436,2018,23.85
+F50,Women's 50m Freestyle,F,50,24,Ranomi Kromowidjojo,NED,No,Budapest,HUN,47.1625,19.5033,2017,23.85
+F50,Women's 50m Freestyle,F,50,25,Sarah Sjoestroem,SWE,No,Boras,SWE,60.1282,18.6435,2017,23.85
+F50,Women's 50m Freestyle,F,50,26,Sarah Sjoestroem,SWE,No,Canet-en-Roussillon,FRA,46.2276,2.2137,2017,23.85
+F50,Women's 50m Freestyle,F,50,29,Cate Campbell,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2018,23.88
+F50,Women's 50m Freestyle,F,50,30,Therese Alshammar,SWE,No,Rome,ITA,41.8719,12.5674,2009,23.88
+F50,Women's 50m Freestyle,F,50,31,Sarah Sjoestroem,SWE,No,Doha,QAT,25.3548,51.1839,2024,23.90
+F50,Women's 50m Freestyle,F,50,33,Gretchen Walsh,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,23.91
+F50,Women's 50m Freestyle,F,50,36,Kate Douglass,USA,No,Doha,QAT,25.3548,51.1839,2024,23.91
+F50,Women's 50m Freestyle,F,50,37,Sarah Sjoestroem,SWE,No,Doha,QAT,25.3548,51.1839,2024,23.91
+F50,Women's 50m Freestyle,F,50,38,Sarah Sjoestroem,SWE,No,Rome,ITA,41.8719,12.5674,2022,23.91
+F50,Women's 50m Freestyle,F,50,39,Sarah Sjoestroem,SWE,No,Stockholm,SWE,60.1282,18.6435,2019,23.91
+F50,Women's 50m Freestyle,F,50,40,Sarah Sjoestroem,SWE,No,Stockholm,SWE,60.1282,18.6435,2023,23.92
+F50,Women's 50m Freestyle,F,50,41,Sarah Sjoestroem,SWE,No,Glasgow,GBR,55.3781,-3.436,2018,23.92
+F50,Women's 50m Freestyle,F,50,42,Pernille Blume,DEN,No,Rome,ITA,41.8719,12.5674,2018,23.92
+F50,Women's 50m Freestyle,F,50,43,Sarah Sjoestroem,SWE,No,Fukuoka,JPN,36.2048,138.2529,2023,23.93
+F50,Women's 50m Freestyle,F,50,44,Sarah Sjoestroem,SWE,No,Rome,ITA,41.8719,12.5674,2023,23.93
+F50,Women's 50m Freestyle,F,50,45,Emma Mckeon,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,23.93
+F50,Women's 50m Freestyle,F,50,46,Cate Campbell,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,23.94
+F50,Women's 50m Freestyle,F,50,47,Katarzyna Wasick,POL,No,Doha,QAT,25.3548,51.1839,2024,23.95
+F50,Women's 50m Freestyle,F,50,48,Sarah Sjoestroem,SWE,No,Berlin,GER,51.1657,10.4515,2023,23.95
+F50,Women's 50m Freestyle,F,50,50,Sarah Sjoestroem,SWE,No,Landskrona,SWE,60.1282,18.6435,2018,23.96
+F50,Women's 50m Freestyle,F,50,51,Sarah Sjoestroem,SWE,No,Barcelona,ESP,40.4637,-3.7492,2017,23.96
+F50,Women's 50m Freestyle,F,50,52,Cate Campbell,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2014,23.96
+F50,Women's 50m Freestyle,F,50,53,Fran Halsall,GBR,No,Glasgow,GBR,55.3781,-3.436,2014,23.96
+F50,Women's 50m Freestyle,F,50,54,Magdalena Veldhuis,NED,No,Amsterdam,NED,52.1326,5.2913,2009,23.96
+F50,Women's 50m Freestyle,F,50,55,Meg Harris,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,23.97
+F50,Women's 50m Freestyle,F,50,56,Sarah Sjoestroem,SWE,No,Budapest,HUN,47.1625,19.5033,2023,23.97
+F50,Women's 50m Freestyle,F,50,57,Xiang Liu,CHN,No,Xi'an,CHN,35.8617,104.1954,2021,23.97
+F50,Women's 50m Freestyle,F,50,58,Ranomi Kromowidjojo,NED,No,Budapest,HUN,47.1625,19.5033,2021,23.97
+F50,Women's 50m Freestyle,F,50,59,Sarah Sjoestroem,SWE,No,Budapest,HUN,47.1625,19.5033,2019,23.97
+F50,Women's 50m Freestyle,F,50,60,Simone Manuel,USA,No,Budapest,HUN,47.1625,19.5033,2017,23.97
+F50,Women's 50m Freestyle,F,50,61,Libby Lenton,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2008,23.97
+F50,Women's 50m Freestyle,F,50,62,Torri Huske,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,23.98
+F50,Women's 50m Freestyle,F,50,63,Sarah Sjoestroem,SWE,No,Budapest,HUN,47.1625,19.5033,2022,23.98
+F50,Women's 50m Freestyle,F,50,64,Pernille Blume,DEN,No,Glasgow,GBR,55.3781,-3.436,2018,23.98
+F50,Women's 50m Freestyle,F,50,65,Sarah Sjoestroem,SWE,No,Boras,SWE,60.1282,18.6435,2014,23.98
+F50,Women's 50m Freestyle,F,50,66,Shayna Jack,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,23.99
+F50,Women's 50m Freestyle,F,50,67,Emma Mckeon,AUS,Yes,Birmingham,GBR,55.3781,-3.436,2022,23.99
+F50,Women's 50m Freestyle,F,50,68,Sarah Sjoestroem,SWE,No,Doha,QAT,25.3548,51.1839,2018,23.99
+F50,Women's 50m Freestyle,F,50,69,Cate Campbell,AUS,Yes,Rome,ITA,41.8719,12.5674,2009,23.99
+F50,Women's 50m Freestyle,F,50,70,Magdalena Veldhuis,NED,No,Rome,ITA,41.8719,12.5674,2009,23.99
+F50,Women's 50m Freestyle,F,50,71,Abbey Weitzeil,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,24.00
+F50,Women's 50m Freestyle,F,50,72,Emma Mckeon,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,24.00
+F50,Women's 50m Freestyle,F,50,73,Cate Campbell,AUS,Yes,Guangzhou,CHN,35.8617,104.1954,2019,24.00
+F50,Women's 50m Freestyle,F,50,74,Pernille Blume,DEN,No,Budapest,HUN,47.1625,19.5033,2017,24.00
+F50,Women's 50m Freestyle,F,50,75,Cate Campbell,AUS,Yes,Glasgow,GBR,55.3781,-3.436,2014,24.00
+F50,Women's 50m Freestyle,F,50,76,Katarzyna Wasick,POL,No,Doha,QAT,25.3548,51.1839,2024,24.01
+F50,Women's 50m Freestyle,F,50,77,Shayna Jack,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,24.01
+F50,Women's 50m Freestyle,F,50,78,Sarah Sjoestroem,SWE,No,Stockholm,SWE,60.1282,18.6435,2017,24.01
+F50,Women's 50m Freestyle,F,50,80,Meg Harris,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,24.02
+F50,Women's 50m Freestyle,F,50,81,Shayna Jack,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,24.02
+F50,Women's 50m Freestyle,F,50,82,Shayna Jack,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,24.02
+F50,Women's 50m Freestyle,F,50,83,Sarah Sjoestroem,SWE,No,Canet-en-Roussillon,FRA,46.2276,2.2137,2023,24.02
+F50,Women's 50m Freestyle,F,50,84,Emma Mckeon,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,24.02
+F50,Women's 50m Freestyle,F,50,85,Cate Campbell,AUS,Yes,Singapore,SGP,1.3521,103.8198,2019,24.02
+F50,Women's 50m Freestyle,F,50,87,Xiang Liu,CHN,No,Beijing,CHN,35.8617,104.1954,2020,24.03
+F50,Women's 50m Freestyle,F,50,88,Cate Campbell,AUS,Yes,Perth,AUS,-25.2744,133.7751,2015,24.03
+F50,Women's 50m Freestyle,F,50,89,Kate Douglass,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,24.04
+F50,Women's 50m Freestyle,F,50,90,Cate Campbell,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,24.04
+F50,Women's 50m Freestyle,F,50,91,Xiang Liu,CHN,No,Shenzen,CHN,35.8617,104.1954,2020,24.04
+F50,Women's 50m Freestyle,F,50,92,Xiang Liu,CHN,No,Tianjin,CHN,35.8617,104.1954,2017,24.04
+F50,Women's 50m Freestyle,F,50,93,Cate Campbell,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2016,24.04
+F50,Women's 50m Freestyle,F,50,94,Sarah Sjoestroem,SWE,No,Stockholm,SWE,60.1282,18.6435,2024,24.05
+F50,Women's 50m Freestyle,F,50,95,Simone Manuel,USA,No,Gwangju,KOR,35.9078,127.7669,2019,24.05
+F50,Women's 50m Freestyle,F,50,96,Sarah Sjoestroem,SWE,No,Gwangju,KOR,35.9078,127.7669,2019,24.05
+F50,Women's 50m Freestyle,F,50,97,Cate Campbell,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2019,24.05
+F50,Women's 50m Freestyle,F,50,99,Pernille Blume,DEN,No,Budapest,HUN,47.1625,19.5033,2017,24.05
+F50,Women's 50m Freestyle,F,50,100,Ranomi Kromowidjojo,NED,No,Barcelona,ESP,40.4637,-3.7492,2013,24.05
+F50,Women's 50m Freestyle,F,50,101,Ranomi Kromowidjojo,NED,No,London,GBR,55.3781,-3.436,2012,24.05
+F50,Women's 50m Freestyle,F,50,102,Sarah Sjoestroem,SWE,No,Rome,ITA,41.8719,12.5674,2024,24.06
+F50,Women's 50m Freestyle,F,50,103,Gretchen Walsh,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,24.06
+F50,Women's 50m Freestyle,F,50,105,Pernille Blume,DEN,No,Budapest,HUN,47.1625,19.5033,2021,24.06
+F50,Women's 50m Freestyle,F,50,106,Britta Steffen,GER,No,Beijing,CHN,35.8617,104.1954,2008,24.06
+F50,Women's 50m Freestyle,F,50,107,Sarah Sjoestroem,SWE,No,Tokyo,JPN,36.2048,138.2529,2021,24.07
+F50,Women's 50m Freestyle,F,50,108,Sarah Sjoestroem,SWE,No,Gwangju,KOR,35.9078,127.7669,2019,24.07
+F50,Women's 50m Freestyle,F,50,109,Pernille Blume,DEN,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,24.07
+F50,Women's 50m Freestyle,F,50,110,Ranomi Kromowidjojo,NED,No,London,GBR,55.3781,-3.436,2016,24.07
+F50,Women's 50m Freestyle,F,50,111,Ranomi Kromowidjojo,NED,No,London,GBR,55.3781,-3.436,2012,24.07
+F50,Women's 50m Freestyle,F,50,112,Dara Torres,USA,No,Beijing,CHN,35.8617,104.1954,2008,24.07
+F50,Women's 50m Freestyle,F,50,113,Sarah Sjoestroem,SWE,No,Stockholm,SWE,60.1282,18.6435,2024,24.08
+F50,Women's 50m Freestyle,F,50,115,Pernille Blume,DEN,No,Tokyo,JPN,36.2048,138.2529,2021,24.08
+F50,Women's 50m Freestyle,F,50,116,Cate Campbell,AUS,Yes,Kazan,RUS,61.524,105.3188,2019,24.08
+F50,Women's 50m Freestyle,F,50,117,Pernille Blume,DEN,No,Indianapolis,USA,37.0902,-95.7129,2019,24.08
+F50,Women's 50m Freestyle,F,50,118,Sarah Sjoestroem,SWE,No,Stockholm,SWE,60.1282,18.6435,2018,24.08
+F50,Women's 50m Freestyle,F,50,119,Sarah Sjoestroem,SWE,No,Stockholm,SWE,60.1282,18.6435,2018,24.08
+F50,Women's 50m Freestyle,F,50,120,Sarah Sjoestroem,SWE,No,Budapest,HUN,47.1625,19.5033,2017,24.08
+F50,Women's 50m Freestyle,F,50,121,Cate Campbell,AUS,Yes,Rome,ITA,41.8719,12.5674,2009,24.08
+F50,Women's 50m Freestyle,F,50,122,Torri Huske,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,24.09
+F50,Women's 50m Freestyle,F,50,123,Shayna Jack,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2023,24.09
+F50,Women's 50m Freestyle,F,50,124,Pernille Blume,DEN,No,Canet-en-Roussillon,FRA,46.2276,2.2137,2021,24.09
+F50,Women's 50m Freestyle,F,50,125,Cate Campbell,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,24.09
+F50,Women's 50m Freestyle,F,50,126,Pernille Blume,DEN,No,Rome,ITA,41.8719,12.5674,2019,24.09
+F50,Women's 50m Freestyle,F,50,127,Simone Manuel,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,24.09
+F50,Women's 50m Freestyle,F,50,128,Magdalena Veldhuis,NED,No,Eindhoven,NED,52.1326,5.2913,2008,24.09
+F50,Women's 50m Freestyle,F,50,129,Sarah Sjoestroem,SWE,No,Athens,GRE,39.0742,21.8243,2023,24.10
+F50,Women's 50m Freestyle,F,50,130,Cate Campbell,AUS,Yes,Berlin,GER,51.1657,10.4515,2023,24.10
+F50,Women's 50m Freestyle,F,50,131,Shayna Jack,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,24.10
+F50,Women's 50m Freestyle,F,50,132,Sarah Sjoestroem,SWE,No,Nice,FRA,46.2276,2.2137,2023,24.10
+F50,Women's 50m Freestyle,F,50,133,Simone Manuel,USA,No,Irvine,USA,37.0902,-95.7129,2018,24.10
+F50,Women's 50m Freestyle,F,50,134,Ranomi Kromowidjojo,NED,No,Eindhoven,NED,52.1326,5.2913,2012,24.10
+F50,Women's 50m Freestyle,F,50,135,Cate Campbell,AUS,Yes,Berlin,GER,51.1657,10.4515,2023,24.11
+F50,Women's 50m Freestyle,F,50,136,Katarzyna Wasick,POL,No,Budapest,HUN,47.1625,19.5033,2022,24.11
+F50,Women's 50m Freestyle,F,50,137,Sarah Sjoestroem,SWE,No,Canet-en-Roussillon,FRA,46.2276,2.2137,2022,24.11
+F50,Women's 50m Freestyle,F,50,139,Ranomi Kromowidjojo,NED,No,Eindhoven,NED,52.1326,5.2913,2021,24.11
+F50,Women's 50m Freestyle,F,50,140,Cate Campbell,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2021,24.11
+F50,Women's 50m Freestyle,F,50,141,Cate Campbell,AUS,Yes,Doha,QAT,25.3548,51.1839,2019,24.11
+F50,Women's 50m Freestyle,F,50,142,Cate Campbell,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,24.11
+F50,Women's 50m Freestyle,F,50,143,Sarah Sjoestroem,SWE,No,Guangzhou,CHN,35.8617,104.1954,2019,24.11
+F50,Women's 50m Freestyle,F,50,145,Aliaksandra Herasimenia,BLR,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,24.11
+F50,Women's 50m Freestyle,F,50,146,Fran Halsall,GBR,No,Rome,ITA,41.8719,12.5674,2009,24.11
+F50,Women's 50m Freestyle,F,50,147,Pernille Blume,DEN,No,Tokyo,JPN,36.2048,138.2529,2021,24.12
+F50,Women's 50m Freestyle,F,50,148,Pernille Blume,DEN,No,Gwangju,KOR,35.9078,127.7669,2019,24.12
+F50,Women's 50m Freestyle,F,50,149,Cate Campbell,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2018,24.12
+F50,Women's 50m Freestyle,F,50,150,Simone Manuel,USA,No,Budapest,HUN,47.1625,19.5033,2017,24.12
+F50,Women's 50m Freestyle,F,50,151,Cate Campbell,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2015,24.12
+F50,Women's 50m Freestyle,F,50,152,Bronte Campbell,AUS,Yes,Kazan,RUS,61.524,105.3188,2015,24.12
+F50,Women's 50m Freestyle,F,50,153,Simone Manuel,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,24.13
+F50,Women's 50m Freestyle,F,50,154,Sarah Sjoestroem,SWE,No,Tokyo,JPN,36.2048,138.2529,2021,24.13
+F50,Women's 50m Freestyle,F,50,155,Sarah Sjoestroem,SWE,No,Rome,ITA,41.8719,12.5674,2017,24.13
+F50,Women's 50m Freestyle,F,50,156,Pernille Blume,DEN,No,Rome,ITA,41.8719,12.5674,2017,24.13
+F50,Women's 50m Freestyle,F,50,157,Fran Halsall,GBR,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,24.13
+F50,Women's 50m Freestyle,F,50,158,Cate Campbell,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2014,24.13
+F50,Women's 50m Freestyle,F,50,159,Fran Halsall,GBR,No,London,GBR,55.3781,-3.436,2012,24.13
+F50,Women's 50m Freestyle,F,50,160,Inge De Bruijn,NED,No,Sydney,AUS,-25.2744,133.7751,2000,24.13
+F50,Women's 50m Freestyle,F,50,162,Sarah Sjoestroem,SWE,No,Budapest,HUN,47.1625,19.5033,2023,24.14
+F50,Women's 50m Freestyle,F,50,163,Shayna Jack,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2022,24.14
+F50,Women's 50m Freestyle,F,50,164,Ranomi Kromowidjojo,NED,No,Budapest,HUN,47.1625,19.5033,2021,24.14
+F50,Women's 50m Freestyle,F,50,166,Pernille Blume,DEN,No,Gwangju,KOR,35.9078,127.7669,2019,24.14
+F50,Women's 50m Freestyle,F,50,167,Sarah Sjoestroem,SWE,No,Glasgow,GBR,55.3781,-3.436,2018,24.14
+F50,Women's 50m Freestyle,F,50,169,Fran Halsall,GBR,No,Glasgow,GBR,55.3781,-3.436,2014,24.14
+F50,Women's 50m Freestyle,F,50,170,Cate Campbell,AUS,Yes,Barcelona,ESP,40.4637,-3.7492,2013,24.14
+F50,Women's 50m Freestyle,F,50,171,Ranomi Kromowidjojo,NED,No,Eindhoven,NED,52.1326,5.2913,2012,24.14
+F50,Women's 50m Freestyle,F,50,172,Therese Alshammar,SWE,No,Shanghai,CHN,35.8617,104.1954,2011,24.14
+F50,Women's 50m Freestyle,F,50,173,Gretchen Walsh,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,24.15
+F50,Women's 50m Freestyle,F,50,174,Yufei Zhang,CHN,No,Fukuoka,JPN,36.2048,138.2529,2023,24.15
+F50,Women's 50m Freestyle,F,50,175,Sarah Sjoestroem,SWE,No,Budapest,HUN,47.1625,19.5033,2022,24.15
+F50,Women's 50m Freestyle,F,50,176,Cate Campbell,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,24.15
+F50,Women's 50m Freestyle,F,50,177,Cate Campbell,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2018,24.15
+F50,Women's 50m Freestyle,F,50,178,Pernille Blume,DEN,No,Stockholm,SWE,60.1282,18.6435,2017,24.15
+F50,Women's 50m Freestyle,F,50,179,Pernille Blume,DEN,No,Bronshoj,DEN,56.2639,9.5018,2017,24.15
+F50,Women's 50m Freestyle,F,50,180,Cate Campbell,AUS,Yes,Rio de Janeiro,BRA,-14.235,-51.9253,2016,24.15
+F50,Women's 50m Freestyle,F,50,181,Sarah Sjoestroem,SWE,No,Eindhoven,NED,52.1326,5.2913,2014,24.15
+F50,Women's 50m Freestyle,F,50,182,Cate Campbell,AUS,Yes,Jinan,CHN,35.8617,104.1954,2019,24.16
+F50,Women's 50m Freestyle,F,50,183,Meg Harris,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,24.17
+F50,Women's 50m Freestyle,F,50,184,Gretchen Walsh,USA,No,Paris,FRA,46.2276,2.2137,2024,24.17
+F50,Women's 50m Freestyle,F,50,185,Katarzyna Wasick,POL,No,Irvine,USA,37.0902,-95.7129,2022,24.17
+F50,Women's 50m Freestyle,F,50,186,Pernille Blume,DEN,No,Rome,ITA,41.8719,12.5674,2021,24.17
+F50,Women's 50m Freestyle,F,50,187,Katarzyna Wasick,POL,No,Budapest,HUN,47.1625,19.5033,2021,24.17
+F50,Women's 50m Freestyle,F,50,188,Pernille Blume,DEN,No,Budapest,HUN,47.1625,19.5033,2021,24.17
+F50,Women's 50m Freestyle,F,50,189,Claire Curzan,USA,No,Cary,USA,37.0902,-95.7129,2021,24.17
+F50,Women's 50m Freestyle,F,50,190,Emma Mckeon,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2021,24.17
+F50,Women's 50m Freestyle,F,50,191,Bronte Campbell,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2019,24.17
+F50,Women's 50m Freestyle,F,50,192,Sarah Sjoestroem,SWE,No,Austin,USA,37.0902,-95.7129,2016,24.17
+F50,Women's 50m Freestyle,F,50,193,Cate Campbell,AUS,Yes,Glasgow,GBR,55.3781,-3.436,2014,24.17
+F50,Women's 50m Freestyle,F,50,194,Cate Campbell,AUS,Yes,Beijing,CHN,35.8617,104.1954,2008,24.17
+F50,Women's 50m Freestyle,F,50,195,Qingfeng Wu,CHN,No,Shenzhen,CHN,35.8617,104.1954,2025,24.18
+F50,Women's 50m Freestyle,F,50,196,Katarzyna Wasick,POL,No,Rotterdam,NED,52.1326,5.2913,2023,24.18
+F50,Women's 50m Freestyle,F,50,197,Katarzyna Wasick,POL,No,Budapest,HUN,47.1625,19.5033,2022,24.18
+F50,Women's 50m Freestyle,F,50,198,Sarah Sjoestroem,SWE,No,Indianapolis,USA,37.0902,-95.7129,2019,24.18
+F50,Women's 50m Freestyle,F,50,199,Sarah Sjoestroem,SWE,No,Rome,ITA,41.8719,12.5674,2018,24.18
+F50,Women's 50m Freestyle,F,50,200,Cate Campbell,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2014,24.18
+F200,Women's 200m Freestyle,F,200,1,Ariarne Titmus,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,01:52.23
+F200,Women's 200m Freestyle,F,200,2,Mollie O'callaghan,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,01:52.48
+F200,Women's 200m Freestyle,F,200,3,Mollie O'callaghan,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,01:52.85
+F200,Women's 200m Freestyle,F,200,4,Federica Pellegrini,ITA,No,Rome,ITA,41.8719,12.5674,2009,01:52.98
+F200,Women's 200m Freestyle,F,200,5,Ariarne Titmus,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,01:53.01
+F200,Women's 200m Freestyle,F,200,6,Ariarne Titmus,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,01:53.09
+F200,Women's 200m Freestyle,F,200,7,Mollie O'callaghan,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,01:53.27
+F200,Women's 200m Freestyle,F,200,8,Ariarne Titmus,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2022,01:53.31
+F200,Women's 200m Freestyle,F,200,9,Mollie O'callaghan,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,01:53.48
+F200,Women's 200m Freestyle,F,200,10,Ariarne Titmus,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,01:53.50
+F200,Women's 200m Freestyle,F,200,11,Mollie O'callaghan,AUS,Yes,Shenzhen,CHN,35.8617,104.1954,2026,01:53.52
+F200,Women's 200m Freestyle,F,200,12,Mollie O'callaghan,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,01:53.52
+F200,Women's 200m Freestyle,F,200,13,Mollie O'callaghan,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2024,01:53.57
+F200,Women's 200m Freestyle,F,200,14,Allison Schmitt,USA,No,London,GBR,55.3781,-3.436,2012,01:53.61
+F200,Women's 200m Freestyle,F,200,15,Summer Mcintosh,CAN,No,Fukuoka,JPN,36.2048,138.2529,2023,01:53.65
+F200,Women's 200m Freestyle,F,200,16,Mollie O'callaghan,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,01:53.66
+F200,Women's 200m Freestyle,F,200,17,Federica Pellegrini,ITA,No,Rome,ITA,41.8719,12.5674,2009,01:53.67
+F200,Women's 200m Freestyle,F,200,18,Mollie O'callaghan,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2026,01:53.69
+F200,Women's 200m Freestyle,F,200,19,Summer Mcintosh,CAN,No,Toronto,CAN,56.1304,-106.3468,2024,01:53.69
+F200,Women's 200m Freestyle,F,200,20,Katie Ledecky,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:53.73
+F200,Women's 200m Freestyle,F,200,21,Summer Mcintosh,CAN,No,Westmont,USA,37.0902,-95.7129,2026,01:53.80
+F200,Women's 200m Freestyle,F,200,22,Ariarne Titmus,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,01:53.81
+F200,Women's 200m Freestyle,F,200,23,Mollie O'callaghan,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,01:53.83
+F200,Women's 200m Freestyle,F,200,24,Ariarne Titmus,AUS,Yes,Birmingham,GBR,55.3781,-3.436,2022,01:53.89
+F200,Women's 200m Freestyle,F,200,25,Summer Mcintosh,CAN,No,Toronto,CAN,56.1304,-106.3468,2023,01:53.91
+F200,Women's 200m Freestyle,F,200,26,Siobhan Haughey,HKG,No,Tokyo,JPN,36.2048,138.2529,2021,01:53.92
+F200,Women's 200m Freestyle,F,200,27,Siobhan Haughey,HKG,No,Fukuoka,JPN,36.2048,138.2529,2023,01:53.96
+F200,Women's 200m Freestyle,F,200,28,Mollie O'callaghan,AUS,Yes,Birmingham,GBR,55.3781,-3.436,2022,01:54.01
+F200,Women's 200m Freestyle,F,200,29,Siobhan Haughey,HKG,No,Budapest,HUN,47.1625,19.5033,2023,01:54.08
+F200,Women's 200m Freestyle,F,200,30,Sarah Sjoestroem,SWE,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:54.08
+F200,Women's 200m Freestyle,F,200,31,Siobhan Haughey,HKG,No,Hangzhou,CHN,35.8617,104.1954,2023,01:54.12
+F200,Women's 200m Freestyle,F,200,32,Summer Mcintosh,CAN,No,Fort Lauderdale,USA,37.0902,-95.7129,2023,01:54.13
+F200,Women's 200m Freestyle,F,200,33,Ariarne Titmus,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,01:54.14
+F200,Women's 200m Freestyle,F,200,34,Siobhan Haughey,HKG,No,Greensboro,USA,37.0902,-95.7129,2023,01:54.20
+F200,Women's 200m Freestyle,F,200,35,Summer Mcintosh,CAN,No,Toronto,CAN,56.1304,-106.3468,2024,01:54.21
+F200,Women's 200m Freestyle,F,200,36,Federica Pellegrini,ITA,No,Gwangju,KOR,35.9078,127.7669,2019,01:54.22
+F200,Women's 200m Freestyle,F,200,37,Muhan Tang,CHN,No,Xi'an,CHN,35.8617,104.1954,2021,01:54.26
+F200,Women's 200m Freestyle,F,200,38,Ariarne Titmus,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,01:54.27
+F200,Women's 200m Freestyle,F,200,39,Ariarne Titmus,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2019,01:54.30
+F200,Women's 200m Freestyle,F,200,40,Sarah Sjoestroem,SWE,No,Kazan,RUS,61.524,105.3188,2015,01:54.31
+F200,Women's 200m Freestyle,F,200,41,Freya Constance Colbert,GBR,No,London,GBR,55.3781,-3.436,2026,01:54.34
+F200,Women's 200m Freestyle,F,200,42,Sarah Sjoestroem,SWE,No,Norrkoping,SWE,60.1282,18.6435,2016,01:54.34
+F200,Women's 200m Freestyle,F,200,43,Summer Mcintosh,CAN,No,Fort Lauderdale,USA,37.0902,-95.7129,2026,01:54.36
+F200,Women's 200m Freestyle,F,200,44,Mollie O'callaghan,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2023,01:54.36
+F200,Women's 200m Freestyle,F,200,45,Junxuan Yang,CHN,No,Shenzhen,CHN,35.8617,104.1954,2024,01:54.37
+F200,Women's 200m Freestyle,F,200,46,Junxuan Yang,CHN,No,Tokyo,JPN,36.2048,138.2529,2021,01:54.37
+F200,Women's 200m Freestyle,F,200,47,Katie Ledecky,USA,No,Mission Viejo,USA,37.0902,-95.7129,2021,01:54.40
+F200,Women's 200m Freestyle,F,200,48,Allison Schmitt,USA,No,Omaha,USA,37.0902,-95.7129,2012,01:54.40
+F200,Women's 200m Freestyle,F,200,49,Mollie O'callaghan,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,01:54.43
+F200,Women's 200m Freestyle,F,200,50,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2016,01:54.43
+F200,Women's 200m Freestyle,F,200,51,Taylor Ruck,CAN,No,Tokyo,JPN,36.2048,138.2529,2018,01:54.44
+F200,Women's 200m Freestyle,F,200,52,Federica Pellegrini,ITA,No,Riccione,ITA,41.8719,12.5674,2009,01:54.47
+F200,Women's 200m Freestyle,F,200,53,Junxuan Yang,CHN,No,Xi'an,CHN,35.8617,104.1954,2021,01:54.48
+F200,Women's 200m Freestyle,F,200,54,Katie Ledecky,USA,No,Irvine,USA,37.0902,-95.7129,2022,01:54.50
+F200,Women's 200m Freestyle,F,200,55,Ariarne Titmus,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,01:54.51
+F200,Women's 200m Freestyle,F,200,56,Bingjie Li,CHN,No,Singapore,SGP,1.3521,103.8198,2025,01:54.52
+F200,Women's 200m Freestyle,F,200,57,Junxuan Yang,CHN,No,Paris,FRA,46.2276,2.2137,2024,01:54.52
+F200,Women's 200m Freestyle,F,200,58,Siobhan Haughey,HKG,No,San Antonio,USA,37.0902,-95.7129,2024,01:54.52
+F200,Women's 200m Freestyle,F,200,60,Siobhan Haughey,HKG,No,Paris,FRA,46.2276,2.2137,2024,01:54.55
+F200,Women's 200m Freestyle,F,200,61,Emma Mckeon,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2019,01:54.55
+F200,Women's 200m Freestyle,F,200,62,Federica Pellegrini,ITA,No,Rome,ITA,41.8719,12.5674,2016,01:54.55
+F200,Women's 200m Freestyle,F,200,63,Katie Ledecky,USA,No,Santa Clara,USA,37.0902,-95.7129,2018,01:54.56
+F200,Women's 200m Freestyle,F,200,64,Siobhan Haughey,HKG,No,Barcelona,ESP,40.4637,-3.7492,2024,01:54.57
+F200,Women's 200m Freestyle,F,200,65,Junxuan Yang,CHN,No,Qingdao,CHN,35.8617,104.1954,2021,01:54.57
+F200,Women's 200m Freestyle,F,200,66,Katie Ledecky,USA,No,Des Moines,USA,37.0902,-95.7129,2020,01:54.59
+F200,Women's 200m Freestyle,F,200,67,Katie Ledecky,USA,No,Irvine,USA,37.0902,-95.7129,2018,01:54.60
+F200,Women's 200m Freestyle,F,200,68,Ariarne Titmus,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,01:54.64
+F200,Women's 200m Freestyle,F,200,69,Ariarne Titmus,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,01:54.64
+F200,Women's 200m Freestyle,F,200,70,Sarah Sjoestroem,SWE,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:54.65
+F200,Women's 200m Freestyle,F,200,71,Ariarne Titmus,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2022,01:54.66
+F200,Women's 200m Freestyle,F,200,72,Ariarne Titmus,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,01:54.66
+F200,Women's 200m Freestyle,F,200,73,Camille Muffat,FRA,No,Canet-en-Roussillon,FRA,46.2276,2.2137,2012,01:54.66
+F200,Women's 200m Freestyle,F,200,74,Claire Weinstein,USA,No,Singapore,SGP,1.3521,103.8198,2025,01:54.67
+F200,Women's 200m Freestyle,F,200,75,Summer Mcintosh,CAN,No,Fukuoka,JPN,36.2048,138.2529,2023,01:54.67
+F200,Women's 200m Freestyle,F,200,76,Femke Heemskerk,NED,No,Eindhoven,NED,52.1326,5.2913,2015,01:54.68
+F200,Women's 200m Freestyle,F,200,77,Claire Weinstein,USA,No,Singapore,SGP,1.3521,103.8198,2025,01:54.69
+F200,Women's 200m Freestyle,F,200,78,Katie Ledecky,USA,No,Budapest,HUN,47.1625,19.5033,2017,01:54.69
+F200,Women's 200m Freestyle,F,200,79,Mollie O'callaghan,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,01:54.70
+F200,Women's 200m Freestyle,F,200,80,Penny Oleksiak,CAN,No,Tokyo,JPN,36.2048,138.2529,2021,01:54.70
+F200,Women's 200m Freestyle,F,200,81,Federica Pellegrini,ITA,No,Budapest,HUN,47.1625,19.5033,2017,01:54.73
+F200,Women's 200m Freestyle,F,200,82,Emma Mckeon,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,01:54.74
+F200,Women's 200m Freestyle,F,200,83,Mollie O'callaghan,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2024,01:54.76
+F200,Women's 200m Freestyle,F,200,84,Lani Pallister,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,01:54.77
+F200,Women's 200m Freestyle,F,200,85,Siobhan Haughey,HKG,No,Rome,ITA,41.8719,12.5674,2023,01:54.77
+F200,Women's 200m Freestyle,F,200,87,Sarah Sjoestroem,SWE,No,Gwangju,KOR,35.9078,127.7669,2019,01:54.78
+F200,Women's 200m Freestyle,F,200,88,Summer Mcintosh,CAN,No,Budapest,HUN,47.1625,19.5033,2022,01:54.79
+F200,Women's 200m Freestyle,F,200,89,Taylor Ruck,CAN,No,Gold Coast,AUS,-25.2744,133.7751,2018,01:54.81
+F200,Women's 200m Freestyle,F,200,90,Katie Ledecky,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:54.81
+F200,Women's 200m Freestyle,F,200,91,Missy Franklin,USA,No,Barcelona,ESP,40.4637,-3.7492,2013,01:54.81
+F200,Women's 200m Freestyle,F,200,92,Ariarne Titmus,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,01:54.82
+F200,Women's 200m Freestyle,F,200,93,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2016,01:54.82
+F200,Women's 200m Freestyle,F,200,94,Federica Pellegrini,ITA,No,Beijing,CHN,35.8617,104.1954,2008,01:54.82
+F200,Women's 200m Freestyle,F,200,95,Claire Weinstein,USA,No,Singapore,SGP,1.3521,103.8198,2025,01:54.83
+F200,Women's 200m Freestyle,F,200,96,Emma Mckeon,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2016,01:54.83
+F200,Women's 200m Freestyle,F,200,97,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2017,01:54.84
+F200,Women's 200m Freestyle,F,200,98,Siobhan Haughey,HKG,No,Dubai,UAE,23.4241,53.8478,2026,01:54.85
+F200,Women's 200m Freestyle,F,200,99,Siobhan Haughey,HKG,No,Shenzhen,CHN,35.8617,104.1954,2025,01:54.85
+F200,Women's 200m Freestyle,F,200,100,Rikako Ikee,JPN,No,Tokyo,JPN,36.2048,138.2529,2018,01:54.85
+F200,Women's 200m Freestyle,F,200,101,Ariarne Titmus,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2018,01:54.85
+F200,Women's 200m Freestyle,F,200,102,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2016,01:54.85
+F200,Women's 200m Freestyle,F,200,103,Sarah Sjoestroem,SWE,No,Stockholm,SWE,60.1282,18.6435,2016,01:54.87
+F200,Women's 200m Freestyle,F,200,104,Camille Muffat,FRA,No,Dunkerke,FRA,46.2276,2.2137,2012,01:54.87
+F200,Women's 200m Freestyle,F,200,105,Claire Weinstein,USA,No,Paris,FRA,46.2276,2.2137,2024,01:54.88
+F200,Women's 200m Freestyle,F,200,106,Katie Ledecky,USA,No,Omaha,USA,37.0902,-95.7129,2016,01:54.88
+F200,Women's 200m Freestyle,F,200,107,Lani Pallister,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,01:54.89
+F200,Women's 200m Freestyle,F,200,108,Siobhan Haughey,HKG,No,Doha,QAT,25.3548,51.1839,2024,01:54.89
+F200,Women's 200m Freestyle,F,200,110,Siobhan Haughey,HKG,No,Shenzhen,CHN,35.8617,104.1954,2026,01:54.91
+F200,Women's 200m Freestyle,F,200,111,Mollie O'callaghan,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,01:54.91
+F200,Women's 200m Freestyle,F,200,112,Claire Weinstein,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,01:54.92
+F200,Women's 200m Freestyle,F,200,113,Junxuan Yang,CHN,No,Budapest,HUN,47.1625,19.5033,2022,01:54.92
+F200,Women's 200m Freestyle,F,200,114,Emma Mckeon,AUS,Yes,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:54.92
+F200,Women's 200m Freestyle,F,200,115,Claire Weinstein,USA,No,Fort Lauderdale,USA,37.0902,-95.7129,2025,01:54.93
+F200,Women's 200m Freestyle,F,200,116,Mollie O'callaghan,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2022,01:54.94
+F200,Women's 200m Freestyle,F,200,117,Charlotte Bonnet,FRA,No,Glasgow,GBR,55.3781,-3.436,2018,01:54.95
+F200,Women's 200m Freestyle,F,200,118,Katie Ledecky,USA,No,Fort Lauderdale,USA,37.0902,-95.7129,2023,01:54.96
+F200,Women's 200m Freestyle,F,200,119,Allison Schmitt,USA,No,Rome,ITA,41.8719,12.5674,2009,01:54.96
+F200,Women's 200m Freestyle,F,200,120,Katie Ledecky,USA,No,San Antonio,USA,37.0902,-95.7129,2024,01:54.97
+F200,Women's 200m Freestyle,F,200,121,Sara Isakovic,SLO,No,Beijing,CHN,35.8617,104.1954,2008,01:54.97
+F200,Women's 200m Freestyle,F,200,122,Freya Constance Colbert,GBR,No,Edinburgh,GBR,55.3781,-3.436,2026,01:54.98
+F200,Women's 200m Freestyle,F,200,123,Junxuan Yang,CHN,No,Beijing,CHN,35.8617,104.1954,2020,01:54.98
+F200,Women's 200m Freestyle,F,200,124,Siobhan Haughey,HKG,No,Gwangju,KOR,35.9078,127.7669,2019,01:54.98
+F200,Women's 200m Freestyle,F,200,125,Emma Mckeon,AUS,Yes,Budapest,HUN,47.1625,19.5033,2017,01:54.99
+F200,Women's 200m Freestyle,F,200,126,Federica Pellegrini,ITA,No,Vichy,FRA,46.2276,2.2137,2015,01:55.00
+F200,Women's 200m Freestyle,F,200,127,Junxuan Yang,CHN,No,Tokyo,JPN,36.2048,138.2529,2021,01:55.01
+F200,Women's 200m Freestyle,F,200,128,Katie Ledecky,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:55.01
+F200,Women's 200m Freestyle,F,200,129,Siobhan Haughey,HKG,No,Athens,GRE,39.0742,21.8243,2023,01:55.03
+F200,Women's 200m Freestyle,F,200,131,Summer Mcintosh,CAN,No,Fort Lauderdale,USA,37.0902,-95.7129,2023,01:55.04
+F200,Women's 200m Freestyle,F,200,132,Rikako Ikee,JPN,No,Tokyo,JPN,36.2048,138.2529,2018,01:55.04
+F200,Women's 200m Freestyle,F,200,133,Sarah Sjoestroem,SWE,No,Eindhoven,NED,52.1326,5.2913,2014,01:55.04
+F200,Women's 200m Freestyle,F,200,134,Allison Schmitt,USA,No,Austin,USA,37.0902,-95.7129,2012,01:55.04
+F200,Women's 200m Freestyle,F,200,135,Sarah Sjoestroem,SWE,No,Rome,ITA,41.8719,12.5674,2015,01:55.05
+F200,Women's 200m Freestyle,F,200,136,Jiaying Pang,CHN,No,Beijing,CHN,35.8617,104.1954,2008,01:55.05
+F200,Women's 200m Freestyle,F,200,137,Freya Constance Colbert,GBR,No,Singapore,SGP,1.3521,103.8198,2025,01:55.06
+F200,Women's 200m Freestyle,F,200,138,Missy Franklin,USA,No,Shanghai,CHN,35.8617,104.1954,2011,01:55.06
+F200,Women's 200m Freestyle,F,200,139,Veronika Andrusenko,RUS,No,Budapest,HUN,47.1625,19.5033,2017,01:55.08
+F200,Women's 200m Freestyle,F,200,140,Ariarne Titmus,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2019,01:55.09
+F200,Women's 200m Freestyle,F,200,141,Siobhan Haughey,HKG,No,Stockholm,SWE,60.1282,18.6435,2026,01:55.10
+F200,Women's 200m Freestyle,F,200,142,Siobhan Haughey,HKG,No,Berlin,GER,51.1657,10.4515,2023,01:55.10
+F200,Women's 200m Freestyle,F,200,143,Katie Ledecky,USA,No,Omaha,USA,37.0902,-95.7129,2016,01:55.10
+F200,Women's 200m Freestyle,F,200,144,Mollie O'callaghan,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,01:55.11
+F200,Women's 200m Freestyle,F,200,145,Katie Ledecky,USA,No,Omaha,USA,37.0902,-95.7129,2021,01:55.11
+F200,Women's 200m Freestyle,F,200,146,Barbora Seemanova,CZE,No,London,GBR,55.3781,-3.436,2024,01:55.12
+F200,Women's 200m Freestyle,F,200,147,Federica Pellegrini,ITA,No,Gwangju,KOR,35.9078,127.7669,2019,01:55.14
+F200,Women's 200m Freestyle,F,200,148,Sarah Sjoestroem,SWE,No,Gwangju,KOR,35.9078,127.7669,2019,01:55.14
+F200,Women's 200m Freestyle,F,200,149,Federica Pellegrini,ITA,No,Barcelona,ESP,40.4637,-3.7492,2013,01:55.14
+F200,Women's 200m Freestyle,F,200,150,Mollie O'callaghan,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2023,01:55.15
+F200,Women's 200m Freestyle,F,200,151,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2022,01:55.15
+F200,Women's 200m Freestyle,F,200,152,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2018,01:55.15
+F200,Women's 200m Freestyle,F,200,153,Siobhan Haughey,HKG,No,Tokyo,JPN,36.2048,138.2529,2021,01:55.16
+F200,Women's 200m Freestyle,F,200,154,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2018,01:55.16
+F200,Women's 200m Freestyle,F,200,155,Katie Ledecky,USA,No,Kazan,RUS,61.524,105.3188,2015,01:55.16
+F200,Women's 200m Freestyle,F,200,156,Katie Ledecky,USA,No,Irvine,USA,37.0902,-95.7129,2014,01:55.16
+F200,Women's 200m Freestyle,F,200,157,Katie Ledecky,USA,No,Budapest,HUN,47.1625,19.5033,2017,01:55.18
+F200,Women's 200m Freestyle,F,200,158,Emma Mckeon,AUS,Yes,Budapest,HUN,47.1625,19.5033,2017,01:55.18
+F200,Women's 200m Freestyle,F,200,159,Federica Pellegrini,ITA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:55.18
+F200,Women's 200m Freestyle,F,200,160,Barbora Seemanova,CZE,No,Singapore,SGP,1.3521,103.8198,2025,01:55.20
+F200,Women's 200m Freestyle,F,200,161,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2021,01:55.21
+F200,Women's 200m Freestyle,F,200,162,Siobhan Haughey,HKG,No,Beijing,CHN,35.8617,104.1954,2020,01:55.21
+F200,Women's 200m Freestyle,F,200,164,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,01:55.22
+F200,Women's 200m Freestyle,F,200,165,Mollie O'callaghan,AUS,Yes,Budapest,HUN,47.1625,19.5033,2022,01:55.22
+F200,Women's 200m Freestyle,F,200,166,Femke Heemskerk,NED,No,Barcelona,ESP,40.4637,-3.7492,2015,01:55.22
+F200,Women's 200m Freestyle,F,200,167,Erin Gemmell,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,01:55.23
+F200,Women's 200m Freestyle,F,200,168,Sarah Sjoestroem,SWE,No,London,GBR,55.3781,-3.436,2012,01:55.23
+F200,Women's 200m Freestyle,F,200,169,Claire Weinstein,USA,No,Paris,FRA,46.2276,2.2137,2024,01:55.24
+F200,Women's 200m Freestyle,F,200,170,Summer Mcintosh,CAN,No,Birmingham,GBR,55.3781,-3.436,2022,01:55.24
+F200,Women's 200m Freestyle,F,200,171,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,01:55.25
+F200,Women's 200m Freestyle,F,200,172,Duo Shen,CHN,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:55.25
+F200,Women's 200m Freestyle,F,200,173,Bronte Barratt,AUS,Yes,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:55.25
+F200,Women's 200m Freestyle,F,200,174,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,01:55.26
+F200,Women's 200m Freestyle,F,200,175,Claire Weinstein,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,01:55.26
+F200,Women's 200m Freestyle,F,200,176,Veronika Andrusenko,RUS,No,Budapest,HUN,47.1625,19.5033,2017,01:55.26
+F200,Women's 200m Freestyle,F,200,177,Mollie O'callaghan,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2023,01:55.27
+F200,Women's 200m Freestyle,F,200,178,Ariarne Titmus,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2018,01:55.27
+F200,Women's 200m Freestyle,F,200,179,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,01:55.28
+F200,Women's 200m Freestyle,F,200,180,Ariarne Titmus,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2023,01:55.28
+F200,Women's 200m Freestyle,F,200,181,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2021,01:55.28
+F200,Women's 200m Freestyle,F,200,182,Mary-Sophie Harvey,CAN,No,Paris,FRA,46.2276,2.2137,2024,01:55.29
+F200,Women's 200m Freestyle,F,200,183,Dana Vollmer,USA,No,Rome,ITA,41.8719,12.5674,2009,01:55.29
+F200,Women's 200m Freestyle,F,200,184,Dana Vollmer,USA,No,Rome,ITA,41.8719,12.5674,2009,01:55.29
+F200,Women's 200m Freestyle,F,200,185,Sarah Sjoestroem,SWE,No,London,GBR,55.3781,-3.436,2016,01:55.30
+F200,Women's 200m Freestyle,F,200,186,Federica Pellegrini,ITA,No,Riccione,ITA,41.8719,12.5674,2016,01:55.30
+F200,Women's 200m Freestyle,F,200,187,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2018,01:55.32
+F200,Women's 200m Freestyle,F,200,188,Federica Pellegrini,ITA,No,Kazan,RUS,61.524,105.3188,2015,01:55.32
+F200,Women's 200m Freestyle,F,200,189,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2021,01:55.34
+F200,Women's 200m Freestyle,F,200,190,Katie Ledecky,USA,No,Santa Clara,USA,37.0902,-95.7129,2017,01:55.34
+F200,Women's 200m Freestyle,F,200,191,Siobhan Haughey,HKG,No,Rome,ITA,41.8719,12.5674,2024,01:55.35
+F200,Women's 200m Freestyle,F,200,192,Femke Heemskerk,NED,No,Amsterdam,NED,52.1326,5.2913,2014,01:55.35
+F200,Women's 200m Freestyle,F,200,193,Femke Heemskerk,NED,No,Amsterdam,NED,52.1326,5.2913,2014,01:55.35
+F200,Women's 200m Freestyle,F,200,194,Ariarne Titmus,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,01:55.36
+F200,Women's 200m Freestyle,F,200,195,Barbora Seemanova,CZE,No,Belgrade,SRB,44.0165,21.0059,2024,01:55.37
+F200,Women's 200m Freestyle,F,200,196,Shayna Jack,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2023,01:55.37
+F200,Women's 200m Freestyle,F,200,197,Katie Ledecky,USA,No,Minneapolis,USA,37.0902,-95.7129,2015,01:55.37
+F200,Women's 200m Freestyle,F,200,198,Junxuan Yang,CHN,No,Paris,FRA,46.2276,2.2137,2024,01:55.38
+F200,Women's 200m Freestyle,F,200,199,Ariarne Titmus,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2024,01:55.38
+F200,Women's 200m Freestyle,F,200,200,Penny Oleksiak,CAN,No,Tokyo,JPN,36.2048,138.2529,2021,01:55.38
+F400,Women's 400m Freestyle,F,400,1,Summer Mcintosh,CAN,No,Victoria,CAN,56.1304,-106.3468,2025,03:54.18
+F400,Women's 400m Freestyle,F,400,2,Summer Mcintosh,CAN,No,Austin,USA,37.0902,-95.7129,2025,03:55.37
+F400,Women's 400m Freestyle,F,400,3,Ariarne Titmus,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,03:55.38
+F400,Women's 400m Freestyle,F,400,4,Ariarne Titmus,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,03:55.44
+F400,Women's 400m Freestyle,F,400,5,Summer Mcintosh,CAN,No,Toronto,CAN,56.1304,-106.3468,2023,03:56.08
+F400,Women's 400m Freestyle,F,400,6,Summer Mcintosh,CAN,No,Singapore,SGP,1.3521,103.8198,2025,03:56.26
+F400,Women's 400m Freestyle,F,400,7,Ariarne Titmus,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2022,03:56.40
+F400,Women's 400m Freestyle,F,400,8,Katie Ledecky,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,03:56.46
+F400,Women's 400m Freestyle,F,400,9,Ariarne Titmus,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,03:56.69
+F400,Women's 400m Freestyle,F,400,10,Katie Ledecky,USA,No,Fort Lauderdale,USA,37.0902,-95.7129,2025,03:56.81
+F400,Women's 400m Freestyle,F,400,11,Ariarne Titmus,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,03:56.90
+F400,Women's 400m Freestyle,F,400,12,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2021,03:57.36
+F400,Women's 400m Freestyle,F,400,13,Ariarne Titmus,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,03:57.49
+F400,Women's 400m Freestyle,F,400,14,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2018,03:57.94
+F400,Women's 400m Freestyle,F,400,15,Ariarne Titmus,AUS,Yes,Birmingham,GBR,55.3781,-3.436,2022,03:58.06
+F400,Women's 400m Freestyle,F,400,16,Katie Ledecky,USA,No,Budapest,HUN,47.1625,19.5033,2022,03:58.15
+F400,Women's 400m Freestyle,F,400,17,Bingjie Li,CHN,No,Singapore,SGP,1.3521,103.8198,2025,03:58.21
+F400,Women's 400m Freestyle,F,400,18,Summer Mcintosh,CAN,No,Fort Lauderdale,USA,37.0902,-95.7129,2025,03:58.28
+F400,Women's 400m Freestyle,F,400,19,Katie Ledecky,USA,No,Budapest,HUN,47.1625,19.5033,2017,03:58.34
+F400,Women's 400m Freestyle,F,400,20,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,03:58.35
+F400,Women's 400m Freestyle,F,400,21,Summer Mcintosh,CAN,No,Paris,FRA,46.2276,2.2137,2024,03:58.37
+F400,Women's 400m Freestyle,F,400,22,Katie Ledecky,USA,No,Gold Coast,AUS,-25.2744,133.7751,2014,03:58.37
+F400,Women's 400m Freestyle,F,400,23,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2017,03:58.44
+F400,Women's 400m Freestyle,F,400,24,Ariarne Titmus,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,03:58.47
+F400,Women's 400m Freestyle,F,400,25,Katie Ledecky,USA,No,Singapore,SGP,1.3521,103.8198,2025,03:58.49
+F400,Women's 400m Freestyle,F,400,26,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2018,03:58.50
+F400,Women's 400m Freestyle,F,400,27,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,03:58.56
+F400,Women's 400m Freestyle,F,400,28,Katie Ledecky,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,03:58.71
+F400,Women's 400m Freestyle,F,400,29,Katie Ledecky,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,03:58.73
+F400,Women's 400m Freestyle,F,400,30,Ariarne Titmus,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,03:58.76
+F400,Women's 400m Freestyle,F,400,31,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2023,03:58.84
+F400,Women's 400m Freestyle,F,400,32,Katie Ledecky,USA,No,Irvine,USA,37.0902,-95.7129,2014,03:58.86
+F400,Women's 400m Freestyle,F,400,33,Lani Pallister,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,03:58.87
+F400,Women's 400m Freestyle,F,400,34,Summer Mcintosh,CAN,No,Fort Lauderdale,USA,37.0902,-95.7129,2026,03:58.91
+F400,Women's 400m Freestyle,F,400,35,Katie Ledecky,USA,No,Omaha,USA,37.0902,-95.7129,2016,03:58.98
+F400,Women's 400m Freestyle,F,400,36,Katie Ledecky,USA,No,Fort Lauderdale,USA,37.0902,-95.7129,2026,03:59.02
+F400,Women's 400m Freestyle,F,400,37,Summer Mcintosh,CAN,No,Toronto,CAN,56.1304,-106.3468,2024,03:59.06
+F400,Women's 400m Freestyle,F,400,38,Katie Ledecky,USA,No,Budapest,HUN,47.1625,19.5033,2017,03:59.06
+F400,Women's 400m Freestyle,F,400,39,Katie Ledecky,USA,No,Irvine,USA,37.0902,-95.7129,2018,03:59.09
+F400,Women's 400m Freestyle,F,400,40,Ariarne Titmus,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2024,03:59.13
+F400,Women's 400m Freestyle,F,400,41,Katie Ledecky,USA,No,Kazan,RUS,61.524,105.3188,2015,03:59.13
+F400,Women's 400m Freestyle,F,400,42,Federica Pellegrini,ITA,No,Rome,ITA,41.8719,12.5674,2009,03:59.15
+F400,Women's 400m Freestyle,F,400,43,Katie Ledecky,USA,No,Mission Viejo,USA,37.0902,-95.7129,2021,03:59.25
+F400,Women's 400m Freestyle,F,400,44,Katie Ledecky,USA,No,Santa Clara,USA,37.0902,-95.7129,2019,03:59.28
+F400,Women's 400m Freestyle,F,400,45,Summer Mcintosh,CAN,No,Birmingham,GBR,55.3781,-3.436,2022,03:59.32
+F400,Women's 400m Freestyle,F,400,46,Ariarne Titmus,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2019,03:59.35
+F400,Women's 400m Freestyle,F,400,47,Lani Pallister,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2026,03:59.36
+F400,Women's 400m Freestyle,F,400,48,Summer Mcintosh,CAN,No,Budapest,HUN,47.1625,19.5033,2022,03:59.39
+F400,Women's 400m Freestyle,F,400,49,Summer Mcintosh,CAN,No,Greensboro,USA,37.0902,-95.7129,2023,03:59.42
+F400,Women's 400m Freestyle,F,400,50,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2024,03:59.44
+F400,Women's 400m Freestyle,F,400,51,Erika Fairweather,NZL,No,Doha,QAT,25.3548,51.1839,2024,03:59.44
+F400,Women's 400m Freestyle,F,400,52,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2022,03:59.52
+F400,Women's 400m Freestyle,F,400,53,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2016,03:59.54
+F400,Women's 400m Freestyle,F,400,54,Erika Fairweather,NZL,No,Fukuoka,JPN,36.2048,138.2529,2023,03:59.59
+F400,Women's 400m Freestyle,F,400,55,Katie Ledecky,USA,No,Des Moines,USA,37.0902,-95.7129,2020,03:59.66
+F400,Women's 400m Freestyle,F,400,56,Ariarne Titmus,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2019,03:59.66
+F400,Women's 400m Freestyle,F,400,57,Ariarne Titmus,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2018,03:59.66
+F400,Women's 400m Freestyle,F,400,58,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2022,03:59.71
+F400,Women's 400m Freestyle,F,400,59,Lani Pallister,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,03:59.72
+F400,Women's 400m Freestyle,F,400,60,Summer Mcintosh,CAN,No,Greensboro,USA,37.0902,-95.7129,2022,03:59.79
+F400,Women's 400m Freestyle,F,400,61,Katie Ledecky,USA,No,Budapest,HUN,47.1625,19.5033,2022,03:59.79
+F400,Women's 400m Freestyle,F,400,62,Katie Ledecky,USA,No,Barcelona,ESP,40.4637,-3.7492,2013,03:59.82
+F400,Women's 400m Freestyle,F,400,63,Katie Ledecky,USA,No,Irvine,USA,37.0902,-95.7129,2014,03:59.89
+F400,Women's 400m Freestyle,F,400,64,Summer Mcintosh,CAN,No,Fukuoka,JPN,36.2048,138.2529,2023,03:59.94
+F400,Women's 400m Freestyle,F,400,65,Katie Ledecky,USA,No,Bloomington,USA,37.0902,-95.7129,2019,03:59.95
+F400,Women's 400m Freestyle,F,400,66,Katie Ledecky,USA,No,Gwangju,KOR,35.9078,127.7669,2019,03:59.97
+F400,Women's 400m Freestyle,F,400,67,Bingjie Li,CHN,No,Shenzhen,CHN,35.8617,104.1954,2025,03:59.99
+F400,Women's 400m Freestyle,F,400,68,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,03:59.99
+F400,Women's 400m Freestyle,F,400,69,Ariarne Titmus,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2022,04:00.03
+F400,Women's 400m Freestyle,F,400,70,Claire Weinstein,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,04:00.05
+F400,Women's 400m Freestyle,F,400,71,Katie Ledecky,USA,No,Knoxville,USA,37.0902,-95.7129,2023,04:00.20
+F400,Women's 400m Freestyle,F,400,72,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2016,04:00.31
+F400,Women's 400m Freestyle,F,400,73,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2018,04:00.35
+F400,Women's 400m Freestyle,F,400,74,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2021,04:00.37
+F400,Women's 400m Freestyle,F,400,75,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2022,04:00.38
+F400,Women's 400m Freestyle,F,400,76,Federica Pellegrini,ITA,No,Pescara,ITA,41.8719,12.5674,2009,04:00.41
+F400,Women's 400m Freestyle,F,400,77,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,04:00.45
+F400,Women's 400m Freestyle,F,400,78,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2021,04:00.45
+F400,Women's 400m Freestyle,F,400,79,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2015,04:00.47
+F400,Women's 400m Freestyle,F,400,80,Ariarne Titmus,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2023,04:00.49
+F400,Women's 400m Freestyle,F,400,81,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2021,04:00.51
+F400,Women's 400m Freestyle,F,400,82,Katie Ledecky,USA,No,Santa Clara,USA,37.0902,-95.7129,2018,04:00.51
+F400,Women's 400m Freestyle,F,400,83,Katie Ledecky,USA,No,Westmont,USA,37.0902,-95.7129,2026,04:00.54
+F400,Women's 400m Freestyle,F,400,84,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2026,04:00.54
+F400,Women's 400m Freestyle,F,400,85,Joanne Jackson,GBR,No,Rome,ITA,41.8719,12.5674,2009,04:00.60
+F400,Women's 400m Freestyle,F,400,86,Lani Pallister,AUS,Yes,Shenzhen,CHN,35.8617,104.1954,2026,04:00.61
+F400,Women's 400m Freestyle,F,400,87,Erika Fairweather,NZL,No,Auckland,NZL,-40.9006,174.886,2023,04:00.62
+F400,Women's 400m Freestyle,F,400,88,Leah Smith,USA,No,Omaha,USA,37.0902,-95.7129,2016,04:00.65
+F400,Women's 400m Freestyle,F,400,89,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,04:00.66
+F400,Women's 400m Freestyle,F,400,90,Joanne Jackson,GBR,No,Sheffield,GBR,55.3781,-3.436,2009,04:00.66
+F400,Women's 400m Freestyle,F,400,91,Summer Mcintosh,CAN,No,Austin,USA,37.0902,-95.7129,2025,04:00.68
+F400,Women's 400m Freestyle,F,400,92,Rebecca Adlington,GBR,No,Rome,ITA,41.8719,12.5674,2009,04:00.79
+F400,Women's 400m Freestyle,F,400,93,Katie Ledecky,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,04:00.80
+F400,Women's 400m Freestyle,F,400,94,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2019,04:00.81
+F400,Women's 400m Freestyle,F,400,95,Katie Ledecky,USA,No,Paris,FRA,46.2276,2.2137,2024,04:00.86
+F400,Women's 400m Freestyle,F,400,96,Ariarne Titmus,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2018,04:00.93
+F400,Women's 400m Freestyle,F,400,97,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2017,04:00.98
+F400,Women's 400m Freestyle,F,400,98,Katie Ledecky,USA,No,Mesa,USA,37.0902,-95.7129,2017,04:01.01
+F400,Women's 400m Freestyle,F,400,99,Katie Ledecky,USA,No,Singapore,SGP,1.3521,103.8198,2025,04:01.04
+F400,Women's 400m Freestyle,F,400,100,Katie Ledecky,USA,No,Plantation,USA,37.0902,-95.7129,2025,04:01.04
+F400,Women's 400m Freestyle,F,400,101,Bingjie Li,CHN,No,Hangzhou,CHN,35.8617,104.1954,2023,04:01.08
+F400,Women's 400m Freestyle,F,400,102,Bingjie Li,CHN,No,Tokyo,JPN,36.2048,138.2529,2021,04:01.08
+F400,Women's 400m Freestyle,F,400,103,Erika Fairweather,NZL,No,Berlin,GER,51.1657,10.4515,2023,04:01.09
+F400,Women's 400m Freestyle,F,400,104,Erika Fairweather,NZL,No,Paris,FRA,46.2276,2.2137,2024,04:01.12
+F400,Women's 400m Freestyle,F,400,105,Camille Muffat,FRA,No,Dunkerke,FRA,46.2276,2.2137,2012,04:01.13
+F400,Women's 400m Freestyle,F,400,106,Katie Ledecky,USA,No,Singapore,SGP,1.3521,103.8198,2025,04:01.15
+F400,Women's 400m Freestyle,F,400,107,Bingjie Li,CHN,No,Shenzhen,CHN,35.8617,104.1954,2025,04:01.17
+F400,Women's 400m Freestyle,F,400,108,Summer Mcintosh,CAN,No,Victoria,CAN,56.1304,-106.3468,2025,04:01.17
+F400,Women's 400m Freestyle,F,400,109,Jaz Carlin,GBR,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,04:01.23
+F400,Women's 400m Freestyle,F,400,110,Claire Weinstein,USA,No,Fort Lauderdale,USA,37.0902,-95.7129,2025,04:01.26
+F400,Women's 400m Freestyle,F,400,111,Katie Ledecky,USA,No,Plantation,USA,37.0902,-95.7129,2025,04:01.27
+F400,Women's 400m Freestyle,F,400,112,Katie Ledecky,USA,No,Omaha,USA,37.0902,-95.7129,2021,04:01.27
+F400,Women's 400m Freestyle,F,400,113,Leah Smith,USA,No,Gwangju,KOR,35.9078,127.7669,2019,04:01.29
+F400,Women's 400m Freestyle,F,400,114,Katie Ledecky,USA,No,Westmont,USA,37.0902,-95.7129,2022,04:01.30
+F400,Women's 400m Freestyle,F,400,115,Ajna Kesely,HUN,No,Gwangju,KOR,35.9078,127.7669,2019,04:01.31
+F400,Women's 400m Freestyle,F,400,116,Summer Mcintosh,CAN,No,Singapore,SGP,1.3521,103.8198,2025,04:01.33
+F400,Women's 400m Freestyle,F,400,117,Lani Pallister,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,04:01.33
+F400,Women's 400m Freestyle,F,400,118,Ariarne Titmus,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2021,04:01.34
+F400,Women's 400m Freestyle,F,400,119,Katie Ledecky,USA,No,Mission Viejo,USA,37.0902,-95.7129,2021,04:01.37
+F400,Women's 400m Freestyle,F,400,120,Ariarne Titmus,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,04:01.39
+F400,Women's 400m Freestyle,F,400,121,Katie Ledecky,USA,No,San Antonio,USA,37.0902,-95.7129,2024,04:01.41
+F400,Women's 400m Freestyle,F,400,122,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2016,04:01.45
+F400,Women's 400m Freestyle,F,400,123,Camille Muffat,FRA,No,London,GBR,55.3781,-3.436,2012,04:01.45
+F400,Women's 400m Freestyle,F,400,124,Katie Ledecky,USA,No,Richmond,USA,37.0902,-95.7129,2019,04:01.50
+F400,Women's 400m Freestyle,F,400,125,Federica Pellegrini,ITA,No,Eindhoven,NED,52.1326,5.2913,2008,04:01.53
+F400,Women's 400m Freestyle,F,400,126,Leah Smith,USA,No,Budapest,HUN,47.1625,19.5033,2017,04:01.54
+F400,Women's 400m Freestyle,F,400,127,Ariarne Titmus,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,04:01.57
+F400,Women's 400m Freestyle,F,400,128,Bingjie Li,CHN,No,Tokyo,JPN,36.2048,138.2529,2021,04:01.57
+F400,Women's 400m Freestyle,F,400,129,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2022,04:01.59
+F400,Women's 400m Freestyle,F,400,130,Summer Mcintosh,CAN,No,Victoria,CAN,56.1304,-106.3468,2022,04:01.59
+F400,Women's 400m Freestyle,F,400,131,Bingjie Li,CHN,No,Doha,QAT,25.3548,51.1839,2024,04:01.62
+F400,Women's 400m Freestyle,F,400,132,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2021,04:01.64
+F400,Women's 400m Freestyle,F,400,133,Bingjie Li,CHN,No,Fukuoka,JPN,36.2048,138.2529,2023,04:01.65
+F400,Women's 400m Freestyle,F,400,134,Ariarne Titmus,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,04:01.66
+F400,Women's 400m Freestyle,F,400,135,Katie Ledecky,USA,No,Greenboro,USA,37.0902,-95.7129,2019,04:01.68
+F400,Women's 400m Freestyle,F,400,136,Summer Mcintosh,CAN,No,Fukuoka,JPN,36.2048,138.2529,2023,04:01.72
+F400,Women's 400m Freestyle,F,400,137,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,04:01.73
+F400,Women's 400m Freestyle,F,400,138,Ariarne Titmus,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2018,04:01.73
+F400,Women's 400m Freestyle,F,400,139,Ariarne Titmus,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2018,04:01.73
+F400,Women's 400m Freestyle,F,400,140,Katie Ledecky,USA,No,Kazan,RUS,61.524,105.3188,2015,04:01.73
+F400,Women's 400m Freestyle,F,400,141,Lani Pallister,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2024,04:01.75
+F400,Women's 400m Freestyle,F,400,142,Bingjie Li,CHN,No,Tianjin,CHN,35.8617,104.1954,2017,04:01.75
+F400,Women's 400m Freestyle,F,400,143,Allison Schmitt,USA,No,London,GBR,55.3781,-3.436,2012,04:01.77
+F400,Women's 400m Freestyle,F,400,144,Katie Ledecky,USA,No,Fort Lauderdale,USA,37.0902,-95.7129,2025,04:01.78
+F400,Women's 400m Freestyle,F,400,145,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2023,04:01.80
+F400,Women's 400m Freestyle,F,400,146,Katie Ledecky,USA,No,Bloomington,USA,37.0902,-95.7129,2015,04:01.81
+F400,Women's 400m Freestyle,F,400,147,Katie Ledecky,USA,No,Gwangju,KOR,35.9078,127.7669,2019,04:01.84
+F400,Women's 400m Freestyle,F,400,148,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,04:01.88
+F400,Women's 400m Freestyle,F,400,149,Peiqi Yang,CHN,No,Shenzhen,CHN,35.8617,104.1954,2025,04:01.90
+F400,Women's 400m Freestyle,F,400,150,Erika Fairweather,NZL,No,Athens,GRE,39.0742,21.8243,2023,04:01.90
+F400,Women's 400m Freestyle,F,400,151,Katie Ledecky,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,04:01.92
+F400,Women's 400m Freestyle,F,400,152,Leah Smith,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,04:01.92
+F400,Women's 400m Freestyle,F,400,153,Ariarne Titmus,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2023,04:01.94
+F400,Women's 400m Freestyle,F,400,154,Muhan Tang,CHN,No,Xi'an,CHN,35.8617,104.1954,2021,04:01.95
+F400,Women's 400m Freestyle,F,400,155,Katie Ledecky,USA,No,Mesa,USA,37.0902,-95.7129,2015,04:01.95
+F400,Women's 400m Freestyle,F,400,156,Katie Ledecky,USA,No,Singapore,SGP,1.3521,103.8198,2025,04:01.96
+F400,Women's 400m Freestyle,F,400,157,Bingjie Li,CHN,No,Hangzhou,CHN,35.8617,104.1954,2023,04:01.96
+F400,Women's 400m Freestyle,F,400,158,Katie Ledecky,USA,No,Mesa,USA,37.0902,-95.7129,2017,04:01.96
+F400,Women's 400m Freestyle,F,400,159,Federica Pellegrini,ITA,No,Rome,ITA,41.8719,12.5674,2009,04:01.96
+F400,Women's 400m Freestyle,F,400,160,Federica Pellegrini,ITA,No,Shanghai,CHN,35.8617,104.1954,2011,04:01.97
+F400,Women's 400m Freestyle,F,400,161,Katie Ledecky,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,04:01.98
+F400,Women's 400m Freestyle,F,400,162,Leah Smith,USA,No,Budapest,HUN,47.1625,19.5033,2017,04:02.00
+F400,Women's 400m Freestyle,F,400,163,Lani Pallister,AUS,Yes,Berlin,GER,51.1657,10.4515,2023,04:02.07
+F400,Women's 400m Freestyle,F,400,164,Paige Madden,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,04:02.08
+F400,Women's 400m Freestyle,F,400,165,Leah Smith,USA,No,Budapest,HUN,47.1625,19.5033,2022,04:02.08
+F400,Women's 400m Freestyle,F,400,166,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2018,04:02.08
+F400,Women's 400m Freestyle,F,400,167,Erika Fairweather,NZL,No,Gold Coast,AUS,-25.2744,133.7751,2026,04:02.09
+F400,Women's 400m Freestyle,F,400,168,Laure Manaudou,FRA,No,Budapest,HUN,47.1625,19.5033,2006,04:02.13
+F400,Women's 400m Freestyle,F,400,169,Isabel Gose,GER,No,Paris,FRA,46.2276,2.2137,2024,04:02.14
+F400,Women's 400m Freestyle,F,400,170,Summer Mcintosh,CAN,No,Plantation,USA,37.0902,-95.7129,2025,04:02.15
+F400,Women's 400m Freestyle,F,400,171,Katie Ledecky,USA,No,Mesa,USA,37.0902,-95.7129,2016,04:02.15
+F400,Women's 400m Freestyle,F,400,172,Lani Pallister,AUS,Yes,Budapest,HUN,47.1625,19.5033,2022,04:02.16
+F400,Women's 400m Freestyle,F,400,173,Katie Ledecky,USA,No,Paris,FRA,46.2276,2.2137,2024,04:02.19
+F400,Women's 400m Freestyle,F,400,174,Federica Pellegrini,ITA,No,Beijing,CHN,35.8617,104.1954,2008,04:02.19
+F400,Women's 400m Freestyle,F,400,175,Lani Pallister,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2022,04:02.21
+F400,Women's 400m Freestyle,F,400,176,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2018,04:02.21
+F400,Women's 400m Freestyle,F,400,177,Leah Smith,USA,No,Irvine,USA,37.0902,-95.7129,2018,04:02.21
+F400,Women's 400m Freestyle,F,400,178,Rebecca Adlington,GBR,No,Beijing,CHN,35.8617,104.1954,2008,04:02.24
+F400,Women's 400m Freestyle,F,400,179,Paige Madden,USA,No,Paris,FRA,46.2276,2.2137,2024,04:02.26
+F400,Women's 400m Freestyle,F,400,180,Lani Pallister,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,04:02.27
+F400,Women's 400m Freestyle,F,400,181,Erika Fairweather,NZL,No,Tokyo,JPN,36.2048,138.2529,2021,04:02.28
+F400,Women's 400m Freestyle,F,400,182,Lani Pallister,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2025,04:02.34
+F400,Women's 400m Freestyle,F,400,183,Erika Fairweather,NZL,No,Hastings,NZL,-40.9006,174.886,2024,04:02.35
+F400,Women's 400m Freestyle,F,400,184,Erika Fairweather,NZL,No,Budapest,HUN,47.1625,19.5033,2023,04:02.35
+F400,Women's 400m Freestyle,F,400,185,Rebecca Adlington,GBR,No,London,GBR,55.3781,-3.436,2012,04:02.35
+F400,Women's 400m Freestyle,F,400,186,Lani Pallister,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,04:02.36
+F400,Women's 400m Freestyle,F,400,187,Bingjie Li,CHN,No,Qingdao,CHN,35.8617,104.1954,2021,04:02.36
+F400,Women's 400m Freestyle,F,400,188,Ariarne Titmus,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2018,04:02.36
+F400,Women's 400m Freestyle,F,400,189,Boglarka Kapas,HUN,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,04:02.37
+F400,Women's 400m Freestyle,F,400,190,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2023,04:02.38
+F400,Women's 400m Freestyle,F,400,191,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2021,04:02.38
+F400,Women's 400m Freestyle,F,400,192,Ariarne Titmus,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2024,04:02.39
+F400,Women's 400m Freestyle,F,400,193,Isabel Gose,GER,No,Doha,QAT,25.3548,51.1839,2024,04:02.39
+F400,Women's 400m Freestyle,F,400,194,Katie Ledecky,USA,No,Florida,USA,37.0902,-95.7129,2024,04:02.39
+F400,Women's 400m Freestyle,F,400,195,Katie Ledecky,USA,No,Bloomington,USA,37.0902,-95.7129,2019,04:02.40
+F400,Women's 400m Freestyle,F,400,196,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2017,04:02.41
+F400,Women's 400m Freestyle,F,400,197,Laurien De Vriese,CLB,No,Antwerp,BEL,50.5039,4.4699,2022,04:02.42
+F400,Women's 400m Freestyle,F,400,198,Summer Mcintosh,CAN,No,Tokyo,JPN,36.2048,138.2529,2021,04:02.42
+F400,Women's 400m Freestyle,F,400,199,Ariarne Titmus,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,04:02.42
+F400,Women's 400m Freestyle,F,400,200,Lani Pallister,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,04:02.43
+F800,Women's 800m Freestyle,F,800,1,Katie Ledecky,USA,No,Fort Lauderdale,USA,37.0902,-95.7129,2025,08:04.12
+F800,Women's 800m Freestyle,F,800,2,Katie Ledecky,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,08:04.79
+F800,Women's 800m Freestyle,F,800,3,Summer Mcintosh,CAN,No,Victoria,CAN,56.1304,-106.3468,2025,08:05.07
+F800,Women's 800m Freestyle,F,800,4,Katie Ledecky,USA,No,Singapore,SGP,1.3521,103.8198,2025,08:05.62
+F800,Women's 800m Freestyle,F,800,5,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,08:05.76
+F800,Women's 800m Freestyle,F,800,6,Lani Pallister,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,08:05.98
+F800,Women's 800m Freestyle,F,800,7,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2016,08:06.68
+F800,Women's 800m Freestyle,F,800,8,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,08:07.07
+F800,Women's 800m Freestyle,F,800,9,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2018,08:07.27
+F800,Women's 800m Freestyle,F,800,10,Summer Mcintosh,CAN,No,Singapore,SGP,1.3521,103.8198,2025,08:07.29
+F800,Women's 800m Freestyle,F,800,11,Katie Ledecky,USA,No,Kazan,RUS,61.524,105.3188,2015,08:07.39
+F800,Women's 800m Freestyle,F,800,12,Katie Ledecky,USA,No,Budapest,HUN,47.1625,19.5033,2022,08:08.04
+F800,Women's 800m Freestyle,F,800,13,Katie Ledecky,USA,No,Westmont,USA,37.0902,-95.7129,2026,08:08.57
+F800,Women's 800m Freestyle,F,800,14,Katie Ledecky,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,08:08.87
+F800,Women's 800m Freestyle,F,800,15,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2018,08:09.13
+F800,Women's 800m Freestyle,F,800,16,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2022,08:09.27
+F800,Women's 800m Freestyle,F,800,17,Katie Ledecky,USA,No,Singapore,SGP,1.3521,103.8198,2025,08:09.85
+F800,Women's 800m Freestyle,F,800,18,Summer Mcintosh,CAN,No,Plantation,USA,37.0902,-95.7129,2025,08:09.86
+F800,Women's 800m Freestyle,F,800,19,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2026,08:10.16
+F800,Women's 800m Freestyle,F,800,20,Katie Ledecky,USA,No,Omaha,USA,37.0902,-95.7129,2016,08:10.32
+F800,Women's 800m Freestyle,F,800,21,Summer Mcintosh,CAN,No,Westmont,USA,37.0902,-95.7129,2026,08:10.45
+F800,Women's 800m Freestyle,F,800,22,Katie Ledecky,USA,No,Bloomington,USA,37.0902,-95.7129,2019,08:10.70
+F800,Women's 800m Freestyle,F,800,23,Lani Pallister,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,08:10.84
+F800,Women's 800m Freestyle,F,800,24,Katie Ledecky,USA,No,Omaha,USA,37.0902,-95.7129,2016,08:10.91
+F800,Women's 800m Freestyle,F,800,25,Katie Ledecky,USA,No,Shenandoah,USA,37.0902,-95.7129,2014,08:11.00
+F800,Women's 800m Freestyle,F,800,26,Katie Ledecky,USA,No,Paris,FRA,46.2276,2.2137,2024,08:11.04
+F800,Women's 800m Freestyle,F,800,27,Katie Ledecky,USA,No,Santa Clara,USA,37.0902,-95.7129,2018,08:11.08
+F800,Women's 800m Freestyle,F,800,28,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2015,08:11.21
+F800,Women's 800m Freestyle,F,800,29,Lani Pallister,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2026,08:11.28
+F800,Women's 800m Freestyle,F,800,30,Katie Ledecky,USA,No,Gold Coast,AUS,-25.2744,133.7751,2014,08:11.35
+F800,Women's 800m Freestyle,F,800,31,Summer Mcintosh,CAN,No,Florida,USA,37.0902,-95.7129,2024,08:11.39
+F800,Women's 800m Freestyle,F,800,32,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2017,08:11.50
+F800,Women's 800m Freestyle,F,800,33,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2018,08:11.70
+F800,Women's 800m Freestyle,F,800,34,Katie Ledecky,USA,No,Irvine,USA,37.0902,-95.7129,2018,08:11.98
+F800,Women's 800m Freestyle,F,800,35,Katie Ledecky,USA,No,Irvine,USA,37.0902,-95.7129,2022,08:12.03
+F800,Women's 800m Freestyle,F,800,36,Ariarne Titmus,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,08:12.29
+F800,Women's 800m Freestyle,F,800,37,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2021,08:12.57
+F800,Women's 800m Freestyle,F,800,38,Katie Ledecky,USA,No,Fort Lauderdale,USA,37.0902,-95.7129,2026,08:12.66
+F800,Women's 800m Freestyle,F,800,39,Katie Ledecky,USA,No,Fort Lauderdale,USA,37.0902,-95.7129,2026,08:12.68
+F800,Women's 800m Freestyle,F,800,40,Katie Ledecky,USA,No,Budapest,HUN,47.1625,19.5033,2017,08:12.68
+F800,Women's 800m Freestyle,F,800,41,Katie Ledecky,USA,No,Fort Lauderdale,USA,37.0902,-95.7129,2025,08:12.76
+F800,Women's 800m Freestyle,F,800,42,Simona Quadarella,ITA,No,Singapore,SGP,1.3521,103.8198,2025,08:12.81
+F800,Women's 800m Freestyle,F,800,43,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2021,08:12.81
+F800,Women's 800m Freestyle,F,800,44,Katie Ledecky,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,08:12.86
+F800,Women's 800m Freestyle,F,800,45,Katie Ledecky,USA,No,San Antonio,USA,37.0902,-95.7129,2024,08:12.95
+F800,Women's 800m Freestyle,F,800,46,Paige Madden,USA,No,Paris,FRA,46.2276,2.2137,2024,08:13.00
+F800,Women's 800m Freestyle,F,800,47,Katie Ledecky,USA,No,Mesa,USA,37.0902,-95.7129,2015,08:13.02
+F800,Women's 800m Freestyle,F,800,48,Katie Ledecky,USA,No,Budapest,HUN,47.1625,19.5033,2022,08:13.06
+F800,Women's 800m Freestyle,F,800,49,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2026,08:13.09
+F800,Women's 800m Freestyle,F,800,50,Katie Ledecky,USA,No,Mesa,USA,37.0902,-95.7129,2016,08:13.20
+F800,Women's 800m Freestyle,F,800,51,Katie Ledecky,USA,No,Kazan,RUS,61.524,105.3188,2015,08:13.25
+F800,Women's 800m Freestyle,F,800,52,Bingjie Li,CHN,No,Fukuoka,JPN,36.2048,138.2529,2023,08:13.31
+F800,Women's 800m Freestyle,F,800,53,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2023,08:13.56
+F800,Women's 800m Freestyle,F,800,54,Katie Ledecky,USA,No,Gwangju,KOR,35.9078,127.7669,2019,08:13.58
+F800,Women's 800m Freestyle,F,800,55,Ariarne Titmus,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,08:13.59
+F800,Women's 800m Freestyle,F,800,56,Ariarne Titmus,AUS,Yes,Birmingham,GBR,55.3781,-3.436,2022,08:13.59
+F800,Women's 800m Freestyle,F,800,57,Katie Ledecky,USA,No,San Antonio,USA,37.0902,-95.7129,2021,08:13.64
+F800,Women's 800m Freestyle,F,800,58,Ariarne Titmus,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,08:13.83
+F800,Women's 800m Freestyle,F,800,59,Katie Ledecky,USA,No,Barcelona,ESP,40.4637,-3.7492,2013,08:13.86
+F800,Women's 800m Freestyle,F,800,60,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2022,08:13.90
+F800,Women's 800m Freestyle,F,800,61,Ariarne Titmus,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,08:14.06
+F800,Women's 800m Freestyle,F,800,62,Katie Ledecky,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,08:14.07
+F800,Women's 800m Freestyle,F,800,63,Rebecca Adlington,GBR,No,Beijing,CHN,35.8617,104.1954,2008,08:14.10
+F800,Women's 800m Freestyle,F,800,64,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,08:14.12
+F800,Women's 800m Freestyle,F,800,65,Katie Ledecky,USA,No,Richmond,USA,37.0902,-95.7129,2019,08:14.24
+F800,Women's 800m Freestyle,F,800,66,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2018,08:14.40
+F800,Women's 800m Freestyle,F,800,67,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2021,08:14.48
+F800,Women's 800m Freestyle,F,800,68,Katie Ledecky,USA,No,Paris,FRA,46.2276,2.2137,2024,08:14.52
+F800,Women's 800m Freestyle,F,800,69,Simona Quadarella,ITA,No,Paris,FRA,46.2276,2.2137,2024,08:14.55
+F800,Women's 800m Freestyle,F,800,70,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2019,08:14.59
+F800,Women's 800m Freestyle,F,800,71,Katie Ledecky,USA,No,Singapore,SGP,1.3521,103.8198,2025,08:14.62
+F800,Women's 800m Freestyle,F,800,72,Katie Ledecky,USA,No,Omaha,USA,37.0902,-95.7129,2021,08:14.62
+F800,Women's 800m Freestyle,F,800,73,Katie Ledecky,USA,No,London,GBR,55.3781,-3.436,2012,08:14.63
+F800,Women's 800m Freestyle,F,800,74,Lani Pallister,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,08:14.64
+F800,Women's 800m Freestyle,F,800,75,Jianjiahe Wang,CHN,No,Qingdao,CHN,35.8617,104.1954,2019,08:14.64
+F800,Women's 800m Freestyle,F,800,76,Katie Ledecky,USA,No,Fort Lauderdale,USA,37.0902,-95.7129,2023,08:14.70
+F800,Women's 800m Freestyle,F,800,77,Simona Quadarella,ITA,No,Singapore,SGP,1.3521,103.8198,2025,08:14.73
+F800,Women's 800m Freestyle,F,800,78,Katie Ledecky,USA,No,Greenboro,USA,37.0902,-95.7129,2019,08:14.95
+F800,Women's 800m Freestyle,F,800,79,Katie Ledecky,USA,No,Knoxville,USA,37.0902,-95.7129,2024,08:14.97
+F800,Women's 800m Freestyle,F,800,80,Simona Quadarella,ITA,No,Gwangju,KOR,35.9078,127.7669,2019,08:14.99
+F800,Women's 800m Freestyle,F,800,81,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,08:15.10
+F800,Women's 800m Freestyle,F,800,82,Lani Pallister,AUS,Yes,Budapest,HUN,47.1625,19.5033,2023,08:15.11
+F800,Women's 800m Freestyle,F,800,83,Katie Ledecky,USA,No,Kazan,RUS,61.524,105.3188,2015,08:15.29
+F800,Women's 800m Freestyle,F,800,84,Katie Ledecky,USA,No,Mesa,USA,37.0902,-95.7129,2017,08:15.44
+F800,Women's 800m Freestyle,F,800,85,Bingjie Li,CHN,No,Budapest,HUN,47.1625,19.5033,2017,08:15.46
+F800,Women's 800m Freestyle,F,800,86,Jaz Carlin,GBR,No,Berlin,GER,51.1657,10.4515,2014,08:15.54
+F800,Women's 800m Freestyle,F,800,87,Ariarne Titmus,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,08:15.57
+F800,Women's 800m Freestyle,F,800,88,Bingjie Li,CHN,No,Singapore,SGP,1.3521,103.8198,2025,08:15.59
+F800,Women's 800m Freestyle,F,800,89,Katie Ledecky,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,08:15.60
+F800,Women's 800m Freestyle,F,800,90,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,08:15.64
+F800,Women's 800m Freestyle,F,800,91,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2021,08:15.67
+F800,Women's 800m Freestyle,F,800,92,Ariarne Titmus,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,08:15.70
+F800,Women's 800m Freestyle,F,800,93,Katie Ledecky,USA,No,Atlanta,USA,37.0902,-95.7129,2017,08:15.71
+F800,Women's 800m Freestyle,F,800,94,Ariarne Titmus,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,08:15.88
+F800,Women's 800m Freestyle,F,800,95,Katie Ledecky,USA,No,Greensboro,USA,37.0902,-95.7129,2023,08:15.91
+F800,Women's 800m Freestyle,F,800,96,Lotte Friis,DEN,No,Rome,ITA,41.8719,12.5674,2009,08:15.92
+F800,Women's 800m Freestyle,F,800,97,Katie Ledecky,USA,No,Budapest,HUN,47.1625,19.5033,2017,08:15.97
+F800,Women's 800m Freestyle,F,800,98,Jaz Carlin,GBR,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,08:16.17
+F800,Women's 800m Freestyle,F,800,99,Katie Ledecky,USA,No,Shenandoah,USA,37.0902,-95.7129,2014,08:16.18
+F800,Women's 800m Freestyle,F,800,100,Janet Evans,USA,No,Tokyo,JPN,36.2048,138.2529,1989,08:16.22
+F800,Women's 800m Freestyle,F,800,101,Katie Ledecky,USA,No,Austin,USA,37.0902,-95.7129,2026,08:16.23
+F800,Women's 800m Freestyle,F,800,102,Katie Ledecky,USA,No,Des Moines,USA,37.0902,-95.7129,2020,08:16.23
+F800,Women's 800m Freestyle,F,800,103,Bingjie Li,CHN,No,Shenzhen,CHN,35.8617,104.1954,2026,08:16.27
+F800,Women's 800m Freestyle,F,800,104,Lotte Friis,DEN,No,Barcelona,ESP,40.4637,-3.7492,2013,08:16.32
+F800,Women's 800m Freestyle,F,800,105,Leah Smith,USA,No,Richmond,USA,37.0902,-95.7129,2019,08:16.33
+F800,Women's 800m Freestyle,F,800,106,Boglarka Kapas,HUN,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,08:16.37
+F800,Women's 800m Freestyle,F,800,107,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2021,08:16.39
+F800,Women's 800m Freestyle,F,800,108,Katie Ledecky,USA,No,Bloomington,USA,37.0902,-95.7129,2015,08:16.40
+F800,Women's 800m Freestyle,F,800,109,Sarah Wellbrock,GER,No,Gwangju,KOR,35.9078,127.7669,2019,08:16.43
+F800,Women's 800m Freestyle,F,800,110,Simona Quadarella,ITA,No,Glasgow,GBR,55.3781,-3.436,2018,08:16.45
+F800,Women's 800m Freestyle,F,800,111,Simona Quadarella,ITA,No,Fukuoka,JPN,36.2048,138.2529,2023,08:16.46
+F800,Women's 800m Freestyle,F,800,112,Katie Ledecky,USA,No,Omaha,USA,37.0902,-95.7129,2021,08:16.61
+F800,Women's 800m Freestyle,F,800,113,Katie Ledecky,USA,No,Paris,FRA,46.2276,2.2137,2024,08:16.62
+F800,Women's 800m Freestyle,F,800,114,Joanne Jackson,GBR,No,Rome,ITA,41.8719,12.5674,2009,08:16.66
+F800,Women's 800m Freestyle,F,800,115,Camelia Potec,ROU,No,Montpellier,FRA,46.2276,2.2137,2009,08:16.70
+F800,Women's 800m Freestyle,F,800,116,Kiah Melverton,AUS,Yes,Birmingham,GBR,55.3781,-3.436,2022,08:16.79
+F800,Women's 800m Freestyle,F,800,117,Lani Pallister,AUS,Yes,Berlin,GER,51.1657,10.4515,2023,08:16.82
+F800,Women's 800m Freestyle,F,800,118,Katie Ledecky,USA,No,Gold Coast,AUS,-25.2744,133.7751,2014,08:16.90
+F800,Women's 800m Freestyle,F,800,119,Katie Grimes,USA,No,Tokyo,JPN,36.2048,138.2529,2021,08:17.05
+F800,Women's 800m Freestyle,F,800,120,Lani Pallister,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,08:17.06
+F800,Women's 800m Freestyle,F,800,121,Ariarne Titmus,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2018,08:17.07
+F800,Women's 800m Freestyle,F,800,122,Leah Smith,USA,No,Gwangju,KOR,35.9078,127.7669,2019,08:17.10
+F800,Women's 800m Freestyle,F,800,123,Katie Ledecky,USA,No,Florida,USA,37.0902,-95.7129,2024,08:17.12
+F800,Women's 800m Freestyle,F,800,124,Janet Evans,USA,No,Orlando,USA,37.0902,-95.7129,1988,08:17.12
+F800,Women's 800m Freestyle,F,800,125,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,08:17.13
+F800,Women's 800m Freestyle,F,800,126,Lotte Friis,DEN,No,Barcelona,ESP,40.4637,-3.7492,2013,08:17.16
+F800,Women's 800m Freestyle,F,800,127,Katie Ledecky,USA,No,San Antonio,USA,37.0902,-95.7129,2021,08:17.20
+F800,Women's 800m Freestyle,F,800,128,Leah Smith,USA,No,Tokyo,JPN,36.2048,138.2529,2018,08:17.21
+F800,Women's 800m Freestyle,F,800,129,Alessia Filippi,ITA,No,Rome,ITA,41.8719,12.5674,2009,08:17.21
+F800,Women's 800m Freestyle,F,800,130,Leah Smith,USA,No,Budapest,HUN,47.1625,19.5033,2017,08:17.22
+F800,Women's 800m Freestyle,F,800,131,Leah Smith,USA,No,Gwangju,KOR,35.9078,127.7669,2019,08:17.23
+F800,Women's 800m Freestyle,F,800,132,Katie Ledecky,USA,No,Knoxville,USA,37.0902,-95.7129,2023,08:17.29
+F800,Women's 800m Freestyle,F,800,133,Simona Quadarella,ITA,No,Tokyo,JPN,36.2048,138.2529,2021,08:17.32
+F800,Women's 800m Freestyle,F,800,134,Sarah Wellbrock,GER,No,Tokyo,JPN,36.2048,138.2529,2021,08:17.33
+F800,Women's 800m Freestyle,F,800,135,Katie Ledecky,USA,No,Barcelona,ESP,40.4637,-3.7492,2013,08:17.33
+F800,Women's 800m Freestyle,F,800,136,Bingjie Li,CHN,No,Xi'an,CHN,35.8617,104.1954,2021,08:17.39
+F800,Women's 800m Freestyle,F,800,137,Katie Ledecky,USA,No,Gwangju,KOR,35.9078,127.7669,2019,08:17.42
+F800,Women's 800m Freestyle,F,800,138,Simona Quadarella,ITA,No,Doha,QAT,25.3548,51.1839,2024,08:17.44
+F800,Women's 800m Freestyle,F,800,139,Katie Ledecky,USA,No,Budapest,HUN,47.1625,19.5033,2022,08:17.51
+F800,Women's 800m Freestyle,F,800,140,Rebecca Adlington,GBR,No,Shanghai,CHN,35.8617,104.1954,2011,08:17.51
+F800,Women's 800m Freestyle,F,800,141,Leah Smith,USA,No,Greensboro,USA,37.0902,-95.7129,2022,08:17.52
+F800,Women's 800m Freestyle,F,800,142,Isabel Gose,GER,No,Doha,QAT,25.3548,51.1839,2024,08:17.53
+F800,Women's 800m Freestyle,F,800,143,Lauren Boyle,NZL,No,Kazan,RUS,61.524,105.3188,2015,08:17.65
+F800,Women's 800m Freestyle,F,800,144,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,08:17.70
+F800,Women's 800m Freestyle,F,800,145,Katie Ledecky,USA,No,Plantation,USA,37.0902,-95.7129,2025,08:17.73
+F800,Women's 800m Freestyle,F,800,146,Lani Pallister,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2022,08:17.77
+F800,Women's 800m Freestyle,F,800,147,Ariarne Titmus,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2024,08:17.80
+F800,Women's 800m Freestyle,F,800,148,Isabel Gose,GER,No,Paris,FRA,46.2276,2.2137,2024,08:17.82
+F800,Women's 800m Freestyle,F,800,149,Ariarne Titmus,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2024,08:17.87
+F800,Women's 800m Freestyle,F,800,150,Rebecca Adlington,GBR,No,Rome,ITA,41.8719,12.5674,2009,08:17.90
+F800,Women's 800m Freestyle,F,800,151,Katie Ledecky,USA,No,Tokyo,JPN,36.2048,138.2529,2021,08:17.92
+F800,Women's 800m Freestyle,F,800,152,Isabel Gose,GER,No,Fukuoka,JPN,36.2048,138.2529,2023,08:17.95
+F800,Women's 800m Freestyle,F,800,153,Simona Quadarella,ITA,No,Gwangju,KOR,35.9078,127.7669,2019,08:17.95
+F800,Women's 800m Freestyle,F,800,154,Erika Fairweather,NZL,No,Auckland,NZL,-40.9006,174.886,2023,08:18.00
+F800,Women's 800m Freestyle,F,800,155,Rebecca Adlington,GBR,No,Beijing,CHN,35.8617,104.1954,2008,08:18.06
+F800,Women's 800m Freestyle,F,800,156,Jianjiahe Wang,CHN,No,Atlanta,USA,37.0902,-95.7129,2018,08:18.09
+F800,Women's 800m Freestyle,F,800,157,Jaz Carlin,GBR,No,Glasgow,GBR,55.3781,-3.436,2014,08:18.11
+F800,Women's 800m Freestyle,F,800,158,Jessica Ashwood,AUS,Yes,Santa Clara,USA,37.0902,-95.7129,2016,08:18.14
+F800,Women's 800m Freestyle,F,800,159,Jaz Carlin,GBR,No,Kazan,RUS,61.524,105.3188,2015,08:18.15
+F800,Women's 800m Freestyle,F,800,160,Lotte Friis,DEN,No,Shanghai,CHN,35.8617,104.1954,2011,08:18.20
+F800,Women's 800m Freestyle,F,800,161,Isabel Gose,GER,No,Singapore,SGP,1.3521,103.8198,2025,08:18.23
+F800,Women's 800m Freestyle,F,800,162,Ariarne Titmus,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2019,08:18.23
+F800,Women's 800m Freestyle,F,800,163,Simona Quadarella,ITA,No,Tokyo,JPN,36.2048,138.2529,2021,08:18.35
+F800,Women's 800m Freestyle,F,800,164,Jaz Carlin,GBR,No,Glasgow,GBR,55.3781,-3.436,2014,08:18.36
+F800,Women's 800m Freestyle,F,800,165,Jessica Ashwood,AUS,Yes,Kazan,RUS,61.524,105.3188,2015,08:18.41
+F800,Women's 800m Freestyle,F,800,166,Jessica Ashwood,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2016,08:18.42
+F800,Women's 800m Freestyle,F,800,167,Lani Pallister,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,08:18.46
+F800,Women's 800m Freestyle,F,800,168,Katie Ledecky,USA,No,Irvine,USA,37.0902,-95.7129,2014,08:18.47
+F800,Women's 800m Freestyle,F,800,169,Paige Madden,USA,No,Paris,FRA,46.2276,2.2137,2024,08:18.48
+F800,Women's 800m Freestyle,F,800,170,Kate Ziegler,USA,No,Melbourne,AUS,-25.2744,133.7751,2007,08:18.52
+F800,Women's 800m Freestyle,F,800,171,Rebecca Adlington,GBR,No,London,GBR,55.3781,-3.436,2012,08:18.54
+F800,Women's 800m Freestyle,F,800,173,Mireia Belmonte Garcia,ESP,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,08:18.55
+F800,Women's 800m Freestyle,F,800,174,Jianjiahe Wang,CHN,No,Gwangju,KOR,35.9078,127.7669,2019,08:18.57
+F800,Women's 800m Freestyle,F,800,175,Lauren Boyle,NZL,No,Barcelona,ESP,40.4637,-3.7492,2013,08:18.58
+F800,Women's 800m Freestyle,F,800,176,Jaz Carlin,GBR,No,Sheffield,GBR,55.3781,-3.436,2013,08:18.58
+F800,Women's 800m Freestyle,F,800,177,Jaz Carlin,GBR,No,Sheffield,GBR,55.3781,-3.436,2013,08:18.58
+F800,Women's 800m Freestyle,F,800,178,Ariarne Titmus,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2022,08:18.59
+F800,Women's 800m Freestyle,F,800,179,Ariarne Titmus,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2019,08:18.61
+F800,Women's 800m Freestyle,F,800,180,Lani Pallister,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2025,08:18.71
+F800,Women's 800m Freestyle,F,800,181,Mireia Belmonte Garcia,ESP,No,London,GBR,55.3781,-3.436,2012,08:18.76
+F800,Women's 800m Freestyle,F,800,182,Kiah Melverton,AUS,Yes,Budapest,HUN,47.1625,19.5033,2022,08:18.77
+F800,Women's 800m Freestyle,F,800,183,Anastasiia Kirpichnikova,ROC,No,Tokyo,JPN,36.2048,138.2529,2021,08:18.77
+F800,Women's 800m Freestyle,F,800,184,Laure Manaudou,FRA,No,Melbourne,AUS,-25.2744,133.7751,2007,08:18.80
+F800,Women's 800m Freestyle,F,800,185,Katie Ledecky,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,08:18.85
+F800,Women's 800m Freestyle,F,800,186,Lauren Boyle,NZL,No,Gold Coast,AUS,-25.2744,133.7751,2014,08:18.87
+F800,Women's 800m Freestyle,F,800,187,Lani Pallister,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,08:18.92
+F800,Women's 800m Freestyle,F,800,188,Katie Ledecky,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,08:18.93
+F800,Women's 800m Freestyle,F,800,189,Simona Quadarella,ITA,No,Rome,ITA,41.8719,12.5674,2024,08:18.95
+F800,Women's 800m Freestyle,F,800,190,Ariarne Titmus,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,08:18.99
+F800,Women's 800m Freestyle,F,800,191,Bingjie Li,CHN,No,Shenzhen,CHN,35.8617,104.1954,2025,08:19.00
+F800,Women's 800m Freestyle,F,800,192,Simona Quadarella,ITA,No,Budapest,HUN,47.1625,19.5033,2022,08:19.00
+F800,Women's 800m Freestyle,F,800,193,Rebecca Adlington,GBR,No,Sheffield,GBR,55.3781,-3.436,2012,08:19.03
+F800,Women's 800m Freestyle,F,800,194,Kiah Melverton,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,08:19.05
+F800,Women's 800m Freestyle,F,800,195,Lani Pallister,AUS,Yes,Shenzhen,CHN,35.8617,104.1954,2026,08:19.09
+F800,Women's 800m Freestyle,F,800,196,Jianjiahe Wang,CHN,No,Tokyo,JPN,36.2048,138.2529,2021,08:19.10
+F800,Women's 800m Freestyle,F,800,197,Lani Pallister,AUS,Yes,Birmingham,GBR,55.3781,-3.436,2022,08:19.16
+F800,Women's 800m Freestyle,F,800,198,Katie Ledecky,USA,No,Minneapolis,USA,37.0902,-95.7129,2015,08:19.16
+F800,Women's 800m Freestyle,F,800,199,Isabel Gose,GER,No,Magdeburg,GER,51.1657,10.4515,2024,08:19.17
+F800,Women's 800m Freestyle,F,800,200,Katie Ledecky,USA,No,Gwangju,KOR,35.9078,127.7669,2019,08:19.18
+M50,Men's 50m Freestyle,M,50,1,Cameron Mcevoy,AUS,Yes,Shenzhen,CHN,35.8617,104.1954,2026,20.88
+M50,Men's 50m Freestyle,M,50,2,Cesar Cielo Filho,BRA,No,Sao Paulo,BRA,-14.235,-51.9253,2009,20.91
+M50,Men's 50m Freestyle,M,50,3,Frederick Bousquet,FRA,No,Montpellier,FRA,46.2276,2.2137,2009,20.94
+M50,Men's 50m Freestyle,M,50,4,Caeleb Dressel,USA,No,Omaha,USA,37.0902,-95.7129,2021,21.04
+M50,Men's 50m Freestyle,M,50,5,Caeleb Dressel,USA,No,Gwangju,KOR,35.9078,127.7669,2019,21.04
+M50,Men's 50m Freestyle,M,50,6,Cameron Mcevoy,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,21.06
+M50,Men's 50m Freestyle,M,50,7,Caeleb Dressel,USA,No,Tokyo,JPN,36.2048,138.2529,2021,21.07
+M50,Men's 50m Freestyle,M,50,8,Cesar Cielo Filho,BRA,No,Rome,ITA,41.8719,12.5674,2009,21.08
+M50,Men's 50m Freestyle,M,50,9,Benjamin Proud,GBR,No,Glasgow,GBR,55.3781,-3.436,2018,21.11
+M50,Men's 50m Freestyle,M,50,10,Cameron Mcevoy,AUS,Yes,Doha,QAT,25.3548,51.1839,2024,21.13
+M50,Men's 50m Freestyle,M,50,11,Cameron Mcevoy,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,21.14
+M50,Men's 50m Freestyle,M,50,12,Caeleb Dressel,USA,No,Budapest,HUN,47.1625,19.5033,2017,21.15
+M50,Men's 50m Freestyle,M,50,13,Benjamin Proud,GBR,No,Rome,ITA,41.8719,12.5674,2018,21.16
+M50,Men's 50m Freestyle,M,50,14,Caeleb Dressel,USA,No,Gwangju,KOR,35.9078,127.7669,2019,21.18
+M50,Men's 50m Freestyle,M,50,15,Florent Manaudou,FRA,No,Kazan,RUS,61.524,105.3188,2015,21.19
+M50,Men's 50m Freestyle,M,50,16,Ashley Callus,AUS,Yes,Canberra,AUS,-25.2744,133.7751,2009,21.19
+M50,Men's 50m Freestyle,M,50,17,George Bovell,TTO,No,Rome,ITA,41.8719,12.5674,2009,21.20
+M50,Men's 50m Freestyle,M,50,18,Frederick Bousquet,FRA,No,Rome,ITA,41.8719,12.5674,2009,21.21
+M50,Men's 50m Freestyle,M,50,19,Frederick Bousquet,FRA,No,Rome,ITA,41.8719,12.5674,2009,21.21
+M50,Men's 50m Freestyle,M,50,20,Cameron Mcevoy,AUS,Yes,Doha,QAT,25.3548,51.1839,2024,21.23
+M50,Men's 50m Freestyle,M,50,21,Cameron Mcevoy,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,21.25
+M50,Men's 50m Freestyle,M,50,22,Benjamin Proud,GBR,No,London,GBR,55.3781,-3.436,2024,21.25
+M50,Men's 50m Freestyle,M,50,23,Cameron Mcevoy,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,21.25
+M50,Men's 50m Freestyle,M,50,24,Amaury Leveaux,FRA,No,Rome,ITA,41.8719,12.5674,2009,21.25
+M50,Men's 50m Freestyle,M,50,25,Benjamin Proud,GBR,No,Singapore,SGP,1.3521,103.8198,2025,21.26
+M50,Men's 50m Freestyle,M,50,26,Cameron Mcevoy,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,21.27
+M50,Men's 50m Freestyle,M,50,27,Vladimir Morozov,RUS,No,Singapore,SGP,1.3521,103.8198,2019,21.27
+M50,Men's 50m Freestyle,M,50,28,Bruno Fratus,BRA,No,Budapest,HUN,47.1625,19.5033,2017,21.27
+M50,Men's 50m Freestyle,M,50,29,Eamon Sullivan,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2008,21.28
+M50,Men's 50m Freestyle,M,50,30,Caeleb Dressel,USA,No,Greensboro,USA,37.0902,-95.7129,2022,21.29
+M50,Men's 50m Freestyle,M,50,31,Caeleb Dressel,USA,No,Omaha,USA,37.0902,-95.7129,2021,21.29
+M50,Men's 50m Freestyle,M,50,32,Caeleb Dressel,USA,No,Budapest,HUN,47.1625,19.5033,2017,21.29
+M50,Men's 50m Freestyle,M,50,33,Duje Draganja,CRO,No,Rome,ITA,41.8719,12.5674,2009,21.29
+M50,Men's 50m Freestyle,M,50,34,Cameron Mcevoy,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,21.30
+M50,Men's 50m Freestyle,M,50,35,Cameron Mcevoy,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,21.30
+M50,Men's 50m Freestyle,M,50,36,Benjamin Proud,GBR,No,Paris,FRA,46.2276,2.2137,2024,21.30
+M50,Men's 50m Freestyle,M,50,37,Benjamin Proud,GBR,No,Gold Coast,AUS,-25.2744,133.7751,2018,21.30
+M50,Men's 50m Freestyle,M,50,38,Cesar Cielo Filho,BRA,No,Beijing,CHN,35.8617,104.1954,2008,21.30
+M50,Men's 50m Freestyle,M,50,40,Jack Alexy,USA,No,Singapore,SGP,1.3521,103.8198,2025,21.32
+M50,Men's 50m Freestyle,M,50,41,Cameron Mcevoy,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,21.32
+M50,Men's 50m Freestyle,M,50,42,Benjamin Proud,GBR,No,Budapest,HUN,47.1625,19.5033,2022,21.32
+M50,Men's 50m Freestyle,M,50,43,Caeleb Dressel,USA,No,Tokyo,JPN,36.2048,138.2529,2021,21.32
+M50,Men's 50m Freestyle,M,50,44,Benjamin Proud,GBR,No,Sheffield,GBR,55.3781,-3.436,2017,21.32
+M50,Men's 50m Freestyle,M,50,45,Florent Manaudou,FRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,21.32
+M50,Men's 50m Freestyle,M,50,46,Florent Manaudou,FRA,No,Berlin,GER,51.1657,10.4515,2014,21.32
+M50,Men's 50m Freestyle,M,50,47,Cesar Cielo Filho,BRA,No,Barcelona,ESP,40.4637,-3.7492,2013,21.32
+M50,Men's 50m Freestyle,M,50,48,Amaury Leveaux,FRA,No,Rome,ITA,41.8719,12.5674,2009,21.32
+M50,Men's 50m Freestyle,M,50,49,Cesar Cielo Filho,BRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2009,21.33
+M50,Men's 50m Freestyle,M,50,50,Benjamin Proud,GBR,No,Glasgow,GBR,55.3781,-3.436,2018,21.34
+M50,Men's 50m Freestyle,M,50,51,Florent Manaudou,FRA,No,London,GBR,55.3781,-3.436,2012,21.34
+M50,Men's 50m Freestyle,M,50,52,Cesar Cielo Filho,BRA,No,Beijing,CHN,35.8617,104.1954,2008,21.34
+M50,Men's 50m Freestyle,M,50,53,Cameron Mcevoy,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,21.35
+M50,Men's 50m Freestyle,M,50,54,Cameron Mcevoy,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,21.35
+M50,Men's 50m Freestyle,M,50,55,Bruno Fratus,BRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2018,21.35
+M50,Men's 50m Freestyle,M,50,56,Bruno Fratus,BRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2018,21.35
+M50,Men's 50m Freestyle,M,50,57,Benjamin Proud,GBR,No,Gold Coast,AUS,-25.2744,133.7751,2018,21.35
+M50,Men's 50m Freestyle,M,50,58,Cesar Cielo Filho,BRA,No,Rome,ITA,41.8719,12.5674,2009,21.35
+M50,Men's 50m Freestyle,M,50,59,Jack Alexy,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,21.36
+M50,Men's 50m Freestyle,M,50,60,Benjamin Proud,GBR,No,Birmingham,GBR,55.3781,-3.436,2022,21.36
+M50,Men's 50m Freestyle,M,50,61,Frederick Bousquet,FRA,No,Budapest,HUN,47.1625,19.5033,2010,21.36
+M50,Men's 50m Freestyle,M,50,62,Andrea Vergani,ITA,No,Glasgow,GBR,55.3781,-3.436,2018,21.37
+M50,Men's 50m Freestyle,M,50,63,Bruno Fratus,BRA,No,-,BRA,-14.235,-51.9253,2015,21.37
+M50,Men's 50m Freestyle,M,50,64,Nathan Adrian,USA,No,Kazan,RUS,61.524,105.3188,2015,21.37
+M50,Men's 50m Freestyle,M,50,65,Florent Manaudou,FRA,No,Barcelona,ESP,40.4637,-3.7492,2013,21.37
+M50,Men's 50m Freestyle,M,50,66,Cesar Cielo Filho,BRA,No,Rome,ITA,41.8719,12.5674,2009,21.37
+M50,Men's 50m Freestyle,M,50,67,Cameron Mcevoy,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2025,21.38
+M50,Men's 50m Freestyle,M,50,68,Cameron Mcevoy,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,21.38
+M50,Men's 50m Freestyle,M,50,69,Benjamin Proud,GBR,No,Paris,FRA,46.2276,2.2137,2024,21.38
+M50,Men's 50m Freestyle,M,50,70,Vladyslav Bukhov,UKR,No,Doha,QAT,25.3548,51.1839,2024,21.38
+M50,Men's 50m Freestyle,M,50,71,Cesar Cielo Filho,BRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2012,21.38
+M50,Men's 50m Freestyle,M,50,72,Duje Draganja,CRO,No,Rome,ITA,41.8719,12.5674,2009,21.38
+M50,Men's 50m Freestyle,M,50,73,Cesar Cielo Filho,BRA,No,Sao Paulo,BRA,-14.235,-51.9253,2014,21.39
+M50,Men's 50m Freestyle,M,50,74,Benjamin Proud,GBR,No,Rome,ITA,41.8719,12.5674,2022,21.40
+M50,Men's 50m Freestyle,M,50,75,Anthony Ervin,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,21.40
+M50,Men's 50m Freestyle,M,50,76,Cullen Jones,USA,No,Rome,ITA,41.8719,12.5674,2009,21.40
+M50,Men's 50m Freestyle,M,50,77,Caeleb Dressel,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,21.41
+M50,Men's 50m Freestyle,M,50,78,Cameron Mcevoy,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,21.41
+M50,Men's 50m Freestyle,M,50,79,Michael Andrew,USA,No,Budapest,HUN,47.1625,19.5033,2022,21.41
+M50,Men's 50m Freestyle,M,50,80,Vladimir Morozov,RUS,No,Kazan,RUS,61.524,105.3188,2021,21.41
+M50,Men's 50m Freestyle,M,50,81,Florent Manaudou,FRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,21.41
+M50,Men's 50m Freestyle,M,50,82,Florent Manaudou,FRA,No,Kazan,RUS,61.524,105.3188,2015,21.41
+M50,Men's 50m Freestyle,M,50,83,Bruno Fratus,BRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2014,21.41
+M50,Men's 50m Freestyle,M,50,84,Eamon Sullivan,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2008,21.41
+M50,Men's 50m Freestyle,M,50,85,Benjamin Proud,GBR,No,Budapest,HUN,47.1625,19.5033,2022,21.42
+M50,Men's 50m Freestyle,M,50,86,Caeleb Dressel,USA,No,Tokyo,JPN,36.2048,138.2529,2021,21.42
+M50,Men's 50m Freestyle,M,50,87,Benjamin Proud,GBR,No,London,GBR,55.3781,-3.436,2021,21.42
+M50,Men's 50m Freestyle,M,50,88,Bruno Fratus,BRA,No,Rome,ITA,41.8719,12.5674,2019,21.42
+M50,Men's 50m Freestyle,M,50,89,Florent Manaudou,FRA,No,Montpellier,FRA,46.2276,2.2137,2016,21.42
+M50,Men's 50m Freestyle,M,50,90,Anthony Ervin,USA,No,Barcelona,ESP,40.4637,-3.7492,2013,21.42
+M50,Men's 50m Freestyle,M,50,91,Krisztian Takacs,HUN,No,Rome,ITA,41.8719,12.5674,2009,21.42
+M50,Men's 50m Freestyle,M,50,92,Chris Guiliano,USA,No,Westmont,USA,37.0902,-95.7129,2026,21.43
+M50,Men's 50m Freestyle,M,50,93,Egor Kornev,NAB,No,Kazan,RUS,61.524,105.3188,2025,21.43
+M50,Men's 50m Freestyle,M,50,94,Cameron Mcevoy,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,21.43
+M50,Men's 50m Freestyle,M,50,95,Benjamin Proud,GBR,No,Budapest,HUN,47.1625,19.5033,2017,21.43
+M50,Men's 50m Freestyle,M,50,96,Andrej Barna,SRB,No,Singapore,SGP,1.3521,103.8198,2025,21.44
+M50,Men's 50m Freestyle,M,50,97,Vladyslav Bukhov,UKR,No,Doha,QAT,25.3548,51.1839,2024,21.44
+M50,Men's 50m Freestyle,M,50,98,Kristian Gkolomeev,GRE,No,Glasgow,GBR,55.3781,-3.436,2018,21.44
+M50,Men's 50m Freestyle,M,50,99,Vladimir Morozov,RUS,No,Glasgow,GBR,55.3781,-3.436,2018,21.44
+M50,Men's 50m Freestyle,M,50,100,Vladimir Morozov,RUS,No,Moscow,RUS,61.524,105.3188,2017,21.44
+M50,Men's 50m Freestyle,M,50,101,Vladimir Morozov,RUS,No,Moscow,RUS,61.524,105.3188,2017,21.44
+M50,Men's 50m Freestyle,M,50,102,Cameron Mcevoy,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2016,21.44
+M50,Men's 50m Freestyle,M,50,103,Bruno Fratus,BRA,No,Gold Coast,AUS,-25.2744,133.7751,2014,21.44
+M50,Men's 50m Freestyle,M,50,104,Andrej Barna,SRB,No,Singapore,SGP,1.3521,103.8198,2025,21.45
+M50,Men's 50m Freestyle,M,50,105,Cameron Mcevoy,AUS,Yes,Doha,QAT,25.3548,51.1839,2024,21.45
+M50,Men's 50m Freestyle,M,50,106,Michael Andrew,USA,No,Greensboro,USA,37.0902,-95.7129,2022,21.45
+M50,Men's 50m Freestyle,M,50,107,Bruno Fratus,BRA,No,Gwangju,KOR,35.9078,127.7669,2019,21.45
+M50,Men's 50m Freestyle,M,50,108,Kristian Gkolomeev,GRE,No,Gwangju,KOR,35.9078,127.7669,2019,21.45
+M50,Men's 50m Freestyle,M,50,109,Pawel Juraszek,POL,No,Lodz,POL,51.9194,19.1451,2018,21.45
+M50,Men's 50m Freestyle,M,50,110,Benjamin Proud,GBR,No,Gold Coast,AUS,-25.2744,133.7751,2018,21.45
+M50,Men's 50m Freestyle,M,50,111,Vladimir Morozov,RUS,No,Budapest,HUN,47.1625,19.5033,2017,21.45
+M50,Men's 50m Freestyle,M,50,112,Bruno Fratus,BRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2014,21.45
+M50,Men's 50m Freestyle,M,50,113,Bruno Fratus,BRA,No,Sao Paulo,BRA,-14.235,-51.9253,2014,21.45
+M50,Men's 50m Freestyle,M,50,114,Stefan Nystrand,SWE,No,Rome,ITA,41.8719,12.5674,2009,21.45
+M50,Men's 50m Freestyle,M,50,115,Amaury Leveaux,FRA,No,Beijing,CHN,35.8617,104.1954,2008,21.45
+M50,Men's 50m Freestyle,M,50,116,Jack Alexy,USA,No,Singapore,SGP,1.3521,103.8198,2025,21.46
+M50,Men's 50m Freestyle,M,50,117,Guilherme Santos,BRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2025,21.46
+M50,Men's 50m Freestyle,M,50,118,Michael Andrew,USA,No,Tokyo,JPN,36.2048,138.2529,2018,21.46
+M50,Men's 50m Freestyle,M,50,119,Vladimir Morozov,RUS,No,Budapest,HUN,47.1625,19.5033,2017,21.46
+M50,Men's 50m Freestyle,M,50,120,Anthony Ervin,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,21.46
+M50,Men's 50m Freestyle,M,50,121,Andrii Govorov,UKR,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,21.46
+M50,Men's 50m Freestyle,M,50,122,Nathan Adrian,USA,No,Rome,ITA,41.8719,12.5674,2009,21.46
+M50,Men's 50m Freestyle,M,50,123,Amaury Leveaux,FRA,No,Beijing,CHN,35.8617,104.1954,2008,21.46
+M50,Men's 50m Freestyle,M,50,124,Bruno Fratus,BRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2019,21.47
+M50,Men's 50m Freestyle,M,50,125,Vladimir Morozov,RUS,No,Moscow,RUS,61.524,105.3188,2018,21.47
+M50,Men's 50m Freestyle,M,50,126,Pawel Juraszek,POL,No,Budapest,HUN,47.1625,19.5033,2017,21.47
+M50,Men's 50m Freestyle,M,50,127,Nathan Adrian,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,21.47
+M50,Men's 50m Freestyle,M,50,128,Vladimir Morozov,RUS,No,Barcelona,ESP,40.4637,-3.7492,2013,21.47
+M50,Men's 50m Freestyle,M,50,129,Nathan Adrian,USA,No,Indianapolis,USA,37.0902,-95.7129,2013,21.47
+M50,Men's 50m Freestyle,M,50,130,Cullen Jones,USA,No,Rome,ITA,41.8719,12.5674,2009,21.47
+M50,Men's 50m Freestyle,M,50,131,Cesar Cielo Filho,BRA,No,Beijing,CHN,35.8617,104.1954,2008,21.47
+M50,Men's 50m Freestyle,M,50,132,Cameron Mcevoy,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2025,21.48
+M50,Men's 50m Freestyle,M,50,133,Josh Liendo,CAN,No,Toronto,CAN,56.1304,-106.3468,2024,21.48
+M50,Men's 50m Freestyle,M,50,134,Michael Andrew,USA,No,Omaha,USA,37.0902,-95.7129,2021,21.48
+M50,Men's 50m Freestyle,M,50,135,Benjamin Proud,GBR,No,Guangzhou,CHN,35.8617,104.1954,2019,21.48
+M50,Men's 50m Freestyle,M,50,137,Caeleb Dressel,USA,No,Gwangju,KOR,35.9078,127.7669,2019,21.49
+M50,Men's 50m Freestyle,M,50,138,Vladimir Morozov,RUS,No,Kazan,RUS,61.524,105.3188,2018,21.49
+M50,Men's 50m Freestyle,M,50,139,Michael Andrew,USA,No,Irvine,USA,37.0902,-95.7129,2018,21.49
+M50,Men's 50m Freestyle,M,50,140,Nathan Adrian,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,21.49
+M50,Men's 50m Freestyle,M,50,141,Andrii Govorov,UKR,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,21.49
+M50,Men's 50m Freestyle,M,50,142,Frederick Bousquet,FRA,No,Budapest,HUN,47.1625,19.5033,2010,21.49
+M50,Men's 50m Freestyle,M,50,143,Nathan Adrian,USA,No,Rome,ITA,41.8719,12.5674,2009,21.49
+M50,Men's 50m Freestyle,M,50,144,Alain Bernard,FRA,No,Beijing,CHN,35.8617,104.1954,2008,21.49
+M50,Men's 50m Freestyle,M,50,145,Leonardo Deplano,ITA,No,Paris,FRA,46.2276,2.2137,2024,21.50
+M50,Men's 50m Freestyle,M,50,146,Ryan Held,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,21.50
+M50,Men's 50m Freestyle,M,50,147,Vladimir Morozov,RUS,No,Budapest,HUN,47.1625,19.5033,2019,21.50
+M50,Men's 50m Freestyle,M,50,148,Vladimir Morozov,RUS,No,Jinan,CHN,35.8617,104.1954,2019,21.50
+M50,Men's 50m Freestyle,M,50,149,Benjamin Proud,GBR,No,Glasgow,GBR,55.3781,-3.436,2019,21.50
+M50,Men's 50m Freestyle,M,50,150,Bruno Fratus,BRA,No,Palhoca,BRA,-14.235,-51.9253,2015,21.50
+M50,Men's 50m Freestyle,M,50,151,Alain Bernard,FRA,No,Eindhoven,NED,52.1326,5.2913,2008,21.50
+M50,Men's 50m Freestyle,M,50,152,Egor Kornev,NAB,No,Singapore,SGP,1.3521,103.8198,2025,21.51
+M50,Men's 50m Freestyle,M,50,153,Jordan Crooks,CAY,No,Paris,FRA,46.2276,2.2137,2024,21.51
+M50,Men's 50m Freestyle,M,50,154,Caeleb Dressel,USA,No,Omaha,USA,37.0902,-95.7129,2021,21.51
+M50,Men's 50m Freestyle,M,50,155,Caeleb Dressel,USA,No,Des Moines,USA,37.0902,-95.7129,2020,21.51
+M50,Men's 50m Freestyle,M,50,156,Caeleb Dressel,USA,No,Mission Viejo,USA,37.0902,-95.7129,2019,21.51
+M50,Men's 50m Freestyle,M,50,157,Bruno Fratus,BRA,No,Budapest,HUN,47.1625,19.5033,2017,21.51
+M50,Men's 50m Freestyle,M,50,158,Nathan Adrian,USA,No,Omaha,USA,37.0902,-95.7129,2016,21.51
+M50,Men's 50m Freestyle,M,50,159,George Bovell,TTO,No,Barcelona,ESP,40.4637,-3.7492,2013,21.51
+M50,Men's 50m Freestyle,M,50,160,George Bovell,TTO,No,Rome,ITA,41.8719,12.5674,2009,21.51
+M50,Men's 50m Freestyle,M,50,161,Leonardo Deplano,ITA,No,Singapore,SGP,1.3521,103.8198,2025,21.52
+M50,Men's 50m Freestyle,M,50,162,Jack Alexy,USA,No,Singapore,SGP,1.3521,103.8198,2025,21.52
+M50,Men's 50m Freestyle,M,50,163,Egor Kornev,NAB,No,Singapore,SGP,1.3521,103.8198,2025,21.52
+M50,Men's 50m Freestyle,M,50,164,Andrej Barna,SRB,No,Belgrade,SRB,44.0165,21.0059,2025,21.52
+M50,Men's 50m Freestyle,M,50,166,Florent Manaudou,FRA,No,Chartres,FRA,46.2276,2.2137,2024,21.52
+M50,Men's 50m Freestyle,M,50,167,Benjamin Proud,GBR,No,Budapest,HUN,47.1625,19.5033,2019,21.52
+M50,Men's 50m Freestyle,M,50,168,Kristian Gkolomeev,GRE,No,Glasgow,GBR,55.3781,-3.436,2018,21.52
+M50,Men's 50m Freestyle,M,50,169,Benjamin Proud,GBR,No,Uster,SUI,46.8182,8.2275,2018,21.52
+M50,Men's 50m Freestyle,M,50,170,Anthony Ervin,USA,No,Omaha,USA,37.0902,-95.7129,2016,21.52
+M50,Men's 50m Freestyle,M,50,171,Nathan Adrian,USA,No,Kazan,RUS,61.524,105.3188,2015,21.52
+M50,Men's 50m Freestyle,M,50,172,James Magnussen,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2013,21.52
+M50,Men's 50m Freestyle,M,50,173,Cesar Cielo Filho,BRA,No,Shanghai,CHN,35.8617,104.1954,2011,21.52
+M50,Men's 50m Freestyle,M,50,174,Egor Kornev,NAB,No,Singapore,SGP,1.3521,103.8198,2025,21.53
+M50,Men's 50m Freestyle,M,50,175,Cameron Mcevoy,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,21.53
+M50,Men's 50m Freestyle,M,50,176,Cameron Mcevoy,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2025,21.53
+M50,Men's 50m Freestyle,M,50,177,Benjamin Proud,GBR,No,Doha,QAT,25.3548,51.1839,2024,21.53
+M50,Men's 50m Freestyle,M,50,178,Florent Manaudou,FRA,No,Tokyo,JPN,36.2048,138.2529,2021,21.53
+M50,Men's 50m Freestyle,M,50,179,Vladimir Morozov,RUS,No,Gwangju,KOR,35.9078,127.7669,2019,21.53
+M50,Men's 50m Freestyle,M,50,180,Bruno Fratus,BRA,No,Gwangju,KOR,35.9078,127.7669,2019,21.53
+M50,Men's 50m Freestyle,M,50,181,Andrea Vergani,ITA,No,Riccione,ITA,41.8719,12.5674,2019,21.53
+M50,Men's 50m Freestyle,M,50,182,Caeleb Dressel,USA,No,Indianapolis,USA,37.0902,-95.7129,2017,21.53
+M50,Men's 50m Freestyle,M,50,183,Caeleb Dressel,USA,No,San Antonio,USA,37.0902,-95.7129,2015,21.53
+M50,Men's 50m Freestyle,M,50,184,Stefan Nystrand,SWE,No,Rome,ITA,41.8719,12.5674,2009,21.53
+M50,Men's 50m Freestyle,M,50,185,Egor Kornev,NAB,No,Kazan,RUS,61.524,105.3188,2025,21.54
+M50,Men's 50m Freestyle,M,50,186,Jordan Crooks,CAY,No,Paris,FRA,46.2276,2.2137,2024,21.54
+M50,Men's 50m Freestyle,M,50,187,Florent Manaudou,FRA,No,Paris,FRA,46.2276,2.2137,2024,21.54
+M50,Men's 50m Freestyle,M,50,188,Florent Manaudou,FRA,No,Chartres,FRA,46.2276,2.2137,2024,21.54
+M50,Men's 50m Freestyle,M,50,189,Benjamin Proud,GBR,No,Doha,QAT,25.3548,51.1839,2024,21.54
+M50,Men's 50m Freestyle,M,50,191,Benjamin Proud,GBR,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,21.54
+M50,Men's 50m Freestyle,M,50,192,Cullen Jones,USA,No,London,GBR,55.3781,-3.436,2012,21.54
+M50,Men's 50m Freestyle,M,50,193,Cesar Cielo Filho,BRA,No,London,GBR,55.3781,-3.436,2012,21.54
+M50,Men's 50m Freestyle,M,50,194,Cullen Jones,USA,No,London,GBR,55.3781,-3.436,2012,21.54
+M50,Men's 50m Freestyle,M,50,195,Alain Bernard,FRA,No,Beijing,CHN,35.8617,104.1954,2008,21.54
+M50,Men's 50m Freestyle,M,50,196,Florent Manaudou,FRA,No,Tokyo,JPN,36.2048,138.2529,2021,21.55
+M50,Men's 50m Freestyle,M,50,197,Michael Andrew,USA,No,Omaha,USA,37.0902,-95.7129,2021,21.55
+M50,Men's 50m Freestyle,M,50,198,Vladimir Morozov,RUS,No,Beijing,CHN,35.8617,104.1954,2020,21.55
+M50,Men's 50m Freestyle,M,50,199,Vladimir Morozov,RUS,No,Berlin,GER,51.1657,10.4515,2019,21.55
+M50,Men's 50m Freestyle,M,50,200,Benjamin Proud,GBR,No,Gwangju,KOR,35.9078,127.7669,2019,21.55
+M100,Men's 100m Freestyle,M,100,1,Zhanle Pan,CHN,No,Paris,FRA,46.2276,2.2137,2024,46.40
+M100,Men's 100m Freestyle,M,100,2,David Popovici,ROU,No,Singapore,SGP,1.3521,103.8198,2025,46.51
+M100,Men's 100m Freestyle,M,100,4,Zhanle Pan,CHN,No,Doha,QAT,25.3548,51.1839,2024,46.80
+M100,Men's 100m Freestyle,M,100,5,Jack Alexy,USA,No,Singapore,SGP,1.3521,103.8198,2025,46.81
+M100,Men's 100m Freestyle,M,100,6,David Popovici,ROU,No,Singapore,SGP,1.3521,103.8198,2025,46.84
+M100,Men's 100m Freestyle,M,100,7,David Popovici,ROU,No,Rome,ITA,41.8719,12.5674,2022,46.86
+M100,Men's 100m Freestyle,M,100,8,David Popovici,ROU,No,Belgrade,SRB,44.0165,21.0059,2024,46.88
+M100,Men's 100m Freestyle,M,100,9,Cesar Cielo Filho,BRA,No,Rome,ITA,41.8719,12.5674,2009,46.91
+M100,Men's 100m Freestyle,M,100,10,Jack Alexy,USA,No,Singapore,SGP,1.3521,103.8198,2025,46.92
+M100,Men's 100m Freestyle,M,100,11,Zhanle Pan,CHN,No,Paris,FRA,46.2276,2.2137,2024,46.92
+M100,Men's 100m Freestyle,M,100,12,Alain Bernard,FRA,No,Montpellier,FRA,46.2276,2.2137,2009,46.94
+M100,Men's 100m Freestyle,M,100,13,Caeleb Dressel,USA,No,Gwangju,KOR,35.9078,127.7669,2019,46.96
+M100,Men's 100m Freestyle,M,100,14,Zhanle Pan,CHN,No,Shenzhen,CHN,35.8617,104.1954,2024,46.97
+M100,Men's 100m Freestyle,M,100,15,Zhanle Pan,CHN,No,Hangzhou,CHN,35.8617,104.1954,2023,46.97
+M100,Men's 100m Freestyle,M,100,16,David Popovici,ROU,No,Rome,ITA,41.8719,12.5674,2022,46.98
+M100,Men's 100m Freestyle,M,100,17,Jack Alexy,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,46.99
+M100,Men's 100m Freestyle,M,100,18,Caeleb Dressel,USA,No,Tokyo,JPN,36.2048,138.2529,2021,47.02
+M100,Men's 100m Freestyle,M,100,19,Cameron Mcevoy,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2016,47.04
+M100,Men's 100m Freestyle,M,100,20,Eamon Sullivan,AUS,Yes,Beijing,CHN,35.8617,104.1954,2008,47.05
+M100,Men's 100m Freestyle,M,100,21,Zhanle Pan,CHN,No,Hangzhou,CHN,35.8617,104.1954,2023,47.06
+M100,Men's 100m Freestyle,M,100,22,David Popovici,ROU,No,Lima,PER,-9.19,-75.0152,2022,47.07
+M100,Men's 100m Freestyle,M,100,23,Jack Alexy,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,47.08
+M100,Men's 100m Freestyle,M,100,24,Kyle Chalmers,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,47.08
+M100,Men's 100m Freestyle,M,100,25,Kyle Chalmers,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,47.08
+M100,Men's 100m Freestyle,M,100,26,Cesar Cielo Filho,BRA,No,Rome,ITA,41.8719,12.5674,2009,47.09
+M100,Men's 100m Freestyle,M,100,27,Guilherme Santos,BRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2025,47.10
+M100,Men's 100m Freestyle,M,100,28,James Magnussen,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2012,47.10
+M100,Men's 100m Freestyle,M,100,29,Kliment Kolesnikov,RUS,No,Tokyo,JPN,36.2048,138.2529,2021,47.11
+M100,Men's 100m Freestyle,M,100,30,Alain Bernard,FRA,No,Rome,ITA,41.8719,12.5674,2009,47.12
+M100,Men's 100m Freestyle,M,100,31,David Popovici,ROU,No,Lima,PER,-9.19,-75.0152,2022,47.13
+M100,Men's 100m Freestyle,M,100,32,David Popovici,ROU,No,Budapest,HUN,47.1625,19.5033,2022,47.13
+M100,Men's 100m Freestyle,M,100,33,Kyle Chalmers,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,47.15
+M100,Men's 100m Freestyle,M,100,34,Kyle Chalmers,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,47.17
+M100,Men's 100m Freestyle,M,100,35,Jack Alexy,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,47.17
+M100,Men's 100m Freestyle,M,100,36,Caeleb Dressel,USA,No,Budapest,HUN,47.1625,19.5033,2017,47.17
+M100,Men's 100m Freestyle,M,100,37,David Popovici,ROU,No,Rome,ITA,41.8719,12.5674,2022,47.20
+M100,Men's 100m Freestyle,M,100,38,Alain Bernard,FRA,No,Beijing,CHN,35.8617,104.1954,2008,47.20
+M100,Men's 100m Freestyle,M,100,39,Zhanle Pan,CHN,No,Paris,FRA,46.2276,2.2137,2024,47.21
+M100,Men's 100m Freestyle,M,100,40,Alain Bernard,FRA,No,Beijing,CHN,35.8617,104.1954,2008,47.21
+M100,Men's 100m Freestyle,M,100,41,David Popovici,ROU,No,Belgrade,SRB,44.0165,21.0059,2024,47.22
+M100,Men's 100m Freestyle,M,100,42,Zhanle Pan,CHN,No,Hangzhou,CHN,35.8617,104.1954,2023,47.22
+M100,Men's 100m Freestyle,M,100,43,Caeleb Dressel,USA,No,Tokyo,JPN,36.2048,138.2529,2021,47.23
+M100,Men's 100m Freestyle,M,100,44,Jack Alexy,USA,No,Singapore,SGP,1.3521,103.8198,2025,47.24
+M100,Men's 100m Freestyle,M,100,45,Eamon Sullivan,AUS,Yes,Beijing,CHN,35.8617,104.1954,2008,47.24
+M100,Men's 100m Freestyle,M,100,46,Chris Guiliano,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,47.25
+M100,Men's 100m Freestyle,M,100,47,Frederick Bousquet,FRA,No,Rome,ITA,41.8719,12.5674,2009,47.25
+M100,Men's 100m Freestyle,M,100,48,Caeleb Dressel,USA,No,Tokyo,JPN,36.2048,138.2529,2021,47.26
+M100,Men's 100m Freestyle,M,100,49,Caeleb Dressel,USA,No,Budapest,HUN,47.1625,19.5033,2017,47.26
+M100,Men's 100m Freestyle,M,100,51,Brent Hayden,CAN,No,Rome,ITA,41.8719,12.5674,2009,47.27
+M100,Men's 100m Freestyle,M,100,52,Alain Bernard,FRA,No,Rome,ITA,41.8719,12.5674,2009,47.27
+M100,Men's 100m Freestyle,M,100,53,Egor Kornev,NAB,No,Singapore,SGP,1.3521,103.8198,2025,47.29
+M100,Men's 100m Freestyle,M,100,54,Kyle Chalmers,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,47.29
+M100,Men's 100m Freestyle,M,100,55,David Popovici,ROU,No,Otopeni,ROU,45.9432,24.9668,2025,47.30
+M100,Men's 100m Freestyle,M,100,56,David Popovici,ROU,No,Rome,ITA,41.8719,12.5674,2021,47.30
+M100,Men's 100m Freestyle,M,100,57,Jack Alexy,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,47.31
+M100,Men's 100m Freestyle,M,100,58,Kliment Kolesnikov,RUS,No,Kazan,RUS,61.524,105.3188,2021,47.31
+M100,Men's 100m Freestyle,M,100,59,Caeleb Dressel,USA,No,Gwangju,KOR,35.9078,127.7669,2019,47.32
+M100,Men's 100m Freestyle,M,100,60,Eamon Sullivan,AUS,Yes,Beijing,CHN,35.8617,104.1954,2008,47.32
+M100,Men's 100m Freestyle,M,100,61,Maxime Grousset,FRA,No,Chartres,FRA,46.2276,2.2137,2024,47.33
+M100,Men's 100m Freestyle,M,100,62,Jack Alexy,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,47.33
+M100,Men's 100m Freestyle,M,100,63,David Walters,USA,No,Rome,ITA,41.8719,12.5674,2009,47.33
+M100,Men's 100m Freestyle,M,100,64,Guilherme Santos,BRA,No,Singapore,SGP,1.3521,103.8198,2025,47.35
+M100,Men's 100m Freestyle,M,100,65,Caeleb Dressel,USA,No,Gwangju,KOR,35.9078,127.7669,2019,47.35
+M100,Men's 100m Freestyle,M,100,66,Kyle Chalmers,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2019,47.35
+M100,Men's 100m Freestyle,M,100,67,Kyle Chalmers,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,47.36
+M100,Men's 100m Freestyle,M,100,68,Kyle Chalmers,AUS,Yes,Birmingham,GBR,55.3781,-3.436,2022,47.36
+M100,Men's 100m Freestyle,M,100,69,David Popovici,ROU,No,Lima,PER,-9.19,-75.0152,2022,47.37
+M100,Men's 100m Freestyle,M,100,70,Kliment Kolesnikov,RUS,No,Budapest,HUN,47.1625,19.5033,2021,47.37
+M100,Men's 100m Freestyle,M,100,71,Stefan Nystrand,SWE,No,Rome,ITA,41.8719,12.5674,2009,47.37
+M100,Men's 100m Freestyle,M,100,72,Chris Guiliano,USA,No,Westmont,USA,37.0902,-95.7129,2026,47.38
+M100,Men's 100m Freestyle,M,100,74,Chris Guiliano,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,47.38
+M100,Men's 100m Freestyle,M,100,75,Maxime Grousset,FRA,No,Singapore,SGP,1.3521,103.8198,2025,47.39
+M100,Men's 100m Freestyle,M,100,76,Caeleb Dressel,USA,No,Omaha,USA,37.0902,-95.7129,2021,47.39
+M100,Men's 100m Freestyle,M,100,77,Ryan Held,USA,No,Palo Alto,USA,37.0902,-95.7129,2019,47.39
+M100,Men's 100m Freestyle,M,100,78,Cesar Cielo Filho,BRA,No,Rome,ITA,41.8719,12.5674,2009,47.39
+M100,Men's 100m Freestyle,M,100,79,Jack Alexy,USA,No,Austin,USA,37.0902,-95.7129,2025,47.40
+M100,Men's 100m Freestyle,M,100,80,David Popovici,ROU,No,Singapore,SGP,1.3521,103.8198,2025,47.41
+M100,Men's 100m Freestyle,M,100,81,Egor Kornev,NAB,No,Kazan,RUS,61.524,105.3188,2025,47.42
+M100,Men's 100m Freestyle,M,100,82,Maxime Grousset,FRA,No,Fukuoka,JPN,36.2048,138.2529,2023,47.42
+M100,Men's 100m Freestyle,M,100,83,Zhanle Pan,CHN,No,Fukuoka,JPN,36.2048,138.2529,2023,47.43
+M100,Men's 100m Freestyle,M,100,84,Ryan Held,USA,No,Palo Alto,USA,37.0902,-95.7129,2019,47.43
+M100,Men's 100m Freestyle,M,100,85,Vladislav Grinev,RUS,No,Moscow,RUS,61.524,105.3188,2019,47.43
+M100,Men's 100m Freestyle,M,100,86,Kyle Chalmers,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,47.44
+M100,Men's 100m Freestyle,M,100,87,Kliment Kolesnikov,RUS,No,Tokyo,JPN,36.2048,138.2529,2021,47.44
+M100,Men's 100m Freestyle,M,100,88,Matthew Richards,GBR,No,Fukuoka,JPN,36.2048,138.2529,2023,47.45
+M100,Men's 100m Freestyle,M,100,89,Alessandro Miressi,ITA,No,Budapest,HUN,47.1625,19.5033,2021,47.45
+M100,Men's 100m Freestyle,M,100,90,Alessandro Miressi,ITA,No,Tokyo,JPN,36.2048,138.2529,2021,47.46
+M100,Men's 100m Freestyle,M,100,91,Patrick Sammon,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,47.47
+M100,Men's 100m Freestyle,M,100,92,Jack Alexy,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,47.47
+M100,Men's 100m Freestyle,M,100,93,Matthew Richards,GBR,No,Fukuoka,JPN,36.2048,138.2529,2023,47.47
+M100,Men's 100m Freestyle,M,100,94,Kristof Milak,HUN,No,Rome,ITA,41.8719,12.5674,2022,47.47
+M100,Men's 100m Freestyle,M,100,95,Kyle Chalmers,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,47.48
+M100,Men's 100m Freestyle,M,100,96,Kyle Chalmers,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,47.48
+M100,Men's 100m Freestyle,M,100,97,Kyle Chalmers,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2019,47.48
+M100,Men's 100m Freestyle,M,100,98,Cesar Cielo Filho,BRA,No,Rome,ITA,41.8719,12.5674,2009,47.48
+M100,Men's 100m Freestyle,M,100,99,Chris Guiliano,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,47.49
+M100,Men's 100m Freestyle,M,100,100,David Popovici,ROU,No,Paris,FRA,46.2276,2.2137,2024,47.49
+M100,Men's 100m Freestyle,M,100,101,Nandor Nemeth,HUN,No,Belgrade,SRB,44.0165,21.0059,2024,47.49
+M100,Men's 100m Freestyle,M,100,102,James Magnussen,AUS,Yes,Shanghai,CHN,35.8617,104.1954,2011,47.49
+M100,Men's 100m Freestyle,M,100,103,Maxime Grousset,FRA,No,Montpellier,FRA,46.2276,2.2137,2025,47.50
+M100,Men's 100m Freestyle,M,100,104,Nandor Nemeth,HUN,No,Paris,FRA,46.2276,2.2137,2024,47.50
+M100,Men's 100m Freestyle,M,100,105,Alain Bernard,FRA,No,Eindhoven,NED,52.1326,5.2913,2008,47.50
+M100,Men's 100m Freestyle,M,100,106,Brooks Curry,USA,No,Stockholm,SWE,60.1282,18.6435,2026,47.51
+M100,Men's 100m Freestyle,M,100,107,Egor Kornev,NAB,No,Singapore,SGP,1.3521,103.8198,2025,47.51
+M100,Men's 100m Freestyle,M,100,108,Egor Kornev,NAB,No,Singapore,SGP,1.3521,103.8198,2025,47.51
+M100,Men's 100m Freestyle,M,100,109,Kyle Chalmers,AUS,Yes,Birmingham,GBR,55.3781,-3.436,2022,47.51
+M100,Men's 100m Freestyle,M,100,110,Michael Phelps,USA,No,Beijing,CHN,35.8617,104.1954,2008,47.51
+M100,Men's 100m Freestyle,M,100,111,David Popovici,ROU,No,Otopeni,ROU,45.9432,24.9668,2026,47.52
+M100,Men's 100m Freestyle,M,100,112,Kyle Chalmers,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,47.52
+M100,Men's 100m Freestyle,M,100,113,Alessandro Miressi,ITA,No,Tokyo,JPN,36.2048,138.2529,2021,47.52
+M100,Men's 100m Freestyle,M,100,114,Maxime Grousset,FRA,No,Tokyo,JPN,36.2048,138.2529,2021,47.52
+M100,Men's 100m Freestyle,M,100,115,Nathan Adrian,USA,No,London,GBR,55.3781,-3.436,2012,47.52
+M100,Men's 100m Freestyle,M,100,116,Stefan Nystrand,SWE,No,Rome,ITA,41.8719,12.5674,2009,47.52
+M100,Men's 100m Freestyle,M,100,117,Matthew Richards,GBR,No,London,GBR,55.3781,-3.436,2026,47.53
+M100,Men's 100m Freestyle,M,100,118,Caeleb Dressel,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,47.53
+M100,Men's 100m Freestyle,M,100,119,Caeleb Dressel,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,47.53
+M100,Men's 100m Freestyle,M,100,120,Zhanle Pan,CHN,No,Doha,QAT,25.3548,51.1839,2024,47.53
+M100,Men's 100m Freestyle,M,100,121,Alessandro Miressi,ITA,No,Budapest,HUN,47.1625,19.5033,2021,47.53
+M100,Men's 100m Freestyle,M,100,122,Kliment Kolesnikov,RUS,No,Budapest,HUN,47.1625,19.5033,2021,47.53
+M100,Men's 100m Freestyle,M,100,123,James Magnussen,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2013,47.53
+M100,Men's 100m Freestyle,M,100,124,James Magnussen,AUS,Yes,London,GBR,55.3781,-3.436,2012,47.53
+M100,Men's 100m Freestyle,M,100,125,Stefan Nystrand,SWE,No,Rome,ITA,41.8719,12.5674,2009,47.53
+M100,Men's 100m Freestyle,M,100,126,Chris Guiliano,USA,No,Westmont,USA,37.0902,-95.7129,2026,47.54
+M100,Men's 100m Freestyle,M,100,128,Zhanle Pan,CHN,No,Shenzhen,CHN,35.8617,104.1954,2024,47.54
+M100,Men's 100m Freestyle,M,100,129,Alessandro Miressi,ITA,No,Fukuoka,JPN,36.2048,138.2529,2023,47.54
+M100,Men's 100m Freestyle,M,100,130,David Popovici,ROU,No,Otopeni,ROU,45.9432,24.9668,2022,47.54
+M100,Men's 100m Freestyle,M,100,131,Maxime Grousset,FRA,No,Budapest,HUN,47.1625,19.5033,2022,47.54
+M100,Men's 100m Freestyle,M,100,132,Egor Kornev,NAB,No,Kazan,RUS,61.524,105.3188,2025,47.55
+M100,Men's 100m Freestyle,M,100,133,Josh Liendo,CAN,No,Toronto,CAN,56.1304,-106.3468,2024,47.55
+M100,Men's 100m Freestyle,M,100,134,Josh Liendo,CAN,No,Budapest,HUN,47.1625,19.5033,2022,47.55
+M100,Men's 100m Freestyle,M,100,135,Sunwoo Hwang,KOR,No,Tokyo,JPN,36.2048,138.2529,2021,47.56
+M100,Men's 100m Freestyle,M,100,136,David Popovici,ROU,No,Rome,ITA,41.8719,12.5674,2021,47.56
+M100,Men's 100m Freestyle,M,100,137,Cameron Mcevoy,AUS,Yes,Perth,AUS,-25.2744,133.7751,2016,47.56
+M100,Men's 100m Freestyle,M,100,138,Brent Hayden,CAN,No,Beijing,CHN,35.8617,104.1954,2008,47.56
+M100,Men's 100m Freestyle,M,100,139,Jack Alexy,USA,No,Paris,FRA,46.2276,2.2137,2024,47.57
+M100,Men's 100m Freestyle,M,100,140,Andrei Minakov,RUS,No,Kazan,RUS,61.524,105.3188,2020,47.57
+M100,Men's 100m Freestyle,M,100,141,Patrick Sammon,USA,No,Singapore,SGP,1.3521,103.8198,2025,47.58
+M100,Men's 100m Freestyle,M,100,142,Destin Lasco,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,47.58
+M100,Men's 100m Freestyle,M,100,143,Kyle Chalmers,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,47.58
+M100,Men's 100m Freestyle,M,100,144,David Popovici,ROU,No,Budapest,HUN,47.1625,19.5033,2022,47.58
+M100,Men's 100m Freestyle,M,100,145,Kyle Chalmers,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,47.58
+M100,Men's 100m Freestyle,M,100,146,Kyle Chalmers,AUS,Yes,Rio de Janeiro,BRA,-14.235,-51.9253,2016,47.58
+M100,Men's 100m Freestyle,M,100,147,Maxime Grousset,FRA,No,Singapore,SGP,1.3521,103.8198,2025,47.59
+M100,Men's 100m Freestyle,M,100,148,Matthew Richards,GBR,No,Singapore,SGP,1.3521,103.8198,2025,47.59
+M100,Men's 100m Freestyle,M,100,149,Hunter Armstrong,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,47.59
+M100,Men's 100m Freestyle,M,100,150,Matthew Richards,GBR,No,Fukuoka,JPN,36.2048,138.2529,2023,47.59
+M100,Men's 100m Freestyle,M,100,151,Kyle Chalmers,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,47.59
+M100,Men's 100m Freestyle,M,100,152,James Magnussen,AUS,Yes,Perth,AUS,-25.2744,133.7751,2014,47.59
+M100,Men's 100m Freestyle,M,100,153,David Walters,USA,No,Rome,ITA,41.8719,12.5674,2009,47.59
+M100,Men's 100m Freestyle,M,100,154,Egor Kornev,NAB,No,Rome,ITA,41.8719,12.5674,2025,47.60
+M100,Men's 100m Freestyle,M,100,155,Zhanle Pan,CHN,No,Jinan,CHN,35.8617,104.1954,2023,47.60
+M100,Men's 100m Freestyle,M,100,156,Alessandro Miressi,ITA,No,Rome,ITA,41.8719,12.5674,2022,47.60
+M100,Men's 100m Freestyle,M,100,157,David Popovici,ROU,No,Budapest,HUN,47.1625,19.5033,2022,47.60
+M100,Men's 100m Freestyle,M,100,158,Kliment Kolesnikov,RUS,No,Kazan,RUS,61.524,105.3188,2021,47.60
+M100,Men's 100m Freestyle,M,100,159,Cesar Cielo Filho,BRA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2009,47.60
+M100,Men's 100m Freestyle,M,100,160,Alain Bernard,FRA,No,Eindhoven,NED,52.1326,5.2913,2008,47.60
+M100,Men's 100m Freestyle,M,100,161,Matthew Richards,GBR,No,London,GBR,55.3781,-3.436,2026,47.61
+M100,Men's 100m Freestyle,M,100,162,Nandor Nemeth,HUN,No,Paris,FRA,46.2276,2.2137,2024,47.61
+M100,Men's 100m Freestyle,M,100,163,Alessandro Miressi,ITA,No,Riccione,ITA,41.8719,12.5674,2023,47.61
+M100,Men's 100m Freestyle,M,100,164,Zhanle Pan,CHN,No,Fukuoka,JPN,36.2048,138.2529,2023,47.61
+M100,Men's 100m Freestyle,M,100,165,David Popovici,ROU,No,Otopeni,ROU,45.9432,24.9668,2023,47.61
+M100,Men's 100m Freestyle,M,100,166,Maxime Rooney,USA,No,Palo Alto,USA,37.0902,-95.7129,2019,47.61
+M100,Men's 100m Freestyle,M,100,167,Patrick Sammon,USA,No,Singapore,SGP,1.3521,103.8198,2025,47.62
+M100,Men's 100m Freestyle,M,100,168,Nandor Nemeth,HUN,No,Fukuoka,JPN,36.2048,138.2529,2023,47.62
+M100,Men's 100m Freestyle,M,100,169,Maxime Grousset,FRA,No,Rennes,FRA,46.2276,2.2137,2023,47.62
+M100,Men's 100m Freestyle,M,100,170,Vladimir Morozov,RUS,No,Kazan,RUS,61.524,105.3188,2013,47.62
+M100,Men's 100m Freestyle,M,100,171,Chris Guiliano,USA,No,Austin,USA,37.0902,-95.7129,2025,47.63
+M100,Men's 100m Freestyle,M,100,172,Maxime Grousset,FRA,No,Paris,FRA,46.2276,2.2137,2024,47.63
+M100,Men's 100m Freestyle,M,100,173,Kyle Chalmers,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2024,47.63
+M100,Men's 100m Freestyle,M,100,174,Ryan Held,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,47.63
+M100,Men's 100m Freestyle,M,100,175,Alessandro Miressi,ITA,No,Rome,ITA,41.8719,12.5674,2022,47.63
+M100,Men's 100m Freestyle,M,100,176,Lewis Edward Burras,GBR,No,Budapest,HUN,47.1625,19.5033,2022,47.63
+M100,Men's 100m Freestyle,M,100,177,Caeleb Dressel,USA,No,Gwangju,KOR,35.9078,127.7669,2019,47.63
+M100,Men's 100m Freestyle,M,100,178,James Magnussen,AUS,Yes,London,GBR,55.3781,-3.436,2012,47.63
+M100,Men's 100m Freestyle,M,100,179,James Roberts,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2012,47.63
+M100,Men's 100m Freestyle,M,100,180,James Magnussen,AUS,Yes,Shanghai,CHN,35.8617,104.1954,2011,47.63
+M100,Men's 100m Freestyle,M,100,181,Guilherme Santos,BRA,No,Singapore,SGP,1.3521,103.8198,2025,47.64
+M100,Men's 100m Freestyle,M,100,182,Maxime Grousset,FRA,No,Budapest,HUN,47.1625,19.5033,2022,47.64
+M100,Men's 100m Freestyle,M,100,183,Chris Guiliano,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,47.65
+M100,Men's 100m Freestyle,M,100,184,Maxime Grousset,FRA,No,Chartres,FRA,46.2276,2.2137,2024,47.65
+M100,Men's 100m Freestyle,M,100,185,Zhanle Pan,CHN,No,Budapest,HUN,47.1625,19.5033,2022,47.65
+M100,Men's 100m Freestyle,M,100,186,Vladislav Grinev,RUS,No,Moscow,RUS,61.524,105.3188,2019,47.65
+M100,Men's 100m Freestyle,M,100,187,Mehdy Metella,FRA,No,Budapest,HUN,47.1625,19.5033,2017,47.65
+M100,Men's 100m Freestyle,M,100,188,Zetao Ning,CHN,No,Huangshan,CHN,35.8617,104.1954,2014,47.65
+M100,Men's 100m Freestyle,M,100,189,Cameron Mcevoy,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2014,47.65
+M100,Men's 100m Freestyle,M,100,190,Egor Kornev,NAB,No,St. Petersburg,RUS,61.524,105.3188,2026,47.66
+M100,Men's 100m Freestyle,M,100,191,Jack Alexy,USA,No,Austin,USA,37.0902,-95.7129,2025,47.66
+M100,Men's 100m Freestyle,M,100,192,David Popovici,ROU,No,Paris,FRA,46.2276,2.2137,2024,47.66
+M100,Men's 100m Freestyle,M,100,193,Andrej Barna,SRB,No,Belgrade,SRB,44.0165,21.0059,2024,47.66
+M100,Men's 100m Freestyle,M,100,194,David Popovici,ROU,No,Fukuoka,JPN,36.2048,138.2529,2023,47.66
+M100,Men's 100m Freestyle,M,100,195,Caeleb Dressel,USA,No,Budapest,HUN,47.1625,19.5033,2017,47.66
+M100,Men's 100m Freestyle,M,100,196,Stefan Nystrand,SWE,No,Rome,ITA,41.8719,12.5674,2009,47.66
+M100,Men's 100m Freestyle,M,100,197,Jack Alexy,USA,No,Paris,FRA,46.2276,2.2137,2024,47.67
+M100,Men's 100m Freestyle,M,100,198,Zhanle Pan,CHN,No,Fukuoka,JPN,36.2048,138.2529,2023,47.67
+M100,Men's 100m Freestyle,M,100,199,Caeleb Dressel,USA,No,Budapest,HUN,47.1625,19.5033,2022,47.67
+M100,Men's 100m Freestyle,M,100,200,James Magnussen,AUS,Yes,Vichy,FRA,46.2276,2.2137,2013,47.67
+M200,Men's 200m Freestyle,M,200,1,Paul Biedermann,GER,No,Rome,ITA,41.8719,12.5674,2009,01:42.00
+M200,Men's 200m Freestyle,M,200,2,Paul Biedermann,GER,No,Rome,ITA,41.8719,12.5674,2009,01:42.81
+M200,Men's 200m Freestyle,M,200,3,Michael Phelps,USA,No,Beijing,CHN,35.8617,104.1954,2008,01:42.96
+M200,Men's 200m Freestyle,M,200,4,David Popovici,ROU,No,Rome,ITA,41.8719,12.5674,2022,01:42.97
+M200,Men's 200m Freestyle,M,200,5,David Popovici,ROU,No,Belgrade,SRB,44.0165,21.0059,2024,01:43.13
+M200,Men's 200m Freestyle,M,200,6,Yannick Agnel,FRA,No,London,GBR,55.3781,-3.436,2012,01:43.14
+M200,Men's 200m Freestyle,M,200,7,David Popovici,ROU,No,Budapest,HUN,47.1625,19.5033,2022,01:43.21
+M200,Men's 200m Freestyle,M,200,8,Michael Phelps,USA,No,Rome,ITA,41.8719,12.5674,2009,01:43.22
+M200,Men's 200m Freestyle,M,200,9,Michael Phelps,USA,No,Beijing,CHN,35.8617,104.1954,2008,01:43.31
+M200,Men's 200m Freestyle,M,200,10,David Popovici,ROU,No,Singapore,SGP,1.3521,103.8198,2025,01:43.53
+M200,Men's 200m Freestyle,M,200,12,Paul Biedermann,GER,No,Rome,ITA,41.8719,12.5674,2009,01:43.65
+M200,Men's 200m Freestyle,M,200,13,Luke Hobson,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,01:43.73
+M200,Men's 200m Freestyle,M,200,14,Luke Hobson,USA,No,Singapore,SGP,1.3521,103.8198,2025,01:43.84
+M200,Men's 200m Freestyle,M,200,15,Michael Phelps,USA,No,Melbourne,AUS,-25.2744,133.7751,2007,01:43.86
+M200,Men's 200m Freestyle,M,200,16,Danila Izotov,RUS,No,Rome,ITA,41.8719,12.5674,2009,01:43.90
+M200,Men's 200m Freestyle,M,200,17,Paul Biedermann,GER,No,Rome,ITA,41.8719,12.5674,2009,01:44.02
+M200,Men's 200m Freestyle,M,200,18,Ian Thorpe,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2001,01:44.06
+M200,Men's 200m Freestyle,M,200,19,Lukas Maertens,GER,No,Berlin,GER,51.1657,10.4515,2024,01:44.14
+M200,Men's 200m Freestyle,M,200,20,Yannick Agnel,FRA,No,Barcelona,ESP,40.4637,-3.7492,2013,01:44.20
+M200,Men's 200m Freestyle,M,200,21,Tom Dean,GBR,No,Tokyo,JPN,36.2048,138.2529,2021,01:44.22
+M200,Men's 200m Freestyle,M,200,22,Lukas Maertens,GER,No,Berlin,GER,51.1657,10.4515,2025,01:44.25
+M200,Men's 200m Freestyle,M,200,23,Duncan Scott,GBR,No,Tokyo,JPN,36.2048,138.2529,2021,01:44.26
+M200,Men's 200m Freestyle,M,200,24,Matthew Richards,GBR,No,Fukuoka,JPN,36.2048,138.2529,2023,01:44.30
+M200,Men's 200m Freestyle,M,200,25,Tom Dean,GBR,No,Fukuoka,JPN,36.2048,138.2529,2023,01:44.32
+M200,Men's 200m Freestyle,M,200,26,Danas Rapsys,LTU,No,Singapore,SGP,1.3521,103.8198,2019,01:44.38
+M200,Men's 200m Freestyle,M,200,27,Yang Sun,CHN,No,Budapest,HUN,47.1625,19.5033,2017,01:44.39
+M200,Men's 200m Freestyle,M,200,28,Sunwoo Hwang,KOR,No,Hangzhou,CHN,35.8617,104.1954,2023,01:44.40
+M200,Men's 200m Freestyle,M,200,29,David Popovici,ROU,No,Budapest,HUN,47.1625,19.5033,2022,01:44.40
+M200,Men's 200m Freestyle,M,200,30,Sunwoo Hwang,KOR,No,Fukuoka,JPN,36.2048,138.2529,2023,01:44.42
+M200,Men's 200m Freestyle,M,200,31,Yannick Agnel,FRA,No,Dunkerke,FRA,46.2276,2.2137,2012,01:44.42
+M200,Men's 200m Freestyle,M,200,32,Ryan Lochte,USA,No,Shanghai,CHN,35.8617,104.1954,2011,01:44.44
+M200,Men's 200m Freestyle,M,200,34,Sunwoo Hwang,KOR,No,Budapest,HUN,47.1625,19.5033,2022,01:44.47
+M200,Men's 200m Freestyle,M,200,35,Duncan Scott,GBR,No,London,GBR,55.3781,-3.436,2021,01:44.47
+M200,Men's 200m Freestyle,M,200,36,Yang Sun,CHN,No,Shenyang ,CHN,35.8617,104.1954,2013,01:44.47
+M200,Men's 200m Freestyle,M,200,37,Luke Hobson,USA,No,Austin,USA,37.0902,-95.7129,2025,01:44.49
+M200,Men's 200m Freestyle,M,200,38,Michael Phelps,USA,No,Rome,ITA,41.8719,12.5674,2009,01:44.49
+M200,Men's 200m Freestyle,M,200,39,Zhanshuo Zhang,CHN,No,Shenzhen,CHN,35.8617,104.1954,2026,01:44.53
+M200,Men's 200m Freestyle,M,200,40,David Popovici,ROU,No,Paris,FRA,46.2276,2.2137,2024,01:44.53
+M200,Men's 200m Freestyle,M,200,41,Tatsuya Murasa,JPN,No,Singapore,SGP,1.3521,103.8198,2025,01:44.54
+M200,Men's 200m Freestyle,M,200,42,Tom Dean,GBR,No,London,GBR,55.3781,-3.436,2021,01:44.58
+M200,Men's 200m Freestyle,M,200,43,Duncan Scott,GBR,No,Tokyo,JPN,36.2048,138.2529,2021,01:44.60
+M200,Men's 200m Freestyle,M,200,44,Sunwoo Hwang,KOR,No,Tokyo,JPN,36.2048,138.2529,2021,01:44.62
+M200,Men's 200m Freestyle,M,200,45,Yang Sun,CHN,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:44.63
+M200,Men's 200m Freestyle,M,200,46,Zhanle Pan,CHN,No,Hangzhou,CHN,35.8617,104.1954,2023,01:44.65
+M200,Men's 200m Freestyle,M,200,47,Katsuhiro Matsumoto,JPN,No,Tokyo,JPN,36.2048,138.2529,2021,01:44.65
+M200,Men's 200m Freestyle,M,200,48,Yang Sun,CHN,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:44.65
+M200,Men's 200m Freestyle,M,200,49,Fernando Scheffer,BRA,No,Tokyo,JPN,36.2048,138.2529,2021,01:44.66
+M200,Men's 200m Freestyle,M,200,50,David Popovici,ROU,No,Tokyo,JPN,36.2048,138.2529,2021,01:44.68
+M200,Men's 200m Freestyle,M,200,51,Matthew Richards,GBR,No,London,GBR,55.3781,-3.436,2024,01:44.69
+M200,Men's 200m Freestyle,M,200,52,Ian Thorpe,AUS,Yes,Hobart,AUS,-25.2744,133.7751,2001,01:44.69
+M200,Men's 200m Freestyle,M,200,53,Gabriel Jett,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,01:44.70
+M200,Men's 200m Freestyle,M,200,54,David Popovici,ROU,No,Fukuoka,JPN,36.2048,138.2529,2023,01:44.70
+M200,Men's 200m Freestyle,M,200,55,Ian Thorpe,AUS,Yes,Athens,GRE,39.0742,21.8243,2004,01:44.71
+M200,Men's 200m Freestyle,M,200,56,Ian Thorpe,AUS,Yes,Manchester,GBR,55.3781,-3.436,2002,01:44.71
+M200,Men's 200m Freestyle,M,200,57,Sunwoo Hwang,KOR,No,Singapore,SGP,1.3521,103.8198,2025,01:44.72
+M200,Men's 200m Freestyle,M,200,58,David Popovici,ROU,No,Paris,FRA,46.2276,2.2137,2024,01:44.72
+M200,Men's 200m Freestyle,M,200,59,Matthew Richards,GBR,No,Paris,FRA,46.2276,2.2137,2024,01:44.74
+M200,Men's 200m Freestyle,M,200,60,David Popovici,ROU,No,Barcelona,ESP,40.4637,-3.7492,2024,01:44.74
+M200,Men's 200m Freestyle,M,200,61,Kieran Smith,USA,No,Tokyo,JPN,36.2048,138.2529,2021,01:44.74
+M200,Men's 200m Freestyle,M,200,62,Duncan Scott,GBR,No,London,GBR,55.3781,-3.436,2024,01:44.75
+M200,Men's 200m Freestyle,M,200,63,Sunwoo Hwang,KOR,No,Doha,QAT,25.3548,51.1839,2024,01:44.75
+M200,Men's 200m Freestyle,M,200,64,Ian Thorpe,AUS,Yes,Yokohama,JPN,36.2048,138.2529,2002,01:44.75
+M200,Men's 200m Freestyle,M,200,65,Matthew Richards,GBR,No,London,GBR,55.3781,-3.436,2026,01:44.77
+M200,Men's 200m Freestyle,M,200,66,Luke Hobson,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,01:44.78
+M200,Men's 200m Freestyle,M,200,67,Luke Hobson,USA,No,Paris,FRA,46.2276,2.2137,2024,01:44.79
+M200,Men's 200m Freestyle,M,200,68,Maximillian Giuliani,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2023,01:44.79
+M200,Men's 200m Freestyle,M,200,69,Lukas Maertens,GER,No,Fukuoka,JPN,36.2048,138.2529,2023,01:44.79
+M200,Men's 200m Freestyle,M,200,70,Martin Malyutin,RUS,No,Budapest,HUN,47.1625,19.5033,2021,01:44.79
+M200,Men's 200m Freestyle,M,200,71,Michael Phelps,USA,No,Shanghai,CHN,35.8617,104.1954,2011,01:44.79
+M200,Men's 200m Freestyle,M,200,72,Luke Hobson,USA,No,Singapore,SGP,1.3521,103.8198,2025,01:44.80
+M200,Men's 200m Freestyle,M,200,73,Taehwan Park,KOR,No,Guangzhou,CHN,35.8617,104.1954,2010,01:44.80
+M200,Men's 200m Freestyle,M,200,74,Yang Sun,CHN,No,Santa Clara,USA,37.0902,-95.7129,2016,01:44.82
+M200,Men's 200m Freestyle,M,200,75,Matthew Richards,GBR,No,Sheffield,GBR,55.3781,-3.436,2023,01:44.83
+M200,Men's 200m Freestyle,M,200,76,Sunwoo Hwang,KOR,No,Singapore,SGP,1.3521,103.8198,2025,01:44.84
+M200,Men's 200m Freestyle,M,200,77,Taehwan Park,KOR,No,Beijing,CHN,35.8617,104.1954,2008,01:44.85
+M200,Men's 200m Freestyle,M,200,78,Zhanshuo Zhang,CHN,No,Shenzhen,CHN,35.8617,104.1954,2025,01:44.86
+M200,Men's 200m Freestyle,M,200,79,Duncan Scott,GBR,No,Paris,FRA,46.2276,2.2137,2024,01:44.87
+M200,Men's 200m Freestyle,M,200,80,Luke Hobson,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,01:44.87
+M200,Men's 200m Freestyle,M,200,81,Danila Izotov,RUS,No,Kazan,RUS,61.524,105.3188,2013,01:44.87
+M200,Men's 200m Freestyle,M,200,82,Paul Biedermann,GER,No,Shanghai,CHN,35.8617,104.1954,2011,01:44.88
+M200,Men's 200m Freestyle,M,200,83,Luke Hobson,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,01:44.89
+M200,Men's 200m Freestyle,M,200,84,Lukas Maertens,GER,No,Berlin,GER,51.1657,10.4515,2024,01:44.89
+M200,Men's 200m Freestyle,M,200,85,Pieter Van Den Hoogenband,NED,No,Berlin,GER,51.1657,10.4515,2002,01:44.89
+M200,Men's 200m Freestyle,M,200,86,Sunwoo Hwang,KOR,No,Gimcheon,KOR,35.9078,127.7669,2024,01:44.90
+M200,Men's 200m Freestyle,M,200,87,David Popovici,ROU,No,Fukuoka,JPN,36.2048,138.2529,2023,01:44.90
+M200,Men's 200m Freestyle,M,200,88,Clyde Lewis,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,01:44.90
+M200,Men's 200m Freestyle,M,200,89,David Popovici,ROU,No,Rome,ITA,41.8719,12.5674,2022,01:44.91
+M200,Men's 200m Freestyle,M,200,90,Duncan Scott,GBR,No,Gwangju,KOR,35.9078,127.7669,2019,01:44.91
+M200,Men's 200m Freestyle,M,200,91,Yang Sun,CHN,No,Qingdae,CHN,35.8617,104.1954,2017,01:44.91
+M200,Men's 200m Freestyle,M,200,92,Taehwan Park,KOR,No,Shanghai,CHN,35.8617,104.1954,2011,01:44.92
+M200,Men's 200m Freestyle,M,200,93,Edward Sommerville,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,01:44.93
+M200,Men's 200m Freestyle,M,200,94,Tom Dean,GBR,No,Sheffield,GBR,55.3781,-3.436,2023,01:44.93
+M200,Men's 200m Freestyle,M,200,95,Yang Sun,CHN,No,Gwangju,KOR,35.9078,127.7669,2019,01:44.93
+M200,Men's 200m Freestyle,M,200,96,Taehwan Park,KOR,No,London,GBR,55.3781,-3.436,2012,01:44.93
+M200,Men's 200m Freestyle,M,200,97,Yang Sun,CHN,No,London,GBR,55.3781,-3.436,2012,01:44.93
+M200,Men's 200m Freestyle,M,200,98,Duncan Scott,GBR,No,Paris,FRA,46.2276,2.2137,2024,01:44.94
+M200,Men's 200m Freestyle,M,200,99,Richard Berens,USA,No,Rome,ITA,41.8719,12.5674,2009,01:44.95
+M200,Men's 200m Freestyle,M,200,100,Danas Rapsys,LTU,No,Doha,QAT,25.3548,51.1839,2024,01:44.96
+M200,Men's 200m Freestyle,M,200,101,Sunwoo Hwang,KOR,No,Jeju,KOR,35.9078,127.7669,2021,01:44.96
+M200,Men's 200m Freestyle,M,200,102,Katsuhiro Matsumoto,JPN,No,Tokyo,JPN,36.2048,138.2529,2023,01:44.98
+M200,Men's 200m Freestyle,M,200,103,Tom Dean,GBR,No,Budapest,HUN,47.1625,19.5033,2022,01:44.98
+M200,Men's 200m Freestyle,M,200,104,Yannick Agnel,FRA,No,Shanghai,CHN,35.8617,104.1954,2011,01:44.99
+M200,Men's 200m Freestyle,M,200,105,Yang Sun,CHN,No,Wuhan,CHN,35.8617,104.1954,2011,01:44.99
+M200,Men's 200m Freestyle,M,200,106,Kamil Sieradzki,POL,No,Singapore,SGP,1.3521,103.8198,2025,01:45.00
+M200,Men's 200m Freestyle,M,200,107,Drew Kibler,USA,No,Budapest,HUN,47.1625,19.5033,2022,01:45.01
+M200,Men's 200m Freestyle,M,200,108,Martin Malyutin,ROC,No,Tokyo,JPN,36.2048,138.2529,2021,01:45.01
+M200,Men's 200m Freestyle,M,200,109,David Popovici,ROU,No,Singapore,SGP,1.3521,103.8198,2025,01:45.02
+M200,Men's 200m Freestyle,M,200,110,Duncan Scott,GBR,No,Birmingham,GBR,55.3781,-3.436,2022,01:45.02
+M200,Men's 200m Freestyle,M,200,111,Townley Haas,USA,No,Indianapolis,USA,37.0902,-95.7129,2017,01:45.03
+M200,Men's 200m Freestyle,M,200,112,James Guy,GBR,No,Paris,FRA,46.2276,2.2137,2024,01:45.04
+M200,Men's 200m Freestyle,M,200,113,Townley Haas,USA,No,Budapest,HUN,47.1625,19.5033,2017,01:45.04
+M200,Men's 200m Freestyle,M,200,114,Ryan Lochte,USA,No,London,GBR,55.3781,-3.436,2012,01:45.04
+M200,Men's 200m Freestyle,M,200,115,Danas Rapsys,LTU,No,Doha,QAT,25.3548,51.1839,2024,01:45.05
+M200,Men's 200m Freestyle,M,200,116,Fernando Scheffer,BRA,No,Tokyo,JPN,36.2048,138.2529,2021,01:45.05
+M200,Men's 200m Freestyle,M,200,117,David Popovici,ROU,No,Otopeni,ROU,45.9432,24.9668,2025,01:45.07
+M200,Men's 200m Freestyle,M,200,118,Sunwoo Hwang,KOR,No,Fukuoka,JPN,36.2048,138.2529,2023,01:45.07
+M200,Men's 200m Freestyle,M,200,119,Kieran Smith,USA,No,Tokyo,JPN,36.2048,138.2529,2021,01:45.07
+M200,Men's 200m Freestyle,M,200,120,Danas Rapsys,LTU,No,Jinan,CHN,35.8617,104.1954,2019,01:45.07
+M200,Men's 200m Freestyle,M,200,121,Duncan Scott,GBR,No,London,GBR,55.3781,-3.436,2025,01:45.08
+M200,Men's 200m Freestyle,M,200,122,James Guy,GBR,No,London,GBR,55.3781,-3.436,2025,01:45.08
+M200,Men's 200m Freestyle,M,200,123,Thomas Fraser-holmes,AUS,Yes,Glasgow,GBR,55.3781,-3.436,2014,01:45.08
+M200,Men's 200m Freestyle,M,200,124,James Guy,GBR,No,Paris,FRA,46.2276,2.2137,2024,01:45.09
+M200,Men's 200m Freestyle,M,200,125,Tom Dean,GBR,No,London,GBR,55.3781,-3.436,2024,01:45.09
+M200,Men's 200m Freestyle,M,200,126,Luke Hobson,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,01:45.09
+M200,Men's 200m Freestyle,M,200,127,Danila Izotov,RUS,No,Rome,ITA,41.8719,12.5674,2009,01:45.09
+M200,Men's 200m Freestyle,M,200,128,David Popovici,ROU,No,Otopeni,ROU,45.9432,24.9668,2024,01:45.10
+M200,Men's 200m Freestyle,M,200,129,Nikita Lobintsev,RUS,No,Rome,ITA,41.8719,12.5674,2009,01:45.10
+M200,Men's 200m Freestyle,M,200,130,Felix Auboeck,AUT,No,Budapest,HUN,47.1625,19.5033,2022,01:45.11
+M200,Men's 200m Freestyle,M,200,131,Luke Hobson,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,01:45.12
+M200,Men's 200m Freestyle,M,200,132,Kieran Smith,USA,No,Tokyo,JPN,36.2048,138.2529,2021,01:45.12
+M200,Men's 200m Freestyle,M,200,133,Danas Rapsys,LTU,No,Stockholm,SWE,60.1282,18.6435,2018,01:45.12
+M200,Men's 200m Freestyle,M,200,134,Rex Michael Maurer,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,01:45.13
+M200,Men's 200m Freestyle,M,200,135,Katsuhiro Matsumoto,JPN,No,Tokyo,JPN,36.2048,138.2529,2021,01:45.13
+M200,Men's 200m Freestyle,M,200,136,James Guy,GBR,No,Kazan,RUS,61.524,105.3188,2015,01:45.14
+M200,Men's 200m Freestyle,M,200,137,Danila Izotov,RUS,No,Barcelona,ESP,40.4637,-3.7492,2013,01:45.14
+M200,Men's 200m Freestyle,M,200,138,Peter Vanderkaay,USA,No,Beijing,CHN,35.8617,104.1954,2008,01:45.14
+M200,Men's 200m Freestyle,M,200,139,Ian Thorpe,AUS,Yes,Barcelona,ESP,40.4637,-3.7492,2003,01:45.14
+M200,Men's 200m Freestyle,M,200,140,Tatsuya Murasa,JPN,No,Tokyo,JPN,36.2048,138.2529,2026,01:45.15
+M200,Men's 200m Freestyle,M,200,141,Carlos D'ambrosio,ITA,No,Otopeni,ROU,45.9432,24.9668,2025,01:45.15
+M200,Men's 200m Freestyle,M,200,142,Sunwoo Hwang,KOR,No,Doha,QAT,25.3548,51.1839,2024,01:45.15
+M200,Men's 200m Freestyle,M,200,143,Martin Malyutin,RUS,No,Budapest,HUN,47.1625,19.5033,2021,01:45.15
+M200,Men's 200m Freestyle,M,200,144,Yang Sun,CHN,No,Tianjin,CHN,35.8617,104.1954,2017,01:45.15
+M200,Men's 200m Freestyle,M,200,145,Ryan Lochte,USA,No,London,GBR,55.3781,-3.436,2012,01:45.15
+M200,Men's 200m Freestyle,M,200,146,Kieran Smith,USA,No,Budapest,HUN,47.1625,19.5033,2022,01:45.16
+M200,Men's 200m Freestyle,M,200,147,Duncan Scott,GBR,No,Budapest,HUN,47.1625,19.5033,2017,01:45.16
+M200,Men's 200m Freestyle,M,200,148,Taehwan Park,KOR,No,Tokyo,JPN,36.2048,138.2529,2016,01:45.16
+M200,Men's 200m Freestyle,M,200,149,Felix Auboeck,AUT,No,Budapest,HUN,47.1625,19.5033,2022,01:45.17
+M200,Men's 200m Freestyle,M,200,150,Luke Hobson,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,01:45.18
+M200,Men's 200m Freestyle,M,200,151,David Popovici,ROU,No,Budapest,HUN,47.1625,19.5033,2022,01:45.18
+M200,Men's 200m Freestyle,M,200,152,Martin Malyutin,RUS,No,Kazan,RUS,61.524,105.3188,2021,01:45.18
+M200,Men's 200m Freestyle,M,200,153,James Guy,GBR,No,Budapest,HUN,47.1625,19.5033,2017,01:45.18
+M200,Men's 200m Freestyle,M,200,154,Luke Hobson,USA,No,Paris,FRA,46.2276,2.2137,2024,01:45.19
+M200,Men's 200m Freestyle,M,200,155,Duncan Scott,GBR,No,Budapest,HUN,47.1625,19.5033,2021,01:45.19
+M200,Men's 200m Freestyle,M,200,156,James Guy,GBR,No,Glasgow,GBR,55.3781,-3.436,2016,01:45.19
+M200,Men's 200m Freestyle,M,200,157,Chad Le Clos,RSA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:45.20
+M200,Men's 200m Freestyle,M,200,158,Yang Sun,CHN,No,Kazan,RUS,61.524,105.3188,2015,01:45.20
+M200,Men's 200m Freestyle,M,200,159,Paul Biedermann,GER,No,Shanghai,CHN,35.8617,104.1954,2011,01:45.20
+M200,Men's 200m Freestyle,M,200,160,Michael Phelps,USA,No,Montreal,CAN,56.1304,-106.3468,2005,01:45.20
+M200,Men's 200m Freestyle,M,200,161,Lukas Maertens,GER,No,Doha,QAT,25.3548,51.1839,2024,01:45.21
+M200,Men's 200m Freestyle,M,200,162,Lukas Maertens,GER,No,Shenzhen,CHN,35.8617,104.1954,2026,01:45.22
+M200,Men's 200m Freestyle,M,200,163,Kamil Sieradzki,POL,No,Singapore,SGP,1.3521,103.8198,2025,01:45.22
+M200,Men's 200m Freestyle,M,200,164,Henry Mc Fadden,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,01:45.22
+M200,Men's 200m Freestyle,M,200,165,Alexander Graham,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,01:45.22
+M200,Men's 200m Freestyle,M,200,166,Katsuhiro Matsumoto,JPN,No,Gwangju,KOR,35.9078,127.7669,2019,01:45.22
+M200,Men's 200m Freestyle,M,200,167,Carlos D'ambrosio,ITA,No,Singapore,SGP,1.3521,103.8198,2025,01:45.23
+M200,Men's 200m Freestyle,M,200,168,Aleksandr Krasnykh,RUS,No,Budapest,HUN,47.1625,19.5033,2017,01:45.23
+M200,Men's 200m Freestyle,M,200,169,Conor Dwyer,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:45.23
+M200,Men's 200m Freestyle,M,200,170,Conor Dwyer,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,01:45.23
+M200,Men's 200m Freestyle,M,200,171,Kosuke Hagino,JPN,No,Incheon,KOR,35.9078,127.7669,2014,01:45.23
+M200,Men's 200m Freestyle,M,200,172,Michael Phelps,USA,No,Rome,ITA,41.8719,12.5674,2009,01:45.23
+M200,Men's 200m Freestyle,M,200,173,Pieter Van Den Hoogenband,NED,No,Athens,GRE,39.0742,21.8243,2004,01:45.23
+M200,Men's 200m Freestyle,M,200,174,Tom Dean,GBR,No,Tokyo,JPN,36.2048,138.2529,2021,01:45.24
+M200,Men's 200m Freestyle,M,200,175,Yang Sun,CHN,No,Budapest,HUN,47.1625,19.5033,2017,01:45.24
+M200,Men's 200m Freestyle,M,200,176,Yannick Agnel,FRA,No,Canet-en-Roussillon,FRA,46.2276,2.2137,2012,01:45.24
+M200,Men's 200m Freestyle,M,200,177,Sho Uchida,JPN,No,Rome,ITA,41.8719,12.5674,2009,01:45.24
+M200,Men's 200m Freestyle,M,200,178,Kieran Smith,USA,No,Greensboro,USA,37.0902,-95.7129,2022,01:45.25
+M200,Men's 200m Freestyle,M,200,179,Taehwan Park,KOR,No,Gimcheon,KOR,35.9078,127.7669,2014,01:45.25
+M200,Men's 200m Freestyle,M,200,180,Yannick Agnel,FRA,No,Shanghai,CHN,35.8617,104.1954,2011,01:45.25
+M200,Men's 200m Freestyle,M,200,181,Luke Hobson,USA,No,Doha,QAT,25.3548,51.1839,2024,01:45.26
+M200,Men's 200m Freestyle,M,200,182,Luke Hobson,USA,No,Doha,QAT,25.3548,51.1839,2024,01:45.26
+M200,Men's 200m Freestyle,M,200,183,Sunwoo Hwang,KOR,No,Tokyo,JPN,36.2048,138.2529,2021,01:45.26
+M200,Men's 200m Freestyle,M,200,184,David Popovici,ROU,No,Rome,ITA,41.8719,12.5674,2021,01:45.26
+M200,Men's 200m Freestyle,M,200,185,Carlos D'ambrosio,ITA,No,Singapore,SGP,1.3521,103.8198,2025,01:45.27
+M200,Men's 200m Freestyle,M,200,186,Duncan Scott,GBR,No,Budapest,HUN,47.1625,19.5033,2017,01:45.27
+M200,Men's 200m Freestyle,M,200,187,Jack Mcmillan,GBR,No,Singapore,SGP,1.3521,103.8198,2025,01:45.28
+M200,Men's 200m Freestyle,M,200,188,James Guy,GBR,No,Singapore,SGP,1.3521,103.8198,2025,01:45.28
+M200,Men's 200m Freestyle,M,200,189,James Guy,GBR,No,London,GBR,55.3781,-3.436,2024,01:45.28
+M200,Men's 200m Freestyle,M,200,190,Zhanle Pan,CHN,No,Hangzhou,CHN,35.8617,104.1954,2023,01:45.28
+M200,Men's 200m Freestyle,M,200,191,Yang Sun,CHN,No,Incheon,KOR,35.9078,127.7669,2014,01:45.28
+M200,Men's 200m Freestyle,M,200,192,Katsuhiro Matsumoto,JPN,No,Tokyo,JPN,36.2048,138.2529,2024,01:45.29
+M200,Men's 200m Freestyle,M,200,193,Tom Dean,GBR,No,Fukuoka,JPN,36.2048,138.2529,2023,01:45.29
+M200,Men's 200m Freestyle,M,200,194,Kieran Smith,USA,No,Omaha,USA,37.0902,-95.7129,2021,01:45.29
+M200,Men's 200m Freestyle,M,200,195,Sunwoo Hwang,KOR,No,Budapest,HUN,47.1625,19.5033,2022,01:45.30
+M200,Men's 200m Freestyle,M,200,196,Ryan Lochte,USA,No,Irvine,USA,37.0902,-95.7129,2010,01:45.30
+M200,Men's 200m Freestyle,M,200,197,Paul Biedermann,GER,No,Rome,ITA,41.8719,12.5674,2009,01:45.30
+M200,Men's 200m Freestyle,M,200,198,Lukas Maertens,GER,No,Berlin,GER,51.1657,10.4515,2025,01:45.31
+M200,Men's 200m Freestyle,M,200,199,Lukas Maertens,GER,No,Paris,FRA,46.2276,2.2137,2024,01:45.31
+M200,Men's 200m Freestyle,M,200,200,Yang Sun,CHN,No,Gwangju,KOR,35.9078,127.7669,2019,01:45.31
+M400,Men's 400m Freestyle,M,400,1,Lukas Maertens,GER,No,Stockholm,SWE,60.1282,18.6435,2025,03:39.96
+M400,Men's 400m Freestyle,M,400,2,Paul Biedermann,GER,No,Rome,ITA,41.8719,12.5674,2009,03:40.07
+M400,Men's 400m Freestyle,M,400,3,Ian Thorpe,AUS,Yes,Manchester,GBR,55.3781,-3.436,2002,03:40.08
+M400,Men's 400m Freestyle,M,400,4,Yang Sun,CHN,No,London,GBR,55.3781,-3.436,2012,03:40.14
+M400,Men's 400m Freestyle,M,400,5,Ian Thorpe,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2001,03:40.17
+M400,Men's 400m Freestyle,M,400,6,Yang Sun,CHN,No,Rizhao,CHN,35.8617,104.1954,2011,03:40.29
+M400,Men's 400m Freestyle,M,400,7,Lukas Maertens,GER,No,Berlin,GER,51.1657,10.4515,2024,03:40.33
+M400,Men's 400m Freestyle,M,400,8,Ian Thorpe,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2000,03:40.59
+M400,Men's 400m Freestyle,M,400,9,Lukas Maertens,GER,No,Berlin,GER,51.1657,10.4515,2025,03:40.61
+M400,Men's 400m Freestyle,M,400,10,Samuel Short,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,03:40.68
+M400,Men's 400m Freestyle,M,400,11,Ahmed Hafnaoui,TUN,No,Fukuoka,JPN,36.2048,138.2529,2023,03:40.70
+M400,Men's 400m Freestyle,M,400,12,Samuel Short,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,03:41.03
+M400,Men's 400m Freestyle,M,400,13,Oussama Mellouli,TUN,No,Rome,ITA,41.8719,12.5674,2009,03:41.11
+M400,Men's 400m Freestyle,M,400,14,Elijah Winnington,AUS,Yes,Budapest,HUN,47.1625,19.5033,2022,03:41.22
+M400,Men's 400m Freestyle,M,400,15,Ian Thorpe,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2000,03:41.33
+M400,Men's 400m Freestyle,M,400,16,Lin Zhang,CHN,No,Rome,ITA,41.8719,12.5674,2009,03:41.35
+M400,Men's 400m Freestyle,M,400,17,Yang Sun,CHN,No,Budapest,HUN,47.1625,19.5033,2017,03:41.38
+M400,Men's 400m Freestyle,M,400,18,Elijah Winnington,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2024,03:41.41
+M400,Men's 400m Freestyle,M,400,19,Yang Sun,CHN,No,Wuhan,CHN,35.8617,104.1954,2011,03:41.48
+M400,Men's 400m Freestyle,M,400,20,Taehwan Park,KOR,No,Guangzhou,CHN,35.8617,104.1954,2010,03:41.53
+M400,Men's 400m Freestyle,M,400,21,Zhanshuo Zhang,CHN,No,Shenzhen,CHN,35.8617,104.1954,2026,03:41.55
+M400,Men's 400m Freestyle,M,400,22,Mack Horton,AUS,Yes,Rio de Janeiro,BRA,-14.235,-51.9253,2016,03:41.55
+M400,Men's 400m Freestyle,M,400,23,Yang Sun,CHN,No,Barcelona,ESP,40.4637,-3.7492,2013,03:41.59
+M400,Men's 400m Freestyle,M,400,24,Lukas Maertens,GER,No,Stockholm,SWE,60.1282,18.6435,2022,03:41.60
+M400,Men's 400m Freestyle,M,400,25,Samuel Short,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2024,03:41.64
+M400,Men's 400m Freestyle,M,400,26,Mack Horton,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2016,03:41.65
+M400,Men's 400m Freestyle,M,400,27,Yang Sun,CHN,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,03:41.68
+M400,Men's 400m Freestyle,M,400,28,Lukas Maertens,GER,No,Berlin,GER,51.1657,10.4515,2026,03:41.76
+M400,Men's 400m Freestyle,M,400,29,Lukas Maertens,GER,No,Paris,FRA,46.2276,2.2137,2024,03:41.78
+M400,Men's 400m Freestyle,M,400,30,Ian Thorpe,AUS,Yes,Sydney,AUS,-25.2744,133.7751,1999,03:41.83
+M400,Men's 400m Freestyle,M,400,31,Taehwan Park,KOR,No,Beijing,CHN,35.8617,104.1954,2008,03:41.86
+M400,Men's 400m Freestyle,M,400,32,Yang Sun,CHN,No,Tianjin,CHN,35.8617,104.1954,2017,03:41.94
+M400,Men's 400m Freestyle,M,400,33,Lukas Maertens,GER,No,Magdeburg,GER,51.1657,10.4515,2024,03:41.98
+M400,Men's 400m Freestyle,M,400,34,Taehwan Park,KOR,No,Shanghai,CHN,35.8617,104.1954,2011,03:42.04
+M400,Men's 400m Freestyle,M,400,35,Taehwan Park,KOR,No,London,GBR,55.3781,-3.436,2012,03:42.06
+M400,Men's 400m Freestyle,M,400,36,Samuel Short,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,03:42.07
+M400,Men's 400m Freestyle,M,400,37,Yang Sun,CHN,No,Qingdae,CHN,35.8617,104.1954,2017,03:42.16
+M400,Men's 400m Freestyle,M,400,38,Lukas Maertens,GER,No,Fukuoka,JPN,36.2048,138.2529,2023,03:42.20
+M400,Men's 400m Freestyle,M,400,39,Elijah Winnington,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,03:42.21
+M400,Men's 400m Freestyle,M,400,40,Yang Sun,CHN,No,Shaoxing,CHN,35.8617,104.1954,2012,03:42.31
+M400,Men's 400m Freestyle,M,400,41,Lukas Maertens,GER,No,Singapore,SGP,1.3521,103.8198,2025,03:42.35
+M400,Men's 400m Freestyle,M,400,42,Samuel Short,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,03:42.37
+M400,Men's 400m Freestyle,M,400,44,Samuel Short,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,03:42.44
+M400,Men's 400m Freestyle,M,400,45,Yang Sun,CHN,No,Gwangju,KOR,35.9078,127.7669,2019,03:42.44
+M400,Men's 400m Freestyle,M,400,46,Lin Zhang,CHN,No,Beijing,CHN,35.8617,104.1954,2008,03:42.44
+M400,Men's 400m Freestyle,M,400,47,Samuel Short,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2023,03:42.46
+M400,Men's 400m Freestyle,M,400,48,Yang Sun,CHN,No,Guangzhou,CHN,35.8617,104.1954,2010,03:42.47
+M400,Men's 400m Freestyle,M,400,49,Yang Sun,CHN,No,Dubai,UAE,23.4241,53.8478,2012,03:42.49
+M400,Men's 400m Freestyle,M,400,50,Woomin Kim,KOR,No,Paris,FRA,46.2276,2.2137,2024,03:42.50
+M400,Men's 400m Freestyle,M,400,51,Lukas Maertens,GER,No,Rome,ITA,41.8719,12.5674,2022,03:42.50
+M400,Men's 400m Freestyle,M,400,52,Grant Hackett,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2001,03:42.51
+M400,Men's 400m Freestyle,M,400,53,Samuel Short,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2026,03:42.53
+M400,Men's 400m Freestyle,M,400,54,Yang Sun,CHN,No,Kazan,RUS,61.524,105.3188,2015,03:42.58
+M400,Men's 400m Freestyle,M,400,55,Ian Thorpe,AUS,Yes,Barcelona,ESP,40.4637,-3.7492,2003,03:42.58
+M400,Men's 400m Freestyle,M,400,56,Woomin Kim,KOR,No,Singapore,SGP,1.3521,103.8198,2025,03:42.60
+M400,Men's 400m Freestyle,M,400,57,Samuel Short,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,03:42.64
+M400,Men's 400m Freestyle,M,400,58,Elijah Winnington,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,03:42.65
+M400,Men's 400m Freestyle,M,400,59,Woomin Kim,KOR,No,Doha,QAT,25.3548,51.1839,2024,03:42.71
+M400,Men's 400m Freestyle,M,400,60,Yang Sun,CHN,No,Guangzhou,CHN,35.8617,104.1954,2019,03:42.75
+M400,Men's 400m Freestyle,M,400,61,Guilherme Costa,BRA,No,Paris,FRA,46.2276,2.2137,2024,03:42.76
+M400,Men's 400m Freestyle,M,400,62,Larsen Jensen,USA,No,Beijing,CHN,35.8617,104.1954,2008,03:42.78
+M400,Men's 400m Freestyle,M,400,63,Oliver Klemet,GER,No,Magdeburg,GER,51.1657,10.4515,2024,03:42.81
+M400,Men's 400m Freestyle,M,400,64,Zhanshuo Zhang,CHN,No,Shenzhen,CHN,35.8617,104.1954,2025,03:42.82
+M400,Men's 400m Freestyle,M,400,65,Mack Horton,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2015,03:42.84
+M400,Men's 400m Freestyle,M,400,66,Lukas Maertens,GER,No,Budapest,HUN,47.1625,19.5033,2022,03:42.85
+M400,Men's 400m Freestyle,M,400,67,Elijah Winnington,AUS,Yes,Doha,QAT,25.3548,51.1839,2024,03:42.86
+M400,Men's 400m Freestyle,M,400,68,Yang Sun,CHN,No,Gold Coast,AUS,-25.2744,133.7751,2012,03:42.89
+M400,Men's 400m Freestyle,M,400,69,Grant Hackett,AUS,Yes,Montreal,CAN,56.1304,-106.3468,2005,03:42.91
+M400,Men's 400m Freestyle,M,400,71,Yang Sun,CHN,No,Zhengzhou,CHN,35.8617,104.1954,2013,03:42.93
+M400,Men's 400m Freestyle,M,400,72,Lukas Maertens,GER,No,Doha,QAT,25.3548,51.1839,2024,03:42.96
+M400,Men's 400m Freestyle,M,400,73,Lukas Maertens,GER,No,London,GBR,55.3781,-3.436,2025,03:42.98
+M400,Men's 400m Freestyle,M,400,74,Zhanshuo Zhang,CHN,No,Chengdu,CHN,35.8617,104.1954,2025,03:42.99
+M400,Men's 400m Freestyle,M,400,75,Paul Biedermann,GER,No,Rome,ITA,41.8719,12.5674,2009,03:43.01
+M400,Men's 400m Freestyle,M,400,76,Lukas Maertens,GER,No,Shenzhen,CHN,35.8617,104.1954,2026,03:43.04
+M400,Men's 400m Freestyle,M,400,77,Elijah Winnington,AUS,Yes,Birmingham,GBR,55.3781,-3.436,2022,03:43.06
+M400,Men's 400m Freestyle,M,400,78,Elijah Winnington,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2022,03:43.10
+M400,Men's 400m Freestyle,M,400,79,Larsen Jensen,USA,No,Beijing,CHN,35.8617,104.1954,2008,03:43.10
+M400,Men's 400m Freestyle,M,400,80,Ian Thorpe,AUS,Yes,Athens,GRE,39.0742,21.8243,2004,03:43.10
+M400,Men's 400m Freestyle,M,400,81,Peter Vanderkaay,USA,No,Beijing,CHN,35.8617,104.1954,2008,03:43.11
+M400,Men's 400m Freestyle,M,400,82,Oliver Klemet,GER,No,Stockholm,SWE,60.1282,18.6435,2026,03:43.14
+M400,Men's 400m Freestyle,M,400,83,Taehwan Park,KOR,No,Gold Coast,AUS,-25.2744,133.7751,2014,03:43.15
+M400,Men's 400m Freestyle,M,400,84,Mack Horton,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,03:43.17
+M400,Men's 400m Freestyle,M,400,85,Peter Vanderkaay,USA,No,Rome,ITA,41.8719,12.5674,2009,03:43.20
+M400,Men's 400m Freestyle,M,400,86,Samuel Short,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,03:43.21
+M400,Men's 400m Freestyle,M,400,87,Gabriele Detti,ITA,No,Gwangju,KOR,35.9078,127.7669,2019,03:43.23
+M400,Men's 400m Freestyle,M,400,88,Yang Sun,CHN,No,Incheon,KOR,35.9078,127.7669,2014,03:43.23
+M400,Men's 400m Freestyle,M,400,89,Felix Auboeck,AUT,No,Belgrade,SRB,44.0165,21.0059,2024,03:43.24
+M400,Men's 400m Freestyle,M,400,90,Yang Sun,CHN,No,Shanghai,CHN,35.8617,104.1954,2011,03:43.24
+M400,Men's 400m Freestyle,M,400,91,Elijah Winnington,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,03:43.26
+M400,Men's 400m Freestyle,M,400,92,Jack Alan Mcloughlin,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,03:43.27
+M400,Men's 400m Freestyle,M,400,93,Guilherme Costa,BRA,No,Budapest,HUN,47.1625,19.5033,2022,03:43.31
+M400,Men's 400m Freestyle,M,400,94,Lukas Maertens,GER,No,Magedburg,GER,51.1657,10.4515,2023,03:43.32
+M400,Men's 400m Freestyle,M,400,95,Lin Zhang,CHN,No,Beijing,CHN,35.8617,104.1954,2008,03:43.32
+M400,Men's 400m Freestyle,M,400,96,Rex Michael Maurer,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,03:43.33
+M400,Men's 400m Freestyle,M,400,97,Taehwan Park,KOR,No,Beijing,CHN,35.8617,104.1954,2008,03:43.35
+M400,Men's 400m Freestyle,M,400,98,Ahmed Hafnaoui,TUN,No,Tokyo,JPN,36.2048,138.2529,2021,03:43.36
+M400,Men's 400m Freestyle,M,400,99,Danas Rapsys,LTU,No,Budapest,HUN,47.1625,19.5033,2019,03:43.36
+M400,Men's 400m Freestyle,M,400,100,Gabriele Detti,ITA,No,Riccione,ITA,41.8719,12.5674,2019,03:43.36
+M400,Men's 400m Freestyle,M,400,101,Gabriele Detti,ITA,No,Riccione,ITA,41.8719,12.5674,2017,03:43.36
+M400,Men's 400m Freestyle,M,400,102,Grant Hackett,AUS,Yes,Athens,GRE,39.0742,21.8243,2004,03:43.36
+M400,Men's 400m Freestyle,M,400,103,Samuel Short,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,03:43.38
+M400,Men's 400m Freestyle,M,400,104,Oliver Klemet,GER,No,Stockholm,SWE,60.1282,18.6435,2025,03:43.40
+M400,Men's 400m Freestyle,M,400,105,Massimiliano Rosolino,ITA,No,Sydney,AUS,-25.2744,133.7751,2000,03:43.40
+M400,Men's 400m Freestyle,M,400,106,Conor Dwyer,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,03:43.42
+M400,Men's 400m Freestyle,M,400,107,Oliver Klemet,GER,No,Berlin,GER,51.1657,10.4515,2025,03:43.43
+M400,Men's 400m Freestyle,M,400,108,Oussama Mellouli,TUN,No,Beijing,CHN,35.8617,104.1954,2008,03:43.45
+M400,Men's 400m Freestyle,M,400,109,Nikita Lobintsev,RUS,No,Beijing,CHN,35.8617,104.1954,2008,03:43.45
+M400,Men's 400m Freestyle,M,400,110,Ryan Cochrane,CAN,No,Glasgow,GBR,55.3781,-3.436,2014,03:43.46
+M400,Men's 400m Freestyle,M,400,111,Elijah Winnington,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,03:43.48
+M400,Men's 400m Freestyle,M,400,112,Grant Hackett,AUS,Yes,Manchester,GBR,55.3781,-3.436,2002,03:43.48
+M400,Men's 400m Freestyle,M,400,113,Samuel Short,AUS,Yes,Westmont,USA,37.0902,-95.7129,2026,03:43.49
+M400,Men's 400m Freestyle,M,400,114,Gabriele Detti,ITA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,03:43.49
+M400,Men's 400m Freestyle,M,400,115,Danas Rapsys,LTU,No,Gwangju,KOR,35.9078,127.7669,2019,03:43.50
+M400,Men's 400m Freestyle,M,400,116,Jack Alan Mcloughlin,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,03:43.52
+M400,Men's 400m Freestyle,M,400,117,Yang Sun,CHN,No,Santa Clara,USA,37.0902,-95.7129,2016,03:43.55
+M400,Men's 400m Freestyle,M,400,118,Guilherme Costa,BRA,No,Fukuoka,JPN,36.2048,138.2529,2023,03:43.58
+M400,Men's 400m Freestyle,M,400,119,Felix Auboeck,AUT,No,Budapest,HUN,47.1625,19.5033,2022,03:43.58
+M400,Men's 400m Freestyle,M,400,120,Lin Zhang,CHN,No,Rome,ITA,41.8719,12.5674,2009,03:43.58
+M400,Men's 400m Freestyle,M,400,121,Henning Bennet Muhlleitner,GER,No,Tokyo,JPN,36.2048,138.2529,2021,03:43.67
+M400,Men's 400m Freestyle,M,400,122,Woomin Kim,KOR,No,Gimcheon,KOR,35.9078,127.7669,2024,03:43.69
+M400,Men's 400m Freestyle,M,400,123,David Mckeon,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2013,03:43.71
+M400,Men's 400m Freestyle,M,400,124,David Mckeon,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2014,03:43.72
+M400,Men's 400m Freestyle,M,400,125,Gabriele Detti,ITA,No,Rome,ITA,41.8719,12.5674,2020,03:43.73
+M400,Men's 400m Freestyle,M,400,126,Yang Sun,CHN,No,Qingdao,CHN,35.8617,104.1954,2019,03:43.73
+M400,Men's 400m Freestyle,M,400,127,James Guy,GBR,No,Kazan,RUS,61.524,105.3188,2015,03:43.75
+M400,Men's 400m Freestyle,M,400,128,Mack Horton,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2018,03:43.76
+M400,Men's 400m Freestyle,M,400,129,Oussama Mellouli,TUN,No,Rome,ITA,41.8719,12.5674,2009,03:43.78
+M400,Men's 400m Freestyle,M,400,130,Yang Sun,CHN,No,Qingdao,CHN,35.8617,104.1954,2019,03:43.79
+M400,Men's 400m Freestyle,M,400,131,Connor Jaeger,USA,No,Omaha,USA,37.0902,-95.7129,2016,03:43.79
+M400,Men's 400m Freestyle,M,400,132,Kieren Perkins,AUS,Yes,Rome,ITA,41.8719,12.5674,1994,03:43.80
+M400,Men's 400m Freestyle,M,400,133,Lukas Maertens,GER,No,Singapore,SGP,1.3521,103.8198,2025,03:43.81
+M400,Men's 400m Freestyle,M,400,134,Felix Auboeck,AUT,No,Budapest,HUN,47.1625,19.5033,2022,03:43.83
+M400,Men's 400m Freestyle,M,400,135,Samuel Short,AUS,Yes,Sacramento,USA,37.0902,-95.7129,2025,03:43.84
+M400,Men's 400m Freestyle,M,400,136,Mack Horton,AUS,Yes,Rio de Janeiro,BRA,-14.235,-51.9253,2016,03:43.84
+M400,Men's 400m Freestyle,M,400,137,James Guy,GBR,No,Glasgow,GBR,55.3781,-3.436,2016,03:43.84
+M400,Men's 400m Freestyle,M,400,138,Grant Hackett,AUS,Yes,Beijing,CHN,35.8617,104.1954,2008,03:43.84
+M400,Men's 400m Freestyle,M,400,139,Mack Horton,AUS,Yes,Budapest,HUN,47.1625,19.5033,2017,03:43.85
+M400,Men's 400m Freestyle,M,400,140,Yannick Agnel,FRA,No,Strasburg,FRA,46.2276,2.2137,2011,03:43.85
+M400,Men's 400m Freestyle,M,400,141,Lukas Maertens,GER,No,Berlin,GER,51.1657,10.4515,2023,03:43.86
+M400,Men's 400m Freestyle,M,400,142,Samuel Short,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,03:43.90
+M400,Men's 400m Freestyle,M,400,143,Elijah Winnington,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2020,03:43.90
+M400,Men's 400m Freestyle,M,400,144,Kosuke Hagino,JPN,No,Tokyo,JPN,36.2048,138.2529,2014,03:43.90
+M400,Men's 400m Freestyle,M,400,145,Felix Auboeck,AUT,No,Tokyo,JPN,36.2048,138.2529,2021,03:43.91
+M400,Men's 400m Freestyle,M,400,146,Danas Rapsys,LTU,No,Jinan,CHN,35.8617,104.1954,2019,03:43.91
+M400,Men's 400m Freestyle,M,400,147,Woomin Kim,KOR,No,Fukuoka,JPN,36.2048,138.2529,2023,03:43.92
+M400,Men's 400m Freestyle,M,400,148,Mack Horton,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,03:43.92
+M400,Men's 400m Freestyle,M,400,149,Antonio Djakovic,SUI,No,Rome,ITA,41.8719,12.5674,2022,03:43.93
+M400,Men's 400m Freestyle,M,400,150,Gabriele Detti,ITA,No,Budapest,HUN,47.1625,19.5033,2017,03:43.93
+M400,Men's 400m Freestyle,M,400,151,Kieran Smith,USA,No,Tokyo,JPN,36.2048,138.2529,2021,03:43.94
+M400,Men's 400m Freestyle,M,400,152,Gabriele Detti,ITA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,03:43.95
+M400,Men's 400m Freestyle,M,400,153,Taehwan Park,KOR,No,Sydney,AUS,-25.2744,133.7751,2014,03:43.96
+M400,Men's 400m Freestyle,M,400,154,Gabriele Detti,ITA,No,Riccione,ITA,41.8719,12.5674,2016,03:43.97
+M400,Men's 400m Freestyle,M,400,155,Yang Sun,CHN,No,Huangshan,CHN,35.8617,104.1954,2012,03:43.97
+M400,Men's 400m Freestyle,M,400,156,Yuriy Prilukov,RUS,No,Beijing,CHN,35.8617,104.1954,2008,03:43.97
+M400,Men's 400m Freestyle,M,400,157,Elijah Winnington,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,03:43.99
+M400,Men's 400m Freestyle,M,400,158,Conor Dwyer,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,03:44.01
+M400,Men's 400m Freestyle,M,400,159,Gabriele Detti,ITA,No,London,GBR,55.3781,-3.436,2016,03:44.01
+M400,Men's 400m Freestyle,M,400,160,Grant Hackett,AUS,Yes,Beijing,CHN,35.8617,104.1954,2008,03:44.03
+M400,Men's 400m Freestyle,M,400,161,James Guy,GBR,No,London,GBR,55.3781,-3.436,2026,03:44.04
+M400,Men's 400m Freestyle,M,400,162,Mack Horton,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2022,03:44.06
+M400,Men's 400m Freestyle,M,400,163,Henning Bennet Muhlleitner,GER,No,Tokyo,JPN,36.2048,138.2529,2021,03:44.07
+M400,Men's 400m Freestyle,M,400,164,Felix Auboeck,AUT,No,Tokyo,JPN,36.2048,138.2529,2021,03:44.07
+M400,Men's 400m Freestyle,M,400,165,Yang Sun,CHN,No,Shenzen,CHN,35.8617,104.1954,2020,03:44.07
+M400,Men's 400m Freestyle,M,400,166,David Mckeon,AUS,Yes,Glasgow,GBR,55.3781,-3.436,2014,03:44.09
+M400,Men's 400m Freestyle,M,400,167,Yang Sun,CHN,No,Gwangju,KOR,35.9078,127.7669,2019,03:44.10
+M400,Men's 400m Freestyle,M,400,168,Klete Keller,USA,No,Athens,GRE,39.0742,21.8243,2004,03:44.11
+M400,Men's 400m Freestyle,M,400,169,Lukas Maertens,GER,No,Paris,FRA,46.2276,2.2137,2024,03:44.13
+M400,Men's 400m Freestyle,M,400,170,Felix Auboeck,AUT,No,Fukuoka,JPN,36.2048,138.2529,2023,03:44.14
+M400,Men's 400m Freestyle,M,400,171,Marco De Tullio,ITA,No,Budapest,HUN,47.1625,19.5033,2022,03:44.14
+M400,Men's 400m Freestyle,M,400,172,Paul Biedermann,GER,No,Shanghai,CHN,35.8617,104.1954,2011,03:44.14
+M400,Men's 400m Freestyle,M,400,173,Samuel Short,AUS,Yes,Rio de Janeiro,BRA,-14.235,-51.9253,2025,03:44.16
+M400,Men's 400m Freestyle,M,400,174,Connor Jaeger,USA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,03:44.16
+M400,Men's 400m Freestyle,M,400,175,James Guy,GBR,No,London,GBR,55.3781,-3.436,2015,03:44.16
+M400,Men's 400m Freestyle,M,400,176,Guilherme Costa,BRA,No,Fukuoka,JPN,36.2048,138.2529,2023,03:44.17
+M400,Men's 400m Freestyle,M,400,177,Martin Malyutin,RUS,No,Budapest,HUN,47.1625,19.5033,2021,03:44.18
+M400,Men's 400m Freestyle,M,400,178,Mack Horton,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2017,03:44.18
+M400,Men's 400m Freestyle,M,400,179,Felix Auboeck,AUT,No,Budapest,HUN,47.1625,19.5033,2017,03:44.19
+M400,Men's 400m Freestyle,M,400,180,Samuel Short,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2023,03:44.20
+M400,Men's 400m Freestyle,M,400,181,Jack Alan Mcloughlin,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2018,03:44.20
+M400,Men's 400m Freestyle,M,400,182,Gabriele Detti,ITA,No,Rome,ITA,41.8719,12.5674,2016,03:44.21
+M400,Men's 400m Freestyle,M,400,183,Guilherme Costa,BRA,No,Doha,QAT,25.3548,51.1839,2024,03:44.22
+M400,Men's 400m Freestyle,M,400,184,Antonio Djakovic,SUI,No,Fukuoka,JPN,36.2048,138.2529,2023,03:44.22
+M400,Men's 400m Freestyle,M,400,185,Taehwan Park,KOR,No,Vancouver,CAN,56.1304,-106.3468,2012,03:44.22
+M400,Men's 400m Freestyle,M,400,186,Peter Vanderkaay,USA,No,Beijing,CHN,35.8617,104.1954,2008,03:44.22
+M400,Men's 400m Freestyle,M,400,187,Guilherme Costa,BRA,No,Paris,FRA,46.2276,2.2137,2024,03:44.23
+M400,Men's 400m Freestyle,M,400,188,Yang Sun,CHN,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,03:44.23
+M400,Men's 400m Freestyle,M,400,189,Liwei Fei,CHN,No,Paris,FRA,46.2276,2.2137,2024,03:44.24
+M400,Men's 400m Freestyle,M,400,190,Jack Alan Mcloughlin,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2020,03:44.24
+M400,Men's 400m Freestyle,M,400,191,Elijah Winnington,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,03:44.26
+M400,Men's 400m Freestyle,M,400,192,Felix Auboeck,AUT,No,Stockholm,SWE,60.1282,18.6435,2022,03:44.26
+M400,Men's 400m Freestyle,M,400,193,Taehwan Park,KOR,No,Gwangju,KOR,35.9078,127.7669,2016,03:44.26
+M400,Men's 400m Freestyle,M,400,194,David Mckeon,AUS,Yes,Sydney,AUS,-25.2744,133.7751,2015,03:44.28
+M400,Men's 400m Freestyle,M,400,195,Yang Sun,CHN,No,Taiyuan,CHN,35.8617,104.1954,2018,03:44.29
+M400,Men's 400m Freestyle,M,400,196,Taehwan Park,KOR,No,Melbourne,AUS,-25.2744,133.7751,2007,03:44.30
+M400,Men's 400m Freestyle,M,400,197,Petar Petrov Mitsin,BUL,No,Belgrade,SRB,44.0165,21.0059,2023,03:44.31
+M400,Men's 400m Freestyle,M,400,198,Danas Rapsys,LTU,No,Gwangju,KOR,35.9078,127.7669,2019,03:44.31
+M400,Men's 400m Freestyle,M,400,199,Mack Horton,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2018,03:44.31
+M400,Men's 400m Freestyle,M,400,200,Felix Auboeck,AUT,No,Fukuoka,JPN,36.2048,138.2529,2023,03:44.33
+M800,Men's 800m Freestyle,M,800,1,Lin Zhang,CHN,No,Rome,ITA,41.8719,12.5674,2009,07:32.12
+M800,Men's 800m Freestyle,M,800,2,Oussama Mellouli,TUN,No,Rome,ITA,41.8719,12.5674,2009,07:35.27
+M800,Men's 800m Freestyle,M,800,3,Ahmed Jaouadi,TUN,No,Singapore,SGP,1.3521,103.8198,2025,07:36.88
+M800,Men's 800m Freestyle,M,800,4,Ahmed Hafnaoui,TUN,No,Fukuoka,JPN,36.2048,138.2529,2023,07:37.00
+M800,Men's 800m Freestyle,M,800,5,Samuel Short,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,07:37.76
+M800,Men's 800m Freestyle,M,800,6,Johannes Wilhel Liebmann,GER,No,Stockholm,SWE,60.1282,18.6435,2026,07:37.94
+M800,Men's 800m Freestyle,M,800,7,Sven Schwarz,GER,No,Berlin,GER,51.1657,10.4515,2025,07:38.12
+M800,Men's 800m Freestyle,M,800,8,Daniel Wiffen,IRL,No,Paris,FRA,46.2276,2.2137,2024,07:38.19
+M800,Men's 800m Freestyle,M,800,9,Yang Sun,CHN,No,Shanghai,CHN,35.8617,104.1954,2011,07:38.57
+M800,Men's 800m Freestyle,M,800,10,Grant Hackett,AUS,Yes,Montreal,CAN,56.1304,-106.3468,2005,07:38.65
+M800,Men's 800m Freestyle,M,800,11,Bobby Finke,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,07:38.67
+M800,Men's 800m Freestyle,M,800,12,Bobby Finke,USA,No,Paris,FRA,46.2276,2.2137,2024,07:38.75
+M800,Men's 800m Freestyle,M,800,14,Lukas Maertens,GER,No,Stockholm,SWE,60.1282,18.6435,2025,07:39.10
+M800,Men's 800m Freestyle,M,800,15,Ian Thorpe,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2001,07:39.16
+M800,Men's 800m Freestyle,M,800,16,Daniel Wiffen,IRL,No,Fukuoka,JPN,36.2048,138.2529,2023,07:39.19
+M800,Men's 800m Freestyle,M,800,17,Gregorio Paltrinieri,ITA,No,Gwangju,KOR,35.9078,127.7669,2019,07:39.27
+M800,Men's 800m Freestyle,M,800,18,Bobby Finke,USA,No,Budapest,HUN,47.1625,19.5033,2022,07:39.36
+M800,Men's 800m Freestyle,M,800,19,Gregorio Paltrinieri,ITA,No,Paris,FRA,46.2276,2.2137,2024,07:39.38
+M800,Men's 800m Freestyle,M,800,20,Lukas Maertens,GER,No,Fukuoka,JPN,36.2048,138.2529,2023,07:39.48
+M800,Men's 800m Freestyle,M,800,21,Florian Wellbrock,GER,No,Budapest,HUN,47.1625,19.5033,2022,07:39.63
+M800,Men's 800m Freestyle,M,800,22,Sven Schwarz,GER,No,Singapore,SGP,1.3521,103.8198,2025,07:39.96
+M800,Men's 800m Freestyle,M,800,23,Yang Sun,CHN,No,Kazan,RUS,61.524,105.3188,2015,07:39.96
+M800,Men's 800m Freestyle,M,800,24,Mykhailo Romanchuk,UKR,No,Budapest,HUN,47.1625,19.5033,2022,07:40.05
+M800,Men's 800m Freestyle,M,800,25,Lukas Maertens,GER,No,Singapore,SGP,1.3521,103.8198,2025,07:40.19
+M800,Men's 800m Freestyle,M,800,26,Gregorio Paltrinieri,ITA,No,Rome,ITA,41.8719,12.5674,2020,07:40.22
+M800,Men's 800m Freestyle,M,800,27,Bobby Finke,USA,No,Indianapolis,USA,37.0902,-95.7129,2023,07:40.34
+M800,Men's 800m Freestyle,M,800,28,Grant Hackett,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2001,07:40.34
+M800,Men's 800m Freestyle,M,800,29,Samuel Short,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,07:40.39
+M800,Men's 800m Freestyle,M,800,30,Gabriele Detti,ITA,No,Budapest,HUN,47.1625,19.5033,2017,07:40.77
+M800,Men's 800m Freestyle,M,800,31,Gregorio Paltrinieri,ITA,No,Kazan,RUS,61.524,105.3188,2015,07:40.81
+M800,Men's 800m Freestyle,M,800,32,Gregorio Paltrinieri,ITA,No,Rome,ITA,41.8719,12.5674,2022,07:40.86
+M800,Men's 800m Freestyle,M,800,33,Samuel Short,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,07:40.90
+M800,Men's 800m Freestyle,M,800,34,Daniel Wiffen,IRL,No,Doha,QAT,25.3548,51.1839,2024,07:40.94
+M800,Men's 800m Freestyle,M,800,35,Samuel Short,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2025,07:40.95
+M800,Men's 800m Freestyle,M,800,36,Samuel Short,AUS,Yes,Westmont,USA,37.0902,-95.7129,2026,07:40.98
+M800,Men's 800m Freestyle,M,800,37,Samuel Short,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2026,07:41.04
+M800,Men's 800m Freestyle,M,800,38,Florian Wellbrock,GER,No,Stockholm,SWE,60.1282,18.6435,2025,07:41.10
+M800,Men's 800m Freestyle,M,800,39,Sven Schwarz,GER,No,Berlin,GER,51.1657,10.4515,2026,07:41.14
+M800,Men's 800m Freestyle,M,800,40,Gregorio Paltrinieri,ITA,No,Budapest,HUN,47.1625,19.5033,2022,07:41.19
+M800,Men's 800m Freestyle,M,800,41,Mykhailo Romanchuk,UKR,No,Tokyo,JPN,36.2048,138.2529,2021,07:41.28
+M800,Men's 800m Freestyle,M,800,42,Henrik Christiansen,NOR,No,Gwangju,KOR,35.9078,127.7669,2019,07:41.28
+M800,Men's 800m Freestyle,M,800,43,Lukas Maertens,GER,No,Berlin,GER,51.1657,10.4515,2026,07:41.31
+M800,Men's 800m Freestyle,M,800,44,Yang Sun,CHN,No,Barcelona,ESP,40.4637,-3.7492,2013,07:41.36
+M800,Men's 800m Freestyle,M,800,45,Lukas Maertens,GER,No,Stockholm,SWE,60.1282,18.6435,2022,07:41.43
+M800,Men's 800m Freestyle,M,800,46,Daniel Wiffen,IRL,No,Dublin,IRL,53.1424,-7.6921,2025,07:41.52
+M800,Men's 800m Freestyle,M,800,47,Daniel Wiffen,IRL,No,Paris,FRA,46.2276,2.2137,2024,07:41.53
+M800,Men's 800m Freestyle,M,800,48,Ahmed Jaouadi,TUN,No,Singapore,SGP,1.3521,103.8198,2025,07:41.58
+M800,Men's 800m Freestyle,M,800,49,Ian Thorpe,AUS,Yes,Hobart,AUS,-25.2744,133.7751,2001,07:41.59
+M800,Men's 800m Freestyle,M,800,50,Gabriele Detti,ITA,No,Riccione,ITA,41.8719,12.5674,2017,07:41.64
+M800,Men's 800m Freestyle,M,800,51,Wojciech Wojdak,POL,No,Budapest,HUN,47.1625,19.5033,2017,07:41.73
+M800,Men's 800m Freestyle,M,800,52,Sven Schwarz,GER,No,Dublin,IRL,53.1424,-7.6921,2023,07:41.77
+M800,Men's 800m Freestyle,M,800,53,Florian Wellbrock,GER,No,Tokyo,JPN,36.2048,138.2529,2021,07:41.77
+M800,Men's 800m Freestyle,M,800,54,Oussama Mellouli,TUN,No,Rome,ITA,41.8719,12.5674,2009,07:41.82
+M800,Men's 800m Freestyle,M,800,55,Ryan Cochrane,CAN,No,Shanghai,CHN,35.8617,104.1954,2011,07:41.86
+M800,Men's 800m Freestyle,M,800,56,Bobby Finke,USA,No,Tokyo,JPN,36.2048,138.2529,2021,07:41.87
+M800,Men's 800m Freestyle,M,800,57,Ryan Cochrane,CAN,No,Rome,ITA,41.8719,12.5674,2009,07:41.92
+M800,Men's 800m Freestyle,M,800,58,Gregorio Paltrinieri,ITA,No,Riccione,ITA,41.8719,12.5674,2021,07:41.96
+M800,Men's 800m Freestyle,M,800,59,Ahmed Hafnaoui,TUN,No,Fukuoka,JPN,36.2048,138.2529,2023,07:41.97
+M800,Men's 800m Freestyle,M,800,60,Lukas Maertens,GER,No,Fukuoka,JPN,36.2048,138.2529,2023,07:42.04
+M800,Men's 800m Freestyle,M,800,61,Ahmed Jaouadi,TUN,No,Paris,FRA,46.2276,2.2137,2024,07:42.07
+M800,Men's 800m Freestyle,M,800,62,David Aubry,FRA,No,Gwangju,KOR,35.9078,127.7669,2019,07:42.08
+M800,Men's 800m Freestyle,M,800,63,Gregorio Paltrinieri,ITA,No,Tokyo,JPN,36.2048,138.2529,2021,07:42.11
+M800,Men's 800m Freestyle,M,800,64,Lukas Maertens,GER,No,Berlin,GER,51.1657,10.4515,2023,07:42.14
+M800,Men's 800m Freestyle,M,800,65,Samuel Short,AUS,Yes,Singapore,SGP,1.3521,103.8198,2025,07:42.22
+M800,Men's 800m Freestyle,M,800,66,Mykhailo Romanchuk,UKR,No,Tokyo,JPN,36.2048,138.2529,2021,07:42.33
+M800,Men's 800m Freestyle,M,800,67,Gregorio Paltrinieri,ITA,No,London,GBR,55.3781,-3.436,2016,07:42.33
+M800,Men's 800m Freestyle,M,800,68,Gregorio Paltrinieri,ITA,No,Budapest,HUN,47.1625,19.5033,2017,07:42.44
+M800,Men's 800m Freestyle,M,800,69,Aleksandr Stepanov,NAB,No,Kazan,RUS,61.524,105.3188,2023,07:42.47
+M800,Men's 800m Freestyle,M,800,70,Gregorio Paltrinieri,ITA,No,Paris,FRA,46.2276,2.2137,2024,07:42.48
+M800,Men's 800m Freestyle,M,800,71,Mykhailo Romanchuk,UKR,No,Stockholm,SWE,60.1282,18.6435,2019,07:42.49
+M800,Men's 800m Freestyle,M,800,72,Jack Alan Mcloughlin,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2021,07:42.51
+M800,Men's 800m Freestyle,M,800,73,Mykhailo Romanchuk,UKR,No,Budapest,HUN,47.1625,19.5033,2021,07:42.61
+M800,Men's 800m Freestyle,M,800,74,Jack Alan Mcloughlin,AUS,Yes,Gwangju,KOR,35.9078,127.7669,2019,07:42.64
+M800,Men's 800m Freestyle,M,800,75,Lukas Maertens,GER,No,Rome,ITA,41.8719,12.5674,2022,07:42.65
+M800,Men's 800m Freestyle,M,800,76,Florian Wellbrock,GER,No,Tokyo,JPN,36.2048,138.2529,2021,07:42.68
+M800,Men's 800m Freestyle,M,800,77,Bobby Finke,USA,No,Tokyo,JPN,36.2048,138.2529,2021,07:42.72
+M800,Men's 800m Freestyle,M,800,78,Gabriele Detti,ITA,No,Riccione,ITA,41.8719,12.5674,2014,07:42.74
+M800,Men's 800m Freestyle,M,800,79,Ahmed Jaouadi,TUN,No,Paris,FRA,46.2276,2.2137,2024,07:42.83
+M800,Men's 800m Freestyle,M,800,80,Elijah Winnington,AUS,Yes,Paris,FRA,46.2276,2.2137,2024,07:42.86
+M800,Men's 800m Freestyle,M,800,81,Elijah Winnington,AUS,Yes,Doha,QAT,25.3548,51.1839,2024,07:42.95
+M800,Men's 800m Freestyle,M,800,82,Samuel Short,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2023,07:42.96
+M800,Men's 800m Freestyle,M,800,83,Mykhailo Romanchuk,UKR,No,Glasgow,GBR,55.3781,-3.436,2018,07:42.96
+M800,Men's 800m Freestyle,M,800,84,Gregorio Paltrinieri,ITA,No,Doha,QAT,25.3548,51.1839,2024,07:42.98
+M800,Men's 800m Freestyle,M,800,85,Florian Wellbrock,GER,No,Berlin,GER,51.1657,10.4515,2023,07:42.99
+M800,Men's 800m Freestyle,M,800,86,Bobby Finke,USA,No,Paris,FRA,46.2276,2.2137,2024,07:43.00
+M800,Men's 800m Freestyle,M,800,87,Gregorio Paltrinieri,ITA,No,Riccione,ITA,41.8719,12.5674,2014,07:43.01
+M800,Men's 800m Freestyle,M,800,88,Florian Wellbrock,GER,No,Stockholm,SWE,60.1282,18.6435,2019,07:43.03
+M800,Men's 800m Freestyle,M,800,89,Gabriele Detti,ITA,No,Rome,ITA,41.8719,12.5674,2016,07:43.06
+M800,Men's 800m Freestyle,M,800,90,Elijah Winnington,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2024,07:43.08
+M800,Men's 800m Freestyle,M,800,91,Mykhailo Romanchuk,UKR,No,Fukuoka,JPN,36.2048,138.2529,2023,07:43.08
+M800,Men's 800m Freestyle,M,800,92,Florian Wellbrock,GER,No,Stockholm,SWE,60.1282,18.6435,2022,07:43.10
+M800,Men's 800m Freestyle,M,800,93,Bobby Finke,USA,No,Indianapolis,USA,37.0902,-95.7129,2025,07:43.13
+M800,Men's 800m Freestyle,M,800,94,Bobby Finke,USA,No,Greensboro,USA,37.0902,-95.7129,2022,07:43.32
+M800,Men's 800m Freestyle,M,800,95,Lorenzo Galossi,ITA,No,Rome,ITA,41.8719,12.5674,2022,07:43.37
+M800,Men's 800m Freestyle,M,800,96,Sven Schwarz,GER,No,Berlin,GER,51.1657,10.4515,2023,07:43.43
+M800,Men's 800m Freestyle,M,800,97,Lukas Maertens,GER,No,Rome,ITA,41.8719,12.5674,2024,07:43.52
+M800,Men's 800m Freestyle,M,800,98,Gabriele Detti,ITA,No,London,GBR,55.3781,-3.436,2016,07:43.52
+M800,Men's 800m Freestyle,M,800,99,David Aubry,FRA,No,Paris,FRA,46.2276,2.2137,2024,07:43.59
+M800,Men's 800m Freestyle,M,800,100,Sven Schwarz,GER,No,Paris,FRA,46.2276,2.2137,2024,07:43.59
+M800,Men's 800m Freestyle,M,800,101,Sven Schwarz,GER,No,Singapore,SGP,1.3521,103.8198,2025,07:43.60
+M800,Men's 800m Freestyle,M,800,102,Michael Mc Broom,USA,No,Barcelona,ESP,40.4637,-3.7492,2013,07:43.60
+M800,Men's 800m Freestyle,M,800,103,Ryan Cochrane,CAN,No,Victoria,CAN,56.1304,-106.3468,2013,07:43.61
+M800,Men's 800m Freestyle,M,800,104,Ryan Cochrane,CAN,No,Rome,ITA,41.8719,12.5674,2009,07:43.61
+M800,Men's 800m Freestyle,M,800,105,Gregorio Paltrinieri,ITA,No,Budapest,HUN,47.1625,19.5033,2021,07:43.62
+M800,Men's 800m Freestyle,M,800,106,Sven Schwarz,GER,No,Paris,FRA,46.2276,2.2137,2024,07:43.67
+M800,Men's 800m Freestyle,M,800,107,Ryan Cochrane,CAN,No,Barcelona,ESP,40.4637,-3.7492,2013,07:43.70
+M800,Men's 800m Freestyle,M,800,108,Zane Grothe,USA,No,Tokyo,JPN,36.2048,138.2529,2018,07:43.74
+M800,Men's 800m Freestyle,M,800,109,Florian Wellbrock,GER,No,Berlin,GER,51.1657,10.4515,2025,07:43.79
+M800,Men's 800m Freestyle,M,800,110,Daniel Wiffen,IRL,No,Fukuoka,JPN,36.2048,138.2529,2023,07:43.81
+M800,Men's 800m Freestyle,M,800,111,Grant Hackett,AUS,Yes,Barcelona,ESP,40.4637,-3.7492,2003,07:43.82
+M800,Men's 800m Freestyle,M,800,112,Gabriele Detti,ITA,No,Riccione,ITA,41.8719,12.5674,2019,07:43.83
+M800,Men's 800m Freestyle,M,800,113,Federico Colbertaldo,ITA,No,Rome,ITA,41.8719,12.5674,2009,07:43.84
+M800,Men's 800m Freestyle,M,800,114,Bobby Finke,USA,No,Fukuoka,JPN,36.2048,138.2529,2023,07:43.87
+M800,Men's 800m Freestyle,M,800,115,Gabriele Detti,ITA,No,Gwangju,KOR,35.9078,127.7669,2019,07:43.89
+M800,Men's 800m Freestyle,M,800,117,Samuel Short,AUS,Yes,Gold Coast,AUS,-25.2744,133.7751,2024,07:43.98
+M800,Men's 800m Freestyle,M,800,118,Bobby Finke,USA,No,Singapore,SGP,1.3521,103.8198,2025,07:44.02
+M800,Men's 800m Freestyle,M,800,119,Mack Horton,AUS,Yes,Kazan,RUS,61.524,105.3188,2015,07:44.02
+M800,Men's 800m Freestyle,M,800,120,Luca De Tullio,ITA,No,Paris,FRA,46.2276,2.2137,2024,07:44.07
+M800,Men's 800m Freestyle,M,800,121,Mykhailo Romanchuk,UKR,No,Fukuoka,JPN,36.2048,138.2529,2023,07:44.07
+M800,Men's 800m Freestyle,M,800,122,Yang Sun,CHN,No,Wuhan,CHN,35.8617,104.1954,2011,07:44.12
+M800,Men's 800m Freestyle,M,800,123,Gregorio Paltrinieri,ITA,No,Budapest,HUN,47.1625,19.5033,2022,07:44.19
+M800,Men's 800m Freestyle,M,800,124,Henrik Christiansen,NOR,No,Budapest,HUN,47.1625,19.5033,2017,07:44.21
+M800,Men's 800m Freestyle,M,800,125,Bobby Finke,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,07:44.22
+M800,Men's 800m Freestyle,M,800,126,Connor Jaeger,USA,No,Barcelona,ESP,40.4637,-3.7492,2013,07:44.26
+M800,Men's 800m Freestyle,M,800,127,Mykhailo Romanchuk,UKR,No,Berlin,GER,51.1657,10.4515,2023,07:44.27
+M800,Men's 800m Freestyle,M,800,128,Sven Schwarz,GER,No,Doha,QAT,25.3548,51.1839,2024,07:44.29
+M800,Men's 800m Freestyle,M,800,129,Federico Colbertaldo,ITA,No,Rome,ITA,41.8719,12.5674,2009,07:44.29
+M800,Men's 800m Freestyle,M,800,130,David Davies,GBR,No,Rome,ITA,41.8719,12.5674,2009,07:44.32
+M800,Men's 800m Freestyle,M,800,131,Kristof Rasovszky,HUN,No,Doha,QAT,25.3548,51.1839,2024,07:44.42
+M800,Men's 800m Freestyle,M,800,132,Zhanshuo Zhang,CHN,No,Shenzhen,CHN,35.8617,104.1954,2026,07:44.45
+M800,Men's 800m Freestyle,M,800,133,Daniel Wiffen,IRL,No,Stockholm,SWE,60.1282,18.6435,2023,07:44.45
+M800,Men's 800m Freestyle,M,800,134,Grant Hackett,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2001,07:44.47
+M800,Men's 800m Freestyle,M,800,135,Connor Jaeger,USA,No,Kazan,RUS,61.524,105.3188,2015,07:44.51
+M800,Men's 800m Freestyle,M,800,136,Zane Grothe,USA,No,Irvine,USA,37.0902,-95.7129,2018,07:44.57
+M800,Men's 800m Freestyle,M,800,137,David Aubry,FRA,No,Paris,FRA,46.2276,2.2137,2024,07:44.59
+M800,Men's 800m Freestyle,M,800,138,Oliver Klemet,GER,No,Berlin,GER,51.1657,10.4515,2025,07:44.61
+M800,Men's 800m Freestyle,M,800,139,Mykhailo Romanchuk,UKR,No,Budapest,HUN,47.1625,19.5033,2022,07:44.75
+M800,Men's 800m Freestyle,M,800,140,Connor Jaeger,USA,No,Kazan,RUS,61.524,105.3188,2015,07:44.77
+M800,Men's 800m Freestyle,M,800,141,Grant Hackett,AUS,Yes,Yokohama,JPN,36.2048,138.2529,2002,07:44.78
+M800,Men's 800m Freestyle,M,800,142,Florian Wellbrock,GER,No,Budapest,HUN,47.1625,19.5033,2022,07:44.80
+M800,Men's 800m Freestyle,M,800,143,Victor Johansson,SWE,No,Singapore,SGP,1.3521,103.8198,2025,07:44.81
+M800,Men's 800m Freestyle,M,800,144,Gregorio Paltrinieri,ITA,No,Fukuoka,JPN,36.2048,138.2529,2023,07:44.89
+M800,Men's 800m Freestyle,M,800,145,Elijah Winnington,AUS,Yes,Brisbane,AUS,-25.2744,133.7751,2024,07:44.90
+M800,Men's 800m Freestyle,M,800,146,Oliver Klemet,GER,No,Stockholm,SWE,60.1282,18.6435,2025,07:44.92
+M800,Men's 800m Freestyle,M,800,147,Daniel Wiffen,IRL,No,Dublin,IRL,53.1424,-7.6921,2023,07:44.94
+M800,Men's 800m Freestyle,M,800,148,Gergo Kis,HUN,No,Shanghai,CHN,35.8617,104.1954,2011,07:44.94
+M800,Men's 800m Freestyle,M,800,149,Gregorio Paltrinieri,ITA,No,Rio de Janeiro,BRA,-14.235,-51.9253,2016,07:44.97
+M800,Men's 800m Freestyle,M,800,150,Gregorio Paltrinieri,ITA,No,Berlin,GER,51.1657,10.4515,2014,07:44.98
+M800,Men's 800m Freestyle,M,800,151,Jack Alan Mcloughlin,AUS,Yes,Tokyo,JPN,36.2048,138.2529,2021,07:45.00
+M800,Men's 800m Freestyle,M,800,152,Yang Sun,CHN,No,Gwangju,KOR,35.9078,127.7669,2019,07:45.01
+M800,Men's 800m Freestyle,M,800,153,Samuel Short,AUS,Yes,Westmont,USA,37.0902,-95.7129,2025,07:45.02
+M800,Men's 800m Freestyle,M,800,154,Mykhailo Romanchuk,UKR,No,Rome,ITA,41.8719,12.5674,2022,07:45.02
+M800,Men's 800m Freestyle,M,800,155,Mykhailo Romanchuk,UKR,No,Rome,ITA,41.8719,12.5674,2022,07:45.03
+M800,Men's 800m Freestyle,M,800,156,Sergii Frolov,UKR,No,Tokyo,JPN,36.2048,138.2529,2021,07:45.11
+M800,Men's 800m Freestyle,M,800,157,Henrik Christiansen,NOR,No,Stockholm,SWE,60.1282,18.6435,2019,07:45.11
+M800,Men's 800m Freestyle,M,800,158,Samuel Short,AUS,Yes,Fukuoka,JPN,36.2048,138.2529,2023,07:45.12
+M800,Men's 800m Freestyle,M,800,159,Gregorio Paltrinieri,ITA,No,Glasgow,GBR,55.3781,-3.436,2018,07:45.12
+M800,Men's 800m Freestyle,M,800,160,Kuzey Tuncelli,TUR,No,Singapore,SGP,1.3521,103.8198,2025,07:45.13
+M800,Men's 800m Freestyle,M,800,161,Gregorio Paltrinieri,ITA,No,Kazan,RUS,61.524,105.3188,2015,07:45.15
+M800,Men's 800m Freestyle,M,800,162,Daniel Wiffen,IRL,No,Barcelona,ESP,40.4637,-3.7492,2025,07:45.17
+M800,Men's 800m Freestyle,M,800,163,Bobby Finke,USA,No,Paris,FRA,46.2276,2.2137,2024,07:45.18
+M800,Men's 800m Freestyle,M,800,164,Luke Whitlock,USA,No,Indianapolis,USA,37.0902,-95.7129,2024,07:45.19
+M800,Men's 800m Freestyle,M,800,165,Jordan Wilimovsky,USA,No,Tokyo,JPN,36.2048,138.2529,2018,07:45.19
+M800,Men's 800m Freestyle,M,800,166,Yang Sun,CHN,No,Shanghai,CHN,35.8617,104.1954,2011,07:45.29
+M800,Men's 800m Freestyle,M,800,167,Elijah Winnington,AUS,Yes,Adelaide,AUS,-25.2744,133.7751,2022,07:45.30
+M800,Men's 800m Freestyle,M,800,168,Ahmed Jaouadi,TUN,No,Chartres,FRA,46.2276,2.2137,2024,07:45.31
+M800,Men's 800m Freestyle,M,800,169,Gregorio Paltrinieri,ITA,No,Budapest,HUN,47.1625,19.5033,2017,07:45.31
+M800,Men's 800m Freestyle,M,800,170,Felix Auboeck,AUT,No,Stockholm,SWE,60.1282,18.6435,2022,07:45.32
+M800,Men's 800m Freestyle,M,800,171,Gregorio Paltrinieri,ITA,No,Riccione,ITA,41.8719,12.5674,2019,07:45.35
+M800,Men's 800m Freestyle,M,800,172,Ryan Cochrane,CAN,No,Gold Coast,AUS,-25.2744,133.7751,2014,07:45.39
+M800,Men's 800m Freestyle,M,800,173,Gregorio Paltrinieri,ITA,No,Rome,ITA,41.8719,12.5674,2020,07:45.41
+M800,Men's 800m Freestyle,M,800,174,Yang Sun,CHN,No,London,GBR,55.3781,-3.436,2012,07:45.45
+M800,Men's 800m Freestyle,M,800,175,Guilherme Costa,BRA,No,Budapest,HUN,47.1625,19.5033,2022,07:45.48
+M800,Men's 800m Freestyle,M,800,176,Gregorio Paltrinieri,ITA,No,Riccione,ITA,41.8719,12.5674,2018,07:45.53
+M800,Men's 800m Freestyle,M,800,177,Gregorio Paltrinieri,ITA,No,Riccione,ITA,41.8719,12.5674,2018,07:45.53
+M800,Men's 800m Freestyle,M,800,178,Lukas Maertens,GER,No,Singapore,SGP,1.3521,103.8198,2025,07:45.54
+M800,Men's 800m Freestyle,M,800,179,Ahmed Hafnaoui,TUN,No,Chartres,FRA,46.2276,2.2137,2021,07:45.54
+M800,Men's 800m Freestyle,M,800,180,Pal Joensen,FRO,No,Shanghai,CHN,35.8617,104.1954,2011,07:45.55
+M800,Men's 800m Freestyle,M,800,181,Gregorio Paltrinieri,ITA,No,Budapest,HUN,47.1625,19.5033,2017,07:45.57
+M800,Men's 800m Freestyle,M,800,182,Ryan Cochrane,CAN,No,Shanghai,CHN,35.8617,104.1954,2011,07:45.57
+M800,Men's 800m Freestyle,M,800,183,Daniel Wiffen,IRL,No,Dublin,IRL,53.1424,-7.6921,2023,07:45.59
+M800,Men's 800m Freestyle,M,800,184,Florian Wellbrock,GER,No,Glasgow,GBR,55.3781,-3.436,2018,07:45.60
+M800,Men's 800m Freestyle,M,800,185,Yang Sun,CHN,No,Zhengzhou,CHN,35.8617,104.1954,2013,07:45.60
+M800,Men's 800m Freestyle,M,800,186,Daniel Wiffen,IRL,No,Rotterdam,NED,52.1326,5.2913,2023,07:45.61
+M800,Men's 800m Freestyle,M,800,187,Florian Wellbrock,GER,No,London,GBR,55.3781,-3.436,2025,07:45.63
+M800,Men's 800m Freestyle,M,800,188,Larsen Jensen,USA,No,Montreal,CAN,56.1304,-106.3468,2005,07:45.63
+M800,Men's 800m Freestyle,M,800,189,Oliver Klemet,GER,No,Stockholm,SWE,60.1282,18.6435,2026,07:45.66
+M800,Men's 800m Freestyle,M,800,190,Henrik Christiansen,NOR,No,Kazan,RUS,61.524,105.3188,2015,07:45.66
+M800,Men's 800m Freestyle,M,800,191,Mack Horton,AUS,Yes,Dubai,UAE,23.4241,53.8478,2013,07:45.67
+M800,Men's 800m Freestyle,M,800,192,Gregorio Paltrinieri,ITA,No,Gwangju,KOR,35.9078,127.7669,2019,07:45.70
+M800,Men's 800m Freestyle,M,800,193,Gregorio Paltrinieri,ITA,No,Paris,FRA,46.2276,2.2137,2024,07:45.72
+M800,Men's 800m Freestyle,M,800,194,Felix Auboeck,AUT,No,Tokyo,JPN,36.2048,138.2529,2021,07:45.73
+M800,Men's 800m Freestyle,M,800,195,Elijah Winnington,AUS,Yes,Melbourne,AUS,-25.2744,133.7751,2023,07:45.75
+M800,Men's 800m Freestyle,M,800,197,Daniel Wiffen,IRL,No,Doha,QAT,25.3548,51.1839,2024,07:45.79
+M800,Men's 800m Freestyle,M,800,198,Luca De Tullio,ITA,No,Rome,ITA,41.8719,12.5674,2024,07:45.80
+M800,Men's 800m Freestyle,M,800,199,Guilherme Costa,BRA,No,Fukuoka,JPN,36.2048,138.2529,2023,07:45.80
+M800,Men's 800m Freestyle,M,800,200,Gregorio Paltrinieri,ITA,No,Rome,ITA,41.8719,12.5674,2022,07:45.80
