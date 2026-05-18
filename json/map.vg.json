@@ -1,0 +1,151 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 760,
+  "height": 420,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "params": [
+    {
+      "name": "genderFilter",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": ["All", "M", "F"],
+        "labels": ["All", "Men", "Women"],
+        "name": "Gender: "
+      }
+    },
+    {
+      "name": "topN",
+      "value": 200,
+      "bind": {
+        "input": "range",
+        "min": 20,
+        "max": 200,
+        "step": 20,
+        "name": "Top N: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/vega-datasets@2/data/world-110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      "projection": {
+        "type": "equalEarth"
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#EEF2F5",
+        "stroke": "white",
+        "strokeWidth": 0.5
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/chart_host_country_map_points.csv"
+      },
+      "projection": {
+        "type": "equalEarth"
+      },
+      "transform": [
+        {
+          "filter": "genderFilter == 'All' || datum.gender == genderFilter"
+        },
+        {
+          "filter": "toNumber(datum.rank_num) <= topN"
+        },
+        {
+          "calculate": "datum.is_australian == 'Yes' ? 1 : 0",
+          "as": "is_aus_num"
+        },
+        {
+          "aggregate": [
+            {
+              "op": "count",
+              "as": "performance_count"
+            },
+            {
+              "op": "sum",
+              "field": "is_aus_num",
+              "as": "aus_count"
+            }
+          ],
+          "groupby": [
+            "host_country_code",
+            "host_lat",
+            "host_lon"
+          ]
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "opacity": 0.78,
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "host_lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "host_lat",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "performance_count",
+          "type": "quantitative",
+          "title": "Top N",
+          "scale": {
+            "range": [60, 1500]
+          }
+        },
+        "color": {
+          "field": "aus_count",
+          "type": "quantitative",
+          "title": "Performances",
+          "scale": {
+            "scheme": "blues"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "host_country_code",
+            "title": "Host Country"
+          },
+          {
+            "field": "performance_count",
+            "title": "All Top 200 Performances"
+          },
+          {
+            "field": "aus_count",
+            "title": "Australian Performances"
+          }
+        ]
+      }
+    }
+  ],
+  "title": {
+    "text": "Where Were Elite Freestyle Performances Recorded?",
+    "anchor": "start",
+    "fontSize": 18,
+    "subtitleFontSize": 12
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "legend": {
+      "titleFontSize": 12,
+      "labelFontSize": 11
+    }
+  }
+}

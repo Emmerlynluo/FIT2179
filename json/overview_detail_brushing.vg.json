@@ -1,0 +1,185 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Australia's Olympic Swimming Medals Over Time",
+    "fontSize": 18,
+    "subtitleFontSize": 12,
+    "anchor": "start"
+  },
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/aus_olympic_swimming_medals_long.csv"
+  },
+
+  "transform": [
+    {
+      "calculate": "datum.Medal == 'Gold' ? 1 : datum.Medal == 'Silver' ? 2 : 3",
+      "as": "MedalOrder"
+    }
+  ],
+
+  "vconcat": [
+    {
+      "width": 720,
+      "height": 300,
+
+      "mark": {
+        "type": "bar",
+        "tooltip": true
+      },
+
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "quantitative",
+          "scale": {
+            "domain": {
+              "param": "year_brush"
+            }
+          },
+          "axis": {
+            "title": "Olympic Year",
+            "format": "d",
+            "tickMinStep": 4
+          }
+        },
+
+        "y": {
+          "field": "Count",
+          "type": "quantitative",
+          "aggregate": "sum",
+          "title": "Number of Medals"
+        },
+
+        "color": {
+          "field": "Medal",
+          "type": "nominal",
+          "title": "Medal Type",
+          "scale": {
+            "domain": ["Gold", "Silver", "Bronze"],
+            "range": ["#D4AF37", "#C0C0C0", "#CD7F32"]
+          },
+          "legend": {
+            "orient": "right"
+          }
+        },
+
+        "order": {
+          "field": "MedalOrder",
+          "type": "quantitative"
+        },
+
+        "tooltip": [
+          {
+            "field": "Year",
+            "type": "quantitative",
+            "title": "Olympic Year",
+            "format": "d"
+          },
+          {
+            "field": "Medal",
+            "type": "nominal",
+            "title": "Medal Type"
+          },
+          {
+            "field": "Count",
+            "type": "quantitative",
+            "aggregate": "sum",
+            "title": "Medal Count"
+          }
+        ]
+      }
+    },
+
+    {
+      "width": 720,
+      "height": 80,
+      "autosize": {
+      "type": "fit",
+      "contains": "padding",
+      "resize": true
+    },
+
+      "title": {
+        "text": "Overview Timeline: Drag to Select a Period",
+        "fontSize": 13,
+        "anchor": "start"
+      },
+
+      "params": [
+        {
+          "name": "year_brush",
+          "select": {
+            "type": "interval",
+            "encodings": ["x"]
+          }
+        }
+      ],
+
+      "mark": {
+        "type": "area",
+        "opacity": 0.65,
+        "line": true
+      },
+
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "quantitative",
+          "axis": {
+            "title": "Olympic Year",
+            "format": "d",
+            "tickMinStep": 4
+          }
+        },
+
+        "y": {
+          "field": "Count",
+          "type": "quantitative",
+          "aggregate": "sum",
+          "title": "Total",
+          "axis": {
+            "tickCount": 3,
+            "grid": false
+          }
+        },
+
+        "tooltip": [
+          {
+            "field": "Year",
+            "type": "quantitative",
+            "title": "Olympic Year",
+            "format": "d"
+          },
+          {
+            "field": "Count",
+            "type": "quantitative",
+            "aggregate": "sum",
+            "title": "Total Swimming Medals"
+          }
+        ]
+      }
+    }
+  ],
+
+  "resolve": {
+    "scale": {
+      "color": "shared"
+    }
+  },
+
+  "config": {
+    "background": "white",
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "font": "sans-serif"
+    },
+    "view": {
+      "stroke": null
+    }
+  }
+}

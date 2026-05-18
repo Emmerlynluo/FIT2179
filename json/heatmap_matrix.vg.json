@@ -1,0 +1,92 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/event_strength_matrix.csv"
+  },
+  "width": 550,
+  "height": 400,
+  "autosize": {
+  "type": "fit",
+  "contains": "padding",
+  "resize": true
+  },
+  "params": [
+    {
+      "name": "genderFilter",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": ["All", "F", "M"],
+        "labels": ["All", "Women", "Men"],
+        "name": "Gender: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "genderFilter == 'All' || datum.gender == genderFilter"
+    }
+  ],
+  "mark": {
+    "type": "rect",
+    "stroke": "white",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "x": {
+      "field": "event_label",
+      "type": "nominal",
+      "sort": [
+        "Women's 50m",
+        "Women's 100m",
+        "Women's 200m",
+        "Women's 400m",
+        "Women's 800m",
+        "Men's 50m",
+        "Men's 100m",
+        "Men's 200m",
+        "Men's 400m",
+        "Men's 800m"
+      ],
+      "title": "Freestyle Event",
+      "axis": {
+        "labelAngle": -35,
+        "labelFontSize": 11
+      }
+    },
+    "y": {
+      "field": "country",
+      "type": "nominal",
+      "sort": {
+        "field": "country_total",
+        "order": "descending"
+      },
+      "title": "Country"
+    },
+    "color": {
+      "field": "top200_count",
+      "type": "quantitative",
+      "title": "Count",
+      "scale": {
+        "scheme": "blues"
+      }
+    },
+    "tooltip": [
+      {"field": "country_name", "title": "Country"},
+      {"field": "event_label", "title": "Event"},
+      {"field": "top200_count", "title": "Count"},
+      {"field": "best_rank", "title": "Best Rank"}
+    ]
+  },
+  "title": "Freestyle Event Strength Matrix: Top Nations Across Events",
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": {
+      "fontSize": 17,
+      "anchor": "start"
+    }
+  }
+}

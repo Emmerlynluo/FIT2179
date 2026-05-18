@@ -1,0 +1,116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 270,
+  "height": 270,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/australia_summer_olympic_medals_by_sport_wide.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.total > 0"
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "total",
+          "as": "overall_total"
+        }
+      ]
+    },
+    {
+      "calculate": "datum.total / datum.overall_total",
+      "as": "share"
+    },
+    {
+      "calculate": "format(datum.share, '.1%')",
+      "as": "share_label"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "arc",
+        "innerRadius": 80,
+        "outerRadius": 138,
+        "stroke": "white",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "theta": {
+          "field": "total",
+          "type": "quantitative"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.sport == 'Swimming'",
+            "value": "#0077b6"
+          },
+          "value": "#d9d9d9"
+        },
+        "order": {
+          "field": "total",
+          "type": "quantitative",
+          "sort": "descending"
+        },
+        "tooltip": [
+          {
+            "field": "sport",
+            "title": "Sport"
+          },
+          {
+            "field": "gold",
+            "title": "Gold"
+          },
+          {
+            "field": "silver",
+            "title": "Silver"
+          },
+          {
+            "field": "bronze",
+            "title": "Bronze"
+          },
+          {
+            "field": "total",
+            "title": "Total medals"
+          },
+          {
+            "field": "share_label",
+            "title": "Share of total"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 40,
+        "fontWeight": "bold",
+        "color": "#003049"
+      },
+      "encoding": {
+        "text": {
+          "value": "38.3%"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dy": 34,
+        "fontSize": 15,
+        "color": "#333333"
+      },
+      "encoding": {
+        "text": {
+          "value": "from Swimming"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
+}

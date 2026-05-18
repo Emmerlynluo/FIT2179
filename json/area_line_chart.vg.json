@@ -1,0 +1,157 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/rank_gap_top200.csv"
+  },
+  "width": 540,
+  "height": 320,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "params": [
+    {
+      "name": "eventSelect",
+      "value": "F100",
+      "bind": {
+        "input": "select",
+        "options": [
+          "F50",
+          "F100",
+          "F200",
+          "F400",
+          "F800",
+          "M50",
+          "M100",
+          "M200",
+          "M400",
+          "M800"
+        ],
+        "labels": [
+          "Women 50m",
+          "Women 100m",
+          "Women 200m",
+          "Women 400m",
+          "Women 800m",
+          "Men 50m",
+          "Men 100m",
+          "Men 200m",
+          "Men 400m",
+          "Men 800m"
+        ],
+        "name": "Event: "
+      }
+    },
+    {
+      "name": "topN",
+      "value": 100,
+      "bind": {
+        "input": "range",
+        "min": 20,
+        "max": 200,
+        "step": 20,
+        "name": "Show Top N: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.event_key == eventSelect"
+    },
+    {
+      "filter": "datum.rank_num <= topN"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "area",
+        "interpolate": "monotone",
+        "opacity": 0.28,
+        "color": "#67a5eb"
+      },
+      "encoding": {
+        "x": {
+          "field": "rank_num",
+          "type": "quantitative",
+          "title": "World Ranking"
+        },
+        "y": {
+          "field": "gap_from_wr_seconds",
+          "type": "quantitative",
+          "title": "Seconds Behind World Record"
+        },
+        "tooltip": [
+          {"field": "event_label", "title": "Event"},
+          {"field": "rank_num", "title": "Rank"},
+          {"field": "athlete", "title": "Athlete"},
+          {"field": "team_code", "title": "Country"},
+          {"field": "swim_time", "title": "Time"},
+          {"field": "gap_from_wr_seconds", "title": "Gap from WR"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "interpolate": "monotone",
+        "strokeWidth": 2.5,
+        "color": "#64748B"
+      },
+      "encoding": {
+        "x": {
+          "field": "rank_num",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "gap_from_wr_seconds",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.is_australian == 'Yes'"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "size": 95,
+        "color": "#2b39cb",
+        "stroke": "white",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "rank_num",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "gap_from_wr_seconds",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {"field": "event_label", "title": "Event"},
+          {"field": "rank_num", "title": "Rank"},
+          {"field": "athlete", "title": "Australian Swimmer"},
+          {"field": "swim_time", "title": "Time"},
+          {"field": "gap_from_wr_seconds", "title": "Gap from WR"},
+          {"field": "year", "title": "Year"},
+          {"field": "meet_city", "title": "Meet City"}
+        ]
+      }
+    }
+  ],
+  "title": "How Close Are Elite Freestyle Performances to the World Record?",
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": {
+      "fontSize": 17,
+      "anchor": "start"
+    }
+  }
+}

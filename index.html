@@ -1,55 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>My Second HTML Document</title>
+    <meta charset="UTF-8">
+    <title>Australia's Olympic Strength in Water</title>
+
+    <!-- Import Vega, Vega-Lite and Vega-Embed -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Import Pure.css -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+          integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
+          crossorigin="anonymous">
+
+    <!-- Pure responsive grid -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/purecss@2.0.3/build/grids-responsive-min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Source+Sans+3:wght@400;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css\style.css" media="all">
 </head>
+
+
 <body>
-    <h1>1. Introduction to HTML. (Level 1)</h1>
-    <h2>1.1 Creating paragraphs (level 2)</h2>
-    <p>Unit: FIT2179 Data visualisation.</p>
-    <p>This is a paragraph about paragraphs.</p>
 
-    <h2>1.2 Creating headings (level 2)</h2>
-    <h3>1.2.1 Table Rows (level 3)</h3>
-    <p>This is a third paragraph about table rows.</p>
+    <div class="poster">
 
-    <h3>1.2.2 Table Columns (level 3)</h3>
-    <p>This is the fourth paragraph about image in HTML.</p>
+        <!-- =========================
+             Header
+        ========================== -->
+        <div class="header-section">
+            <div class="header-text">
+                <p class="kicker">AUSTRALIAN SWIMMING DATA STORY</p>
+                <h1>Australia's Strength in Water</h1>
+                <p class="subtitle">
+                    How swimming connects Olympic medals, freestyle depth, and everyday sporting culture.
+                </p>
+            </div>
+        </div>
 
-    <table border="1" cellpadding="10%" cellspacing="0">
-        <tr>
-            <th>First name</th>
-            <th>Last name</th>
-            <th>Grade</th>
-        </tr>
-        <tr>
-            <td>Mike</td>
-            <td>Joe</td>
-            <td>HD</td>
-        </tr>
-        <tr>
-            <td>Jane</td>
-            <td>Smith</td>
-            <td>HD</td>
-        </tr>
-    </table>
 
-    <img src = "https://www.w3schools.com/html/pic_trulli.jpg">
-    <img src = "小熊维尼1.jpg">
+        <!-- =========================
+             Section 1
+        ========================== -->
+        <div class="major-section-heading">
+            <h2>Swimming is a stable Olympic medal source</h2>
+        </div>
 
-    <h2> Hyperlinks in HTML. </h2>
-    <a href = "https://www.monash.edu/">
-        Click here to visit Monash University website.
-    </a>
 
-    <div style = "color: lightpink;">
-        <h2> Heading of first group </h2>
-        <p> This is in first group </p>
-    </div>
+        <!-- =========================
+             Intro: Donut + Story
+        ========================== -->
+        <div class="section-block medal-overview-section">
 
-    <div style = "color: lightblue;">
-        <h2> Heading of second group </h2>
-        <p> This is in second group </p>
-    </div>
+            <div class="chart-story-grid chart-row">
+
+                <div class="donut-column">
+                    <div class="chart-panel compact-donut-panel">
+                        <div id="donut_chart" class="vis-container donut-container"></div>
+                    </div>
+                </div>
+
+                <div class="bar-column">
+                    <div class="chart-panel compact-bar-panel">
+                        <div id="ranked_bar_chart" class="vis-container ranked-bar-container"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="chart-story-grid story-row">
+
+                <div class="donut-column">
+                    <div class="story-under-chart compact-story">
+                        <h3>Nearly 4 in every 10 medals come from swimming</h3>
+                            <p>
+                                Swimming contributes 230 of Australia's 600 Summer Olympic medals.
+                                This makes it the <strong>largest contributor</strong> across all Summer Olympic sports.
+                            </p>
+                    </div>
+                </div>
+
+                <div class="bar-column">
+                    <div class="story-under-chart compact-story">
+                        <h3>Swimming leads by a wide margin</h3>
+                        <p>
+                            The ranked bar chart compares Australia's top five Summer Olympic sports by total medals.
+                            Swimming sits far ahead of athletics, cycling, rowing and canoeing, showing a clear gap between the pool and other successful sports.
+                            This lead suggests that swimming is not only a strong medal source, but also a defining part of Australia's Summer Olympic performance.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             Medal Share: Story + Chart
+        ========================== -->
+        <div class="section-block medal-type-section">
+
+            <div class="layout layout-35-65">
+                <div class="story-copy stack-center">
+                    <h3>Strong across all medal types</h3>
+                        <p>
+                            This chart compares swimming's share of Australia's gold, silver and bronze medals with all other sports combined.
+                            Swimming contributes a <strong>large share in each medal category</strong>, rather than standing out in only one type.
+                            Its gold and silver shares are especially similar, while bronze is slightly lower but still substantial.
+                            This shows that swimming provides broad medal depth and a balanced Olympic contribution across multiple Olympic generations and competitions.
+                        </p>
+                </div>
+
+                <div class="chart-panel chart-sm">
+                    <div id="medal_share_chart" class="vis-container"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             Timeline + Story
+        ========================== -->
+        <div class="section-block timeline-section">
+
+            <div class="layout layout-70-30">
+                <div class="chart-panel chart-md">
+                    <div id="timeline_chart" class="vis-container"></div>
+                </div>
+
+                <div class="story-copy stack-center">
+                    <h3>Generations of Australian Swimming Success</h3>
+                        <p>
+                            This interactive timeline shows how Australia's swimming medals have accumulated across Olympic history. 
+                            Instead of showing one isolated peak, the stacked bars reveal a <strong>long-term pattern of consistent medal growth</strong>, 
+                            with stronger and more regular results appearing in later Olympic periods. Earlier Olympic Games often show 
+                            smaller medal totals, while recent decades contain more frequent and consistent podium finishes across gold, 
+                            silver and bronze categories.
+                        </p>
+
+                        <p>
+                            The overview chart below supports brushing interaction, allowing viewers to select a specific time range 
+                            and inspect medal changes more closely. This interaction helps <strong>directly compare early low-medal periods with
+                            more successful modern Games</strong> , while still preserving the broader historical context.
+                        </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+            Olympic Host Map + Story
+        ========================== -->
+        <div class="section-block map-story-section">
+
+            <div class="layout layout-70-30">
+
+                <div class="chart-panel chart-map">
+                    <div id="host_map_chart" class="vis-container"></div>
+                </div>
+
+                <div class="story-copy stack-center">
+                    <h3>The medal record has a geographic path</h3>
+
+                    <p>
+                        This interactive symbol map links Australia's Olympic swimming medals to host cities and regions.
+                        Instead of treating medals as only national totals, it shows where each Olympic result took place.
+                        Viewers can switch between <strong>all history</strong> and a selected Olympic year.
+                        They can also filter by medal type, adjust zoom, and change the map centre to inspect different regions.
+                    </p>
+
+                    <p>
+                        The bubble size shows medal count, so larger circles mark stronger Australian swimming performances.
+                        This turns the medal record into a <strong>time and place narrative</strong>,
+                        connecting Olympic achievement with global host locations.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             Section 2
+        ========================== -->
+        <div class="major-section-heading">
+            <h2>Freestyle reveals event depth and global presence</h2>
+        </div>
+
+
+        <!-- =========================
+            Freestyle Benchmark + Depth
+        ========================== -->
+        <div class="section-block freestyle-pair-section">
+
+            <div class="layout layout-50-50 chart-row">
+
+                <div class="chart-panel paired-chart-panel">
+                    <div id="area_line_chart" class="vis-container"></div>
+                </div>
+
+                <div class="chart-panel paired-chart-panel">
+                    <div id="dumbbell_chart" class="vis-container"></div>
+                </div>
+
+            </div>
+
+            <div class="layout layout-50-50 story-row">
+
+            <div class="story-copy paired-story">
+                <h3>Rankings need a world record benchmark</h3>
+                <p>
+                    This chart uses the <strong>world record</strong> as a clear benchmark to show how quickly
+                    performance gaps increase across the freestyle rankings. When Australian swimmers appear close
+                    to the left side, it suggests stronger <strong>elite-level competitiveness</strong>. Points spread
+                    further across the ranking reveal whether Australia has only a few leading performers
+                    <strong>event depth</strong> within the global field.
+                </p>
+            </div>
+
+            <div class="story-copy paired-story">
+                <h3>Depth changes from event to event</h3>
+                <p>
+                    This dumbbell chart compares <strong>Australia</strong> with <strong>the United States</strong> to show where national depth is
+                    stronger or weaker across freestyle events. A shorter gap suggests Australia is more competitive
+                    with a major swimming nation, while a wider gap highlights events where the USA has greater
+                    Top 200 depth. This helps reveal differences between <strong>sprint, middle-distance
+                    and distance events</strong>.
+                </p>
+            </div>
+
+        </div>
+
+        </div>
+
+
+        <!-- =========================
+            Freestyle nations + swimmers
+        ========================== -->
+        <div class="section-block freestyle-pair-section">
+
+            <div class="layout layout-50-50 chart-row">
+
+                <div class="chart-panel paired-chart-panel">
+                    <div id="heatmap_matrix_chart" class="vis-container"></div>
+                </div>
+
+                <div class="chart-panel paired-chart-panel">
+                    <div id="swimmer_bubble_chart" class="vis-container"></div>
+                </div>
+
+            </div>
+
+            <div class="layout layout-50-50 story-row">
+
+                <div class="story-copy paired-story">
+                    <h3>Global freestyle strength varies by event</h3>
+                        <p>
+                            The heatmap compares how leading freestyle nations perform across different events.
+                            Darker cells represent more top-200 performances, making it easier to identify where countries develop
+                            <strong>specialised event strength</strong> rather than balanced performance across freestyle events.
+                            Australia appears strongly in several events, but the matrix also highlights how the freestyle field
+                            is shared across multiple nations. This broader comparison moves beyond a simple Australia versus USA narrative
+                            and reveals the <strong>competitive depth of the field</strong>.
+                        </p>
+                </div>
+
+                <div class="story-copy paired-story">
+                    <h3>Elite depth depends on repeated success</h3>
+                    <p>
+                        The athlete bubble chart connects Australia's national freestyle profile to individual swimmers.
+                        Instead of focusing only on a swimmer's single best result, the chart compares
+                        <strong>peak world ranking</strong> with <strong>repeated top-200 appearances</strong>.
+                        Larger bubbles indicate swimmers who compete successfully across multiple freestyle events,
+                        helping reveal versatility as well as consistency. Together, the bubbles show that Australia's freestyle depth
+                        is supported not only by isolated stars, but also by swimmers who maintain elite performance over time.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             World Map + Story
+        ========================== -->
+        <div class="section-block world-map-section">
+
+            <div class="layout layout-70-30">
+
+                <div class="chart-panel chart-map">
+                    <div id="world_map_chart" class="vis-container"></div>
+                </div>
+
+                <div class="story-copy stack-center">
+                    <h3>Freestyle performance has a global footprint</h3>
+
+                    <p>
+                        This map shows where elite freestyle performances were recorded across the global competition network.
+                        Bubble size represents all top freestyle performances, while colour intensity shows Australian performances.
+                        Australia stands out clearly, but the map also shows that elite freestyle results are distributed across many host locations.
+                        This helps connect event depth with <strong>competition geography</strong>, rather than treating rankings as isolated numbers.
+                        The interactive filters let viewers adjust gender and top-ranking depth.
+                        This reveals whether Australia's presence remains visible across broader or narrower slices of the elite field.
+                        The map provides a <strong>global spatial ending</strong> for the freestyle section.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             Section 3
+        ========================== -->
+        <div class="major-section-heading">
+            <h2>Everyday participation helps explain the elite outcome</h2>
+        </div>
+
+
+        <!-- =========================
+            Participation activity + demographic pattern
+        ========================== -->
+        <div class="section-block participation-pair-section">
+
+            <div class="layout layout-50-50 chart-row">
+
+                <div class="chart-panel paired-chart-panel">
+                    <div id="lollipop_chart" class="vis-container"></div>
+                </div>
+
+                <div class="chart-panel paired-chart-panel">
+                    <div id="butterfly_chart" class="vis-container"></div>
+                </div>
+
+            </div>
+
+            <div class="layout layout-50-50 story-row">
+
+                <div class="story-copy paired-story">
+                    <h3>Swimming is visible in adult activity culture</h3>
+
+                    <p>
+                        The lollipop chart shows that swimming ranks among Australia's most popular adult activities,
+                        placing it alongside large everyday activities such as walking and fitness training.
+                        This suggests that swimming is supported by a <strong>broad public participation base</strong>,
+                        rather than existing only as an elite Olympic sport across Australian society.
+                        The gap between swimming and lower-ranked activities also highlights how visible swimming remains
+                        within Australian recreational culture. This helps explain why Australia can continue producing
+                        strong freestyle results across multiple Olympic generations.
+                    </p>
+                </div>
+
+                <div class="story-copy paired-story">
+                    <h3>Participation has demographic shape</h3>
+
+                    <p>
+                        The butterfly chart compares how men and women participate across Australia's top adult activities.
+                        While several activities show clear gender imbalance, swimming remains comparatively visible across both groups,
+                        suggesting a <strong>wider demographic reach</strong> across different population groups than many other popular sports.
+                        This demographic spread matters because elite sport systems are often strengthened by larger and more diverse
+                        participation pathways. The chart therefore connects Australia's freestyle success not only to elite athletes,
+                        but also to the broader social structure supporting long-term swimming participation.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+            Age Profile + Story
+        ========================== -->
+        <div class="section-block age-profile-section">
+
+            <div class="layout layout-70-30">
+
+                <div class="chart-panel chart-lg age-profile-chart-panel">
+                    <div id="age_profile_chart" class="vis-container"></div>
+                </div>
+
+                <div class="story-copy stack-center">
+                    <h3>Swimming starts early and remains visible across life</h3>
+
+                    <p>
+                        The age profile shows that swimming participation is strongest in childhood, especially during the early school-age years.
+                        This matters because swimming is commonly learned early as both recreation and a basic life skill.
+                        Unlike some sports that decline sharply after youth participation, swimming remains visible across adult age groups.
+                        The line no longer stays at its childhood peak, but it still shows a <strong>long participation tail</strong>
+                        across later life stages.
+                        This helps explain why Australia's swimming strength feels culturally embedded.
+                        The sport is connected not only to elite Olympic success, but also to <strong>early exposure</strong>,
+                        family recreation, and long-term participation habits.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+            Conclusion
+        ========================== -->
+        <div class="conclusion-block">
+
+            <h2>Conclusion</h2>
+
+            <div class="conclusion-grid">
+
+                <p>
+                    This poster shows that swimming is not only Australia's strongest Summer Olympic sport,
+                    but also a long-term, balanced, and globally visible source of medal success.
+                    The Olympic charts highlight swimming's large medal share, repeated success across time,
+                    and its consistent presence within competition environments and host locations.
+                </p>
+
+                <p>
+                    The freestyle charts reveal event depth, elite athlete consistency,
+                    and Australia's place within the wider international field. The participation charts explain why this success matters beyond the Olympics:
+                    swimming is visible in everyday Australian life, starts early, and remains part of activity culture across age groups.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- =========================
+             Footer
+        ========================== -->
+        <div class="footer">
+            <p>
+                Designed by <strong>Emmerlyn Luo</strong> on <strong>19 May 2026</strong> for
+                <strong>FIT2179 Data Visualisation Assignment 2</strong>. Data sources include
+                <a href="https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table" target="_blank">Olympic medal records</a>,
+                <a href="https://www.worldaquatics.com/swimming/rankings?gender=M&distance=50&stroke=FREESTYLE&poolConfiguration=LCM&year=all&startDate=&endDate=&timesMode=ALL_TIMES&regionId=all&countryId=" target="_blank">World Aquatics rankings</a>,
+                and
+                <a href="https://www.swimming.org.au/events-results/results/rankings-and-records" target="_blank">Swimming Australia rankings</a>.
+            </p>
+        </div>
+
+
+    <!-- =========================
+         Vega-Lite Embedding Scripts
+    ========================== -->
+    <script type="text/javascript">
+        const charts = [
+            { id: "#donut_chart", spec: "json/donut_chart.vg.json", name: "Donut chart" },
+            { id: "#ranked_bar_chart", spec: "json/ranked_bar_chart.vg.json", name: "Ranked bar chart" },
+            { id: "#bubble_chart", spec: "json/bubble_chart.vg.json", name: "Bubble chart" },
+            { id: "#medal_share_chart", spec: "json/medal_type_comparison.vg.json", name: "Medal share chart" },
+            { id: "#timeline_chart", spec: "json/overview_detail_brushing.vg.json", name: "Timeline chart" },
+            { id: "#host_map_chart", spec: "json/zoomable_map.vg.json", name: "Olympic host map" },
+
+            { id: "#area_line_chart", spec: "json/area_line_chart.vg.json", name: "Area line chart" },
+            { id: "#dumbbell_chart", spec: "json/dumbbell_chart.vg.json", name: "Dumbbell chart" },
+            { id: "#heatmap_matrix_chart", spec: "json/heatmap_matrix.vg.json", name: "Strength matrix chart" },
+            { id: "#swimmer_bubble_chart", spec: "json/bubble_chart_swimmers.vg.json", name: "Swimmer bubble chart" },
+            { id: "#world_map_chart", spec: "json/map.vg.json", name: "World performance map" },
+
+            { id: "#lollipop_chart", spec: "json/lollipop_chart.vg.json", name: "Lollipop chart" },
+            { id: "#age_profile_chart", spec: "json/grouped_line_chart_all_ages.vg.json", name: "Age profile chart" },
+            { id: "#butterfly_chart", spec: "json/butterfly_chart.vg.json", name: "Butterfly chart" }
+        ];
+
+        charts.forEach(function(chart) {
+            vegaEmbed(chart.id, chart.spec, {
+                actions: false,
+                renderer: "svg"
+            }).catch(function(error) {
+                console.error(chart.name + " error:", error);
+                const target = document.querySelector(chart.id);
+                if (target) {
+                    target.innerHTML =
+                        '<div class="chart-error"><strong>Chart failed to load.</strong><br><span>' +
+                        chart.spec +
+                        '</span></div>';
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>

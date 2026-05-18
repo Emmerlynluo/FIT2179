@@ -1,0 +1,125 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/dumbbell_aus_usa.csv"
+  },
+  "width": 540,
+  "height": 320,
+  "autosize": {
+    "type": "fit",
+    "contains": "padding",
+    "resize": true
+  },
+  "params": [
+    {
+      "name": "genderFilter",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": ["All", "F", "M"],
+        "labels": ["All", "Women", "Men"],
+        "name": "Gender: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "genderFilter == 'All' || datum.gender == genderFilter"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 3,
+        "color": "#CBD5E1"
+      },
+      "encoding": {
+        "y": {
+          "field": "event_label",
+          "type": "nominal",
+          "sort": [
+            "Women's 50m",
+            "Women's 100m",
+            "Women's 200m",
+            "Women's 400m",
+            "Women's 800m",
+            "Men's 50m",
+            "Men's 100m",
+            "Men's 200m",
+            "Men's 400m",
+            "Men's 800m"
+          ],
+          "title": "Freestyle Event"
+        },
+        "x": {
+          "aggregate": "min",
+          "field": "top200_count",
+          "type": "quantitative",
+          "title": "Number of Top 200 Performances"
+        },
+        "x2": {
+          "aggregate": "max",
+          "field": "top200_count"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 180,
+        "stroke": "white",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "y": {
+          "field": "event_label",
+          "type": "nominal",
+          "sort": [
+            "Women's 50m",
+            "Women's 100m",
+            "Women's 200m",
+            "Women's 400m",
+            "Women's 800m",
+            "Men's 50m",
+            "Men's 100m",
+            "Men's 200m",
+            "Men's 400m",
+            "Men's 800m"
+          ]
+        },
+        "x": {
+          "field": "top200_count",
+          "type": "quantitative"
+        },
+        "color": {
+          "field": "country",
+          "type": "nominal",
+          "scale": {
+            "domain": ["AUS", "USA"],
+            "range": ["#006B54", "#9BA7B4"]
+          },
+          "title": "Country"
+        },
+        "tooltip": [
+          {"field": "event_label", "title": "Event"},
+          {"field": "country", "title": "Country"},
+          {"field": "top200_count", "title": "Top 200 Performances"},
+          {"field": "best_rank", "title": "Best Rank"},
+          {"field": "best_athlete", "title": "Best Athlete"}
+        ]
+      }
+    }
+  ],
+  "title": "Australia vs USA: Freestyle Top 200 Depth by Event",
+  "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": {
+      "fontSize": 17,
+      "anchor": "start"
+    }
+  }
+}

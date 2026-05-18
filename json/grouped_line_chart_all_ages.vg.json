@@ -1,0 +1,309 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Swimming Participation Across Uneven Age Groups",
+    "subtitle": "Age groups follow the original AusPlay categories."
+  },
+  "width": 760,
+  "height": 420,
+  "autosize": {
+  "type": "fit",
+  "contains": "padding"
+    },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/top10_activities_age_profiles_0-65.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum.age_group == '8-May' ? '5-8' : datum.age_group == '11-Sep' ? '9-11' : datum.age_group == '14-Dec' ? '12-14' : datum.age_group",
+      "as": "age_group_clean"
+    },
+    {
+      "filter": "datum.has_full_age_profile_0to65 == 'Yes'"
+    },
+    {
+      "calculate": "datum.age_group_clean == '0-4' ? 0 : datum.age_group_clean == '5-8' ? 5 : datum.age_group_clean == '9-11' ? 9 : datum.age_group_clean == '12-14' ? 12 : datum.age_group_clean == '15-17' ? 15 : datum.age_group_clean == '18-24' ? 18 : datum.age_group_clean == '25-34' ? 25 : datum.age_group_clean == '35-44' ? 35 : datum.age_group_clean == '45-54' ? 45 : datum.age_group_clean == '55-64' ? 55 : 65",
+      "as": "age_start"
+    },
+    {
+      "calculate": "datum.age_group_clean == '0-4' ? 4 : datum.age_group_clean == '5-8' ? 8 : datum.age_group_clean == '9-11' ? 11 : datum.age_group_clean == '12-14' ? 14 : datum.age_group_clean == '15-17' ? 17 : datum.age_group_clean == '18-24' ? 24 : datum.age_group_clean == '25-34' ? 34 : datum.age_group_clean == '35-44' ? 44 : datum.age_group_clean == '45-54' ? 54 : datum.age_group_clean == '55-64' ? 64 : 75",
+      "as": "age_end"
+    },
+    {
+      "calculate": "(datum.age_start + datum.age_end) / 2",
+      "as": "age_midpoint"
+    },
+    {
+      "calculate": "datum.age_group_clean == '65+' ? '65+ is open-ended; plotted at approximate midpoint 70' : 'Age interval width: ' + (datum.age_end - datum.age_start + 1) + ' years'",
+      "as": "age_interval_note"
+    }
+  ],
+  "layer": [
+    {
+      "transform": [
+        {
+          "filter": "datum.activity != 'Swimming'"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2,
+        "opacity": 0.45
+      },
+      "encoding": {
+        "x": {
+          "field": "age_midpoint",
+          "type": "quantitative",
+          "title": "Age group, positioned by approximate midpoint",
+          "scale": {
+            "domain": [0, 75]
+          },
+          "axis": {
+            "values": [2, 6.5, 10, 13, 16, 21, 29.5, 39.5, 49.5, 59.5, 70],
+            "labelExpr": "datum.value == 2 ? '0-4' : datum.value == 6.5 ? '5-8' : datum.value == 10 ? '9-11' : datum.value == 13 ? '12-14' : datum.value == 16 ? '15-17' : datum.value == 21 ? '18-24' : datum.value == 29.5 ? '25-34' : datum.value == 39.5 ? '35-44' : datum.value == 49.5 ? '45-54' : datum.value == 59.5 ? '55-64' : datum.value == 70 ? '65+' : datum.label",
+            "labelAngle": 0
+          }
+        },
+        "y": {
+          "field": "participation_rate_pct",
+          "type": "quantitative",
+          "title": "Participation rate (%)"
+        },
+        "detail": {
+          "field": "activity"
+        },
+        "color": {
+          "value": "#bdbdbd"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.activity != 'Swimming'"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 45,
+        "opacity": 0.45
+      },
+      "encoding": {
+        "x": {
+          "field": "age_midpoint",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 75]
+          }
+        },
+        "y": {
+          "field": "participation_rate_pct",
+          "type": "quantitative"
+        },
+        "color": {
+          "value": "#bdbdbd"
+        },
+        "tooltip": [
+          {
+            "field": "activity",
+            "type": "nominal",
+            "title": "Activity"
+          },
+          {
+            "field": "age_group_clean",
+            "type": "ordinal",
+            "title": "Age group"
+          },
+          {
+            "field": "participation_rate_pct",
+            "type": "quantitative",
+            "title": "Participation rate (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "estimated_participants",
+            "type": "quantitative",
+            "title": "Estimated participants",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.activity == 'Swimming'"
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "strokeWidth": 4
+      },
+      "encoding": {
+        "x": {
+          "field": "age_midpoint",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 75]
+          }
+        },
+        "y": {
+          "field": "participation_rate_pct",
+          "type": "quantitative"
+        },
+        "detail": {
+          "field": "activity"
+        },
+        "color": {
+          "value": "#1f78b4"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.activity == 'Swimming'"
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 100
+      },
+      "encoding": {
+        "x": {
+          "field": "age_midpoint",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 75]
+          }
+        },
+        "y": {
+          "field": "participation_rate_pct",
+          "type": "quantitative"
+        },
+        "color": {
+          "value": "#1f78b4"
+        },
+        "tooltip": [
+          {
+            "field": "activity",
+            "type": "nominal",
+            "title": "Activity"
+          },
+          {
+            "field": "age_group_clean",
+            "type": "ordinal",
+            "title": "Age group"
+          },
+          {
+            "field": "participation_rate_pct",
+            "type": "quantitative",
+            "title": "Participation rate (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "estimated_participants",
+            "type": "quantitative",
+            "title": "Estimated participants",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.age_group_clean == '65+'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 8,
+        "fontSize": 11
+      },
+      "encoding": {
+        "x": {
+          "field": "age_midpoint",
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 75]
+          }
+        },
+        "y": {
+          "field": "participation_rate_pct",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "activity"
+        },
+        "color": {
+          "condition": {
+            "test": "datum.activity == 'Swimming'",
+            "value": "#1f78b4"
+          },
+          "value": "#777777"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.activity == 'Swimming' && datum.age_group_clean == '5-8'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "bottom",
+        "dx": 10,
+        "dy": -12,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#1f78b4"
+      },
+      "encoding": {
+        "x": {
+          "field": "age_midpoint",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "participation_rate_pct",
+          "type": "quantitative"
+        },
+        "text": {
+          "value": "Swimming peaks in ages 5-8"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "bottom",
+        "fontSize": 11,
+        "color": "#666666",
+        "x": 0,
+        "y": 455
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "grid": true,
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    },
+    "title": {
+      "fontSize": 16,
+      "subtitleFontSize": 11,
+      "anchor": "start"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Swimming's Contribution by Medal Type",
+    "subtitle": "Swimming provides a large share of Australia's gold, silver and bronze medals",
+    "anchor": "start",
+    "fontSize": 20,
+    "subtitleFontSize": 13
+  },
+  "width": 650,
+  "height": 150,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/australia_summer_olympic_medals_by_sport_long.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum.sport == 'Swimming' ? 'Swimming' : 'Other sports'",
+      "as": "sport_group"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "medal_count",
+          "as": "medals"
+        }
+      ],
+      "groupby": ["medal_type", "sport_group"]
+    },
+    {
+      "joinaggregate": [
+        {
+          "op": "sum",
+          "field": "medals",
+          "as": "medal_type_total"
+        }
+      ],
+      "groupby": ["medal_type"]
+    },
+    {
+      "calculate": "datum.medals / datum.medal_type_total",
+      "as": "share"
+    },
+    {
+      "calculate": "format(datum.share, '.1%')",
+      "as": "share_label"
+    },
+    {
+      "calculate": "datum.sport_group == 'Swimming' ? 1 : 2",
+      "as": "stack_order"
+    },
+    {
+    "calculate": "datum.sport_group == 'Swimming' ? 1 : 2",
+    "as": "stack_order"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 3
+  },
+  "encoding": {
+    "y": {
+      "field": "medal_type",
+      "type": "nominal",
+      "sort": ["Gold", "Silver", "Bronze"],
+      "title": null,
+      "axis": {
+        "labelFontSize": 14
+      },
+      "scale": {
+        "paddingInner": 0.3,
+        "paddingOuter": 0.2
+      }
+    },
+    "x": {
+      "field": "medals",
+      "type": "quantitative",
+      "stack": "normalize",
+      "title": "Share of each medal type",
+      "axis": {
+        "format": "%"
+      }
+    },
+    "color": {
+      "field": "sport_group",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Swimming", "Other sports"],
+        "range": ["#0077b6", "#d9d9d9"]
+      },
+      "legend": {
+        "title": null,
+        "orient": "bottom"
+      }
+    },
+    "order": {
+      "field": "stack_order",
+      "type": "quantitative",
+      "sort": "ascending"
+    },
+    "tooltip": [
+      {
+        "field": "medal_type",
+        "title": "Medal type"
+      },
+      {
+        "field": "sport_group",
+        "title": "Group"
+      },
+      {
+        "field": "medals",
+        "title": "Medals"
+      },
+      {
+        "field": "share_label",
+        "title": "Share"
+      }
+    ]
+  },
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "grid": false
+    }
+  }
+}

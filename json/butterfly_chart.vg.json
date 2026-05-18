@@ -1,0 +1,63 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Gender Differences Across Australia's Top 10 Adult Activities",
+    "anchor": "start",
+    "fontSize": 17
+  },
+  "width": 650,
+  "height": 320,
+  "autosize": {
+  "type": "fit",
+  "contains": "padding"
+    },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/top10_adult_activities_2025_18%2B.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.segment_type == 'Gender'"
+    },
+    {
+      "filter": "datum.segment == 'Males' || datum.segment == 'Females'"
+    },
+    {
+      "calculate": "datum.segment == 'Males' ? -datum.participation_rate_pct : datum.participation_rate_pct",
+      "as": "signed_rate"
+    }
+  ],
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "y": {
+      "field": "activity",
+      "type": "nominal",
+      "sort": {"field": "rank", "order": "ascending"},
+      "title": null
+    },
+    "x": {
+      "field": "signed_rate",
+      "type": "quantitative",
+      "title": "Participation rate (%)",
+      "axis": {
+        "labelExpr": "replace(datum.label, '-', '')"
+      }
+    },
+    "color": {
+      "field": "segment",
+      "type": "nominal",
+      "title": "Gender",
+      "scale": {
+        "domain": ["Males", "Females"],
+        "range": ["#6baed6", "#fb9a99"]
+      }
+    },
+    "tooltip": [
+      {"field": "activity", "type": "nominal", "title": "Activity"},
+      {"field": "segment", "type": "nominal", "title": "Gender"},
+      {"field": "participation_rate_pct", "type": "quantitative", "title": "Participation rate (%)", "format": ".1f"},
+      {"field": "estimated_participants", "type": "quantitative", "title": "Estimated participants", "format": ","}
+    ]
+  }
+}

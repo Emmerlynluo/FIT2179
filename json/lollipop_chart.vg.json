@@ -1,0 +1,120 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Swimming Is a Top-Five Activity Within Australia's Top 10",
+    "anchor": "start",
+    "fontSize": 17
+  },
+  "width": 650,
+  "height": 320,
+  "autosize": {
+  "type": "fit",
+  "contains": "padding"
+    },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/top10_adult_activities_2025_18%2B.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.segment_type == 'Total' && datum.rank <= 10"
+    },
+    {
+      "calculate": "toNumber(datum.participation_rate_pct)",
+      "as": "rate_num"
+    },
+    {
+      "calculate": "datum.activity == 'Swimming' ? 'Swimming' : 'Other activities'",
+      "as": "highlight"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "height": 3
+      },
+      "encoding": {
+        "y": {
+          "field": "activity",
+          "type": "nominal",
+          "sort": {
+            "field": "rate_num",
+            "op": "max",
+            "order": "descending"
+          },
+          "title": null
+        },
+        "x": {
+          "field": "rate_num",
+          "type": "quantitative",
+          "title": "Participation rate (%)"
+        },
+        "color": {
+          "field": "highlight",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Swimming", "Other activities"],
+            "range": ["#1f78b4", "#cccccc"]
+          },
+          "legend": null
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 100
+      },
+      "encoding": {
+        "y": {
+          "field": "activity",
+          "type": "nominal",
+          "sort": {
+            "field": "rate_num",
+            "op": "max",
+            "order": "descending"
+          },
+          "title": null
+        },
+        "x": {
+          "field": "rate_num",
+          "type": "quantitative",
+          "title": "Participation rate (%)"
+        },
+        "color": {
+          "field": "highlight",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Swimming", "Other activities"],
+            "range": ["#1f78b4", "#cccccc"]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "rank",
+            "type": "ordinal",
+            "title": "Rank"
+          },
+          {
+            "field": "activity",
+            "type": "nominal",
+            "title": "Activity"
+          },
+          {
+            "field": "rate_num",
+            "type": "quantitative",
+            "title": "Participation rate (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "estimated_participants",
+            "type": "quantitative",
+            "title": "Estimated participants",
+            "format": ",.0f"
+          }
+        ]
+      }
+    }
+  ]
+}
