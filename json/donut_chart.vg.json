@@ -1,13 +1,42 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 270,
-  "height": 270,
+  "width": 320,
+  "height": 320,
   "data": {
     "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/australia_summer_olympic_medals_by_sport_wide.csv"
   },
   "transform": [
     {
       "filter": "datum.total > 0"
+    },
+    {
+      "calculate": "datum.sport == 'Swimming' ? 'Swimming' : 'Other sports'",
+      "as": "sport_group"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "gold",
+          "as": "gold"
+        },
+        {
+          "op": "sum",
+          "field": "silver",
+          "as": "silver"
+        },
+        {
+          "op": "sum",
+          "field": "bronze",
+          "as": "bronze"
+        },
+        {
+          "op": "sum",
+          "field": "total",
+          "as": "total"
+        }
+      ],
+      "groupby": ["sport_group"]
     },
     {
       "joinaggregate": [
@@ -25,14 +54,18 @@
     {
       "calculate": "format(datum.share, '.1%')",
       "as": "share_label"
+    },
+    {
+      "calculate": "datum.sport_group == 'Swimming' ? 1 : 2",
+      "as": "group_order"
     }
   ],
   "layer": [
     {
       "mark": {
         "type": "arc",
-        "innerRadius": 80,
-        "outerRadius": 138,
+        "innerRadius": 78,
+        "outerRadius": 140,
         "stroke": "white",
         "strokeWidth": 2
       },
@@ -42,21 +75,23 @@
           "type": "quantitative"
         },
         "color": {
-          "condition": {
-            "test": "datum.sport == 'Swimming'",
-            "value": "#0077b6"
+          "field": "sport_group",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Swimming", "Other sports"],
+            "range": ["#A8DAE6", "#d9d9d9"]
           },
-          "value": "#d9d9d9"
+          "legend": null
         },
         "order": {
-          "field": "total",
+          "field": "group_order",
           "type": "quantitative",
-          "sort": "descending"
+          "sort": "ascending"
         },
         "tooltip": [
           {
-            "field": "sport",
-            "title": "Sport"
+            "field": "sport_group",
+            "title": "Group"
           },
           {
             "field": "gold",
@@ -109,6 +144,15 @@
     }
   ],
   "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": {
+      "fontSize": 17,
+      "anchor": "start"
+    },
+    "background": "transparent",
     "view": {
       "stroke": null
     }

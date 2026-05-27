@@ -5,7 +5,6 @@
     --bg-poster: #f5fbff;
     --bg-header: #e8f4fc;
     --bg-section: #e4f2fb;
-    --bg-panel: rgba(255, 255, 255, 0.62);
 
     --blue-main: #0b74b8;
     --blue-dark: #061834;
@@ -19,7 +18,7 @@
     --font-body: "Source Sans 3", Arial, sans-serif;
 
     --section-pad-y: 10px;
-    --section-pad-bottom: 18px;
+    --section-pad-bottom: 10px;
     --grid-gap: 34px;
 
     --story-title-size: 21px;
@@ -40,7 +39,7 @@
 
 body {
     margin: 0;
-    background: var(--bg-page);
+    background: transparent;
     color: var(--text-main);
     font-family: var(--font-body);
 }
@@ -65,7 +64,7 @@ body {
     align-items: center;
 
     padding: 34px;
-    margin-bottom: 28px;
+    margin-bottom: 18px;
 
     background: var(--bg-header);
     border: 2px solid #b8d9ee;
@@ -112,7 +111,7 @@ body {
 ========================= */
 
 .major-section-heading {
-    margin: 15px 0;
+    margin: 0 0;
     padding: 15px 26px;
 
     background: var(--bg-section);
@@ -150,6 +149,7 @@ body {
 
 .story-copy,
 .stack-center {
+    margin: 10px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,7 +157,7 @@ body {
 
 .story-copy h3,
 .compact-story h3 {
-    margin: 0 0 8px;
+    margin: 0 0 10px;
 
     color: var(--blue-dark);
     font-family: var(--font-heading);
@@ -169,7 +169,7 @@ body {
 .story-copy p,
 .compact-story p,
 .story-under-chart p {
-    margin: 0;
+    margin: 0 0 6px;
 
     color: var(--text-main);
     font-size: var(--story-text-size);
@@ -214,7 +214,7 @@ body {
 
 .chart-row {
     margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 0;
 }
 
 .story-row {
@@ -226,22 +226,18 @@ body {
 ========================= */
 
 .chart-panel {
-    width: 100%;
-    padding: 8px;
-
-    background: var(--bg-panel);
-    border: var(--panel-border);
-    border-radius: var(--chart-radius);
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
 }
 
 .chart-sm,
 .compact-donut-panel,
 .compact-bar-panel {
-    min-height: 250px;
-}
-
-.chart-md {
-    min-height: 520px;
+    margin-top: 10px;
+    min-height: 320px;
 }
 
 .chart-lg {
@@ -253,7 +249,7 @@ body {
 }
 
 .compact-donut-panel {
-    height: 300px;
+    height: 320px;
 
     display: flex;
     justify-content: center;
@@ -295,32 +291,8 @@ body {
     max-width: 100%;
 }
 
-.donut-container {
-    width: 280px;
-    height: 280px;
-    min-height: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.donut-container .vega-embed {
-    width: auto;
-    margin: 0 auto;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.donut-container svg {
-    display: block;
-    margin: 0 auto;
-}
-
 .ranked-bar-container {
-    min-height: 260px;
+    min-height: 320px;
 }
 
 /* =========================
@@ -357,7 +329,7 @@ body {
 
 .freestyle-pair-section .chart-row,
 .participation-pair-section .chart-row {
-    margin-bottom: 14px;
+    margin-bottom: 0px;
 }
 
 .freestyle-pair-section .layout.chart-row,
@@ -379,7 +351,7 @@ body {
 
     border: 1.5px dashed #d56b6b;
     border-radius: 8px;
-    background: #fff7f7;
+    background: transparent;
 
     color: #9b1c1c;
     text-align: center;
@@ -489,7 +461,7 @@ body {
     flex-wrap: wrap;
     gap: 6px 14px;
     align-items: center;
-    margin-top: 8px;
+    margin-top: 0;
 }
 
 #area_line_chart .vega-bind,

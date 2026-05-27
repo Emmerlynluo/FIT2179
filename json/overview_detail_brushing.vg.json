@@ -1,11 +1,18 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "padding": {
+    "top": 10,
+    "left": 0,
+    "right": 0,
+    "bottom": 0
+  },
 
   "title": {
     "text": "Australia's Olympic Swimming Medals Over Time",
     "fontSize": 18,
-    "subtitleFontSize": 12,
-    "anchor": "start"
+    "anchor": "start",
+    "offset": 10
+    
   },
 
   "data": {
@@ -26,7 +33,8 @@
 
       "mark": {
         "type": "bar",
-        "tooltip": true
+        "tooltip": true,
+        "size": 12
       },
 
       "encoding": {
@@ -36,12 +44,14 @@
           "scale": {
             "domain": {
               "param": "year_brush"
-            }
+            },
+            "nice": false
           },
           "axis": {
             "title": "Olympic Year",
             "format": "d",
-            "tickMinStep": 4
+            "tickMinStep": 4,
+            "values": [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020]
           }
         },
 
@@ -61,7 +71,16 @@
             "range": ["#D4AF37", "#C0C0C0", "#CD7F32"]
           },
           "legend": {
-            "orient": "right"
+              "orient": "none",
+              "legendX": 30,
+              "legendY": 12,
+              "direction": "vertical",
+              "titleFontSize": 11,
+              "labelFontSize": 10,
+              "fillColor": "white",
+              "strokeColor": "#D9E3EA",
+              "padding": 6,
+              "cornerRadius": 4
           }
         },
 
@@ -95,12 +114,7 @@
     {
       "width": 720,
       "height": 80,
-      "autosize": {
-      "type": "fit",
-      "contains": "padding",
-      "resize": true
-    },
-
+      
       "title": {
         "text": "Overview Timeline: Drag to Select a Period",
         "fontSize": 13,
@@ -130,7 +144,11 @@
           "axis": {
             "title": "Olympic Year",
             "format": "d",
-            "tickMinStep": 4
+            "tickMinStep": 4,
+            "values": [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020]
+          },
+          "scale": {
+            "nice": false
           }
         },
 
@@ -170,16 +188,12 @@
   },
 
   "config": {
-    "background": "white",
-    "axis": {
-      "labelFontSize": 11,
-      "titleFontSize": 12
-    },
-    "title": {
-      "font": "sans-serif"
-    },
+    "background": "transparent",
     "view": {
       "stroke": null
+    },
+    "axis": {
+      "grid": false
     }
   }
 }

@@ -1,0 +1,285 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+    "background": "transparent",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "grid": false,
+      "domain": false,
+      "ticks": false,
+      "labels": false,
+      "title": null
+    },
+    "concat": {
+      "spacing": 10
+    }
+  },
+  "hconcat": [
+    {
+      "title": {
+        "text": "Gold: 41.8%",
+        "fontSize": 26,
+        "anchor": "middle",
+        "color": "#8a6a00",
+        "offset": 18
+      },
+      "width": 320,
+      "height": 320,
+      "data": {
+        "sequence": {
+          "start": 0,
+          "stop": 64,
+          "step": 1,
+          "as": "cell"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "datum.cell % 8",
+          "as": "col"
+        },
+        {
+          "calculate": "floor(datum.cell / 8)",
+          "as": "row"
+        },
+        {
+          "calculate": "datum.cell < 27 ? 'Swimming' : 'Other sports'",
+          "as": "group"
+        },
+        {
+          "calculate": "datum.group == 'Swimming' ? 'Swimming: 76 of 182 medals' : 'Other sports: 106 of 182 medals'",
+          "as": "tooltip_text"
+        }
+      ],
+      "mark": {
+        "type": "image",
+        "width": 30,
+        "height": 48
+      },
+      "encoding": {
+        "x": {
+          "field": "col",
+          "type": "ordinal",
+          "sort": "ascending",
+          "axis": null
+        },
+        "y": {
+          "field": "row",
+          "type": "ordinal",
+          "sort": "descending",
+          "axis": null
+        },
+        "url": {
+          "value": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/main/image/gold_medal.png"
+        },
+        "opacity": {
+          "condition": {
+            "test": "datum.group == 'Swimming'",
+            "value": 1
+          },
+          "value": 0.18
+        },
+        "tooltip": [
+          {
+            "value": "Gold",
+            "title": "Medal type"
+          },
+          {
+            "field": "group",
+            "title": "Group"
+          },
+          {
+            "field": "tooltip_text",
+            "title": "Medal count"
+          },
+          {
+            "value": "41.8%",
+            "title": "Swimming share"
+          },
+          {
+            "value": "27 of 64 icons",
+            "title": "Waffle encoding"
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "text": "Silver: 40.6%",
+        "fontSize": 26,
+        "anchor": "middle",
+        "color": "#5f6b7a",
+        "offset": 18
+      },
+      "width": 320,
+      "height": 320,
+      "data": {
+        "sequence": {
+          "start": 0,
+          "stop": 64,
+          "step": 1,
+          "as": "cell"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "datum.cell % 8",
+          "as": "col"
+        },
+        {
+          "calculate": "floor(datum.cell / 8)",
+          "as": "row"
+        },
+        {
+          "calculate": "datum.cell < 26 ? 'Swimming' : 'Other sports'",
+          "as": "group"
+        },
+        {
+          "calculate": "datum.group == 'Swimming' ? 'Swimming: 78 of 192 medals' : 'Other sports: 114 of 192 medals'",
+          "as": "tooltip_text"
+        }
+      ],
+      "mark": {
+        "type": "image",
+        "width": 30,
+        "height": 48
+      },
+      "encoding": {
+        "x": {
+          "field": "col",
+          "type": "ordinal",
+          "sort": "ascending",
+          "axis": null
+        },
+        "y": {
+          "field": "row",
+          "type": "ordinal",
+          "sort": "descending",
+          "axis": null
+        },
+        "url": {
+          "value": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/main/image/silver_medal.png"
+        },
+        "opacity": {
+          "condition": {
+            "test": "datum.group == 'Swimming'",
+            "value": 1
+          },
+          "value": 0.18
+        },
+        "tooltip": [
+          {
+            "value": "Silver",
+            "title": "Medal type"
+          },
+          {
+            "field": "group",
+            "title": "Group"
+          },
+          {
+            "field": "tooltip_text",
+            "title": "Medal count"
+          },
+          {
+            "value": "40.6%",
+            "title": "Swimming share"
+          },
+          {
+            "value": "26 of 64 icons",
+            "title": "Waffle encoding"
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "text": "Bronze: 33.6%",
+        "fontSize": 26,
+        "anchor": "middle",
+        "color": "#8a4b24",
+        "offset": 18
+      },
+      "width": 320,
+      "height": 320,
+      "data": {
+        "sequence": {
+          "start": 0,
+          "stop": 64,
+          "step": 1,
+          "as": "cell"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "datum.cell % 8",
+          "as": "col"
+        },
+        {
+          "calculate": "floor(datum.cell / 8)",
+          "as": "row"
+        },
+        {
+          "calculate": "datum.cell < 22 ? 'Swimming' : 'Other sports'",
+          "as": "group"
+        },
+        {
+          "calculate": "datum.group == 'Swimming' ? 'Swimming: 76 of 226 medals' : 'Other sports: 150 of 226 medals'",
+          "as": "tooltip_text"
+        }
+      ],
+      "mark": {
+        "type": "image",
+        "width": 30,
+        "height": 38
+      },
+      "encoding": {
+        "x": {
+          "field": "col",
+          "type": "ordinal",
+          "sort": "ascending",
+          "axis": null
+        },
+        "y": {
+          "field": "row",
+          "type": "ordinal",
+          "sort": "descending",
+          "axis": null
+        },
+        "url": {
+          "value": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/main/image/bronze_medal.png"
+        },
+        "opacity": {
+          "condition": {
+            "test": "datum.group == 'Swimming'",
+            "value": 1
+          },
+          "value": 0.18
+        },
+        "tooltip": [
+          {
+            "value": "Bronze",
+            "title": "Medal type"
+          },
+          {
+            "field": "group",
+            "title": "Group"
+          },
+          {
+            "field": "tooltip_text",
+            "title": "Medal count"
+          },
+          {
+            "value": "33.6%",
+            "title": "Swimming share"
+          },
+          {
+            "value": "22 of 64 icons",
+            "title": "Waffle encoding"
+          }
+        ]
+      }
+    }
+  ]
+}

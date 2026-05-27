@@ -1,0 +1,440 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Treemap of Australia's Summer Olympic medals by medal type and sport (Top 10 sports only, proportional medal-type widths).",
+  "width": 780,
+  "height": 385,
+  "padding": 0,
+  "autosize": "none",
+
+
+  "signals": [
+    { "name": "panelGap", "value": 4 },
+    { "name": "usableWidth", "update": "width - 2 * panelGap" },
+
+    { "name": "goldTotal", "value": 182 },
+    { "name": "silverTotal", "value": 192 },
+    { "name": "bronzeTotal", "value": 226 },
+    { "name": "allTotal", "value": 600 },
+
+    { "name": "goldShare", "update": "goldTotal / allTotal" },
+    { "name": "silverShare", "update": "silverTotal / allTotal" },
+    { "name": "bronzeShare", "update": "bronzeTotal / allTotal" },
+
+    { "name": "goldWidth", "update": "usableWidth * goldShare" },
+    { "name": "silverWidth", "update": "usableWidth * silverShare" },
+    { "name": "bronzeWidth", "update": "usableWidth * bronzeShare" },
+
+    { "name": "goldX", "value": 0 },
+    { "name": "silverX", "update": "goldWidth + panelGap" },
+    { "name": "bronzeX", "update": "goldWidth + panelGap + silverWidth + panelGap" },
+
+    { "name": "panelHeight", "update": "height" }
+  ],
+
+  "data": [
+    {
+      "name": "table",
+      "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/australia_summer_olympic_medals_by_sport_long.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "medal_count": "number",
+          "sport_total": "number",
+          "rank_by_total": "number"
+        }
+      },
+      "transform": [
+        { "type": "filter", "expr": "datum.medal_count > 0" },
+        { "type": "filter", "expr": "datum.rank_by_total <= 10" }
+      ]
+    },
+
+    {
+      "name": "goldLeaves",
+      "source": "table",
+      "transform": [
+        { "type": "filter", "expr": "datum.medal_type == 'Gold'" },
+        { "type": "formula", "as": "id", "expr": "datum.sport" },
+        { "type": "formula", "as": "parent", "expr": "'goldRoot'" }
+      ]
+    },
+    {
+      "name": "goldRoot",
+      "values": [
+        { "id": "goldRoot", "parent": null, "name": "Gold" }
+      ]
+    },
+    {
+      "name": "goldTree",
+      "source": ["goldRoot", "goldLeaves"],
+      "transform": [
+        { "type": "stratify", "key": "id", "parentKey": "parent" },
+        {
+          "type": "treemap",
+          "field": "medal_count",
+          "sort": { "field": "medal_count", "order": "descending" },
+          "round": true,
+          "method": "squarify",
+          "ratio": 1.2,
+          "size": [
+            { "signal": "goldWidth" },
+            { "signal": "panelHeight" }
+          ],
+          "paddingInner": 2,
+          "paddingOuter": 1,
+          "paddingTop": 32
+        }
+      ]
+    },
+
+    {
+      "name": "silverLeaves",
+      "source": "table",
+      "transform": [
+        { "type": "filter", "expr": "datum.medal_type == 'Silver'" },
+        { "type": "formula", "as": "id", "expr": "datum.sport" },
+        { "type": "formula", "as": "parent", "expr": "'silverRoot'" }
+      ]
+    },
+    {
+      "name": "silverRoot",
+      "values": [
+        { "id": "silverRoot", "parent": null, "name": "Silver" }
+      ]
+    },
+    {
+      "name": "silverTree",
+      "source": ["silverRoot", "silverLeaves"],
+      "transform": [
+        { "type": "stratify", "key": "id", "parentKey": "parent" },
+        {
+          "type": "treemap",
+          "field": "medal_count",
+          "sort": { "field": "medal_count", "order": "descending" },
+          "round": true,
+          "method": "squarify",
+          "ratio": 1.2,
+          "size": [
+            { "signal": "silverWidth" },
+            { "signal": "panelHeight" }
+          ],
+          "paddingInner": 2,
+          "paddingOuter": 1,
+          "paddingTop": 32
+        }
+      ]
+    },
+
+    {
+      "name": "bronzeLeaves",
+      "source": "table",
+      "transform": [
+        { "type": "filter", "expr": "datum.medal_type == 'Bronze'" },
+        { "type": "formula", "as": "id", "expr": "datum.sport" },
+        { "type": "formula", "as": "parent", "expr": "'bronzeRoot'" }
+      ]
+    },
+    {
+      "name": "bronzeRoot",
+      "values": [
+        { "id": "bronzeRoot", "parent": null, "name": "Bronze" }
+      ]
+    },
+    {
+      "name": "bronzeTree",
+      "source": ["bronzeRoot", "bronzeLeaves"],
+      "transform": [
+        { "type": "stratify", "key": "id", "parentKey": "parent" },
+        {
+          "type": "treemap",
+          "field": "medal_count",
+          "sort": { "field": "medal_count", "order": "descending" },
+          "round": true,
+          "method": "squarify",
+          "ratio": 1.2,
+          "size": [
+            { "signal": "bronzeWidth" },
+            { "signal": "panelHeight" }
+          ],
+          "paddingInner": 2,
+          "paddingOuter": 1,
+          "paddingTop": 32
+        }
+      ]
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "group",
+      "encode": {
+        "enter": {
+          "x": { "signal": "goldX" },
+          "y": { "value": 0 },
+          "width": { "signal": "goldWidth" },
+          "height": { "signal": "panelHeight" }
+        }
+      },
+      "marks": [
+        {
+          "type": "rect",
+          "encode": {
+            "enter": {
+              "x": { "value": 0 },
+              "y": { "value": 0 },
+              "width": { "signal": "goldWidth" },
+              "height": { "signal": "panelHeight" },
+              "fill": { "value": "#fff7db" },
+              "stroke": { "value": "#d4a017" },
+              "strokeWidth": { "value": 1.2 },
+              "cornerRadius": { "value": 3 }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "encode": {
+            "enter": {
+              "x": { "value": 8 },
+              "y": { "value": 6 },
+              "text": { "value": "Gold · 182 (30.3%)" },
+              "font": { "value": "Arial" },
+              "fontSize": { "value": 14 },
+              "fontWeight": { "value": "bold" },
+              "fill": { "value": "#8a6a00" },
+              "baseline": { "value": "top" }
+            }
+          }
+        },
+        {
+          "type": "rect",
+          "from": { "data": "goldTree" },
+          "encode": {
+            "update": {
+              "x": { "field": "x0" },
+              "y": { "field": "y0" },
+              "x2": { "field": "x1" },
+              "y2": { "field": "y1" },
+              "fill": [
+                { "test": "datum.depth == 0", "value": "transparent" },
+                { "test": "datum.sport == 'Swimming'", "value": "#d4a017" },
+                { "value": "#efe2a7" }
+              ],
+              "stroke": { "value": "white" },
+              "strokeWidth": { "value": 1 },
+              "tooltip": {
+                "signal": "datum.depth == 1 ? {'Medal type': 'Gold', 'Sport': datum.sport, 'Medals': datum.medal_count, 'Sport total': datum.sport_total} : null"
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "from": { "data": "goldTree" },
+          "encode": {
+            "update": {
+              "x": { "signal": "datum.x0 + 6" },
+              "y": { "signal": "datum.y0 + 10" },
+              "text": {
+                "signal": "datum.depth == 1 && datum.sport != 'Field hockey' && (datum.x1 - datum.x0) > 58 && (datum.y1 - datum.y0) > 22 ? datum.sport + ' (' + datum.medal_count + ')' : ''"
+              },
+              "font": { "value": "Arial" },
+              "fontSize": { "value": 10 },
+              "fill": [
+                { "test": "datum.sport == 'Swimming'", "value": "white" },
+                { "value": "#3d3d3d" }
+              ],
+              "baseline": { "value": "top" }
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "type": "group",
+      "encode": {
+        "enter": {
+          "x": { "signal": "silverX" },
+          "y": { "value": 0 },
+          "width": { "signal": "silverWidth" },
+          "height": { "signal": "panelHeight" }
+        }
+      },
+      "marks": [
+        {
+          "type": "rect",
+          "encode": {
+            "enter": {
+              "x": { "value": 0 },
+              "y": { "value": 0 },
+              "width": { "signal": "silverWidth" },
+              "height": { "signal": "panelHeight" },
+              "fill": { "value": "#f1f3f6" },
+              "stroke": { "value": "#9aa4b2" },
+              "strokeWidth": { "value": 1.2 },
+              "cornerRadius": { "value": 3 }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "encode": {
+            "enter": {
+              "x": { "value": 8 },
+              "y": { "value": 6 },
+              "text": { "value": "Silver · 192 (32.0%)" },
+              "font": { "value": "Arial" },
+              "fontSize": { "value": 14 },
+              "fontWeight": { "value": "bold" },
+              "fill": { "value": "#5f6b7a" },
+              "baseline": { "value": "top" }
+            }
+          }
+        },
+        {
+          "type": "rect",
+          "from": { "data": "silverTree" },
+          "encode": {
+            "update": {
+              "x": { "field": "x0" },
+              "y": { "field": "y0" },
+              "x2": { "field": "x1" },
+              "y2": { "field": "y1" },
+              "fill": [
+                { "test": "datum.depth == 0", "value": "transparent" },
+                { "test": "datum.sport == 'Swimming'", "value": "#9aa4b2" },
+                { "value": "#dbe0e7" }
+              ],
+              "stroke": { "value": "white" },
+              "strokeWidth": { "value": 1 },
+              "tooltip": {
+                "signal": "datum.depth == 1 ? {'Medal type': 'Silver', 'Sport': datum.sport, 'Medals': datum.medal_count, 'Sport total': datum.sport_total} : null"
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "from": { "data": "silverTree" },
+          "encode": {
+            "update": {
+              "x": { "signal": "datum.x0 + 6" },
+              "y": { "signal": "datum.y0 + 10" },
+              "text": {
+                "signal": "datum.depth == 1 && datum.sport != 'Field hockey' && (datum.x1 - datum.x0) > 58 && (datum.y1 - datum.y0) > 22 ? datum.sport + ' (' + datum.medal_count + ')' : ''"
+              },
+              "font": { "value": "Arial" },
+              "fontSize": { "value": 10 },
+              "fill": [
+                { "test": "datum.sport == 'Swimming'", "value": "white" },
+                { "value": "#3d3d3d" }
+              ],
+              "baseline": { "value": "top" }
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "type": "group",
+      "encode": {
+        "enter": {
+          "x": { "signal": "bronzeX" },
+          "y": { "value": 0 },
+          "width": { "signal": "bronzeWidth" },
+          "height": { "signal": "panelHeight" }
+        }
+      },
+      "marks": [
+        {
+          "type": "rect",
+          "encode": {
+            "enter": {
+              "x": { "value": 0 },
+              "y": { "value": 0 },
+              "width": { "signal": "bronzeWidth" },
+              "height": { "signal": "panelHeight" },
+              "fill": { "value": "#f7ede6" },
+              "stroke": { "value": "#b66a3c" },
+              "strokeWidth": { "value": 1.2 },
+              "cornerRadius": { "value": 3 }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "encode": {
+            "enter": {
+              "x": { "value": 8 },
+              "y": { "value": 6 },
+              "text": { "value": "Bronze · 226 (37.7%)" },
+              "font": { "value": "Arial" },
+              "fontSize": { "value": 14 },
+              "fontWeight": { "value": "bold" },
+              "fill": { "value": "#8a4b24" },
+              "baseline": { "value": "top" }
+            }
+          }
+        },
+        {
+          "type": "rect",
+          "from": { "data": "bronzeTree" },
+          "encode": {
+            "update": {
+              "x": { "field": "x0" },
+              "y": { "field": "y0" },
+              "x2": { "field": "x1" },
+              "y2": { "field": "y1" },
+              "fill": [
+                { "test": "datum.depth == 0", "value": "transparent" },
+                { "test": "datum.sport == 'Swimming'", "value": "#b66a3c" },
+                { "value": "#e5c4b2" }
+              ],
+              "stroke": { "value": "white" },
+              "strokeWidth": { "value": 1 },
+              "tooltip": {
+                "signal": "datum.depth == 1 ? {'Medal type': 'Bronze', 'Sport': datum.sport, 'Medals': datum.medal_count, 'Sport total': datum.sport_total} : null"
+              }
+            }
+          }
+        },
+        {
+          "type": "text",
+          "from": { "data": "bronzeTree" },
+          "encode": {
+            "update": {
+              "x": { "signal": "datum.x0 + 6" },
+              "y": { "signal": "datum.y0 + 10" },
+              "text": {
+                "signal": "datum.depth == 1 && datum.sport != 'Field hockey' && (datum.x1 - datum.x0) > 58 && (datum.y1 - datum.y0) > 22 ? datum.sport + ' (' + datum.medal_count + ')' : ''"
+              },
+              "font": { "value": "Arial" },
+              "fontSize": { "value": 10 },
+              "fill": [
+                { "test": "datum.sport == 'Swimming'", "value": "white" },
+                { "value": "#3d3d3d" }
+              ],
+              "baseline": { "value": "top" }
+            }
+          }
+        }
+      ]
+    }
+  ],
+    "config": {
+    "axis": {
+      "labelFontSize": 12,
+      "titleFontSize": 13
+    },
+    "title": {
+      "fontSize": 17,
+      "anchor": "start"
+    },
+    "background": "transparent",
+    "view": {
+      "stroke": null
+    }
+  }
+}

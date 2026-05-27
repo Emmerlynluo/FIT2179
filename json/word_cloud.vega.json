@@ -1,0 +1,285 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Elliptical packed word-cloud-style chart for top 50 adult activities in Australia, highlighting Swimming.",
+  "width": 550,
+  "height": 350,
+  "title": {
+    "text": "Swimming Is Visible in Australia's Adult Activity Culture",
+    "subtitle": "Higher-ranked activities appear larger and closer to the centre",
+    "anchor": "start",
+    "font": "Trebuchet MS",
+    "fontSize": 22,
+    "subtitleFont": "Trebuchet MS",
+    "subtitleFontSize": 13
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/top50_adult_activities_2025_18plus.csv"
+  },
+  "transform": [
+    {
+      "filter": "toNumber(datum.rank) <= 50"
+    },
+    {
+      "calculate": "toNumber(datum.rank)",
+      "as": "rank_num"
+    },
+    {
+      "calculate": "toNumber(datum.participation_rate_pct)",
+      "as": "rate_num"
+    },
+
+    {
+      "calculate": "datum.activity == 'Walking (Recreational)' ? 'Walking' : datum.activity == 'Fitness/Gym' ? 'Fitness / Gym' : datum.activity == 'Running/jogging' ? 'Running' : datum.activity == 'Football/soccer' ? 'Football' : datum.activity == 'Basketball (indoor and outdoor)' ? 'Basketball' : datum.activity == 'Netball (indoor and outdoor)' ? 'Netball' : datum.activity == 'Mountain biking (recreational)' ? 'Mountain biking' : datum.activity == 'Australian rules football' ? 'Australian football' : datum.activity == 'Fishing (recreational)' ? 'Fishing' : datum.activity == 'Dancing (recreational)' ? 'Dance' : datum.activity == 'Gymnastics or cheerleading' ? 'Gymnastics' : datum.activity == 'Physical activity and exercise' ? 'Exercise' : datum.activity == 'Functional fitness training' ? 'Functional fitness' : datum.activity == 'Wheelchair sports and activities' ? 'Wheelchair sports' : datum.activity == 'Volleyball (indoor and outdoor)' ? 'Volleyball' : datum.activity == 'Track and field athletics' ? 'Athletics' : datum.activity == 'Ski & snowboard' ? 'Ski & snowboard' : datum.activity == 'Rock climbing/Abseiling/Caving' ? 'Rock climbing' : datum.activity == 'Motor cycling' ? 'Motor cycling' : datum.activity == 'Table tennis' ? 'Table tennis' : datum.activity == 'Touch football' ? 'Touch football' : datum.activity == 'Tenpin bowling' ? 'Tenpin bowling' : datum.activity == 'Underwater sports' ? 'Underwater sports' : datum.activity == 'Martial arts' ? 'Martial arts' : datum.activity == 'Pickleball/padel' ? 'Pickleball / padel' : datum.activity == 'Canoeing/Kayaking' ? 'Canoeing / Kayaking' : datum.activity == 'Crossfit/Functional fitness' ? 'CrossFit' : datum.activity == 'Virtual based physical activity' ? 'Virtual exercise' : datum.activity == 'Weight lifting' ? 'Weight lifting' : datum.activity == 'Boxing' ? 'Boxing' : datum.activity == 'Bowls' ? 'Bowls' : datum.activity == 'Badminton' ? 'Badminton' : datum.activity == 'Golf' ? 'Golf' : datum.activity == 'Yoga' ? 'Yoga' : datum.activity == 'Cycling' ? 'Cycling' : datum.activity == 'Pilates' ? 'Pilates' : datum.activity == 'Surfing' ? 'Surfing' : datum.activity == 'Rugby union' ? 'Rugby union' : datum.activity == 'Rugby league' ? 'Rugby league' : datum.activity == 'Rowing' ? 'Rowing' : datum.activity == 'Hockey' ? 'Hockey' : datum.activity == 'Cricket' ? 'Cricket' : datum.activity == 'Squash' ? 'Squash' : datum.activity == 'Skate' ? 'Skate' : datum.activity == 'Equestrian' ? 'Equestrian' : datum.activity == 'Baseball' ? 'Baseball' : datum.activity == 'Calisthenics' ? 'Calisthenics' : datum.activity == 'Sport climbing' ? 'Sport climbing' : datum.activity == 'Sailing' ? 'Sailing' : datum.activity",
+      "as": "short_label"
+    },
+
+    {
+      "calculate": "length(datum.short_label)",
+      "as": "label_len"
+    },
+
+    {
+      "calculate": "datum.rank_num == 1 ? 38 : datum.rank_num == 2 ? 35 : datum.rank_num == 3 ? 33 : datum.rank_num == 4 ? 31 : datum.rank_num == 5 ? 29 : datum.rank_num == 6 ? 27 : datum.rank_num == 7 ? 26 : datum.rank_num == 8 ? 25 : datum.rank_num == 9 ? 24 : datum.rank_num == 10 ? 23 : datum.rank_num <= 15 ? 21 : datum.rank_num <= 20 ? 19 : datum.rank_num <= 30 ? 17 : datum.rank_num <= 40 ? 15 : 13",
+      "as": "base_size"
+    },
+    {
+      "calculate": "datum.rank_num == 5 ? datum.base_size : datum.base_size - (datum.label_len > 22 ? 3 : datum.label_len > 16 ? 2 : datum.label_len > 12 ? 1 : 0)",
+      "as": "font_size"
+    },
+
+    {
+      "calculate": "format(datum.rate_num, '.1f') + '%'",
+      "as": "rate_label"
+    },
+
+    {
+      "lookup": "rank_num",
+      "from": {
+        "data": {
+          "values": [
+            {"rank_num": 48, "x_pos": 250, "y_pos": 145, "angle_pos": 1},
+            {"rank_num": 46, "x_pos": 130, "y_pos": 145, "angle_pos": 0},
+            {"rank_num": 49, "x_pos": 870, "y_pos": 145, "angle_pos": 0},
+
+            {"rank_num": 39, "x_pos": 120, "y_pos": 220, "angle_pos": 0},
+            {"rank_num": 31, "x_pos": 380, "y_pos": 145, "angle_pos": 0},
+            {"rank_num": 32, "x_pos": 520, "y_pos": 145, "angle_pos": 0},
+            {"rank_num": 40, "x_pos": 720, "y_pos": 145, "angle_pos": 0},
+
+            {"rank_num": 27, "x_pos": 110, "y_pos": 270, "angle_pos": 0},
+            {"rank_num": 18, "x_pos": 405, "y_pos": 180, "angle_pos": 0},
+            {"rank_num": 12, "x_pos": 560, "y_pos": 180, "angle_pos": 0},
+            {"rank_num": 19, "x_pos": 720, "y_pos": 180, "angle_pos": 0},
+            {"rank_num": 28, "x_pos": 880, "y_pos": 180, "angle_pos": 0},
+
+            {"rank_num": 20, "x_pos": 180, "y_pos": 180, "angle_pos": 0},
+            {"rank_num": 10, "x_pos": 240, "y_pos": 220, "angle_pos": 0},
+            {"rank_num": 6, "x_pos": 390, "y_pos": 220, "angle_pos": 0},
+            {"rank_num": 7, "x_pos": 570, "y_pos": 220, "angle_pos": 0},
+            {"rank_num": 11, "x_pos": 700, "y_pos": 220, "angle_pos": 0},
+            {"rank_num": 21, "x_pos": 885, "y_pos": 220, "angle_pos": 0},
+
+            {"rank_num": 14, "x_pos": 120, "y_pos": 330, "angle_pos": 0},
+            {"rank_num": 8, "x_pos": 80, "y_pos": 380, "angle_pos": 0},
+            {"rank_num": 1, "x_pos": 350, "y_pos": 270, "angle_pos": 0},
+            {"rank_num": 2, "x_pos": 690, "y_pos": 270, "angle_pos": 0},
+            {"rank_num": 9, "x_pos": 320, "y_pos": 330, "angle_pos": 0},
+            {"rank_num": 15, "x_pos": 1000, "y_pos": 330, "angle_pos": 0},
+
+            {"rank_num": 5, "x_pos": 500, "y_pos": 330, "angle_pos": 0},
+
+            {"rank_num": 22, "x_pos": 970, "y_pos": 270, "angle_pos": 0},
+            {"rank_num": 13, "x_pos": 700, "y_pos": 330, "angle_pos": 0},
+            {"rank_num": 3, "x_pos": 360, "y_pos": 380, "angle_pos": 0},
+            {"rank_num": 4, "x_pos": 660, "y_pos": 380, "angle_pos": 0},
+            {"rank_num": 16, "x_pos": 860, "y_pos": 380, "angle_pos": 0},
+            {"rank_num": 23, "x_pos": 855, "y_pos": 330, "angle_pos": 0},
+
+            {"rank_num": 24, "x_pos": 105, "y_pos": 425, "angle_pos": 0},
+            {"rank_num": 17, "x_pos": 260, "y_pos": 425, "angle_pos": 0},
+            {"rank_num": 26, "x_pos": 460, "y_pos": 425, "angle_pos": 0},
+            {"rank_num": 29, "x_pos": 610, "y_pos": 425, "angle_pos": 0},
+            {"rank_num": 25, "x_pos": 800, "y_pos": 425, "angle_pos": 0},
+            {"rank_num": 30, "x_pos": 900, "y_pos": 465, "angle_pos": 0},
+
+            {"rank_num": 33, "x_pos": 120, "y_pos": 465, "angle_pos": 0},
+            {"rank_num": 34, "x_pos": 310, "y_pos": 465, "angle_pos": 0},
+            {"rank_num": 37, "x_pos": 500, "y_pos": 465, "angle_pos": 0},
+            {"rank_num": 35, "x_pos": 690, "y_pos": 465, "angle_pos": 0},
+            {"rank_num": 36, "x_pos": 660, "y_pos": 500, "angle_pos": 0},
+
+            {"rank_num": 41, "x_pos": 250, "y_pos": 500, "angle_pos": 0},
+            {"rank_num": 38, "x_pos": 420, "y_pos": 500, "angle_pos": 0},
+            {"rank_num": 42, "x_pos": 550, "y_pos": 500, "angle_pos": 0},
+            {"rank_num": 43, "x_pos": 800, "y_pos": 500, "angle_pos": 0},
+
+            {"rank_num": 45, "x_pos": 300, "y_pos": 530, "angle_pos": 0},
+            {"rank_num": 44, "x_pos": 430, "y_pos": 530, "angle_pos": 0},
+            {"rank_num": 47, "x_pos": 580, "y_pos": 530, "angle_pos": 0},
+
+            {"rank_num": 50, "x_pos": 720, "y_pos": 530, "angle_pos": 0}
+          ]
+        },
+        "key": "rank_num",
+        "fields": ["x_pos", "y_pos", "angle_pos"]
+      }
+    }
+  ],
+
+  "layer": [
+    {
+      "transform": [
+        {
+          "filter": "datum.activity != 'Swimming'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "font": "Trebuchet MS",
+        "align": "center",
+        "baseline": "middle"
+      },
+      "encoding": {
+        "x": {
+          "field": "x_pos",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [0, 1000]
+          }
+        },
+        "y": {
+          "field": "y_pos",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [0, 600],
+            "reverse": true
+          }
+        },
+        "text": {
+          "field": "short_label",
+          "type": "nominal"
+        },
+        "size": {
+          "field": "font_size",
+          "type": "quantitative",
+          "scale": null
+        },
+        "angle": {
+          "field": "angle_pos",
+          "type": "quantitative"
+        },
+        "color": {
+          "value": "#b8b8b8"
+        },
+        "opacity": {
+          "value": 0.92
+        },
+        "tooltip": [
+          {
+            "field": "rank_num",
+            "type": "quantitative",
+            "title": "Rank"
+          },
+          {
+            "field": "activity",
+            "type": "nominal",
+            "title": "Activity"
+          },
+          {
+            "field": "rate_label",
+            "type": "nominal",
+            "title": "Participation rate"
+          },
+          {
+            "field": "estimated_participants",
+            "type": "quantitative",
+            "title": "Estimated participants",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.activity == 'Swimming'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "font": "Trebuchet MS",
+        "fontWeight": "bold",
+        "align": "center",
+        "baseline": "middle"
+      },
+      "encoding": {
+        "x": {
+          "field": "x_pos",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [0, 1000]
+          }
+        },
+        "y": {
+          "field": "y_pos",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {
+            "domain": [0, 600],
+            "reverse": true
+          }
+        },
+        "text": {
+          "field": "short_label",
+          "type": "nominal"
+        },
+        "size": {
+          "field": "font_size",
+          "type": "quantitative",
+          "scale": null
+        },
+        "angle": {
+          "field": "angle_pos",
+          "type": "quantitative"
+        },
+        "color": {
+          "value": "#0077b6"
+        },
+        "opacity": {
+          "value": 1
+        },
+        "tooltip": [
+          {
+            "field": "rank_num",
+            "type": "quantitative",
+            "title": "Rank"
+          },
+          {
+            "field": "activity",
+            "type": "nominal",
+            "title": "Activity"
+          },
+          {
+            "field": "rate_label",
+            "type": "nominal",
+            "title": "Participation rate"
+          },
+          {
+            "field": "estimated_participants",
+            "type": "quantitative",
+            "title": "Estimated participants",
+            "format": ",.0f"
+          }
+        ]
+      }
+    }
+  ],
+
+  "background": "transparent",
+  "view": {
+    "stroke": null
+  }
+}
