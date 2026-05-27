@@ -1,0 +1,51 @@
+﻿rank,activity,display_label,participation_rate_pct,participation_rate_decimal,estimated_participants,source_table,rate_source_row,participant_source_row
+1,Walking (Recreational),Walking,50.2,0.50203521,11363621,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",150,293
+2,Fitness/Gym,Fitness / Gym,34.1,0.34102082,7719043,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",57,200
+3,Bush walking,Bush walking,17.5,0.17468226,3953952,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",36,179
+4,Running/jogging,Running,16.5,0.16525143,3740484,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",121,264
+5,Swimming,Swimming,15.4,0.15389688,3483472,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",136,279
+6,Cycling,Cycling,8.3,0.08293927,1877339,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",45,188
+7,Pilates,Pilates,7.2,0.07180547,1625325,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",107,250
+8,Football/soccer,Football,5.6,0.05624127,1273027,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",60,203
+9,Yoga,Yoga,5.1,0.05071787,1148005,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",157,300
+10,Tennis,Tennis,4.9,0.04941029,1118407,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",142,285
+11,Golf,Golf,4.6,0.04562991,1032838,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",64,207
+12,Basketball,Basketball,4.5,0.04525536,1024360,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",23,166
+13,Cricket,Cricket,2.5,0.02491558,563967,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",41,184
+14,Australian football,Australian football,2.4,0.02417170,547129,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",20,163
+15,Netball,Netball,2.1,0.02107226,476973,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",96,239
+16,Badminton,Badminton,1.9,0.01886118,426925,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",21,164
+17,Table tennis,Table tennis,1.8,0.01790374,405253,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",139,282
+18,Dancing (recreational),Dancing,1.6,0.01628971,368719,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",47,190
+19,Surfing,Surfing,1.4,0.01384557,313396,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",135,278
+20,"Athletics, track and field",Athletics,1.3,0.01317915,298311,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",19,162
+21,Pickleball/padel,Pickleball/padel,1.3,0.01313652,297347,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",106,249
+22,Volleyball (indoor and outdoor),Volleyball,1.3,0.01307038,295849,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",149,292
+23,DanceSport,DanceSport,1.1,0.01122885,254166,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",46,189
+24,Fishing (recreational),Fishing (recreational),1.1,0.01070212,242244,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",56,199
+25,Canoeing/Kayaking,Canoeing / Kayaking,1.0,0.00996504,225560,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",39,182
+26,Weight lifting,Weight lifting,1.0,0.00982324,222350,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",153,296
+27,Virtual based physical activity,Virtual based physical activity,0.9,0.00949827,214994,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",148,291
+28,Motor cycling,Motor cycling,0.9,0.00946607,214266,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",91,234
+29,Boxing,Boxing,0.8,0.00847856,191913,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",34,177
+30,Underwater sports,Underwater sports,0.8,0.00835841,189194,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",147,290
+31,Bowls,Bowls,0.8,0.00834304,188846,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",33,176
+32,Ski & snowboard,Ski & snowboard,0.8,0.00811609,183709,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",130,273
+33,Rugby league,Rugby league,0.8,0.00763051,172717,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",119,262
+34,Mountain biking,Mountain biking,0.7,0.00725536,164226,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",93,236
+35,Touch football,Touch football,0.7,0.00711530,161056,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",145,288
+36,Crossfit/Functional fitness,Crossfit,0.6,0.00647546,146573,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",43,186
+37,Tenpin bowling,Tenpin bowling,0.6,0.00628926,142358,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",143,286
+38,Martial arts,Martial arts,0.6,0.00625624,141611,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",88,231
+39,Rowing,Rowing,0.6,0.00585002,132416,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",118,261
+40,Sport climbing,Sport climbing,0.5,0.00542294,122749,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",133,276
+41,Gymnastics,Gymnastics,0.5,0.00539564,122131,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",67,210
+42,Hockey,Hockey,0.5,0.00512158,115928,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",70,213
+43,Rock climbing/Abseiling/Caving,Rock climbing/Abseiling/Caving,0.5,0.00457429,103540,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",113,256
+44,Equestrian,Equestrian,0.4,0.00441565,99949,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",53,196
+45,Skate,Skate,0.4,0.00395551,89533,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",128,271
+46,Squash,Squash,0.4,0.00390157,88312,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",134,277
+47,Rugby union,Rugby union,0.4,0.00373966,84648,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",120,263
+48,Calisthenics,Calisthenics,0.4,0.00359412,81353,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",37,180
+49,Sailing,Sailing,0.3,0.00326995,74016,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",122,265
+50,Baseball,Baseball,0.3,0.00309477,70050,"Table 1 - Participation by activity (adults), AusPlay Jan 2025-Dec 2025",22,165
