@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "padding": {
+  "padding": {
     "top": 10,
     "left": 0,
     "right": 0,
@@ -12,7 +12,6 @@
     "fontSize": 18,
     "anchor": "start",
     "offset": 10
-    
   },
 
   "data": {
@@ -31,90 +30,183 @@
       "width": 720,
       "height": 300,
 
-      "mark": {
-        "type": "bar",
-        "tooltip": true,
-        "size": 12
-      },
+      "layer": [
+        {
+          "mark": {
+            "type": "bar",
+            "tooltip": true,
+            "size": 12
+          },
 
-      "encoding": {
-        "x": {
-          "field": "Year",
-          "type": "quantitative",
-          "scale": {
-            "domain": {
-              "param": "year_brush"
+          "encoding": {
+            "x": {
+              "field": "Year",
+              "type": "quantitative",
+              "scale": {
+                "domain": {
+                  "param": "year_brush"
+                },
+                "nice": false
+              },
+              "axis": {
+                "title": "Olympic Year",
+                "format": "d",
+                "tickMinStep": 4,
+                "values": [
+                  1900,
+                  1910,
+                  1920,
+                  1930,
+                  1940,
+                  1950,
+                  1960,
+                  1970,
+                  1980,
+                  1990,
+                  2000,
+                  2010,
+                  2020
+                ]
+              }
             },
-            "nice": false
-          },
-          "axis": {
-            "title": "Olympic Year",
-            "format": "d",
-            "tickMinStep": 4,
-            "values": [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020]
+
+            "y": {
+              "field": "Count",
+              "type": "quantitative",
+              "aggregate": "sum",
+              "title": "Number of Medals"
+            },
+
+            "color": {
+              "field": "Medal",
+              "type": "nominal",
+              "title": "Medal Type",
+              "scale": {
+                "domain": ["Gold", "Silver", "Bronze"],
+                "range": ["#D4AF37", "#C0C0C0", "#CD7F32"]
+              },
+              "legend": {
+                "orient": "none",
+                "legendX": 30,
+                "legendY": 12,
+                "direction": "vertical",
+                "titleFontSize": 11,
+                "labelFontSize": 10,
+                "fillColor": "white",
+                "strokeColor": "#D9E3EA",
+                "padding": 6,
+                "cornerRadius": 4
+              }
+            },
+
+            "order": {
+              "field": "MedalOrder",
+              "type": "quantitative"
+            },
+
+            "tooltip": [
+              {
+                "field": "Year",
+                "type": "quantitative",
+                "title": "Olympic Year",
+                "format": "d"
+              },
+              {
+                "field": "Medal",
+                "type": "nominal",
+                "title": "Medal Type"
+              },
+              {
+                "field": "Count",
+                "type": "quantitative",
+                "aggregate": "sum",
+                "title": "Medal Count"
+              }
+            ]
           }
         },
 
-        "y": {
-          "field": "Count",
-          "type": "quantitative",
-          "aggregate": "sum",
-          "title": "Number of Medals"
-        },
-
-        "color": {
-          "field": "Medal",
-          "type": "nominal",
-          "title": "Medal Type",
-          "scale": {
-            "domain": ["Gold", "Silver", "Bronze"],
-            "range": ["#D4AF37", "#C0C0C0", "#CD7F32"]
+        {
+          "data": {
+            "values": [
+              {
+                "x": 175,
+                "x2": 445,
+                "y": 18,
+                "y2": 92
+              }
+            ]
           },
-          "legend": {
-              "orient": "none",
-              "legendX": 30,
-              "legendY": 12,
-              "direction": "vertical",
-              "titleFontSize": 11,
-              "labelFontSize": 10,
-              "fillColor": "white",
-              "strokeColor": "#D9E3EA",
-              "padding": 6,
-              "cornerRadius": 4
+          "mark": {
+            "type": "rect",
+            "cornerRadius": 6,
+            "fill": "white",
+            "fillOpacity": 0.9,
+            "stroke": "#535556",
+            "strokeWidth": 1.2
+          },
+          "encoding": {
+            "x": {
+              "field": "x",
+              "type": "quantitative",
+              "scale": null
+            },
+            "x2": {
+              "field": "x2"
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative",
+              "scale": null
+            },
+            "y2": {
+              "field": "y2"
+            }
           }
         },
 
-        "order": {
-          "field": "MedalOrder",
-          "type": "quantitative"
-        },
-
-        "tooltip": [
-          {
-            "field": "Year",
-            "type": "quantitative",
-            "title": "Olympic Year",
-            "format": "d"
+        {
+          "data": {
+            "values": [
+              {
+                "x": 190,
+                "y": 32,
+                "label": "A major medal surge appears from\n the mid-1950s, with recent Games\n showing continued high medal returns."
+              }
+            ]
           },
-          {
-            "field": "Medal",
-            "type": "nominal",
-            "title": "Medal Type"
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "fontSize": 13,
+            "lineBreak": "\n",
+            "lineHeight": 18,
+            "color": "#535556"
           },
-          {
-            "field": "Count",
-            "type": "quantitative",
-            "aggregate": "sum",
-            "title": "Medal Count"
+          "encoding": {
+            "x": {
+              "field": "x",
+              "type": "quantitative",
+              "scale": null
+            },
+            "y": {
+              "field": "y",
+              "type": "quantitative",
+              "scale": null
+            },
+            "text": {
+              "field": "label"
+            }
           }
-        ]
-      }
+        }
+      ]
     },
 
     {
       "width": 720,
       "height": 80,
-      
+
       "title": {
         "text": "Overview Timeline: Drag to Select a Period",
         "fontSize": 13,
@@ -145,7 +237,21 @@
             "title": "Olympic Year",
             "format": "d",
             "tickMinStep": 4,
-            "values": [1900, 1910, 1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020]
+            "values": [
+              1900,
+              1910,
+              1920,
+              1930,
+              1940,
+              1950,
+              1960,
+              1970,
+              1980,
+              1990,
+              2000,
+              2010,
+              2020
+            ]
           },
           "scale": {
             "nice": false

@@ -2,15 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Elliptical packed word-cloud-style chart for top 50 adult activities in Australia, highlighting Swimming.",
   "width": 550,
-  "height": 350,
+  "height": 320,
   "title": {
     "text": "Swimming Is Visible in Australia's Adult Activity Culture",
-    "subtitle": "Higher-ranked activities appear larger and closer to the centre",
     "anchor": "start",
-    "font": "Trebuchet MS",
-    "fontSize": 22,
-    "subtitleFont": "Trebuchet MS",
-    "subtitleFontSize": 13
+    "fontSize": 15,
+    "fontWeight": "bold"
   },
   "data": {
     "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/top50_adult_activities_2025_18plus.csv"
@@ -153,7 +150,7 @@
           "type": "quantitative",
           "axis": null,
           "scale": {
-            "domain": [0, 600],
+            "domain": [120, 550],
             "reverse": true
           }
         },
@@ -228,7 +225,7 @@
           "type": "quantitative",
           "axis": null,
           "scale": {
-            "domain": [0, 600],
+            "domain": [120, 550],
             "reverse": true
           }
         },

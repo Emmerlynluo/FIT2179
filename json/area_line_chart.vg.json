@@ -68,7 +68,7 @@
         "type": "area",
         "interpolate": "monotone",
         "opacity": 0.28,
-        "color": "#67a5eb"
+        "color": "#9AD4F5"
       },
       "encoding": {
         "x": {
@@ -82,12 +82,30 @@
           "title": "Seconds Behind World Record"
         },
         "tooltip": [
-          {"field": "event_label", "title": "Event"},
-          {"field": "rank_num", "title": "Rank"},
-          {"field": "athlete", "title": "Athlete"},
-          {"field": "team_code", "title": "Country"},
-          {"field": "swim_time", "title": "Time"},
-          {"field": "gap_from_wr_seconds", "title": "Gap from WR"}
+          {
+            "field": "event_label",
+            "title": "Event"
+          },
+          {
+            "field": "rank_num",
+            "title": "Rank"
+          },
+          {
+            "field": "athlete",
+            "title": "Athlete"
+          },
+          {
+            "field": "team_code",
+            "title": "Country"
+          },
+          {
+            "field": "swim_time",
+            "title": "Time"
+          },
+          {
+            "field": "gap_from_wr_seconds",
+            "title": "Gap from WR"
+          }
         ]
       }
     },
@@ -96,7 +114,7 @@
         "type": "line",
         "interpolate": "monotone",
         "strokeWidth": 2.5,
-        "color": "#64748B"
+        "color": "#535151"
       },
       "encoding": {
         "x": {
@@ -118,7 +136,7 @@
       "mark": {
         "type": "circle",
         "size": 95,
-        "color": "#2b39cb",
+        "color": "#3682e5",
         "stroke": "white",
         "strokeWidth": 1.5
       },
@@ -132,14 +150,165 @@
           "type": "quantitative"
         },
         "tooltip": [
-          {"field": "event_label", "title": "Event"},
-          {"field": "rank_num", "title": "Rank"},
-          {"field": "athlete", "title": "Australian Swimmer"},
-          {"field": "swim_time", "title": "Time"},
-          {"field": "gap_from_wr_seconds", "title": "Gap from WR"},
-          {"field": "year", "title": "Year"},
-          {"field": "meet_city", "title": "Meet City"}
+          {
+            "field": "event_label",
+            "title": "Event"
+          },
+          {
+            "field": "rank_num",
+            "title": "Rank"
+          },
+          {
+            "field": "athlete",
+            "title": "Australian Swimmer"
+          },
+          {
+            "field": "swim_time",
+            "title": "Time"
+          },
+          {
+            "field": "gap_from_wr_seconds",
+            "title": "Gap from WR"
+          },
+          {
+            "field": "year",
+            "title": "Year"
+          },
+          {
+            "field": "meet_city",
+            "title": "Meet City"
+          }
         ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "event_key": "F50",
+            "annotation": "Women 50m\nAustralia shows visible sprint presence,\nwith leading swimmers staying close to the world-record benchmark."
+          },
+          {
+            "event_key": "F100",
+            "annotation": "Women 100m\nAustralian swimmers appear across the top ranks,\nsuggesting strong sprint depth near the world-record benchmark."
+          },
+          {
+            "event_key": "F200",
+            "annotation": "Women 200m\nAustralia remains competitive in this mid-distance event,\nwith swimmers positioned near the elite global field."
+          },
+          {
+            "event_key": "F400",
+            "annotation": "Women 400m\nAustralia shows strength beyond pure sprint events,\nwith competitive gaps maintained across higher rankings."
+          },
+          {
+            "event_key": "F800",
+            "annotation": "Women 800m\nAustralian performance remains visible in longer freestyle,\nshowing endurance depth as ranking gaps widen."
+          },
+          {
+            "event_key": "M50",
+            "annotation": "Men 50m\nAustralia has a visible sprint presence,\nbut small time gaps separate the very top global performers."
+          },
+          {
+            "event_key": "M100",
+            "annotation": "Men 100m\nAustralian swimmers remain close to the elite benchmark,\nshowing strong competitiveness in a tightly packed event."
+          },
+          {
+            "event_key": "M200",
+            "annotation": "Men 200m\nAustralia appears within the global field,\nindicating competitive depth across this mid-distance race."
+          },
+          {
+            "event_key": "M400",
+            "annotation": "Men 400m\nAustralian swimmers show endurance competitiveness,\nalthough ranking gaps increase more clearly beyond the leaders."
+          },
+          {
+            "event_key": "M800",
+            "annotation": "Men 800m\nAustralia remains represented in the distance field,\nwith performance gaps revealing the challenge of sustained pace."
+          }
+        ]
+      },
+      "transform": [
+        {
+          "filter": "datum.event_key == eventSelect"
+        }
+      ],
+      "mark": {
+        "type": "rect",
+        "x": 165,
+        "x2": 418,
+        "y": 137,
+        "y2": 220,
+        "cornerRadius": 6,
+        "fill": "white",
+        "fillOpacity": 0.88,
+        "stroke": "#8e9294",
+        "strokeWidth": 1.2
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "event_key": "F50",
+            "annotation": "Women 50m:\nAustralia shows visible sprint presence,\nwith leading swimmers staying close to \nthe world-record benchmark."
+          },
+          {
+            "event_key": "F100",
+            "annotation": "Women 100m:\nAustralian swimmers appear across the \ntop ranks, suggesting strong sprint depth \nnear the world-record benchmark."
+          },
+          {
+            "event_key": "F200",
+            "annotation": "Women 200m:\nAustralia remains competitive in this \nmid-distance event,with swimmers \npositioned near the elite global field."
+          },
+          {
+            "event_key": "F400",
+            "annotation": "Women 400m:\nAustralia shows strength beyond pure \nsprint events, with competitive gaps \nmaintained across higher rankings."
+          },
+          {
+            "event_key": "F800",
+            "annotation": "Women 800m:\nAustralian performance remains visible \nin longer freestyle, showing endurance \ndepth as ranking gaps widen."
+          },
+          {
+            "event_key": "M50",
+            "annotation": "Men 50m:\nAustralia has a visible sprint presence,\nbut small time gaps separate the very top \nglobal performers."
+          },
+          {
+            "event_key": "M100",
+            "annotation": "Men 100m:\nAustralian swimmers remain close to the \nelite benchmark, showing strong \ncompetitiveness in a tightly packed event."
+          },
+          {
+            "event_key": "M200",
+            "annotation": "Men 200m:\nAustralia appears within the global field,\nindicating competitive depth across \nthis mid-distance race."
+          },
+          {
+            "event_key": "M400",
+            "annotation": "Men 400m:\nAustralian swimmers show endurance \ncompetitiveness, although ranking gaps \nincrease more beyond the leaders."
+          },
+          {
+            "event_key": "M800",
+            "annotation": "Men 800m:\nAustralia remains represented in the \ndistance field, with performance gaps \nrevealing the challenge of sustained pace."
+          }
+        ]
+      },
+      "transform": [
+        {
+          "filter": "datum.event_key == eventSelect"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "x": 180,
+        "y": 150,
+        "align": "left",
+        "baseline": "top",
+        "fontSize": 11.5,
+        "lineBreak": "\n",
+        "lineHeight": 16,
+        "color": "#535556"
+      },
+      "encoding": {
+        "text": {
+          "field": "annotation"
+        }
       }
     }
   ],
@@ -150,8 +319,13 @@
       "titleFontSize": 13
     },
     "title": {
-      "fontSize": 17,
-      "anchor": "start"
+      "fontSize": 15,
+      "anchor": "middle",
+      "fontWeight": "bold"
+    },
+    "background": "transparent",
+    "view": {
+      "stroke": null
     }
   }
 }

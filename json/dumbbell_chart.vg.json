@@ -4,11 +4,17 @@
     "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/dumbbell_aus_usa.csv"
   },
   "width": 540,
-  "height": 320,
+  "height": 310,
   "autosize": {
-    "type": "fit",
-    "contains": "padding",
-    "resize": true
+    "type": "pad",
+    "contains": "padding"
+  },
+  "bounds": "flush",
+  "padding": {
+    "top": 0,
+    "bottom": 0,
+    "left": 0,
+    "right": 0
   },
   "params": [
     {
@@ -31,8 +37,9 @@
     {
       "mark": {
         "type": "rule",
-        "strokeWidth": 3,
-        "color": "#CBD5E1"
+        "strokeWidth": 2,
+        "color": "#606567",
+        "opacity": 0.9
       },
       "encoding": {
         "y": {
@@ -50,13 +57,21 @@
             "Men's 400m",
             "Men's 800m"
           ],
-          "title": "Freestyle Event"
+          "title": "Freestyle Event",
+          "scale": {
+            "paddingInner": 0.25,
+            "paddingOuter": 0
+          }
         },
         "x": {
           "aggregate": "min",
           "field": "top200_count",
           "type": "quantitative",
-          "title": "Number of Top 200 Performances"
+          "title": "Number of Top 200 Performances",
+          "scale": {
+            "domain": [0, 110],
+            "nice": false
+          }
         },
         "x2": {
           "aggregate": "max",
@@ -69,7 +84,8 @@
         "type": "circle",
         "size": 180,
         "stroke": "white",
-        "strokeWidth": 1.5
+        "strokeWidth": 1.5,
+        "opacity": 0.95
       },
       "encoding": {
         "y": {
@@ -90,36 +106,156 @@
         },
         "x": {
           "field": "top200_count",
-          "type": "quantitative"
+          "type": "quantitative",
+          "scale": {
+            "domain": [0, 110],
+            "nice": false
+          }
         },
         "color": {
           "field": "country",
           "type": "nominal",
           "scale": {
             "domain": ["AUS", "USA"],
-            "range": ["#006B54", "#9BA7B4"]
+            "range": ["#1E88E5", "#A9B4BE"]
           },
-          "title": "Country"
+          "legend": null
         },
         "tooltip": [
-          {"field": "event_label", "title": "Event"},
-          {"field": "country", "title": "Country"},
-          {"field": "top200_count", "title": "Top 200 Performances"},
-          {"field": "best_rank", "title": "Best Rank"},
-          {"field": "best_athlete", "title": "Best Athlete"}
+          { "field": "event_label", "title": "Event" },
+          { "field": "country", "title": "Country" },
+          { "field": "top200_count", "title": "Top 200 Performances" },
+          { "field": "best_rank", "title": "Best Rank" },
+          { "field": "best_athlete", "title": "Best Athlete" }
         ]
+      }
+    },
+
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "rect",
+        "fill": "white",
+        "fillOpacity": 0.95,
+        "stroke": "#D6DEE3",
+        "strokeWidth": 1.2,
+        "cornerRadius": 6
+      },
+      "encoding": {
+        "x": { "value": 443 },
+        "x2": { "value": 525 },
+        "y": { "value": 220 },
+        "y2": { "value": 290 }
+      }
+    },
+
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#102A3A"
+      },
+      "encoding": {
+        "x": { "value": 460 },
+        "y": { "value": 235 },
+        "text": { "value": "Country" }
+      }
+    },
+
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "circle",
+        "size": 120,
+        "fill": "#1E88E5",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": { "value": 465 },
+        "y": { "value": 255 }
+      }
+    },
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 11,
+        "color": "#263238"
+      },
+      "encoding": {
+        "x": { "value": 480 },
+        "y": { "value": 255 },
+        "text": { "value": "AUS" }
+      }
+    },
+
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "circle",
+        "size": 120,
+        "fill": "#A9B4BE",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": { "value": 465 },
+        "y": { "value": 275 }
+      }
+    },
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 11,
+        "color": "#263238"
+      },
+      "encoding": {
+        "x": { "value": 480 },
+        "y": { "value": 275 },
+        "text": { "value": "USA" }
       }
     }
   ],
   "title": "Australia vs USA: Freestyle Top 200 Depth by Event",
+  "background": "transparent",
+  "view": {
+    "stroke": null
+  },
   "config": {
     "axis": {
       "labelFontSize": 12,
-      "titleFontSize": 13
+      "titleFontSize": 13,
+      "gridColor": "#D6DEE3",
+      "gridOpacity": 0.8,
+      "domainColor": "#8FA0AA",
+      "tickColor": "#8FA0AA"
     },
     "title": {
       "fontSize": 17,
-      "anchor": "start"
+      "anchor": "middle",
+      "fontWeight": "bold"
     }
   }
 }

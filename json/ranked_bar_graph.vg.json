@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Top 10 Adult Activities in Australia, 2025",
+  "width": 700,
+  "height": 320,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/top10_adult_activities_2025_18%2B.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.segment_type == 'Total'"
+    },
+    {
+      "calculate": "datum.activity == 'Swimming' ? 'Swimming' : 'Other activities'",
+      "as": "highlight"
+    }
+  ],
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 4
+  },
+  "encoding": {
+    "y": {
+      "field": "activity",
+      "type": "nominal",
+      "sort": {
+        "field": "rank",
+        "order": "ascending"
+      },
+      "title": null
+    },
+    "x": {
+      "field": "participation_rate_pct",
+      "type": "quantitative",
+      "title": "Participation rate (%)"
+    },
+    "color": {
+      "field": "highlight",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Swimming", "Other activities"],
+        "range": ["#1f78b4", "#d9d9d9"]
+      },
+      "legend": null
+    },
+    "tooltip": [
+      {"field": "rank", "type": "ordinal", "title": "Rank"},
+      {"field": "activity", "type": "nominal", "title": "Activity"},
+      {"field": "participation_rate_pct", "type": "quantitative", "title": "Participation rate (%)", "format": ".1f"},
+      {"field": "estimated_participants", "type": "quantitative", "title": "Estimated participants", "format": ","}
+    ]
+  }
+}

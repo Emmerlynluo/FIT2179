@@ -2,14 +2,16 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Swimming Participation Across Uneven Age Groups",
-    "subtitle": "Age groups follow the original AusPlay categories."
+    "fontSize": 17,
+    "fontWeight": "bold",
+    "offset": 14
   },
-  "width": 760,
+  "width": 800,
   "height": 420,
   "autosize": {
-  "type": "fit",
-  "contains": "padding"
-    },
+    "type": "fit",
+    "contains": "padding"
+  },
   "data": {
     "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/top10_activities_age_profiles_0-65.csv"
   },
@@ -156,7 +158,7 @@
           "field": "activity"
         },
         "color": {
-          "value": "#1f78b4"
+          "value": "#9AD4F5"
         }
       }
     },
@@ -249,61 +251,142 @@
         }
       }
     },
+
     {
-      "transform": [
-        {
-          "filter": "datum.activity == 'Swimming' && datum.age_group_clean == '5-8'"
-        }
-      ],
+      "data": {
+        "values": [
+          {
+            "x1": 42.4,
+            "x2": 73,
+            "y1": 28,
+            "y2": 36
+          }
+        ]
+      },
       "mark": {
-        "type": "text",
-        "align": "left",
-        "baseline": "bottom",
-        "dx": 10,
-        "dy": -12,
-        "fontSize": 12,
-        "fontWeight": "bold",
-        "color": "#1f78b4"
+        "type": "rect",
+        "cornerRadius": 6,
+        "fill": "white",
+        "stroke": "#8e9294",
+        "strokeWidth": 1,
+        "opacity": 0.92
       },
       "encoding": {
         "x": {
-          "field": "age_midpoint",
+          "field": "x1",
           "type": "quantitative"
+        },
+        "x2": {
+          "field": "x2"
         },
         "y": {
-          "field": "participation_rate_pct",
+          "field": "y1",
           "type": "quantitative"
         },
-        "text": {
-          "value": "Swimming peaks in ages 5-8"
+        "y2": {
+          "field": "y2"
         }
       }
     },
     {
+      "data": {
+        "values": [
+          {
+            "x": 44,
+            "y": 34.5,
+            "label": "Swimming reaches its highest participation at \nages 5-8, but remains relatively popular across all \nage groups,showing a strong lifelong presence."
+          }
+        ]
+      },
       "mark": {
         "type": "text",
         "align": "left",
-        "baseline": "bottom",
-        "fontSize": 11,
-        "color": "#666666",
-        "x": 0,
-        "y": 455
+        "baseline": "top",
+        "fontSize": 12,
+        "lineBreak": "\n",
+        "lineHeight": 17,
+        "color": "#474a4c"
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "label"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x1": 42,
+            "y1": 31.8,
+            "x2": 8.8,
+            "y2": 32.0
+          }
+        ]
+      },
+      "mark": {
+        "type": "rule",
+        "stroke": "#8e9498",
+        "strokeWidth": 1.5,
+        "opacity": 0.8
+      },
+      "encoding": {
+        "x": {
+          "field": "x1",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y1",
+          "type": "quantitative"
+        },
+        "x2": {
+          "field": "x2"
+        },
+        "y2": {
+          "field": "y2"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 6.5,
+            "y": 32.1
+          }
+        ]
+      },
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 90,
+        "color": "#1f78b4",
+        "opacity": 0.95
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative"
+        }
       }
     }
   ],
   "config": {
+    "background": "transparent",
     "view": {
       "stroke": null
-    },
-    "axis": {
-      "grid": true,
-      "labelFontSize": 11,
-      "titleFontSize": 12
-    },
-    "title": {
-      "fontSize": 16,
-      "subtitleFontSize": 11,
-      "anchor": "start"
     }
   }
 }

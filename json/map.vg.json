@@ -1,11 +1,14 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 760,
+
+  "width": 680,
   "height": 420,
+
   "autosize": {
-    "type": "fit",
+    "type": "pad",
     "contains": "padding"
   },
+
   "params": [
     {
       "name": "genderFilter",
@@ -27,33 +30,113 @@
         "step": 20,
         "name": "Top N: "
       }
+    },
+    {
+      "name": "zoomLevel",
+      "value": 230,
+      "bind": {
+        "input": "range",
+        "min": 105,
+        "max": 230,
+        "step": 20,
+        "name": "Zoom: "
+      }
+    },
+    {
+      "name": "focusSelection",
+      "value": "World",
+      "bind": {
+        "input": "select",
+        "options": [
+          "World",
+          "Australia-Pacific",
+          "Europe",
+          "Americas",
+          "Asia"
+        ],
+        "labels": [
+          "World",
+          "Australia-Pacific",
+          "Europe",
+          "Americas",
+          "Asia"
+        ],
+        "name": "Map center: "
+      }
     }
   ],
+
+  "projection": {
+    "type": "equalEarth",
+    "center": {
+      "expr": "focusSelection == 'Australia-Pacific' ? [145, -25] : focusSelection == 'Europe' ? [15, 50] : focusSelection == 'Americas' ? [-75, 20] : focusSelection == 'Asia' ? [105, 25] : [15, 10]"
+    },
+    "scale": {
+      "expr": "zoomLevel"
+    },
+    "translate": [325, 205]
+  },
+
   "layer": [
     {
       "data": {
-        "url": "https://cdn.jsdelivr.net/npm/vega-datasets@2/data/world-110m.json",
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
         "format": {
           "type": "topojson",
           "feature": "countries"
         }
       },
-      "projection": {
-        "type": "equalEarth"
-      },
       "mark": {
         "type": "geoshape",
         "fill": "#EEF2F5",
-        "stroke": "white",
-        "strokeWidth": 0.5
+        "stroke": "#FFFFFF",
+        "strokeWidth": 0.45,
+        "clip": true
       }
     },
+
+    {
+      "data": {
+        "values": [
+          {"name": "North America", "lon": -105, "lat": 48},
+          {"name": "South America", "lon": -60, "lat": -18},
+          {"name": "Europe", "lon": 15, "lat": 53},
+          {"name": "Africa", "lon": 20, "lat": 4},
+          {"name": "Asia", "lon": 90, "lat": 45},
+          {"name": "Australia", "lon": 135, "lat": -25},
+          {"name": "Pacific Ocean", "lon": -150, "lat": 0},
+          {"name": "Atlantic Ocean", "lon": -35, "lat": 3},
+          {"name": "Indian Ocean", "lon": 80, "lat": -28}
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "fontSize": 10.5,
+        "fontStyle": "italic",
+        "fontWeight": "bold",
+        "color": "#6F8C9A",
+        "opacity": 0.55,
+        "clip": true
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "name",
+          "type": "nominal"
+        }
+      }
+    },
+
     {
       "data": {
         "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/chart_host_country_map_points.csv"
-      },
-      "projection": {
-        "type": "equalEarth"
       },
       "transform": [
         {
@@ -89,7 +172,8 @@
         "type": "circle",
         "opacity": 0.78,
         "stroke": "white",
-        "strokeWidth": 1
+        "strokeWidth": 1,
+        "clip": true
       },
       "encoding": {
         "longitude": {
@@ -105,15 +189,40 @@
           "type": "quantitative",
           "title": "Top N",
           "scale": {
-            "range": [60, 1500]
+            "range": [60, 1450]
+          },
+          "legend": {
+            "orient": "right",
+            "title": "Top N",
+            "titleFontSize": 10,
+            "labelFontSize": 9,
+            "titleAlign": "center",
+            "titleAnchor": "middle",
+            "symbolFillColor": "#5B5B5B",
+            "symbolStrokeColor": "white",
+            "symbolStrokeWidth": 0.8,
+            "labelOffset": 8
           }
         },
         "color": {
           "field": "aus_count",
           "type": "quantitative",
-          "title": "Performances",
+          "title": ["Australian", "Performances"],
           "scale": {
             "scheme": "blues"
+          },
+          "legend": {
+            "orient": "right",
+            "title": ["Australian", "Performances"],
+            "direction": "vertical",
+            "gradientLength": 145,
+            "gradientThickness": 16,
+            "titleFontSize": 10,
+            "labelFontSize": 9,
+            "titleAlign": "center",
+            "titleAnchor": "middle",
+            "titleLimit": 90,
+            "labelOffset": 8
           }
         },
         "tooltip": [
@@ -133,19 +242,27 @@
       }
     }
   ],
+
   "title": {
     "text": "Where Were Elite Freestyle Performances Recorded?",
     "anchor": "start",
-    "fontSize": 18,
-    "subtitleFontSize": 12
+    "fontSize": 17,
+    "fontWeight": "bold",
+    "offset": 14
   },
+
   "config": {
+    "background": "transparent",
     "view": {
       "stroke": null
     },
+    "axis": {
+      "grid": false
+    },
     "legend": {
-      "titleFontSize": 12,
-      "labelFontSize": 11
+      "offset": 40,
+      "padding": 5,
+      "cornerRadius": 4
     }
   }
 }

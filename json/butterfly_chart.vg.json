@@ -1,63 +1,255 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
   "title": {
     "text": "Gender Differences Across Australia's Top 10 Adult Activities",
     "anchor": "start",
-    "fontSize": 17
+    "fontSize": 17,
+    "offset": 10
   },
-  "width": 650,
-  "height": 320,
+
+  "width": 550,
+  "height": 310,
+
   "autosize": {
-  "type": "fit",
-  "contains": "padding"
-    },
-  "data": {
-    "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/top10_adult_activities_2025_18%2B.csv"
+    "type": "pad",
+    "contains": "padding"
   },
-  "transform": [
+
+  "layer": [
     {
-      "filter": "datum.segment_type == 'Gender'"
+      "data": {
+        "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/top10_adult_activities_2025_18%2B.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.segment_type == 'Gender'"
+        },
+        {
+          "filter": "datum.segment == 'Males' || datum.segment == 'Females'"
+        },
+        {
+          "calculate": "datum.segment == 'Males' ? -datum.participation_rate_pct : datum.participation_rate_pct",
+          "as": "signed_rate"
+        }
+      ],
+      "mark": {
+        "type": "bar"
+      },
+      "encoding": {
+        "y": {
+          "field": "activity",
+          "type": "nominal",
+          "sort": {
+            "field": "rank",
+            "order": "ascending"
+          },
+          "title": null
+        },
+        "x": {
+          "field": "signed_rate",
+          "type": "quantitative",
+          "title": "Participation rate (%)",
+          "scale": {
+            "domain": [-50, 60],
+            "nice": false
+          },
+          "axis": {
+            "labelExpr": "replace(datum.label, '-', '')"
+          }
+        },
+        "color": {
+          "field": "segment",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Males", "Females"],
+            "range": ["#9AD4F5", "#F5C75D"]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          {
+            "field": "activity",
+            "type": "nominal",
+            "title": "Activity"
+          },
+          {
+            "field": "segment",
+            "type": "nominal",
+            "title": "Gender"
+          },
+          {
+            "field": "participation_rate_pct",
+            "type": "quantitative",
+            "title": "Participation rate (%)",
+            "format": ".1f"
+          },
+          {
+            "field": "estimated_participants",
+            "type": "quantitative",
+            "title": "Estimated participants",
+            "format": ","
+          }
+        ]
+      }
     },
+
     {
-      "filter": "datum.segment == 'Males' || datum.segment == 'Females'"
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "rect",
+        "fill": "white",
+        "fillOpacity": 0.95,
+        "stroke": "#D6DEE3",
+        "strokeWidth": 1.2,
+        "cornerRadius": 6
+      },
+      "encoding": {
+        "x": {
+          "value": 420
+        },
+        "x2": {
+          "value": 510
+        },
+        "y": {
+          "value": 210
+        },
+        "y2": {
+          "value": 283
+        }
+      }
     },
+
     {
-      "calculate": "datum.segment == 'Males' ? -datum.participation_rate_pct : datum.participation_rate_pct",
-      "as": "signed_rate"
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "color": "#102A3A"
+      },
+      "encoding": {
+        "x": {
+          "value": 440
+        },
+        "y": {
+          "value": 225
+        },
+        "text": {
+          "value": "Gender"
+        }
+      }
+    },
+
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "circle",
+        "size": 120,
+        "fill": "#9AD4F5",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "value": 440
+        },
+        "y": {
+          "value": 245
+        }
+      }
+    },
+
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 11,
+        "color": "#263238"
+      },
+      "encoding": {
+        "x": {
+          "value": 450
+        },
+        "y": {
+          "value": 245
+        },
+        "text": {
+          "value": "Males"
+        }
+      }
+    },
+
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "circle",
+        "size": 120,
+        "fill": "#F5C75D",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "value": 440
+        },
+        "y": {
+          "value": 265
+        }
+      }
+    },
+
+    {
+      "data": {
+        "values": [{}]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "fontSize": 11,
+        "color": "#263238"
+      },
+      "encoding": {
+        "x": {
+          "value": 450
+        },
+        "y": {
+          "value": 265
+        },
+        "text": {
+          "value": "Females"
+        }
+      }
     }
   ],
-  "mark": {
-    "type": "bar"
-  },
-  "encoding": {
-    "y": {
-      "field": "activity",
-      "type": "nominal",
-      "sort": {"field": "rank", "order": "ascending"},
-      "title": null
+
+  "config": {
+    "background": "transparent",
+    "view": {
+      "stroke": null
     },
-    "x": {
-      "field": "signed_rate",
-      "type": "quantitative",
-      "title": "Participation rate (%)",
-      "axis": {
-        "labelExpr": "replace(datum.label, '-', '')"
-      }
-    },
-    "color": {
-      "field": "segment",
-      "type": "nominal",
-      "title": "Gender",
-      "scale": {
-        "domain": ["Males", "Females"],
-        "range": ["#6baed6", "#fb9a99"]
-      }
-    },
-    "tooltip": [
-      {"field": "activity", "type": "nominal", "title": "Activity"},
-      {"field": "segment", "type": "nominal", "title": "Gender"},
-      {"field": "participation_rate_pct", "type": "quantitative", "title": "Participation rate (%)", "format": ".1f"},
-      {"field": "estimated_participants", "type": "quantitative", "title": "Estimated participants", "format": ","}
-    ]
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "gridColor": "#D6DEE3",
+      "gridOpacity": 0.8,
+      "domainColor": "#8FA0AA",
+      "tickColor": "#8FA0AA"
+    }
   }
 }

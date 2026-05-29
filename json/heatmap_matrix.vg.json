@@ -3,8 +3,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/event_strength_matrix.csv"
   },
-  "width": 550,
-  "height": 400,
+  "width": 540,
+  "height": 350,
   "autosize": {
   "type": "fit",
   "contains": "padding",
@@ -78,15 +78,26 @@
       {"field": "best_rank", "title": "Best Rank"}
     ]
   },
-  "title": "Freestyle Event Strength Matrix: Top Nations Across Events",
+    "title": {
+      "text": "Freestyle Event Strength Matrix: Top Nations Across Events",
+      "fontSize": 15,
+      "anchor": "middle",
+      "fontWeight": "bold",
+      "offset": 10
+    },
   "config": {
     "axis": {
       "labelFontSize": 12,
       "titleFontSize": 13
     },
     "title": {
-      "fontSize": 17,
-      "anchor": "start"
+      "fontSize": 15,
+      "anchor": "middle",
+      "fontWeight": "bold"
+    },
+    "background": "transparent",
+    "view": {
+      "stroke": null
     }
   }
 }

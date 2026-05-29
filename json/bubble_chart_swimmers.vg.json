@@ -1,14 +1,25 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
   "data": {
     "url": "https://raw.githubusercontent.com/Emmerlynluo/FIT2179/refs/heads/main/data/aus_star_swimmers.csv"
   },
-  "width": 550,
-  "height": 400,
+
+  "width": 540,
+  "height": 350,
+
   "autosize": {
-  "type": "fit",
-  "contains": "padding"
+    "type": "fit",
+    "contains": "padding"
   },
+
+  "padding": {
+    "top": 35,
+    "left": 5,
+    "right": 5,
+    "bottom": 5
+  },
+
   "params": [
     {
       "name": "genderFilter",
@@ -22,7 +33,7 @@
     },
     {
       "name": "minAppearances",
-      "value": 5,
+      "value": 21,
       "bind": {
         "input": "range",
         "min": 1,
@@ -32,14 +43,20 @@
       }
     }
   ],
+
   "transform": [
     {
       "filter": "genderFilter == 'All' || datum.gender == genderFilter"
     },
     {
       "filter": "datum.appearances >= minAppearances"
+    },
+    {
+      "calculate": "replace(datum.athlete, ' ', '\\n')",
+      "as": "athlete_label"
     }
   ],
+
   "layer": [
     {
       "mark": {
@@ -81,9 +98,9 @@
           "title": "Distance Type",
           "scale": {
             "domain": ["Sprint", "Middle-distance", "Distance"],
-            "range": ["#F2A65A", "#006B54", "#4C78A8"]
+            "range": ["#83D2EB", "#E6C185", "#838AEB"]
           },
-           "legend": {
+          "legend": {
             "labelExpr": "replace(replace(datum.label, 'Middle-distance', 'Middle'), 'Distance', 'Long')"
           }
         },
@@ -100,12 +117,14 @@
     {
       "mark": {
         "type": "text",
-        "align": "left",
+        "align": "center",
         "baseline": "bottom",
-        "dx": 15,
-        "fontSize": 11,
+        "lineBreak": "\n",
+        "fontSize": 10.5,
+        "lineHeight": 11,
         "fontWeight": "normal",
-        "color": "#263238"
+        "color": "#263238",
+        "dy": -25
       },
       "encoding": {
         "x": {
@@ -120,24 +139,31 @@
           "type": "quantitative"
         },
         "text": {
-          "field": "athlete"
+          "field": "athlete_label"
         }
       }
     }
   ],
+
   "title": "Australia's Star Freestyle Swimmers: Repeated Excellence",
+
   "config": {
     "axis": {
       "labelFontSize": 12,
       "titleFontSize": 13
     },
     "title": {
-      "fontSize": 17,
-      "anchor": "start"
+      "fontSize": 15,
+      "anchor": "middle",
+      "fontWeight": "bold"
     },
     "legend": {
       "titleFontSize": 12,
       "labelFontSize": 11
+    },
+    "background": "transparent",
+    "view": {
+      "stroke": null
     }
   }
 }
